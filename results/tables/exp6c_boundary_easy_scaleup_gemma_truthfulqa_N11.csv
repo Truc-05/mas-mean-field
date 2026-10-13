@@ -1,0 +1,4 @@
+regime,condition,replicates,p_single,plurality_acc,D_pooled,D_pooled_sd,n_D,fleiss,pair_agree,n_questions
+easy,none,8,0.9741477272727272,0.975,-0.14285714285714285,0.0,1,0.9662605886368661,0.9982954545454545,40
+easy,shared_correct_strong,8,0.9744318181818182,0.975,nan,nan,0,0.9772644810159389,0.9988636363636363,40
+easy,indep_correct_strong,8,0.975,0.975,nan,nan,0,0.976761281606379,0.9988636363636363,40

@@ -1,0 +1,80 @@
+{
+  "source": "results/tables/tier1_dY_decision_churn.json",
+  "n_boot": 5000,
+  "seed": 20261001,
+  "note": "dY_cross is descriptive; dC is the inferential excess-churn estimand",
+  "rows": [
+    {
+      "regime": "easy",
+      "tie_convention": "strict",
+      "n_strata": 31,
+      "dY_cross_mean": 0.018714811422738446,
+      "dY_cross_ci": [
+        0.007608926981131469,
+        0.03273795686153524
+      ],
+      "C_within_mean": 0.014408152357145954,
+      "dC_mean": 0.0043066590655924915,
+      "dC_ci": [
+        0.000988556666641443,
+        0.008664404294095915
+      ],
+      "dC_sig": true,
+      "n_strata_dC_sig_individually": 1
+    },
+    {
+      "regime": "hard",
+      "tie_convention": "strict",
+      "n_strata": 35,
+      "dY_cross_mean": 0.2703626792112175,
+      "dY_cross_ci": [
+        0.23485866080988438,
+        0.3079939135984584
+      ],
+      "C_within_mean": 0.25632602645528935,
+      "dC_mean": 0.014036652755928249,
+      "dC_ci": [
+        0.0018507489980017818,
+        0.024719190887143774
+      ],
+      "dC_sig": true,
+      "n_strata_dC_sig_individually": 7
+    },
+    {
+      "regime": "easy",
+      "tie_convention": "tiebreak",
+      "n_strata": 31,
+      "dY_cross_mean": 0.01821077916467393,
+      "dY_cross_ci": [
+        0.007521208495080944,
+        0.03164131638739984
+      ],
+      "C_within_mean": 0.01364341375870324,
+      "dC_mean": 0.00456736540597069,
+      "dC_ci": [
+        0.0010056934645873233,
+        0.009048614583794036
+      ],
+      "dC_sig": true,
+      "n_strata_dC_sig_individually": 0
+    },
+    {
+      "regime": "hard",
+      "tie_convention": "tiebreak",
+      "n_strata": 35,
+      "dY_cross_mean": 0.2447183431215077,
+      "dY_cross_ci": [
+        0.21488694201575353,
+        0.27708325171845255
+      ],
+      "C_within_mean": 0.23283860359434477,
+      "dC_mean": 0.011879739527162925,
+      "dC_ci": [
+        0.00042505547518295714,
+        0.022123544891888985
+      ],
+      "dC_sig": true,
+      "n_strata_dC_sig_individually": 6
+    }
+  ]
+}

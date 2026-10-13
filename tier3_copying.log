@@ -1,0 +1,65 @@
+[2026-10-01 10:44:30] TIER3 copying: 9 cells to run, 0 already done. grid=['0', '1', '2'] n_q=40 N=11 → rough ETA 10.3h at Tier-1's observed throughput.
+    RUN  qwen/truthfulqa  model-tag=(legacy/unnamespaced)
+    RUN  qwen/strategyqa  model-tag=(legacy/unnamespaced)
+    RUN  qwen/aqua  model-tag=(legacy/unnamespaced)
+    RUN  llama/truthfulqa  model-tag=llama8b
+    RUN  llama/strategyqa  model-tag=llama8b
+    RUN  llama/aqua  model-tag=llama8b
+    RUN  gemma/truthfulqa  model-tag=gemma9b
+    RUN  gemma/strategyqa  model-tag=gemma9b
+    RUN  gemma/aqua  model-tag=gemma9b
+[2026-10-01 10:51:19] TIER3 copying: 18 cells to run, 0 already done. grid=['0', '1', '2'] n_q<=40 N=11 regimes=['easy', 'hard'] → rough ETA 25.7h at Tier-1's observed throughput (upper bound: cached probes/debates and thin bands come in under it).
+    RUN  qwen/truthfulqa/easy  band=p0.6-0.95 c=250  model-tag=(legacy/unnamespaced)
+    RUN  qwen/truthfulqa/hard  band=p0.0-0.3 c=400  model-tag=(legacy/unnamespaced)
+    RUN  qwen/strategyqa/easy  band=p0.6-0.95 c=250  model-tag=(legacy/unnamespaced)
+    RUN  qwen/strategyqa/hard  band=p0.0-0.3 c=400  model-tag=(legacy/unnamespaced)
+    RUN  qwen/aqua/easy  band=p0.6-0.95 c=250  model-tag=(legacy/unnamespaced)
+    RUN  qwen/aqua/hard  band=p0.0-0.3 c=400  model-tag=(legacy/unnamespaced)
+    RUN  llama/truthfulqa/easy  band=p0.6-0.95 c=250  model-tag=llama8b
+    RUN  llama/truthfulqa/hard  band=p0.0-0.3 c=400  model-tag=llama8b
+    RUN  llama/strategyqa/easy  band=p0.6-0.95 c=250  model-tag=llama8b
+    RUN  llama/strategyqa/hard  band=p0.0-0.3 c=400  model-tag=llama8b
+    RUN  llama/aqua/easy  band=p0.6-0.95 c=250  model-tag=llama8b
+    RUN  llama/aqua/hard  band=p0.0-0.3 c=400  model-tag=llama8b
+    RUN  gemma/truthfulqa/easy  band=p0.6-0.95 c=250  model-tag=gemma9b
+    RUN  gemma/truthfulqa/hard  band=p0.0-0.3 c=400  model-tag=gemma9b
+    RUN  gemma/strategyqa/easy  band=p0.6-0.95 c=250  model-tag=gemma9b
+    RUN  gemma/strategyqa/hard  band=p0.0-0.3 c=400  model-tag=gemma9b
+    RUN  gemma/aqua/easy  band=p0.6-0.95 c=250  model-tag=gemma9b
+    RUN  gemma/aqua/hard  band=p0.0-0.3 c=400  model-tag=gemma9b
+[2026-10-12 14:58:45] TIER3 copying: 18 cells to run, 0 already done. grid=['0', '1', '2'] n_q<=40 N=11 regimes=['easy', 'hard'] → rough ETA 25.7h at Tier-1's observed throughput (upper bound: cached probes/debates and thin bands come in under it).
+    RUN  qwen/truthfulqa/easy  band=p0.6-0.95 c=250  model-tag=(legacy/unnamespaced)
+    RUN  qwen/truthfulqa/hard  band=p0.0-0.3 c=400  model-tag=(legacy/unnamespaced)
+    RUN  qwen/strategyqa/easy  band=p0.6-0.95 c=250  model-tag=(legacy/unnamespaced)
+    RUN  qwen/strategyqa/hard  band=p0.0-0.3 c=400  model-tag=(legacy/unnamespaced)
+    RUN  qwen/aqua/easy  band=p0.6-0.95 c=250  model-tag=(legacy/unnamespaced)
+    RUN  qwen/aqua/hard  band=p0.0-0.3 c=400  model-tag=(legacy/unnamespaced)
+    RUN  llama/truthfulqa/easy  band=p0.6-0.95 c=250  model-tag=llama8b
+    RUN  llama/truthfulqa/hard  band=p0.0-0.3 c=400  model-tag=llama8b
+    RUN  llama/strategyqa/easy  band=p0.6-0.95 c=250  model-tag=llama8b
+    RUN  llama/strategyqa/hard  band=p0.0-0.3 c=400  model-tag=llama8b
+    RUN  llama/aqua/easy  band=p0.6-0.95 c=250  model-tag=llama8b
+    RUN  llama/aqua/hard  band=p0.0-0.3 c=400  model-tag=llama8b
+    RUN  gemma/truthfulqa/easy  band=p0.6-0.95 c=250  model-tag=gemma9b
+    RUN  gemma/truthfulqa/hard  band=p0.0-0.3 c=400  model-tag=gemma9b
+    RUN  gemma/strategyqa/easy  band=p0.6-0.95 c=250  model-tag=gemma9b
+    RUN  gemma/strategyqa/hard  band=p0.0-0.3 c=400  model-tag=gemma9b
+    RUN  gemma/aqua/easy  band=p0.6-0.95 c=250  model-tag=gemma9b
+    RUN  gemma/aqua/hard  band=p0.0-0.3 c=400  model-tag=gemma9b
+[2026-10-12 14:58:52] TIER3 copying: 18 cells to run, 0 already done. grid=['0', '1', '2'] n_q<=40 N=11 regimes=['easy', 'hard'] → rough ETA 25.7h at Tier-1's observed throughput (upper bound: cached probes/debates and thin bands come in under it).
+[14:58:52] (1/18) qwen/truthfulqa/easy ...
+    OK in 53.4m
+[15:52:14] (2/18) qwen/truthfulqa/hard ...
+[2026-10-12 16:12:11] TIER3 copying: 5 cells to run, 1 already done. grid=['0', '1', '2'] n_q<=40 N=11 regimes=['easy', 'hard'] → rough ETA 7.2h at Tier-1's observed throughput (upper bound: cached probes/debates and thin bands come in under it).
+    skip qwen/truthfulqa/easy: DONE (exp6_phase_transition_llm_truthfulqa_N11_tier3_qwen_easy.csv)
+[16:12:11] (1/5) qwen/truthfulqa/hard [gpu1] ...
+    OK in 34.0m
+[16:46:09] (2/5) qwen/strategyqa/easy [gpu1] ...
+    OK in 38.4m
+[17:24:33] (3/5) qwen/strategyqa/hard [gpu1] ...
+    OK in 45.8m
+[18:10:21] (4/5) qwen/aqua/easy [gpu1] ...
+    OK in 164.7m
+[20:55:00] (5/5) qwen/aqua/hard [gpu1] ...
+    OK in 163.6m
+[2026-10-12 23:38:37] TIER3 (gpu1, models=['qwen']) complete.

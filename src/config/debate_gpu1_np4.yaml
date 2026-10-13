@@ -1,0 +1,13 @@
+experiment: llm_debate
+n_agents: 5                        # overridden by --n-agents on the CLI
+n_rounds: 5
+n_workers: 4
+backend: openai                   # dedicated np=4 Ollama on the single allowed GPU (:11441)
+base_url: http://localhost:11441/v1
+model: qwen2.5:7b
+rpm: null
+timeout: 300
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]

@@ -1,0 +1,209 @@
+========================================================================
+EXP6C BOUNDARY — regime=hard N=11 R=8 model=qwen2.5:7b
+conditions=['none', 'shared_correct_strong', 'indep_correct_strong']  config=debate_gpu1_np4.yaml  base_url=http://localhost:11441/v1
+persist: belief-cache jsonl + raw per-(cond,q,r) states + none-margin table
+========================================================================
+selected 40 hard questions
+clues: reusing exp6c_clues_hard.json (have 40, need 40)
+  [none                   q00] plur=0.00 D=-0.034
+  [none                   q01] plur=0.00 D=-0.074
+========================================================================
+EXP6C BOUNDARY — regime=hard N=11 R=8 model=qwen2.5:7b
+conditions=['none', 'shared_correct_strong', 'indep_correct_strong']  config=debate_hard_waiter_np4.yaml  base_url=http://localhost:11442/v1
+persist: belief-cache jsonl + raw per-(cond,q,r) states + none-margin table
+========================================================================
+selected 40 hard questions
+clues: reusing exp6c_clues_hard.json (have 40, need 40)
+belief-cache: loaded 231 records from exp6c_belief_cache_hard.jsonl
+  [none                   q00] plur=0.00 D=-0.034
+  [none                   q01] plur=0.00 D=-0.074
+  [none                   q02] plur=0.00 D=+0.958
+  [none                   q03] plur=0.00 D=+nan
+  [none                   q04] plur=0.00 D=+nan
+========================================================================
+EXP6C BOUNDARY — regime=hard N=11 R=8 model=qwen2.5:7b
+conditions=['none', 'shared_correct_strong', 'indep_correct_strong']  config=debate_hard_waiter_np4.yaml  base_url=http://localhost:11442/v1
+persist: belief-cache jsonl + raw per-(cond,q,r) states + none-margin table
+========================================================================
+selected 40 hard questions
+clues: reusing exp6c_clues_hard.json (have 40, need 40)
+belief-cache: loaded 231 records from exp6c_belief_cache_hard.jsonl
+  [none                   q00] plur=0.00 D=-0.034
+  [none                   q01] plur=0.00 D=-0.074
+  [none                   q02] plur=0.00 D=+nan
+  [none                   q03] plur=0.25 D=-0.052
+  [none                   q04] plur=0.00 D=+nan
+  [none                   q05] plur=0.00 D=+nan
+  [none                   q06] plur=0.00 D=-0.060
+  [none                   q07] plur=0.00 D=+nan
+  [none                   q08] plur=0.00 D=+nan
+  [none                   q09] plur=0.00 D=+nan
+  [none                   q10] plur=0.00 D=+nan
+  [none                   q11] plur=0.00 D=+0.165
+  [none                   q12] plur=0.00 D=+nan
+  [none                   q13] plur=0.25 D=+0.121
+  [none                   q14] plur=0.00 D=+nan
+  [none                   q15] plur=0.00 D=+nan
+  [none                   q16] plur=0.12 D=-0.018
+  [none                   q17] plur=0.00 D=+nan
+  [none                   q18] plur=1.00 D=+nan
+  [none                   q19] plur=0.25 D=+0.131
+  [none                   q20] plur=0.00 D=+nan
+  [none                   q21] plur=0.00 D=+nan
+  [none                   q22] plur=0.00 D=+nan
+  [none                   q23] plur=1.00 D=+nan
+  [none                   q24] plur=0.00 D=+nan
+  [none                   q25] plur=0.12 D=+0.034
+  [none                   q26] plur=0.00 D=+nan
+  [none                   q27] plur=0.00 D=-0.143
+  [none                   q28] plur=0.00 D=+nan
+  [none                   q29] plur=0.00 D=+nan
+  [none                   q30] plur=0.75 D=-0.021
+  [none                   q31] plur=0.00 D=+nan
+  [none                   q32] plur=1.00 D=+nan
+  [none                   q33] plur=1.00 D=-0.079
+  [none                   q34] plur=0.00 D=+nan
+  [none                   q35] plur=0.25 D=+0.133
+  [none                   q36] plur=0.00 D=+nan
+  [none                   q37] plur=0.00 D=+nan
+  [none                   q38] plur=0.50 D=-0.035
+  [none                   q39] plur=1.00 D=+nan
+[none                  ] p1=0.21 P_maj=0.19 D=+0.005 fleiss=0.61 agree=0.75
+  [shared_correct_strong  q00] plur=0.50 D=+0.717
+  [shared_correct_strong  q01] plur=0.12 D=+0.016
+  [shared_correct_strong  q02] plur=0.12 D=+0.495
+  [shared_correct_strong  q03] plur=0.50 D=+0.104
+  [shared_correct_strong  q04] plur=0.00 D=+nan
+  [shared_correct_strong  q05] plur=0.00 D=-0.143
+  [shared_correct_strong  q06] plur=1.00 D=-0.197
+  [shared_correct_strong  q07] plur=0.00 D=-0.047
+  [shared_correct_strong  q08] plur=0.00 D=+nan
+  [shared_correct_strong  q09] plur=0.62 D=+0.267
+  [shared_correct_strong  q10] plur=0.00 D=+nan
+  [shared_correct_strong  q11] plur=0.00 D=+0.015
+  [shared_correct_strong  q12] plur=0.00 D=+nan
+  [shared_correct_strong  q13] plur=1.00 D=+0.310
+  [shared_correct_strong  q14] plur=0.00 D=-0.143
+  [shared_correct_strong  q15] plur=0.88 D=+0.476
+  [shared_correct_strong  q16] plur=0.62 D=+0.707
+  [shared_correct_strong  q17] plur=0.00 D=+0.200
+  [shared_correct_strong  q18] plur=1.00 D=+nan
+  [shared_correct_strong  q19] plur=1.00 D=-0.035
+  [shared_correct_strong  q20] plur=0.00 D=+1.000
+  [shared_correct_strong  q21] plur=0.00 D=+nan
+  [shared_correct_strong  q22] plur=0.00 D=+nan
+  [shared_correct_strong  q23] plur=1.00 D=+nan
+  [shared_correct_strong  q24] plur=0.00 D=+nan
+  [shared_correct_strong  q25] plur=0.88 D=+0.061
+  [shared_correct_strong  q26] plur=0.00 D=+nan
+  [shared_correct_strong  q27] plur=0.12 D=+0.277
+  [shared_correct_strong  q28] plur=0.00 D=+nan
+  [shared_correct_strong  q29] plur=0.00 D=+nan
+  [shared_correct_strong  q30] plur=0.88 D=+0.093
+  [shared_correct_strong  q31] plur=0.00 D=+nan
+  [shared_correct_strong  q32] plur=1.00 D=+nan
+  [shared_correct_strong  q33] plur=1.00 D=+0.154
+  [shared_correct_strong  q34] plur=0.00 D=+nan
+  [shared_correct_strong  q35] plur=1.00 D=+0.118
+  [shared_correct_strong  q36] plur=0.00 D=-0.143
+  [shared_correct_strong  q37] plur=0.00 D=-0.143
+  [shared_correct_strong  q38] plur=0.62 D=+0.263
+  [shared_correct_strong  q39] plur=1.00 D=+nan
+[shared_correct_strong ] p1=0.36 P_maj=0.38 D=+0.184 fleiss=0.72 agree=0.77
+  [indep_correct_strong   q00] plur=0.75 D=-0.057
+  [indep_correct_strong   q01] plur=0.12 D=+0.148
+  [indep_correct_strong   q02] plur=0.00 D=-0.021
+  [indep_correct_strong   q03] plur=0.75 D=+0.027
+  [indep_correct_strong   q04] plur=0.00 D=+nan
+  [indep_correct_strong   q05] plur=0.00 D=+nan
+  [indep_correct_strong   q06] plur=1.00 D=-0.021
+  [indep_correct_strong   q07] plur=0.00 D=+0.015
+  [indep_correct_strong   q08] plur=0.00 D=-0.143
+  [indep_correct_strong   q09] plur=0.75 D=+0.016
+  [indep_correct_strong   q10] plur=0.00 D=+nan
+  [indep_correct_strong   q11] plur=0.00 D=-0.063
+  [indep_correct_strong   q12] plur=0.00 D=+nan
+  [indep_correct_strong   q13] plur=1.00 D=-0.082
+  [indep_correct_strong   q14] plur=0.00 D=+nan
+  [indep_correct_strong   q15] plur=1.00 D=-0.088
+  [indep_correct_strong   q16] plur=1.00 D=-0.035
+  [indep_correct_strong   q17] plur=0.00 D=-0.091
+  [indep_correct_strong   q18] plur=1.00 D=+nan
+  [indep_correct_strong   q19] plur=1.00 D=-0.035
+  [indep_correct_strong   q20] plur=0.00 D=-0.143
+  [indep_correct_strong   q21] plur=0.00 D=+nan
+  [indep_correct_strong   q22] plur=0.00 D=+nan
+  [indep_correct_strong   q23] plur=1.00 D=+nan
+  [indep_correct_strong   q24] plur=0.00 D=+nan
+  [indep_correct_strong   q25] plur=1.00 D=-0.064
+  [indep_correct_strong   q26] plur=0.00 D=+nan
+  [indep_correct_strong   q27] plur=0.12 D=+0.082
+  [indep_correct_strong   q28] plur=0.00 D=+nan
+  [indep_correct_strong   q29] plur=0.00 D=-0.204
+  [indep_correct_strong   q30] plur=1.00 D=-0.030
+  [indep_correct_strong   q31] plur=0.00 D=+nan
+  [indep_correct_strong   q32] plur=1.00 D=+nan
+  [indep_correct_strong   q33] plur=1.00 D=+0.047
+  [indep_correct_strong   q34] plur=0.00 D=+nan
+  [indep_correct_strong   q35] plur=1.00 D=+nan
+  [indep_correct_strong   q36] plur=0.00 D=+nan
+  [indep_correct_strong   q37] plur=0.00 D=+nan
+  [indep_correct_strong   q38] plur=0.38 D=-0.014
+  [indep_correct_strong   q39] plur=1.00 D=+nan
+[indep_correct_strong  ] p1=0.37 P_maj=0.40 D=-0.036 fleiss=0.65 agree=0.72
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_boundary_hard_N11.json
+wrote /home/alex/venvs/trucn/mas-mean-field/data/processed/exp6c_raw_hard_N11.json
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_boundary_hard_N11.csv
+belief-cache: 10560 records in exp6c_belief_cache_hard.jsonl
+loading: exp6c_boundary_easy_N11.json exp6c_boundary_hard_N11.json
+==========================================================================
+EXP6C BOUNDARY — is the shared-evidence accuracy effect susceptibility-gated?
+==========================================================================
+
+[easy]  n=40   ΔA vs margin M (runner-up gap), 3 equal-count bins:
+  bin0 M∈[0.06,0.93] n=14  meanΔA=-0.036  mean|ΔA|=0.071  A_indep=0.61
+  bin1 M∈[0.98,1.00] n=13  meanΔA=+0.000  mean|ΔA|=0.000  A_indep=1.00
+  bin2 M∈[1.00,1.00] n=13  meanΔA=+0.000  mean|ΔA|=0.000  A_indep=1.00
+
+[easy]  regressions (question-level bootstrap 95% CI):
+  |ΔA| ~ M            slope=-0.212 [-0.425,-0.072]   smaller margin ⇒ larger |ΔA| ✓
+  ΔA   ~ M            slope=+0.090 [-0.127,+0.344]
+  ΔA ~ D + M + D·M   (n=10 with defined ΔD):
+      β0(int)   = +0.038 [-0.483,+0.730] 
+      β1(D)     = -1.157 [-5.319,+4.295] 
+      β2(M)     = -0.022 [-0.840,+0.946] 
+      β3(D·M)   = +1.183 [-6.226,+5.818] 
+
+[hard]  n=40   ΔA vs margin M (runner-up gap), 3 equal-count bins:
+  bin0 M∈[0.07,0.45] n=14  meanΔA=-0.045  mean|ΔA|=0.080  A_indep=0.58
+  bin1 M∈[0.58,0.92] n=13  meanΔA=-0.019  mean|ΔA|=0.038  A_indep=0.21
+  bin2 M∈[0.93,1.00] n=13  meanΔA=-0.010  mean|ΔA|=0.010  A_indep=0.38
+
+[hard]  regressions (question-level bootstrap 95% CI):
+  |ΔA| ~ M            slope=-0.097 [-0.188,-0.011]   smaller margin ⇒ larger |ΔA| ✓
+  ΔA   ~ M            slope=+0.030 [-0.077,+0.144]
+  ΔA ~ D + M + D·M   (n=19 with defined ΔD):
+      β0(int)   = -0.067 [-0.262,+0.184] 
+      β1(D)     = +0.072 [-0.643,+1.077] 
+      β2(M)     = +0.093 [-0.297,+0.387] 
+      β3(D·M)   = -0.388 [-1.772,+0.742] 
+
+[pooled]  n=80   ΔA vs margin M (runner-up gap), 3 equal-count bins:
+  bin0 M∈[0.06,0.73] n=27  meanΔA=-0.042  mean|ΔA|=0.088  A_indep=0.50
+  bin1 M∈[0.75,1.00] n=27  meanΔA=-0.014  mean|ΔA|=0.014  A_indep=0.62
+  bin2 M∈[1.00,1.00] n=26  meanΔA=+0.000  mean|ΔA|=0.000  A_indep=0.77
+
+[pooled]  regressions (question-level bootstrap 95% CI):
+  |ΔA| ~ M            slope=-0.125 [-0.198,-0.057]   smaller margin ⇒ larger |ΔA| ✓
+  ΔA   ~ M            slope=+0.050 [-0.042,+0.145]
+  ΔA ~ D + M + D·M   (n=29 with defined ΔD):
+      β0(int)   = -0.059 [-0.205,+0.132] 
+      β1(D)     = -0.019 [-0.678,+0.590] 
+      β2(M)     = +0.076 [-0.184,+0.298] 
+      β3(D·M)   = -0.189 [-1.240,+0.679] 
+wrote /home/alex/venvs/trucn/mas-mean-field/results/figures/exp6c_boundary.png
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_boundary_summary.json
+
+NOTE: primary = |ΔA|~M (D-free, robust to R=8 noise in D_q). Interaction β3 is corroborating. shared_ev is correct-leaning → effect sizes are an upper bound.

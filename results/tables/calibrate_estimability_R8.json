@@ -1,0 +1,376 @@
+{
+  "role": "blind calibration of the estimability rule; reads no measured results",
+  "estimator_version": "pooled-ratio/n_eff v1 (2026-10-03)",
+  "prespec": {
+    "T1_coverage_wilson_lo_min": 0.9,
+    "T2_null_wilson_hi_max": 0.1,
+    "T3_degeneracy_max": 0.1,
+    "T4_abs_bias_max": 0.05
+  },
+  "design": {
+    "N": 11,
+    "R": 8,
+    "p_grid": [
+      0.05,
+      0.15,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "rho_grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "n_q_grid": [
+      20,
+      30,
+      40
+    ],
+    "p_hetero_logit_sd": 0.1,
+    "sims_per_point": 400,
+    "n_boot": 2000,
+    "seed": 7717
+  },
+  "self_check": {
+    "checks": [
+      {
+        "p": 0.3,
+        "rho": 0.4,
+        "tau_true": 0.24766982683696975,
+        "pooled_est": 0.24782878058215652,
+        "abs_err": 0.00015895374518676286
+      },
+      {
+        "p": 0.5,
+        "rho": 0.6,
+        "tau_true": 0.40966552939826695,
+        "pooled_est": 0.40812083639530516,
+        "abs_err": 0.0015446930029617834
+      },
+      {
+        "p": 0.15,
+        "rho": 0.2,
+        "tau_true": 0.09455941670745492,
+        "pooled_est": 0.09584366937076505,
+        "abs_err": 0.0012842526633101287
+      }
+    ],
+    "max_abs_err": 0.0015446930029617834
+  },
+  "by_neff_bin": [
+    {
+      "bin": "5-8",
+      "lo": 5,
+      "n": 67,
+      "n_usable": 67,
+      "coverage": 0.2835820895522388,
+      "coverage_wilson_lo": 0.18970281179858106,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.252753409098145,
+      "T4": false,
+      "n_null": 0,
+      "null_rate": NaN,
+      "null_wilson_hi": NaN,
+      "T2": false,
+      "pass": false
+    },
+    {
+      "bin": "8-10",
+      "lo": 8,
+      "n": 301,
+      "n_usable": 301,
+      "coverage": 0.24916943521594684,
+      "coverage_wilson_lo": 0.20367300731896096,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.26131848853597345,
+      "T4": false,
+      "n_null": 0,
+      "null_rate": NaN,
+      "null_wilson_hi": NaN,
+      "T2": false,
+      "pass": false
+    },
+    {
+      "bin": "10-12",
+      "lo": 10,
+      "n": 611,
+      "n_usable": 592,
+      "coverage": 0.33614864864864863,
+      "coverage_wilson_lo": 0.29926022298387794,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.22061031277199777,
+      "T4": false,
+      "n_null": 19,
+      "null_rate": 0.05263157894736842,
+      "null_wilson_hi": 0.24638731173082007,
+      "T2": false,
+      "pass": false
+    },
+    {
+      "bin": "12-15",
+      "lo": 12,
+      "n": 1998,
+      "n_usable": 1752,
+      "coverage": 0.4235159817351598,
+      "coverage_wilson_lo": 0.40057089788237843,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.1615908823395874,
+      "T4": false,
+      "n_null": 246,
+      "null_rate": 0.08943089430894309,
+      "null_wilson_hi": 0.13168707557476445,
+      "T2": false,
+      "pass": false
+    },
+    {
+      "bin": "15-20",
+      "lo": 15,
+      "n": 13361,
+      "n_usable": 11155,
+      "coverage": 0.7364410578216046,
+      "coverage_wilson_lo": 0.7281850354699234,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.05687054587325526,
+      "T4": false,
+      "n_null": 2206,
+      "null_rate": 0.08250226654578423,
+      "null_wilson_hi": 0.09472200050879198,
+      "T2": true,
+      "pass": false
+    },
+    {
+      "bin": "20-25",
+      "lo": 20,
+      "n": 3395,
+      "n_usable": 2970,
+      "coverage": 0.3461279461279461,
+      "coverage_wilson_lo": 0.32922721673493455,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.1354168238493732,
+      "T4": false,
+      "n_null": 425,
+      "null_rate": 0.07529411764705882,
+      "null_wilson_hi": 0.10436029691498971,
+      "T2": false,
+      "pass": false
+    },
+    {
+      "bin": "25-inf",
+      "lo": 25,
+      "n": 23467,
+      "n_usable": 19163,
+      "coverage": 0.759171319730731,
+      "coverage_wilson_lo": 0.7530657888533305,
+      "T1": false,
+      "degeneracy": 0.0,
+      "T3": true,
+      "bias": 0.034609469056353453,
+      "T4": true,
+      "n_null": 4304,
+      "null_rate": 0.06714684014869889,
+      "null_wilson_hi": 0.07501652646658556,
+      "T2": true,
+      "pass": false
+    }
+  ],
+  "conditional_coverage": [
+    {
+      "bin": "0-3",
+      "lo": 0,
+      "cells": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "bin": "3-5",
+      "lo": 3,
+      "cells": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "bin": "5-8",
+      "lo": 5,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 67,
+          "cov_lo": 0.18970281179858106,
+          "pass": false
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "bin": "8-10",
+      "lo": 8,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 301,
+          "cov_lo": 0.20367300731896096,
+          "pass": false
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "bin": "10-12",
+      "lo": 10,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 582,
+          "cov_lo": 0.2962379496426316,
+          "pass": false
+        },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "bin": "12-15",
+      "lo": 12,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 1262,
+          "cov_lo": 0.4181113849485202,
+          "pass": false
+        },
+        null,
+        null,
+        {
+          "p_lo": 0.6,
+          "p_hi": 1.0,
+          "n": 490,
+          "cov_lo": 0.32584804591614525,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "bin": "15-20",
+      "lo": 15,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 3601,
+          "cov_lo": 0.4935289752017568,
+          "pass": false
+        },
+        {
+          "p_lo": 0.2,
+          "p_hi": 0.4,
+          "n": 2000,
+          "cov_lo": 0.8887174867462001,
+          "pass": false
+        },
+        {
+          "p_lo": 0.4,
+          "p_hi": 0.6,
+          "n": 2000,
+          "cov_lo": 0.9158321408414528,
+          "pass": true
+        },
+        {
+          "p_lo": 0.6,
+          "p_hi": 1.0,
+          "n": 3554,
+          "cov_lo": 0.7505464077660313,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "bin": "20-25",
+      "lo": 20,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 1575,
+          "cov_lo": 0.32543209534743983,
+          "pass": false
+        },
+        null,
+        null,
+        {
+          "p_lo": 0.6,
+          "p_hi": 1.0,
+          "n": 1395,
+          "cov_lo": 0.318912456415311,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "bin": "25-inf",
+      "lo": 25,
+      "cells": [
+        {
+          "p_lo": 0.0,
+          "p_hi": 0.2,
+          "n": 4612,
+          "cov_lo": 0.5489521852126295,
+          "pass": false
+        },
+        {
+          "p_lo": 0.2,
+          "p_hi": 0.4,
+          "n": 4000,
+          "cov_lo": 0.8801862770186306,
+          "pass": false
+        },
+        {
+          "p_lo": 0.4,
+          "p_hi": 0.6,
+          "n": 4000,
+          "cov_lo": 0.9324737026217866,
+          "pass": true
+        },
+        {
+          "p_lo": 0.6,
+          "p_hi": 1.0,
+          "n": 6551,
+          "cov_lo": 0.6953112063445264,
+          "pass": false
+        }
+      ]
+    }
+  ],
+  "bins_passing": []
+}

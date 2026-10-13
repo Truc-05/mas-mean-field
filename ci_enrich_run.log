@@ -1,0 +1,4 @@
+[08-25 11:48:38] ======== CI 1-GPU full run START (GPU1 np=8, models: qwen gemma mistral llama) ========
+[08-25 11:48:38] server :11443 up + inference OK (CUDA=1, np=8)
+[08-25 11:48:38] VRAM: "name":"qwen2.5:7b" "size":6534840974 "size_vram":6534840974 
+[08-25 11:48:38] >>>> CI qwen  HARD N=11 R=8 dr=3 coupling=1.0  (s0 q0-19 + s1 q20-39 → :11443, 1 GPU)

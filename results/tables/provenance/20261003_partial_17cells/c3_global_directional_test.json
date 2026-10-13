@@ -1,0 +1,163 @@
+{
+  "role": "C3 global directional test; signs only, null calibrated to the design",
+  "hypothesis": "H0: SHARED does not systematically increase dependence over INDEP",
+  "statistic": "S = #{strata with dD_hat > 0}",
+  "K": 17,
+  "S_obs": 16,
+  "null": {
+    "mean": 3.16,
+    "sd": 1.2690153663372246,
+    "median": 3.0,
+    "q95": 5.0,
+    "max": 8,
+    "n_sim": 500
+  },
+  "p_one_sided": 0.001996007984031936,
+  "withheld": true,
+  "min_strata": 48,
+  "seed": 31337,
+  "R_simulated": 4,
+  "strata": [
+    {
+      "model": "llama",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 42,
+      "err_rate": 0.8630952380952381,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 34,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 25,
+      "err_rate": 0.94,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 20,
+      "err_rate": 0.999,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "regime": "easy",
+      "n_q": 29,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 39,
+      "err_rate": 0.967948717948718,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 33,
+      "err_rate": 0.9924242424242424,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 26,
+      "err_rate": 0.9615384615384616,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "mmlu",
+      "regime": "easy",
+      "n_q": 32,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 33,
+      "err_rate": 0.9696969696969697,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 43,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 34,
+      "err_rate": 0.9926470588235294,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 44,
+      "err_rate": 0.001,
+      "sign_positive": false
+    },
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 30,
+      "err_rate": 0.9916666666666667,
+      "sign_positive": true
+    }
+  ],
+  "skipped": [
+    "llama/aqua/easy: insufficient (n_q=4)",
+    "qwen/bbh: excluded benchmark"
+  ],
+  "reporting_rule": "no per-stratum magnitudes, no bootstrap intervals, no k/n counts"
+}

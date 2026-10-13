@@ -1,0 +1,30 @@
+========================================================================
+EXP6C PREREGISTRATION — regime=easy  N=11  R=8  model=qwen2.5:7b
+FROZEN reading order (do not reorder post-hoc):
+ H1 primary  mean_ΔD_paired = mean_q[ D_shared(q) − D_indep(q) ] > 0 (paired boot)
+             D(q) = replicate-level pooled pairwise ERROR corr over R reps
+ H2 primary  ShareEffect = A_shared − A_indep (plurality acc); easy p>½ ⇒ <0
+ mediation   larger ΔD ⇒ larger destruction — DESCRIPTIVE only (no formal claim)
+ secondary   Fleiss ICC, pair-agreement; D_pooled (per-arm NaN mask) ≠ ΔD estimand
+conditions: ['none', 'shared_correct_weak', 'shared_correct_strong', 'indep_correct_strong', 'shared_misleading_weak', 'shared_misleading_strong', 'indep_misleading_strong']
+========================================================================
+selected 40 easy questions
+clues: reusing exp6c_clues_easy.json (have 40, need 40)
+[none                      ] p₁=0.84 P_maj=0.86 D_pooled=+0.042(n=12) fleiss=0.69 agree=0.90
+[shared_correct_weak       ] p₁=0.84 P_maj=0.84 D_pooled=+0.158(n=13) fleiss=0.75 agree=0.91
+[shared_correct_strong     ] p₁=0.85 P_maj=0.85 D_pooled=+0.192(n=11) fleiss=0.76 agree=0.92
+[indep_correct_strong      ] p₁=0.85 P_maj=0.87 D_pooled=-0.079(n=13) fleiss=0.68 agree=0.90
+[shared_misleading_weak    ] p₁=0.74 P_maj=0.76 D_pooled=+0.348(n=20) fleiss=0.75 agree=0.85
+[shared_misleading_strong  ] p₁=0.71 P_maj=0.71 D_pooled=+0.360(n=17) fleiss=0.79 agree=0.86
+[indep_misleading_strong   ] p₁=0.71 P_maj=0.74 D_pooled=-0.049(n=18) fleiss=0.62 agree=0.78
+
+------------------------------------------------------------------------
+realized single-agent p (none) = 0.841  [p>½ → expect ShareEffect<0]
+[correct   ] paired(n=11): D_shared=+0.192 D_indep=-0.068  mean_ΔD_paired=+0.260 [+0.081,+0.486]*  H1=OK
+             [pooled, per-arm mask: D_shared=+0.192 (n=11)  D_indep=-0.079 (n=13)]
+             ShareEffect(A shared−indep)=-0.022 [-0.047,-0.003]*
+[misleading] paired(n=15): D_shared=+0.386 D_indep=-0.036  mean_ΔD_paired=+0.422 [+0.241,+0.622]*  H1=OK
+             [pooled, per-arm mask: D_shared=+0.360 (n=17)  D_indep=-0.049 (n=18)]
+             ShareEffect(A shared−indep)=-0.037 [-0.081,+0.006] 
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_full_easy_N11.csv

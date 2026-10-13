@@ -1,0 +1,13 @@
+/home/alex/trucn/venv/bin/python -u /home/alex/trucn/manew/mas-mean-field/experiments/exp6_phase_transition_llm/run.py --benchmark strategyqa --config /home/alex/trucn/manew/mas-mean-field/src/config/scaleup_llama_gpu0.yaml --n-questions 40 --n-agents 11 --grid 0 1 2 --min-p 0.6 --max-p 0.95 --probe-k 5 --candidates 250 --tag tier3_llama_easy --model-tag llama8b
+
+probing 250 candidates (k=5) for 0.6 ≤ p̂ ≤ 0.95 ...
+selection: 40/196 probed passed 0.6 ≤ p̂ ≤ 0.95 (mean p̂ of kept = 0.74)
+benchmark=strategyqa  questions=40  coupling grid=[0.0, 1.0, 2.0]  ~6600 debate calls (N=11, R=5)
+
+g=0.00 | p₁=0.69 indep=0.75 debate=0.85 | lift=+0.10 [+0.00,+0.23]  McN=0.219 | ρ=0.21 collapse=-0.02
+g=1.00 | p₁=0.70 indep=0.72 debate=0.72 | lift=+0.00 [+0.00,+0.00]  McN=1.000 | ρ=0.76 collapse=+0.19
+g=2.00 | p₁=0.70 indep=0.78 debate=0.78 | lift=+0.00 [-0.07,+0.07]  McN=1.000 | ρ=0.89 collapse=+0.25
+
+wrote /home/alex/trucn/manew/mas-mean-field/results/tables/exp6_phase_transition_llm_strategyqa_N11_tier3_llama_easy.csv
+realized regime: p_single≈0.69 → EASY (p>½ → predict lift<0 as ρ↑)
+strongest herding g=2.0 (ρ=0.89): lift=+0.00 [-0.07,+0.07] → FLIP law CONTRADICTS

@@ -1,0 +1,1135 @@
+{
+  "regime": "easy",
+  "N": 11,
+  "R": 8,
+  "model": "mistral:7b",
+  "model_tag": "scaleup_mistral_arc",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "An astronomer observes that a planet rotates faster after a meteorite impact. Which is the most likely effect of this increase in rotation?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.5681818181818181,
+        "vote_entropy": 0.7526269564427315,
+        "n_unique": 2,
+        "p_correct_votes": 0.7840909090909091,
+        "correctness_lead": 0.5681818181818181,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03146679991508679
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01875106548951253
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01151731968868353
+      }
+    },
+    {
+      "qi": 1,
+      "question": "A group of engineers wanted to know how different building designs would respond during an earthquake. They made several models of buildings and tested each for its ability to withstand earthquake conditions. Which will most likely result from testing different building designs?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.7954545454545454,
+        "vote_entropy": 0.47615884455807067,
+        "n_unique": 2,
+        "p_correct_votes": 0.8977272727272727,
+        "correctness_lead": 0.7954545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.16489067164886578
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.07705345026321687
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.0759606271702886
+      }
+    },
+    {
+      "qi": 2,
+      "question": "A physicist wants to determine the speed a car must reach to jump over a ramp. The physicist conducts three trials. In trials two and three, the speed of the car is increased by 20 miles per hour. What is the physicist investigating when he changes the speed?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.875,
+        "runnerup_gap": 0.7613636363636364,
+        "vote_entropy": 0.5985015665647856,
+        "n_unique": 3,
+        "p_correct_votes": 0.875,
+        "correctness_lead": 0.7613636363636364,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.08214319114998749
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 3,
+      "question": "A type of small mammal from the mountain regions of the western United States makes its home out of piles of rock. During summer months, the mammal places grasses and seeds in protected places in the rock piles. Which of the following is the most likely reason for this behavior?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 4,
+      "question": "Petrified palm trees are found in sedimentary rock near glaciers. The presence of the petrified palm trees most likely provides evidence for which statement?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.21821789023599245
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.84060757378648
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.283484861008832
+      }
+    },
+    {
+      "qi": 5,
+      "question": "Farmers in Wyoming were concerned because some of their chickens were being preyed upon by hawks that lived in areas around their ranches. The farmers grouped together and hunted the hawks until they were no longer in their area. Which would most likely happen next?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5681818181818182,
+        "runnerup_gap": 0.1363636363636364,
+        "vote_entropy": 0.9865446300055644,
+        "n_unique": 2,
+        "p_correct_votes": 0.5681818181818182,
+        "correctness_lead": 0.1363636363636364,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.05962243699747531
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.10726242773884556
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03140216512849107
+      }
+    },
+    {
+      "qi": 6,
+      "question": "Copper is an element that is used in electrical wires. What is the smallest unit of copper that still maintains the characteristics of copper?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.9999999999999999
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.015708301723002797
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.11843522069501765
+      }
+    },
+    {
+      "qi": 7,
+      "question": "According to cell classification, prokaryotic cells are separated from eukaryotic cells. Which feature is often used to distinguish prokaryotic cells from eukaryotic cells?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 8,
+      "question": "Which statement best describes the effect of the Sun on the oceans?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 9,
+      "question": "The morning temperature in a city is 41°F. If a sunny, mild day is forecast, which temperature is most likely for 2:00 p.m.?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8068181818181818,
+        "runnerup_gap": 0.6136363636363635,
+        "vote_entropy": 0.7080803256135678,
+        "n_unique": 2,
+        "p_correct_votes": 0.19318181818181818,
+        "correctness_lead": -0.6136363636363635,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.013963709621729846
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.6081464859617111
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.0757257578505416
+      }
+    },
+    {
+      "qi": 10,
+      "question": "A class plans an investigation to see which brand of light bulb lasts the longest. Which of these steps should come first?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.8295454545454546,
+        "vote_entropy": 0.5700754639500071,
+        "n_unique": 3,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.8636363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.3103442783491381
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.05534102862873544
+      }
+    },
+    {
+      "qi": 11,
+      "question": "Which of these gases is the most abundant greenhouse gas in the lower atmosphere of Earth?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.21821789023599245
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      }
+    },
+    {
+      "qi": 12,
+      "question": "At which temperature does water freeze?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 13,
+      "question": "Fossil bones and teeth of dinosaurs have been researched for the last century. Recent discoveries of fossilized dinosaurs have also revealed details of soft tissues, such as skin. Which is best for a scientist to do when reporting research on dinosaurs now?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 14,
+      "question": "Molly was making iced tea by putting tea bags in boiling water. She needed to cool the hot tea quickly, so she poured it into a pitcher full of ice. Which best describes the flow of thermal energy?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523805
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 15,
+      "question": "Logging companies cut trees in a forest and send the trees to lumber mills far from the forest. The mills make boards that are used for construction. Some logging companies do not plant tree seedlings after cutting trees. Not planting tree seedlings might affect people who need boards in the future because",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6931818181818182,
+        "runnerup_gap": 0.3863636363636364,
+        "vote_entropy": 0.8894663896628685,
+        "n_unique": 2,
+        "p_correct_votes": 0.6931818181818182,
+        "correctness_lead": 0.3863636363636364,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.04694014405383622
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.02632702715063674
+      },
+      "indep_correct_strong": {
+        "A_q": 0.375,
+        "D_q": -0.06917004140339193
+      }
+    },
+    {
+      "qi": 16,
+      "question": "When an electric current is passed through water (H_{2}O) using a specific apparatus, hydrogen (H_{2}) and oxygen (O_{2}) gases form. How can this reaction be shown in a chemical equation?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.75,
+        "runnerup_gap": 0.5113636363636364,
+        "vote_entropy": 0.8779693714098894,
+        "n_unique": 3,
+        "p_correct_votes": 0.75,
+        "correctness_lead": 0.5113636363636364,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.04346038052835286
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.009168497736583976
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.01231575881667024
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Which is a fact about penguins?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 18,
+      "question": "A glass of water at 110°F is placed in a room next to a glass of water that is 50°F. The temperature of the room is 73°F at all times. If the two glasses were left in the room overnight, the temperature for both glasses of water the next day would be approximately",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8068181818181818,
+        "runnerup_gap": 0.6818181818181818,
+        "vote_entropy": 0.9516385130709031,
+        "n_unique": 4,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.7840909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.17275979533025296
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.025425687811206098
+      }
+    },
+    {
+      "qi": 19,
+      "question": "Snow, rain, hail, and fog are all forms of",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.6931818181818182,
+        "vote_entropy": 0.6911899664512009,
+        "n_unique": 3,
+        "p_correct_votes": 0.8409090909090909,
+        "correctness_lead": 0.6931818181818182,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.013918451077932634
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.11843522069501765
+      }
+    },
+    {
+      "qi": 20,
+      "question": "Scott filled a tray with juice and put it in a freezer. The next day, Scott opened the freezer. How did the juice most likely change?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Tiny organisms called plankton live in oceans. Some plankton can take energy from the Sun and turn it into food. How are plankton most useful to the animals that live in the ocean?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9090909090909091,
+        "runnerup_gap": 0.8522727272727273,
+        "vote_entropy": 0.5262637144601465,
+        "n_unique": 3,
+        "p_correct_votes": 0.9090909090909091,
+        "correctness_lead": 0.8522727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.03125177581585422
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Which statement best explains why a tree branch floats on water?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.8409090909090908,
+        "vote_entropy": 0.40057554263664014,
+        "n_unique": 2,
+        "p_correct_votes": 0.9204545454545454,
+        "correctness_lead": 0.8409090909090908,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.034534632929202294
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 23,
+      "question": "Students are observing two fossils in a lab. They are told by the teacher that the fossils were found in different rock layers. What can the students most likely determine from just observing the fossils?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7727272727272727,
+        "runnerup_gap": 0.5454545454545454,
+        "vote_entropy": 0.7732266742876346,
+        "n_unique": 2,
+        "p_correct_votes": 0.7727272727272727,
+        "correctness_lead": 0.5454545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.012819787602107289
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.10360389878760687
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02857142857142857
+      }
+    },
+    {
+      "qi": 24,
+      "question": "Earth's distance from the Sun enables water to be readily available for organisms. Which property of water is most important for these organisms?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 25,
+      "question": "Which statement correctly describes a property of a type of matter?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 26,
+      "question": "Which statement describes a positive effect of a scientific discovery?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9204545454545455,
+        "vote_entropy": 0.30364126618753207,
+        "n_unique": 3,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9204545454545455,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.2637626158259733
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03409443153406214
+      }
+    },
+    {
+      "qi": 27,
+      "question": "Which natural event occurs with the most frequency?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6136363636363636,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 1.08711428776426,
+        "n_unique": 3,
+        "p_correct_votes": 0.6136363636363636,
+        "correctness_lead": 0.25,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": -0.06011186205235954
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 28,
+      "question": "Which statement is true about the solar system?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.36363636363636365,
+        "vote_entropy": 1.368332650078575,
+        "n_unique": 4,
+        "p_correct_votes": 0.625,
+        "correctness_lead": 0.36363636363636365,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": -0.007032633942329708
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.04524696008121518
+      }
+    },
+    {
+      "qi": 29,
+      "question": "What is the main function of photosynthetic cells within a plant?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.5909090909090909,
+        "vote_entropy": 1.0430569008050774,
+        "n_unique": 4,
+        "p_correct_votes": 0.7613636363636364,
+        "correctness_lead": 0.5909090909090909,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.03046899698838072
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.025036658969619107
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05544818202122861
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Which of the following is the primary difference between hydraulic and pneumatic systems?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 31,
+      "question": "In the spring and early summer, bears often scratch their backs against trees to remove winter fur. This is an example of an animal",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 32,
+      "question": "Which event occurs once per day?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.6818181818181818,
+        "vote_entropy": 1.078439714830463,
+        "n_unique": 4,
+        "p_correct_votes": 0.7840909090909091,
+        "correctness_lead": 0.6818181818181818,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.10411764009723057
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.03562793921552044
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.016428638229997496
+      }
+    },
+    {
+      "qi": 33,
+      "question": "The speed of a sound wave varies as it travels through different substances. Which factor will most affect the speed of a sound wave?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.7386363636363636,
+        "vote_entropy": 0.875716075426295,
+        "n_unique": 4,
+        "p_correct_votes": 0.8295454545454546,
+        "correctness_lead": 0.7386363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.017513191327463394
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.2675515888771789
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.02463274830133473
+      }
+    },
+    {
+      "qi": 34,
+      "question": "Which statement best describes the energy changes that occur while a child is riding on a sled down a steep, snow-covered hill?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.8522727272727273,
+        "vote_entropy": 0.44764042275114346,
+        "n_unique": 3,
+        "p_correct_votes": 0.9204545454545454,
+        "correctness_lead": 0.8522727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03453463292920227
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.18036322923931647
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.014834579028674685
+      }
+    },
+    {
+      "qi": 35,
+      "question": "The best way to separate salt from water is with the use of",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5795454545454546,
+        "runnerup_gap": 0.31818181818181823,
+        "vote_entropy": 1.3839931375161152,
+        "n_unique": 3,
+        "p_correct_votes": 0.5795454545454546,
+        "correctness_lead": 0.31818181818181823,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": -0.0160892410971817
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.12187571382742249
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Which is the best piece of equipment to determine the topography of the United States?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 37,
+      "question": "Which tool would be best to use to determine how long it takes a cup of water to boil?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8863636363636364,
+        "runnerup_gap": 0.7727272727272727,
+        "vote_entropy": 0.5107878229540133,
+        "n_unique": 2,
+        "p_correct_votes": 0.8863636363636364,
+        "correctness_lead": 0.7727272727272727,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.1336693825576706
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      }
+    },
+    {
+      "qi": 38,
+      "question": "Suppose 20 g of liquid hydrogen peroxide is heated so it completely breaks down into liquid water and oxygen gas. Which best describes the total mass of the water and oxygen that was produced?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.45454545454545453,
+        "runnerup_gap": 0.15909090909090906,
+        "vote_entropy": 1.7300558772412122,
+        "n_unique": 4,
+        "p_correct_votes": 0.45454545454545453,
+        "correctness_lead": 0.15909090909090906,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": -0.07927828338381361
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 39,
+      "question": "Air has no color and cannot be seen, yet it takes up space. What could be done to show that air takes up space?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.5340909090909092,
+        "vote_entropy": 1.0828594282320814,
+        "n_unique": 3,
+        "p_correct_votes": 0.7272727272727273,
+        "correctness_lead": 0.5340909090909092,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.04226185205565024
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08214319114998749
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0492859146899925
+      }
+    }
+  ]
+}

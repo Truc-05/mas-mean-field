@@ -1,0 +1,54 @@
+========================================================================
+K1 ORACLE HEADROOM — regime=hard  N=11  R=8  debate_rounds=3  model=qwen2.5:7b
+actions=['single', 'indep_vote', 'diversity', 'shared_ev', 'debate']+stop   coupling=1.0   shared_ev=shared_correct_strong
+emits per-question, per-replicate correctness; H/H_M/gate computed by k1_analyze.py
+========================================================================
+selected 40 hard questions
+clues: reusing exp6c_clues_hard.json (have 40, need 40)
+[q00 K=4] single=0.14  indep_vote=0.00  diversity=0.00  shared_ev=0.25  debate=0.00
+[q01 K=4] single=0.01  indep_vote=0.00  diversity=0.38  shared_ev=0.00  debate=0.00
+[q02 K=4] single=0.01  indep_vote=0.00  diversity=0.00  shared_ev=0.12  debate=0.00
+[q03 K=4] single=0.39  indep_vote=0.38  diversity=0.00  shared_ev=0.50  debate=0.25
+[q04 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q05 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q06 K=4] single=0.15  indep_vote=0.00  diversity=1.00  shared_ev=1.00  debate=0.00
+[q07 K=4] single=0.01  indep_vote=0.00  diversity=0.12  shared_ev=0.00  debate=0.00
+[q08 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q09 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.62  debate=0.00
+[q10 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q11 K=4] single=0.10  indep_vote=0.00  diversity=0.75  shared_ev=0.00  debate=0.00
+[q12 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q13 K=4] single=0.18  indep_vote=0.12  diversity=1.00  shared_ev=0.88  debate=0.00
+[q14 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q15 K=4] single=0.00  indep_vote=0.00  diversity=0.25  shared_ev=0.88  debate=0.00
+[q16 K=4] single=0.25  indep_vote=0.00  diversity=0.00  shared_ev=0.62  debate=0.12
+[q17 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.12  debate=0.00
+[q18 K=4] single=0.99  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00
+[q19 K=4] single=0.38  indep_vote=0.12  diversity=0.62  shared_ev=1.00  debate=0.12
+[q20 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q21 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q22 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q23 K=4] single=1.00  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00
+[q24 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q25 K=4] single=0.20  indep_vote=0.12  diversity=0.88  shared_ev=1.00  debate=0.00
+[q26 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q27 K=4] single=0.01  indep_vote=0.00  diversity=0.00  shared_ev=0.12  debate=0.00
+[q28 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q29 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q30 K=4] single=0.48  indep_vote=0.50  diversity=1.00  shared_ev=0.75  debate=0.38
+[q31 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q32 K=4] single=1.00  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00
+[q33 K=4] single=0.61  indep_vote=0.88  diversity=0.75  shared_ev=0.88  debate=0.75
+[q34 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q35 K=4] single=0.24  indep_vote=0.12  diversity=0.38  shared_ev=1.00  debate=0.12
+[q36 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q37 K=4] single=0.00  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00
+[q38 K=4] single=0.43  indep_vote=0.50  diversity=0.62  shared_ev=0.75  debate=0.25
+[q39 K=4] single=1.00  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00
+
+------------------------------------------------------------------------
+per-action mean accuracy: single=0.189  indep_vote=0.169  diversity=0.294  shared_ev=0.362  debate=0.150  stop=0.000
+[hard] A_best_fixed=0.362 (shared_ev)  A_oracle=0.403  H(plug-in, single-regime)=+0.041
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/k1_yqa_v1_hard_N11.json
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/k1_yqa_v1_hard_N11.csv

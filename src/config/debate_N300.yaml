@@ -1,0 +1,12 @@
+experiment: llm_debate
+n_agents: 300
+n_rounds: 8
+n_workers: 8
+backend: vertex                   # Vertex AI OpenAI-compatible endpoint; gcloud auth application-default login
+base_url: https://aiplatform.googleapis.com/v1/projects/main-being-473911-u3/locations/global/endpoints/openapi
+model: google/gemini-2.5-flash-lite
+rpm: 15                           # global request pacing; token auto-refreshed so long runs don't 401
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]

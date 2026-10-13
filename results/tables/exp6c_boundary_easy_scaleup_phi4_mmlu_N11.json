@@ -1,0 +1,1135 @@
+{
+  "regime": "easy",
+  "N": 11,
+  "R": 8,
+  "model": "phi4-mini:latest",
+  "model_tag": "scaleup_phi4_mmlu",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "Find the degree for the given field extension Q(sqrt(2) + sqrt(3)) over Q.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.26136363636363635,
+        "vote_entropy": 1.621545635350395,
+        "n_unique": 4,
+        "p_correct_votes": 0.2727272727272727,
+        "correctness_lead": -0.26136363636363635,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.016066750247052224
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.020039072036697116
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.021703036334368174
+      }
+    },
+    {
+      "qi": 1,
+      "question": "Statement 1 | If H is a subgroup of G and a belongs to G then |aH| = |Ha|. Statement 2 | If H is a subgroup of G and a and b belong to G, then aH and Hb are identical or disjoint.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7045454545454546,
+        "runnerup_gap": 0.5340909090909092,
+        "vote_entropy": 1.2903072361727768,
+        "n_unique": 4,
+        "p_correct_votes": 0.17045454545454544,
+        "correctness_lead": -0.5340909090909092,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.043505164334728806
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.0837071457000232
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.06068269007216383
+      }
+    },
+    {
+      "qi": 2,
+      "question": "Find the maximum possible order for an element of S_n for n = 10.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.75,
+        "vote_entropy": 0.8514821975402258,
+        "n_unique": 4,
+        "p_correct_votes": 0.045454545454545456,
+        "correctness_lead": -0.7954545454545455,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.04761904761904761
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.36601531953740774
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.007056892126557545
+      }
+    },
+    {
+      "qi": 3,
+      "question": "The inverse of -i in the multiplicative group, {1, -1, i , -i} is",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6818181818181818,
+        "runnerup_gap": 0.46590909090909083,
+        "vote_entropy": 1.2920032212921149,
+        "n_unique": 4,
+        "p_correct_votes": 0.6818181818181818,
+        "correctness_lead": 0.46590909090909083,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.0851615796845869
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.12659422671941545
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.02900342988401699
+      }
+    },
+    {
+      "qi": 4,
+      "question": "The set of all real numbers under the usual multiplication operation is not a group since",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.6136363636363636,
+        "vote_entropy": 1.2621788182248967,
+        "n_unique": 4,
+        "p_correct_votes": 0.7272727272727273,
+        "correctness_lead": 0.6136363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.051980642875685566
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.030292029051080815
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.07459544385226029
+      }
+    },
+    {
+      "qi": 5,
+      "question": "Statement 1| Every group of order p^2 where p is prime is Abelian. Statement 2 | For a fixed prime p a Sylow p-subgroup of a group G is a normal subgroup of G if and only if it is the only Sylow p-subgroup of G.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.30681818181818177,
+        "vote_entropy": 1.6683251201708096,
+        "n_unique": 4,
+        "p_correct_votes": 0.17045454545454544,
+        "correctness_lead": -0.36363636363636365,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.14315409054070247
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.00232448179065326
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.049867872676479214
+      }
+    },
+    {
+      "qi": 6,
+      "question": "Statement 1 | For finite groups G and H, |G + H| = |G||H|. (G + H is the internal direct product.) Statement 2 | If r divides m and s divides n then Z_m + Z_n has a subgroup isomorphic to Z_r + Z_s.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.42045454545454547,
+        "runnerup_gap": 0.04545454545454547,
+        "vote_entropy": 1.7217042012905517,
+        "n_unique": 4,
+        "p_correct_votes": 0.375,
+        "correctness_lead": -0.04545454545454547,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": -0.033349426038953724
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.04507855162936504
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.0409888228942403
+      }
+    },
+    {
+      "qi": 7,
+      "question": "The set of all nth roots of unity under multiplication of complex numbers form a/an",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.6818181818181819,
+        "vote_entropy": 0.7553076512046215,
+        "n_unique": 3,
+        "p_correct_votes": 0.8295454545454546,
+        "correctness_lead": 0.6818181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.10695311886344315
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.05943120400352377
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.04130731234238294
+      }
+    },
+    {
+      "qi": 8,
+      "question": "Let G denoted the set of all n x n non-singular matrices with rational numbers as entries. Then under multiplication G is a/an",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7045454545454546,
+        "runnerup_gap": 0.5568181818181819,
+        "vote_entropy": 1.171117937777585,
+        "n_unique": 3,
+        "p_correct_votes": 0.7045454545454546,
+        "correctness_lead": 0.5568181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.02931146867937033
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.016571344866411954
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.09648679817332595
+      }
+    },
+    {
+      "qi": 9,
+      "question": "Determine whether the polynomial in Z[x] satisfies an Eisenstein criterion for irreducibility over Q. 8x^3 + 6x^2 - 9x + 24",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5568181818181818,
+        "runnerup_gap": 0.3636363636363636,
+        "vote_entropy": 1.6725828457768883,
+        "n_unique": 4,
+        "p_correct_votes": 0.14772727272727273,
+        "correctness_lead": -0.40909090909090906,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.00786536530031797
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.0637788722767683
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.08757771284453714
+      }
+    },
+    {
+      "qi": 10,
+      "question": "Statement 1 | The image of a group of 6 elements under a homomorphism may have 12 elements. Statement 2 | There is a homomorphism of some group of 6 elements into some group of 12 elements.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5454545454545454,
+        "runnerup_gap": 0.17045454545454541,
+        "vote_entropy": 1.376498738232662,
+        "n_unique": 4,
+        "p_correct_votes": 0.5454545454545454,
+        "correctness_lead": 0.17045454545454541,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06964560722778657
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03373253091150168
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.06850639026855382
+      }
+    },
+    {
+      "qi": 11,
+      "question": "Statement 1 | The homomorphic image of a cyclic group is cyclic. Statement 2 | The homomorphic image of an Abelian group is Abelian.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8068181818181818,
+        "runnerup_gap": 0.6477272727272727,
+        "vote_entropy": 0.8379554607304524,
+        "n_unique": 3,
+        "p_correct_votes": 0.8068181818181818,
+        "correctness_lead": 0.6477272727272727,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03529103978673946
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.024918153736062182
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.0034464164817068744
+      }
+    },
+    {
+      "qi": 12,
+      "question": "If (G, .) is a group such that (ab)^-1 = a^-1b^-1, for all a, b in G, then G is a/an",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02857142857142857
+      }
+    },
+    {
+      "qi": 13,
+      "question": "Statement 1 | In a finite dimensional vector space every linearly independent set of vectors is contained in a basis. Statement 2 | If B_1 and B_2 are bases for the same vector space, then |B_1| = |B_2|.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8522727272727273,
+        "runnerup_gap": 0.7386363636363636,
+        "vote_entropy": 0.7505602239092894,
+        "n_unique": 4,
+        "p_correct_votes": 0.8522727272727273,
+        "correctness_lead": 0.7386363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06104627479360002
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.1906732375058111
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0362781619788425
+      }
+    },
+    {
+      "qi": 14,
+      "question": "Some group (G, 0) is known to be abelian. Then which one of the following is TRUE for G?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.7386363636363636,
+        "vote_entropy": 0.9070216152236071,
+        "n_unique": 4,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.7386363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.078541508615014
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.17498816956653476
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.08822759946684866
+      }
+    },
+    {
+      "qi": 15,
+      "question": "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5454545454545454,
+        "runnerup_gap": 0.34090909090909083,
+        "vote_entropy": 1.670889647624705,
+        "n_unique": 4,
+        "p_correct_votes": 0.20454545454545456,
+        "correctness_lead": -0.34090909090909083,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.06464639927889987
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.003129342936922415
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.04769465495013224
+      }
+    },
+    {
+      "qi": 16,
+      "question": "Find the generator for the finite field Z_7.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.38636363636363635,
+        "runnerup_gap": 0.03409090909090906,
+        "vote_entropy": 1.8244450333053372,
+        "n_unique": 4,
+        "p_correct_votes": 0.3522727272727273,
+        "correctness_lead": -0.03409090909090906,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": -0.030553041226898055
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.05439718739329919
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.07302069358543938
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Let A and B be sets, f: A -> B and g: B -> A be functions such that for all a \\in A, g(f(a)) = a. Statement 1 | The function f must necessarily be injective. Statement 2 | The function f must necessarily be surjective.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6477272727272727,
+        "runnerup_gap": 0.4659090909090909,
+        "vote_entropy": 1.4579973542987346,
+        "n_unique": 4,
+        "p_correct_votes": 0.6477272727272727,
+        "correctness_lead": 0.4659090909090909,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.05665301834010262
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.0029350821470821033
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.011315825579659418
+      }
+    },
+    {
+      "qi": 18,
+      "question": "Statement 1 | For any two groups G and G', there exists a homomorphism of G into G'. Statement 2 | Every homomorphism is a one-to-one map.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 84,
+        "plurality_share": 0.44047619047619047,
+        "runnerup_gap": 0.13095238095238093,
+        "vote_entropy": 1.7426644742742798,
+        "n_unique": 4,
+        "p_correct_votes": 0.19047619047619047,
+        "correctness_lead": -0.25,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.056844331176014874
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.04509846717150653
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.05990575048150647
+      }
+    },
+    {
+      "qi": 19,
+      "question": "Find the maximum possible order for some element of Z_8 x Z_10 x Z_24.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5227272727272727,
+        "runnerup_gap": 0.26136363636363635,
+        "vote_entropy": 1.666917228772581,
+        "n_unique": 4,
+        "p_correct_votes": 0.5227272727272727,
+        "correctness_lead": 0.26136363636363635,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.034591578951741336
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.00662104098610294
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.016186419675938615
+      }
+    },
+    {
+      "qi": 20,
+      "question": "Statement 1 | If G, H and K are groups of order 4, at least two of them are isomorphic. Statement 2 | If Z_r + Z_s is isomorphic to a subgroup Z_m + Z_n, then r divides m and s divides n.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5113636363636364,
+        "runnerup_gap": 0.10227272727272724,
+        "vote_entropy": 1.3911864267177283,
+        "n_unique": 4,
+        "p_correct_votes": 0.5113636363636364,
+        "correctness_lead": 0.10227272727272724,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": -0.011222326185985619
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.04531305211808122
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.12257987884607294
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Find the degree for the given field extension Q(sqrt(2)) over Q.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.33494680598484416,
+        "n_unique": 4,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02857142857142857
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04251924818451221
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Statement 1 | Every free abelian group is torsion free. Statement 2 | Every finitely generated torsion-free abelian group is a free abelian group.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.8068181818181818,
+        "vote_entropy": 0.5276284469783072,
+        "n_unique": 3,
+        "p_correct_votes": 0.8977272727272727,
+        "correctness_lead": 0.8068181818181818,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.10365587719815181
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.011517319688683535
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02857142857142857
+      }
+    },
+    {
+      "qi": 23,
+      "question": "Statement 1 | If H and K are subgroups of G and one of H or K is normal subgroup of G, then HK is a subgroup of G. Statement 2 | All groups of order p^2 where p is prime are Abelian.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.6363636363636364,
+        "vote_entropy": 1.1130483963000128,
+        "n_unique": 4,
+        "p_correct_votes": 0.7613636363636364,
+        "correctness_lead": 0.6363636363636364,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.02772533659419533
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.05860943909696317
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.025788993696326347
+      }
+    },
+    {
+      "qi": 24,
+      "question": "Statement 1 | The set of 2 x 2 matrices with integer entries and nonzero determinant is a group under matrix multiplication. Statement 2 | The set of 2 x 2 matrices with integer entries and determinant 1 is a group under matrix multiplication.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7727272727272727,
+        "runnerup_gap": 0.5681818181818181,
+        "vote_entropy": 0.879816581921562,
+        "n_unique": 3,
+        "p_correct_votes": 0.7727272727272727,
+        "correctness_lead": 0.5681818181818181,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.04588974823219511
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.030152124429164363
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.048699011597685825
+      }
+    },
+    {
+      "qi": 25,
+      "question": "How many homomorphisms are there of Z into Z_2?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4090909090909091,
+        "runnerup_gap": 0.07954545454545459,
+        "vote_entropy": 1.8193890482358124,
+        "n_unique": 4,
+        "p_correct_votes": 0.11363636363636363,
+        "correctness_lead": -0.29545454545454547,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.010639326905835054
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.02857142857142857
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.03453463292920227
+      }
+    },
+    {
+      "qi": 26,
+      "question": "The polynomial x^4 + 4 can be factored into linear factors in Z_5[x]. Find this factorization.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3409090909090909,
+        "runnerup_gap": 0.06818181818181818,
+        "vote_entropy": 1.9482117471359677,
+        "n_unique": 4,
+        "p_correct_votes": 0.22727272727272727,
+        "correctness_lead": -0.11363636363636362,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.05346046866407909
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.008956259912044325
+      },
+      "indep_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.04559449495292722
+      }
+    },
+    {
+      "qi": 27,
+      "question": "Statement 1 | There exists a free abelian group of every positive integer rank. Statement 2 | A finitely generated abelian group is free abelian if its Betti number equals the number of elements in some generating set.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6704545454545454,
+        "runnerup_gap": 0.47727272727272724,
+        "vote_entropy": 1.3621269798463382,
+        "n_unique": 4,
+        "p_correct_votes": 0.19318181818181818,
+        "correctness_lead": -0.47727272727272724,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.034529919148389085
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.10818791551469571
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.10338563367106728
+      }
+    },
+    {
+      "qi": 28,
+      "question": "Find the characteristic of the ring Z_3 x Z_3.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4772727272727273,
+        "runnerup_gap": 0.05681818181818182,
+        "vote_entropy": 1.4227599563079896,
+        "n_unique": 4,
+        "p_correct_votes": 0.4772727272727273,
+        "correctness_lead": 0.05681818181818182,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": 0.035891527355554946
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.249584917845234
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.027857046102561102
+      }
+    },
+    {
+      "qi": 29,
+      "question": "Find the characteristic of the ring Z x Z.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.8636363636363636,
+        "vote_entropy": 0.49196013331807664,
+        "n_unique": 4,
+        "p_correct_votes": 0.9204545454545454,
+        "correctness_lead": 0.8636363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.17267316464601146
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Statement 1 | For every positive integer n there is a cyclic group of order n. Statement 2 | Every finite cyclic group contains an element of every order that divides the order of the group.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9431818181818182,
+        "runnerup_gap": 0.8977272727272728,
+        "vote_entropy": 0.35570124588962954,
+        "n_unique": 3,
+        "p_correct_votes": 0.9431818181818182,
+        "correctness_lead": 0.8977272727272728,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.2637626158259733
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.10360389878760683
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 31,
+      "question": "Statement 1 | If H and K are subgroups of a group G, then |HK| = |H||K|/|H intersection K|. Statement 2 | A group of order 2p where p is an odd prime is cyclic or isomorphic to D_p.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.75,
+        "runnerup_gap": 0.5795454545454546,
+        "vote_entropy": 1.1152468650696932,
+        "n_unique": 4,
+        "p_correct_votes": 0.75,
+        "correctness_lead": 0.5795454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.019016495438516894
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06293509528308683
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.05727331021580536
+      }
+    },
+    {
+      "qi": 32,
+      "question": "For T: Z x Z -> Z where T(1, 0) = 3 and T(0, 1) = -5, find T(-3,2).",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.18181818181818177,
+        "vote_entropy": 1.4702028276440158,
+        "n_unique": 4,
+        "p_correct_votes": 0.5340909090909091,
+        "correctness_lead": 0.18181818181818177,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": -0.041794532127664465
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.05596298411433454
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01124393947511027
+      }
+    },
+    {
+      "qi": 33,
+      "question": "Compute the product in the given ring. (12)(16) in Z_24",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4772727272727273,
+        "runnerup_gap": 0.125,
+        "vote_entropy": 1.617259287004214,
+        "n_unique": 4,
+        "p_correct_votes": 0.3522727272727273,
+        "correctness_lead": -0.125,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.0622370406881268
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.07548947621874876
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.10962840988232518
+      }
+    },
+    {
+      "qi": 34,
+      "question": "Statement 1 | Every permutation is a one-to-one function. Statement 2 | Every function is a permutation if and only if it is one to one.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.3409090909090909,
+        "vote_entropy": 1.1988283991916022,
+        "n_unique": 3,
+        "p_correct_votes": 0.6363636363636364,
+        "correctness_lead": 0.3409090909090909,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.0432121453365149
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.0380637145054872
+      }
+    },
+    {
+      "qi": 35,
+      "question": "Find all cosets of the subgroup 4Z of 2Z.",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4318181818181818,
+        "runnerup_gap": 0.09090909090909094,
+        "vote_entropy": 1.7226024960500654,
+        "n_unique": 4,
+        "p_correct_votes": 0.17045454545454544,
+        "correctness_lead": -0.26136363636363635,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.0034464164817068744
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.1705415949079822
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.010792824764479875
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Which of the following statements is true?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4659090909090909,
+        "runnerup_gap": 0.20454545454545453,
+        "vote_entropy": 1.6788053622830912,
+        "n_unique": 4,
+        "p_correct_votes": 0.23863636363636365,
+        "correctness_lead": -0.22727272727272724,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.13605879956205325
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.04302074276612114
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.03373181842533081
+      }
+    },
+    {
+      "qi": 37,
+      "question": "Which describes an African butterfly species that exists in two strikingly different color patterns?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.020620489427730284
+      }
+    },
+    {
+      "qi": 38,
+      "question": "Which of the following about meiosis is NOT true?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7159090909090909,
+        "runnerup_gap": 0.5681818181818182,
+        "vote_entropy": 1.2699503514062866,
+        "n_unique": 4,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.625,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.02040816326530612
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.25099919020995637
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.020620489427730284
+      }
+    },
+    {
+      "qi": 39,
+      "question": "If neutral variation is truly \"neutral,\" then it should have no effect on",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7045454545454546,
+        "runnerup_gap": 0.5568181818181819,
+        "vote_entropy": 1.313118799838919,
+        "n_unique": 4,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.6136363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.03125177581585422
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.07456061515812218
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.05860943909696317
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+/home/alex/trucn/venv/bin/python -u /home/alex/trucn/manew/mas-mean-field/experiments/exp6_phase_transition_llm/run.py --benchmark strategyqa --config /home/alex/trucn/manew/mas-mean-field/src/config/scaleup_gemma_gpu0.yaml --n-questions 40 --n-agents 11 --grid 0 1 2 --min-p 0.6 --max-p 0.95 --probe-k 5 --candidates 250 --tag tier3_gemma_easy --model-tag gemma9b
+
+probing 250 candidates (k=5) for 0.6 ≤ p̂ ≤ 0.95 ...
+selection: 14/250 probed passed 0.6 ≤ p̂ ≤ 0.95 (mean p̂ of kept = 0.74)
+benchmark=strategyqa  questions=14  coupling grid=[0.0, 1.0, 2.0]  ~2310 debate calls (N=11, R=5)
+
+g=0.00 | p₁=0.67 indep=0.71 debate=0.79 | lift=+0.07 [+0.00,+0.21]  McN=1.000 | ρ=0.63 collapse=+0.03
+g=1.00 | p₁=0.73 indep=0.71 debate=0.71 | lift=+0.00 [+0.00,+0.00]  McN=1.000 | ρ=1.00 collapse=+0.18
+g=2.00 | p₁=0.72 indep=0.71 debate=0.71 | lift=+0.00 [+0.00,+0.00]  McN=1.000 | ρ=1.00 collapse=+0.14
+
+wrote /home/alex/trucn/manew/mas-mean-field/results/tables/exp6_phase_transition_llm_strategyqa_N11_tier3_gemma_easy.csv
+realized regime: p_single≈0.67 → EASY (p>½ → predict lift<0 as ρ↑)
+strongest herding g=1.0 (ρ=1.00): lift=+0.00 [+0.00,+0.00] → FLIP law CONTRADICTS

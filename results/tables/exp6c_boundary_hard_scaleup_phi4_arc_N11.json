@@ -1,0 +1,1135 @@
+{
+  "regime": "hard",
+  "N": 11,
+  "R": 8,
+  "model": "phi4-mini:latest",
+  "model_tag": "scaleup_phi4_arc",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "An astronaut drops a 1.0 kg object and a 5.0 kg object on the Moon. Both objects fall a total distance of 2.0 m vertically. Which of the following best describes the objects after they have fallen a distance of 1.0 m?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.6704545454545454,
+        "vote_entropy": 1.1635496159656205,
+        "n_unique": 4,
+        "p_correct_votes": 0.056818181818181816,
+        "correctness_lead": -0.7045454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.020620489427730284
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 1,
+      "question": "Devil facial tumor disease (DFTD) is a disease that is decimating the population of Tasmanian devils. The disease passes from one animal to another through bites and is caused by parasites. The parasites cause cancerous tumors that spread throughout an infected animal's body and kill it. What is the best description of DFTD?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4772727272727273,
+        "runnerup_gap": 0.2727272727272727,
+        "vote_entropy": 1.8024553373020153,
+        "n_unique": 4,
+        "p_correct_votes": 0.20454545454545456,
+        "correctness_lead": -0.2727272727272727,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.07296394302153897
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.036194903788964485
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.08939789772934613
+      }
+    },
+    {
+      "qi": 2,
+      "question": "It was once thought that living organisms could come from non-living matter. For example, people believed that flies would develop from rotting meat. This idea was later disproved primarily because of",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8181818181818182,
+        "runnerup_gap": 0.6477272727272728,
+        "vote_entropy": 0.7453639022966806,
+        "n_unique": 3,
+        "p_correct_votes": 0.17045454545454544,
+        "correctness_lead": -0.6477272727272728,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.018880079949052074
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.039379274905822395
+      }
+    },
+    {
+      "qi": 3,
+      "question": "Students heated three objects to different temperatures during a classroom demonstration. Each object emitted light of a different color as shown below. Object 1: blue light Object 2: red light Object 3: orange light Which list presents the objects in order from highest to lowest temperature?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4431818181818182,
+        "runnerup_gap": 0.22727272727272727,
+        "vote_entropy": 1.8679767645542134,
+        "n_unique": 4,
+        "p_correct_votes": 0.2159090909090909,
+        "correctness_lead": -0.22727272727272727,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.0857243108153378
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.09575394215251548
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.02367916888773174
+      }
+    },
+    {
+      "qi": 4,
+      "question": "A scientist maps a long region in which earthquakes originate and determines this region is a transform plate boundary. Which evidence would cause the scientist to reevaluate this determination?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3181818181818182,
+        "runnerup_gap": 0.0,
+        "vote_entropy": 1.8770341680403249,
+        "n_unique": 4,
+        "p_correct_votes": 0.3181818181818182,
+        "correctness_lead": 0.0,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": -0.05431660518627051
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.06562899013713609
+      },
+      "indep_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.09087608715324247
+      }
+    },
+    {
+      "qi": 5,
+      "question": "Which best describes how the sun might compare to a different-sized star, if they were right next to each other?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.7272727272727273,
+        "vote_entropy": 0.8148994594848438,
+        "n_unique": 4,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.8181818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.06773667349168631
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.08251647962925575
+      }
+    },
+    {
+      "qi": 6,
+      "question": "To determine how closely related organisms are, scientists consider all of the following except",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 0.954434002924965,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.625,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 7,
+      "question": "Which is an example of a learned behavior?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6931818181818182,
+        "runnerup_gap": 0.5681818181818182,
+        "vote_entropy": 1.3704688300424526,
+        "n_unique": 4,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.6022727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.03125177581585421
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.18937067353691361
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.014927099853407207
+      }
+    },
+    {
+      "qi": 8,
+      "question": "Scientists have studied the productivity of crops in mountain valleys. In some areas, the valleys are more productive than others. The increase in which factor most likely accounts for the high productivity of some areas in mountain valleys?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.9318181818181819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.18453498458930068
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.043992483070582344
+      }
+    },
+    {
+      "qi": 9,
+      "question": "The salt in ocean water comes from all of the following except",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.28409090909090906,
+        "vote_entropy": 1.6402750161132886,
+        "n_unique": 4,
+        "p_correct_votes": 0.25,
+        "correctness_lead": -0.28409090909090906,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.061347639998884804
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": -0.01174032858832841
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.017173652964165575
+      }
+    },
+    {
+      "qi": 10,
+      "question": "Garden plants on Earth require four resources to stay alive: soil, air, water, and sunlight. How many of these resources are necessary for life to exist on the moon or another planet?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.42045454545454547,
+        "runnerup_gap": 0.20454545454545456,
+        "vote_entropy": 1.8963563400113563,
+        "n_unique": 4,
+        "p_correct_votes": 0.2159090909090909,
+        "correctness_lead": -0.20454545454545456,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.02987970620446218
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.01405596045255267
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.0016208875460512983
+      }
+    },
+    {
+      "qi": 11,
+      "question": "When cold air is at the tops of mountains, the air",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5113636363636364,
+        "runnerup_gap": 0.05681818181818182,
+        "vote_entropy": 1.178006611449873,
+        "n_unique": 3,
+        "p_correct_votes": 0.45454545454545453,
+        "correctness_lead": -0.05681818181818182,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.001269781640974032
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.1067164555947028
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.004047489960228702
+      }
+    },
+    {
+      "qi": 12,
+      "question": "Which element below is found in the smallest quantity in most living things?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5113636363636364,
+        "runnerup_gap": 0.19318181818181818,
+        "vote_entropy": 1.6254451231048936,
+        "n_unique": 4,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.4204545454545454,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.07143519861811963
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.03228457060521211
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.0022720801054728797
+      }
+    },
+    {
+      "qi": 13,
+      "question": "Which step in asexual reproduction would you expect to find in volvox but not in amoebas?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4318181818181818,
+        "runnerup_gap": 0.125,
+        "vote_entropy": 1.8102474668875503,
+        "n_unique": 4,
+        "p_correct_votes": 0.14772727272727273,
+        "correctness_lead": -0.28409090909090906,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.06417948415608783
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.029972463844836508
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05538964858587361
+      }
+    },
+    {
+      "qi": 14,
+      "question": "Which characteristic would a child not inherit from one or both of its parents?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.3409090909090909,
+        "vote_entropy": 1.303492147698347,
+        "n_unique": 4,
+        "p_correct_votes": 0.2840909090909091,
+        "correctness_lead": -0.3409090909090909,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.056015743954741536
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.010441606172588118
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.01085151816718409
+      }
+    },
+    {
+      "qi": 15,
+      "question": "Which change in Earth's surface is most directly related to the water cycle?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.625,
+        "vote_entropy": 0.9731684774270687,
+        "n_unique": 4,
+        "p_correct_votes": 0.7840909090909091,
+        "correctness_lead": 0.625,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06721910703664834
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.016428638229997496
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.055560507881796055
+      }
+    },
+    {
+      "qi": 16,
+      "question": "Two chemicals react in a beaker that has water droplets on the outside of the bottom of the beaker. The water droplets freeze. Which statement best describes the reaction?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.75,
+        "runnerup_gap": 0.5454545454545454,
+        "vote_entropy": 1.0191640117533993,
+        "n_unique": 4,
+        "p_correct_votes": 0.75,
+        "correctness_lead": 0.5454545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.02283546342285127
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.008248459855033847
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08834618142785683
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Joshua studied the organisms living in a seaside ecosystem. Which do all animals at a beach need for survival?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8863636363636364,
+        "runnerup_gap": 0.8068181818181818,
+        "vote_entropy": 0.6422400558457223,
+        "n_unique": 4,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.8636363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.22224394874412345
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.10360389878760683
+      }
+    },
+    {
+      "qi": 18,
+      "question": "A brand of fertilizer claims that it contains all the chemicals a plant needs for rapid growth. It may be inferred that the fertilizer includes all these ingredients except",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.5795454545454546,
+        "vote_entropy": 1.0368990815596357,
+        "n_unique": 4,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.7272727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 19,
+      "question": "A student mixes vinegar and baking soda to use in a volcano model. The mixture causes the volcano model to feel cool when it is touched. What energy transformation has taken place?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.875,
+        "runnerup_gap": 0.7613636363636364,
+        "vote_entropy": 0.5985015665647856,
+        "n_unique": 3,
+        "p_correct_votes": 0.11363636363636363,
+        "correctness_lead": -0.7613636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.02202819623684821
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.0372156360474942
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.05124477926875889
+      }
+    },
+    {
+      "qi": 20,
+      "question": "Adaptive characteristics that help dolphins survive life in the ocean include all of these except",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4772727272727273,
+        "runnerup_gap": 0.17045454545454547,
+        "vote_entropy": 1.5740004329431698,
+        "n_unique": 4,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.46590909090909094,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.7500897310684451
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Which environmental risk is not associated with the disposal of used motor oil from cars?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5568181818181818,
+        "runnerup_gap": 0.2613636363636363,
+        "vote_entropy": 1.512768169951494,
+        "n_unique": 4,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.5227272727272727,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.06796953069775641
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.05212812674934813
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Which process is included in the formation of both metamorphic and sedimentary rock?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5113636363636364,
+        "runnerup_gap": 0.19318181818181818,
+        "vote_entropy": 1.5981466759389047,
+        "n_unique": 4,
+        "p_correct_votes": 0.3181818181818182,
+        "correctness_lead": -0.19318181818181818,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.10607338077802936
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.1425558929335467
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.011514803071031835
+      }
+    },
+    {
+      "qi": 23,
+      "question": "A student has recorded the speed of cars for a science experiment. What type of graph would give the most detail about cars traveling in a particular speed range?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5795454545454546,
+        "runnerup_gap": 0.17045454545454547,
+        "vote_entropy": 1.0570339766774164,
+        "n_unique": 3,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.5681818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.25969711054260225
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.18498377511123407
+      }
+    },
+    {
+      "qi": 24,
+      "question": "Two bicyclists were riding their bikes at a rate of 20 kilometers per hour (km/h). During the next half hour, they observed that they had increased their speed to 26 km/h. What was their average acceleration?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6477272727272727,
+        "runnerup_gap": 0.43181818181818177,
+        "vote_entropy": 1.3859138222968121,
+        "n_unique": 4,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.6136363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.23809523809523808
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.14538101578156717
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.019319379269727873
+      }
+    },
+    {
+      "qi": 25,
+      "question": "The following mountain ranges: the Alps, Appalachians, and Himalayas are formed from",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9431818181818182,
+        "runnerup_gap": 0.8863636363636365,
+        "vote_entropy": 0.31468260413466576,
+        "n_unique": 2,
+        "p_correct_votes": 0.056818181818181816,
+        "correctness_lead": -0.8863636363636365,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.2
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.16869948936026777
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.01842513714940126
+      }
+    },
+    {
+      "qi": 26,
+      "question": "Water, ice, and steam all have different temperatures. What is the order from coldest to hottest?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9090909090909092,
+        "vote_entropy": 0.26676498780302604,
+        "n_unique": 2,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9090909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01063932690583505
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.028003102633565233
+      }
+    },
+    {
+      "qi": 27,
+      "question": "A thermometer is best used to measure",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6477272727272727,
+        "runnerup_gap": 0.40909090909090906,
+        "vote_entropy": 1.2556511909711852,
+        "n_unique": 3,
+        "p_correct_votes": 0.11363636363636363,
+        "correctness_lead": -0.5340909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.03191798071750516
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.21669397458242376
+      },
+      "indep_correct_strong": {
+        "A_q": 0.5,
+        "D_q": -0.01916302748049498
+      }
+    },
+    {
+      "qi": 28,
+      "question": "Marshall researched some of the changes on Earth that happen over a long time. Which event most likely causes the slowest change to the surface of Earth?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.46590909090909094,
+        "vote_entropy": 1.4092203288250087,
+        "n_unique": 4,
+        "p_correct_votes": 0.6363636363636364,
+        "correctness_lead": 0.46590909090909094,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.06071234940343053
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.244254445047647
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.036194903788964485
+      }
+    },
+    {
+      "qi": 29,
+      "question": "Evidence of extensive glaciation has been suggested as an explanation for extinctions at the end of the Permian period. Such glaciation could have disrupted ocean ecosystems by producing which effect?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7954545454545454,
+        "runnerup_gap": 0.6022727272727273,
+        "vote_entropy": 0.794242079007713,
+        "n_unique": 3,
+        "p_correct_votes": 0.7954545454545454,
+        "correctness_lead": 0.6022727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.052094171553009806
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05758659844341765
+      }
+    },
+    {
+      "qi": 30,
+      "question": "The particles within a substance are in constant motion. The particles in which of these substances have the lowest amount of kinetic energy?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.32954545454545453,
+        "runnerup_gap": 0.0,
+        "vote_entropy": 1.8978322940461605,
+        "n_unique": 4,
+        "p_correct_votes": 0.32954545454545453,
+        "correctness_lead": 0.0,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": -0.07282757577810339
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.2191370257903505
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.05023712313602493
+      }
+    },
+    {
+      "qi": 31,
+      "question": "An airplane travels at a constant speed of 800 kilometers per hour (km/h). Approximately how long will it take the airplane to travel 200 kilometers?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3181818181818182,
+        "runnerup_gap": 0.022727272727272707,
+        "vote_entropy": 1.926328854050901,
+        "n_unique": 4,
+        "p_correct_votes": 0.3181818181818182,
+        "correctness_lead": 0.022727272727272707,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": -0.030995453850044617
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.053852139807302656
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.060097233512194065
+      }
+    },
+    {
+      "qi": 32,
+      "question": "Which is NOT a pathway for transportation?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.625,
+        "vote_entropy": 0.9321498356721049,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.7840909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.6546536707079773
+      }
+    },
+    {
+      "qi": 33,
+      "question": "Which two environmental changes usually cause certain animals to migrate?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7954545454545454,
+        "runnerup_gap": 0.6022727272727273,
+        "vote_entropy": 0.7942420790077129,
+        "n_unique": 3,
+        "p_correct_votes": 0.7954545454545454,
+        "correctness_lead": 0.6022727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.09295421811021018
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.04054409858282632
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.014389751876870674
+      }
+    },
+    {
+      "qi": 34,
+      "question": "In a certain field, plants with blue flowers are pollinated by bees, while plants with white flowers are pollinated by moths. If the population of bees decreases, which will most likely occur?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.45454545454545453,
+        "runnerup_gap": 0.022727272727272707,
+        "vote_entropy": 1.4500260013721658,
+        "n_unique": 4,
+        "p_correct_votes": 0.45454545454545453,
+        "correctness_lead": 0.022727272727272707,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": -0.09049986977519568
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.041192385479203834
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.0036199947910078275
+      }
+    },
+    {
+      "qi": 35,
+      "question": "For years, many astronomers thought that our solar system formed from a slowly condensing cloud of dust and gas. New evidence indicates that our solar system may have formed when short-lived, massive stars in a nebula exploded. What is most likely going to result from the new evidence?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.07954545454545453,
+        "vote_entropy": 1.073717984269758,
+        "n_unique": 3,
+        "p_correct_votes": 0.45454545454545453,
+        "correctness_lead": -0.07954545454545453,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.060214914098863696
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.0647887845747669
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.0025903422568237704
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Scientists often change conclusions when new information becomes available. Which statement was changed because new information became available?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7954545454545454,
+        "runnerup_gap": 0.6818181818181818,
+        "vote_entropy": 1.0073990375083404,
+        "n_unique": 4,
+        "p_correct_votes": 0.11363636363636363,
+        "correctness_lead": -0.6818181818181818,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.01063932690583505
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.10686579546652732
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.05682405255677022
+      }
+    },
+    {
+      "qi": 37,
+      "question": "Ravi, who lives in Stow, Massachusetts, wants to send a message to his friend in India. Which tool would be the LEAST helpful in sending this message?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5795454545454546,
+        "runnerup_gap": 0.21590909090909094,
+        "vote_entropy": 1.2218937446033986,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.5795454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.06666666666666668
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 38,
+      "question": "Which of these is not a benefit of microorganisms?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.32954545454545453,
+        "vote_entropy": 1.2340031939790257,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.625,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.020620489427730284
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.0471249051690084
+      }
+    },
+    {
+      "qi": 39,
+      "question": "Some researchers believe that beta-carotene, which is found in carrots, may help humans live longer lives. A few scientists designed an experiment in which one-hundred people would be asked to take a double dose of beta-carotene daily for two years and another hundred people were given a placebo, a sugar pill, for the same amount of time. After the two years, the scientists planned to collect the data and draw a conclusion. This is not a good example of a scientific study and was not done because",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5227272727272727,
+        "runnerup_gap": 0.2954545454545454,
+        "vote_entropy": 1.646010460656258,
+        "n_unique": 4,
+        "p_correct_votes": 0.20454545454545456,
+        "correctness_lead": -0.3181818181818181,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.04466347774873454
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.06835455684170585
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.03374945022223787
+      }
+    }
+  ]
+}

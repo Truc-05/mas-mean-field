@@ -1,0 +1,108 @@
+[08-14 11:08:12] ======== P2 GPU1 run START (server :11443, CUDA=1) ========
+[08-14 11:08:12] >> llama8b truthfulqa easy START
+[08-15 20:39:25] ======== P2 GPU1 run START (server :11443, CUDA=1) ========
+[08-15 20:39:25] >> llama8b truthfulqa easy START
+[08-15 22:17:12] << llama8b truthfulqa easy DONE rc=0
+[08-15 22:17:12] >> llama8b truthfulqa hard START
+[08-16 03:07:56] << llama8b truthfulqa hard DONE rc=0
+[08-16 03:07:56] >> gemma9b truthfulqa easy START
+[08-16 04:59:18] << gemma9b truthfulqa easy DONE rc=0
+[08-16 04:59:18] >> gemma9b truthfulqa hard START
+[08-16 07:00:00] << gemma9b truthfulqa hard DONE rc=0
+[08-16 07:00:00] >> mistral7b truthfulqa easy START
+[08-16 11:16:57] << mistral7b truthfulqa easy DONE rc=0
+[08-16 11:16:57] >> mistral7b truthfulqa hard START
+[08-17 18:38:59] ======== P2 GPU1 run START (server :11443, CUDA=1) ========
+[08-17 18:38:59] >> llama8b truthfulqa easy START
+[08-17 18:39:00] << llama8b truthfulqa easy DONE rc=0
+[08-17 18:39:00] >> llama8b truthfulqa hard START
+[08-17 18:39:01] << llama8b truthfulqa hard DONE rc=0
+[08-17 18:39:01] >> gemma9b truthfulqa easy START
+[08-17 18:39:02] << gemma9b truthfulqa easy DONE rc=0
+[08-17 18:39:02] >> gemma9b truthfulqa hard START
+[08-17 18:39:03] << gemma9b truthfulqa hard DONE rc=0
+[08-17 18:39:03] >> mistral7b truthfulqa easy START
+[08-17 18:39:04] << mistral7b truthfulqa easy DONE rc=0
+[08-17 18:39:04] >> mistral7b truthfulqa hard START
+[08-17 18:59:29] << mistral7b truthfulqa hard DONE rc=0
+[08-17 18:59:29] >> AQuA probe (qwen) START
+[08-17 21:38:40] ======== P2 GPU1 run START (server :11443, CUDA=1) ========
+[08-17 21:38:40] >> llama8b truthfulqa easy START
+[08-17 21:38:41] << llama8b truthfulqa easy DONE rc=0
+[08-17 21:38:41] >> llama8b truthfulqa hard START
+[08-17 21:38:42] << llama8b truthfulqa hard DONE rc=0
+[08-17 21:38:42] >> gemma9b truthfulqa easy START
+[08-17 21:38:42] << gemma9b truthfulqa easy DONE rc=0
+[08-17 21:38:42] >> gemma9b truthfulqa hard START
+[08-17 21:38:43] << gemma9b truthfulqa hard DONE rc=0
+[08-17 21:38:43] >> mistral7b truthfulqa easy START
+[08-17 21:38:44] << mistral7b truthfulqa easy DONE rc=0
+[08-17 21:38:44] >> mistral7b truthfulqa hard START
+[08-17 21:38:45] << mistral7b truthfulqa hard DONE rc=0
+[08-17 21:38:45] >> AQuA probe (qwen) START
+[08-18 00:17:18] << AQuA probe DONE rc=0
+[08-18 00:17:18] AQuA viable regimes: [easy,hard] (need >=10 q/bin)
+[08-18 00:17:18] >> qwen7b_aqua aqua easy START
+[08-18 03:47:07] << qwen7b_aqua aqua easy DONE rc=0
+[08-18 03:47:07] >> qwen7b_aqua aqua hard START
+[08-18 08:01:17] << qwen7b_aqua aqua hard DONE rc=0
+[08-18 08:01:17] >> p2_aggregate --n 11
+============================================================================================
+P2 CROSS-MODEL AGGREGATOR — C1 mechanism / C2 boundary / C3 ΔD (failures kept)
+============================================================================================
+
+▶ gemma9b  (model=gemma2:9b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.890  P_maj(copying)=0.891  gap=+0.000  sign_ok=True  [realized shared=0.959 indep=0.975]
+       hard  p=0.516  P_maj(copying)=0.528  gap=+0.012  sign_ok=True  [realized shared=0.700 indep=0.716]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.088 CI[-0.193,-0.019]  bins(low→high M)=[0.088  0.009  0.010]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.536 CI[+0.350,+0.728]  n=23
+
+▶ llama8b  (model=llama3.1:8b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.662  P_maj(copying)=0.697  gap=+0.034  sign_ok=True  [realized shared=0.872 indep=0.884]
+       hard  p=0.284  P_maj(copying)=0.259  gap=-0.024  sign_ok=True  [realized shared=0.525 indep=0.547]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.091 CI[-0.165,-0.019]  bins(low→high M)=[0.083  0.125  0.024]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.148 CI[+0.104,+0.194]  n=67
+
+▶ mistral7b  (model=mistral:7b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [FAIL]:
+       easy  p=0.738  P_maj(copying)=0.741  gap=+0.003  sign_ok=True  [realized shared=0.828 indep=0.841]
+       hard  p=0.473  P_maj(copying)=0.500  gap=+0.027  sign_ok=False  [realized shared=0.516 indep=0.487]
+  C2 |ΔA|~M pooled [FAIL]: slope=-0.052 CI[-0.129,+0.014]  bins(low→high M)=[0.046  0.023  0.019]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.249 CI[+0.145,+0.352]  n=41
+
+▶ qwen2.5:7b  (model=qwen2.5:7b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.841  P_maj(copying)=0.863  gap=+0.021  sign_ok=True  [realized shared=0.850 indep=0.866]
+       hard  p=0.106  P_maj(copying)=0.062  gap=-0.043  sign_ok=True  [realized shared=0.300 indep=0.338]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.125 CI[-0.198,-0.056]  bins(low→high M)=[0.088  0.014  0.000]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.272 CI[+0.162,+0.393]  n=29
+
+▶ qwen7b_aqua  (model=qwen2.5:7b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.619  P_maj(copying)=0.635  gap=+0.016  sign_ok=True  [realized shared=0.655 indep=0.645]
+       hard  p=0.251  P_maj(copying)=0.237  gap=-0.014  sign_ok=True  [realized shared=0.369 indep=0.331]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.138 CI[-0.217,-0.058]  bins(low→high M)=[0.115  0.087  0.000]  n=78
+  C3 ΔD paired pooled [PASS]: ΔD=+0.159 CI[+0.101,+0.224]  n=53
+
+--------------------------------------------------------------------------------------------
+C2 N-scaling view (Theorem 5 prediction: slope ↓ as N ↑) — one row per run:
+   gemma9b                N=11  slope=-0.088 CI[-0.193,-0.019]
+   llama8b                N=11  slope=-0.091 CI[-0.165,-0.019]
+   mistral7b              N=11  slope=-0.052 CI[-0.129,+0.014]
+   qwen2.5:7b             N=11  slope=-0.125 CI[-0.198,-0.056]
+   qwen7b_aqua            N=11  slope=-0.138 CI[-0.217,-0.058]
+   (only one N present — run ≥2 N values per model to test the N-scaling slope)
+
+============================================================================================
+group                        C1     C2     C3     (generalization matrix)
+gemma9b|N11                  ✓      ✓      ✓   
+llama8b|N11                  ✓      ✓      ✓   
+mistral7b|N11                ✗      ✗      ✓   
+qwen2.5:7b|N11               ✓      ✓      ✓   
+qwen7b_aqua|N11              ✓      ✓      ✓   
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/p2_aggregate_summary.json
+[08-18 08:01:18] tore down :11443 server (pid 53200)
+[08-18 08:01:18] ======== P2 GPU1 run COMPLETE ========

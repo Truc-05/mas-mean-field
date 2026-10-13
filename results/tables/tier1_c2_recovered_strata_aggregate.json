@@ -1,0 +1,46 @@
+{
+  "estimand": "beta_bar = (1/K) sum_k c2_slope_k, equal-weight per stratum, stratum-level bootstrap",
+  "n_boot": 20000,
+  "seed": 20261012,
+  "primary_regime": "hard",
+  "regimes": {
+    "hard": {
+      "K": 35,
+      "beta_bar": -0.06265103874612499,
+      "ci": [
+        -0.11249072583820334,
+        -0.012344504786058098
+      ],
+      "sig": true,
+      "n_negative": 25,
+      "n_positive": 10,
+      "n_exact_zero": 0,
+      "skipped": [
+        "gemma/truthfulqa/hard: insufficient (n_q=14)",
+        "qwen/bbh: excluded benchmark"
+      ],
+      "n_exact_zero_from_degenerate_dA": 0
+    },
+    "easy": {
+      "K": 31,
+      "beta_bar": -0.13711609404927302,
+      "ci": [
+        -0.23930472694681623,
+        -0.05191647496621607
+      ],
+      "sig": true,
+      "n_negative": 11,
+      "n_positive": 3,
+      "n_exact_zero": 17,
+      "skipped": [
+        "llama/aqua/easy: insufficient (n_q=4)",
+        "llama/mmlu/easy: insufficient (n_q=5)",
+        "mistral/aqua/easy: insufficient (n_q=10)",
+        "phi4/aqua/easy: insufficient (n_q=3)",
+        "phi4/mmlu/easy: insufficient (n_q=12)",
+        "qwen/bbh: excluded benchmark"
+      ],
+      "n_exact_zero_from_degenerate_dA": 17
+    }
+  }
+}

@@ -1,0 +1,16 @@
+clues: reusing exp6c_clues_hard.json (have 40, need 40)
+==============================================================================
+CI ENRICHMENT (a_CI) — regime=hard  N=11  R=8  debate_rounds=3  coupling=1.0  model=qwen2.5:7b
+ACTIONS=['single', 'indep_vote', 'diversity', 'shared_ev', 'debate', 'a_copy', 'a_common', 'a_dissent', 'a_CI']
+questions [global 0:20] of 40   tag=qwen_s0   base_url=http://localhost:11443/v1
+==============================================================================
+[q00 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.50 a_copy=0.00  C_q=+0.00
+[q01 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.12 a_copy=0.00  C_q=+0.00
+[q02 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.00 a_copy=0.00  C_q=+0.00
+[q03 K=4] indep=0.25 copy=0.12 a_CI=0.12 a_common=0.75 a_copy=0.25  C_q=+0.12
+[q04 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.00 a_copy=0.00  C_q=+0.00
+[q05 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.00 a_copy=0.00  C_q=+0.00
+[q06 K=4] indep=0.00 copy=0.00 a_CI=1.00 a_common=1.00 a_copy=0.00  C_q=+0.00
+[q07 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.00 a_copy=0.00  C_q=+0.00
+[q08 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.00 a_copy=0.00  C_q=+0.00
+[q09 K=4] indep=0.00 copy=0.00 a_CI=0.00 a_common=0.75 a_copy=0.00  C_q=+0.00

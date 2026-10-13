@@ -1,0 +1,1135 @@
+{
+  "regime": "easy",
+  "N": 11,
+  "R": 8,
+  "model": "deepseek-r1:7b",
+  "model_tag": "scaleup_deepseek_strategyqa",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "Is Mixed martial arts totally original from Roman Colosseum games?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.7471264367816092,
+        "runnerup_gap": 0.49425287356321834,
+        "vote_entropy": 0.8158009273789573,
+        "n_unique": 2,
+        "p_correct_votes": 0.7471264367816092,
+        "correctness_lead": 0.49425287356321834,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.018736690036042357
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.09945250932847327
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.013918451077932634
+      }
+    },
+    {
+      "qi": 1,
+      "question": "Is capturing giant squid in natural habitat impossible with no gear?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6818181818181818,
+        "runnerup_gap": 0.3636363636363636,
+        "vote_entropy": 0.9023932827949788,
+        "n_unique": 2,
+        "p_correct_votes": 0.6818181818181818,
+        "correctness_lead": 0.3636363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06749292019735817
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.1424930021664387
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.055566040464677585
+      }
+    },
+    {
+      "qi": 2,
+      "question": "Do flying fish have good eyesight?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.6511627906976745,
+        "runnerup_gap": 0.3023255813953489,
+        "vote_entropy": 0.9330252953592911,
+        "n_unique": 2,
+        "p_correct_votes": 0.6511627906976745,
+        "correctness_lead": 0.3023255813953489,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.08649134014139125
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.3093073414159543
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 3,
+      "question": "Can the Great Depression be treated with Prozac?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 79,
+        "plurality_share": 0.8860759493670886,
+        "runnerup_gap": 0.7721518987341771,
+        "vote_entropy": 0.511639783631173,
+        "n_unique": 2,
+        "p_correct_votes": 0.8860759493670886,
+        "correctness_lead": 0.7721518987341771,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.052094171553009806
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.011517319688683535
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1252660597013937
+      }
+    },
+    {
+      "qi": 4,
+      "question": "Does Santa Claus work during summer?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.7954545454545454,
+        "vote_entropy": 0.47615884455807067,
+        "n_unique": 2,
+        "p_correct_votes": 0.8977272727272727,
+        "correctness_lead": 0.7954545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.02367916888773173
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.12501291562489453
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.034534632929202294
+      }
+    },
+    {
+      "qi": 5,
+      "question": "Has categories of Nobel prizes remained same since Alfred Nobel established them?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 80,
+        "plurality_share": 0.575,
+        "runnerup_gap": 0.14999999999999997,
+        "vote_entropy": 0.9837082626231859,
+        "n_unique": 2,
+        "p_correct_votes": 0.575,
+        "correctness_lead": 0.14999999999999997,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": 0.09294891102927808
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.011882287111797998
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.015549133568432455
+      }
+    },
+    {
+      "qi": 6,
+      "question": "Does a Starbucks passion tea have ginger in it?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.7586206896551724,
+        "runnerup_gap": 0.5172413793103448,
+        "vote_entropy": 0.7973265101474423,
+        "n_unique": 2,
+        "p_correct_votes": 0.7586206896551724,
+        "correctness_lead": 0.5172413793103448,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.08106952901119695
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.9999999999999999
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 7,
+      "question": "Would Kurt Cobain have benefited from Project Semicolon?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 73,
+        "plurality_share": 0.6164383561643836,
+        "runnerup_gap": 0.23287671232876717,
+        "vote_entropy": 0.9605187074766162,
+        "n_unique": 2,
+        "p_correct_votes": 0.6164383561643836,
+        "correctness_lead": 0.23287671232876717,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": -0.028616313934196135
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.07294724771781125
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.09295421811021018
+      }
+    },
+    {
+      "qi": 8,
+      "question": "Could you buy Hershey's Kisses in red foil with farthings after 1960?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 67,
+        "plurality_share": 0.6567164179104478,
+        "runnerup_gap": 0.31343283582089554,
+        "vote_entropy": 0.927926261959976,
+        "n_unique": 2,
+        "p_correct_votes": 0.6567164179104478,
+        "correctness_lead": 0.31343283582089554,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06292847379437719
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.10048718720919085
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.023627564943493436
+      }
+    },
+    {
+      "qi": 9,
+      "question": "Can an African Elephant get pregnant twice in a year?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.4545454545454546,
+        "vote_entropy": 0.8453509366224364,
+        "n_unique": 2,
+        "p_correct_votes": 0.7272727272727273,
+        "correctness_lead": 0.4545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03935626862698441
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.034551959066050596
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03453463292920227
+      }
+    },
+    {
+      "qi": 10,
+      "question": "Does Coast to Coast AM have more longevity than the Rush Limbaugh show?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 84,
+        "plurality_share": 0.8452380952380952,
+        "runnerup_gap": 0.6904761904761905,
+        "vote_entropy": 0.6216297820565386,
+        "n_unique": 2,
+        "p_correct_votes": 0.8452380952380952,
+        "correctness_lead": 0.6904761904761905,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.6183189381202864
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      }
+    },
+    {
+      "qi": 11,
+      "question": "Is the foot part of the metric system?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.8409090909090908,
+        "vote_entropy": 0.40057554263664014,
+        "n_unique": 2,
+        "p_correct_votes": 0.9204545454545454,
+        "correctness_lead": 0.8409090909090908,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.24174243050441604
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.10360389878760683
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 12,
+      "question": "In baseball, is a \"Homer\" named after the poet Homer who wrote the Odyssey?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6818181818181818,
+        "runnerup_gap": 0.3636363636363636,
+        "vote_entropy": 0.9023932827949788,
+        "n_unique": 2,
+        "p_correct_votes": 0.6818181818181818,
+        "correctness_lead": 0.3636363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.07845731860239077
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05169624722560312
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.016428638229997496
+      }
+    },
+    {
+      "qi": 13,
+      "question": "Is a felony jury enough people for a Bunco game?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 78,
+        "plurality_share": 0.8846153846153846,
+        "runnerup_gap": 0.7692307692307692,
+        "vote_entropy": 0.5159469300074474,
+        "n_unique": 2,
+        "p_correct_votes": 0.8846153846153846,
+        "correctness_lead": 0.7692307692307692,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.014207501332639039
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.07730835157046662
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      }
+    },
+    {
+      "qi": 14,
+      "question": "Could Godzilla have been killed by the Tohoku earthquake?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 84,
+        "plurality_share": 0.8095238095238095,
+        "runnerup_gap": 0.6190476190476191,
+        "vote_entropy": 0.7024665512903903,
+        "n_unique": 2,
+        "p_correct_votes": 0.8095238095238095,
+        "correctness_lead": 0.6190476190476191,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03737362797823299
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08983014018131598
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01151731968868353
+      }
+    },
+    {
+      "qi": 15,
+      "question": "Is Newt Gingrich's nickname a type of Reptile?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.6818181818181819,
+        "vote_entropy": 0.6321302781219706,
+        "n_unique": 2,
+        "p_correct_votes": 0.8409090909090909,
+        "correctness_lead": 0.6818181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03881045961885874
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.053898084108789594
+      }
+    },
+    {
+      "qi": 16,
+      "question": "Can people die from brake failure?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9090909090909091,
+        "runnerup_gap": 0.8181818181818181,
+        "vote_entropy": 0.4394969869215134,
+        "n_unique": 2,
+        "p_correct_votes": 0.9090909090909091,
+        "correctness_lead": 0.8181818181818181,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.015708301723002797
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Could the members of The Police perform lawful arrests?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.8505747126436781,
+        "runnerup_gap": 0.7011494252873562,
+        "vote_entropy": 0.6084002154765848,
+        "n_unique": 2,
+        "p_correct_votes": 0.14942528735632185,
+        "correctness_lead": -0.7011494252873562,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.010792824764479873
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.27179734969180264
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.06945492469342979
+      }
+    },
+    {
+      "qi": 18,
+      "question": "Would it be hard to get toilet paper if there were no loggers?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 77,
+        "plurality_share": 0.5974025974025974,
+        "runnerup_gap": 0.19480519480519476,
+        "vote_entropy": 0.972449714712879,
+        "n_unique": 2,
+        "p_correct_votes": 0.5974025974025974,
+        "correctness_lead": 0.19480519480519476,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.09442169723350437
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.2527675291391115
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.18836874487411887
+      }
+    },
+    {
+      "qi": 19,
+      "question": "Did Linnaeus edit Darwin's draft of Origin of Species?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9090909090909092,
+        "vote_entropy": 0.26676498780302604,
+        "n_unique": 2,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9090909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 20,
+      "question": "Is Rurouni Kenshin from same country as lead character in Nobunaga's Ambition?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.7790697674418605,
+        "runnerup_gap": 0.558139534883721,
+        "vote_entropy": 0.7618624463753667,
+        "n_unique": 2,
+        "p_correct_votes": 0.7790697674418605,
+        "correctness_lead": 0.558139534883721,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.0163558023549135
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.16489067164886578
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.12024215282621098
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Is the span in C-SPAN named after Alan Greenspan?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5113636363636364,
+        "runnerup_gap": 0.022727272727272707,
+        "vote_entropy": 0.999627371057461,
+        "n_unique": 2,
+        "p_correct_votes": 0.48863636363636365,
+        "correctness_lead": -0.022727272727272707,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": -0.03993207223632749
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.010133455325729332
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08914680600528566
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Is \"A Tale of Two Cities\" a parody of the Bible?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.8837209302325582,
+        "runnerup_gap": 0.7674418604651163,
+        "vote_entropy": 0.5185697317883058,
+        "n_unique": 2,
+        "p_correct_votes": 0.8837209302325582,
+        "correctness_lead": 0.7674418604651163,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.04846203172106608
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08983014018131598
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.053898084108789594
+      }
+    },
+    {
+      "qi": 23,
+      "question": "Was disc jockey Jay Thomas enemies with Clayton Moore?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.6666666666666666,
+        "runnerup_gap": 0.3333333333333333,
+        "vote_entropy": 0.9182958340544896,
+        "n_unique": 2,
+        "p_correct_votes": 0.6666666666666666,
+        "correctness_lead": 0.3333333333333333,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.030813483171108665
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.08571428571428572
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      }
+    },
+    {
+      "qi": 24,
+      "question": "Are lengths measured in metres in the UK?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 25,
+      "question": "Could Eddie Hall hypothetically deadlift the world's largest cheeseburger?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 80,
+        "plurality_share": 0.675,
+        "runnerup_gap": 0.35000000000000003,
+        "vote_entropy": 0.9097361225311662,
+        "n_unique": 2,
+        "p_correct_votes": 0.325,
+        "correctness_lead": -0.35000000000000003,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.006023611514192422
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.02772533659419533
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.017528597602356137
+      }
+    },
+    {
+      "qi": 26,
+      "question": "Can preventive healthcare reduce STI transmission?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 27,
+      "question": "Do German Shepherds worry about the Abitur?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 28,
+      "question": "Do people who smoke Djarum's like cloves?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 84,
+        "plurality_share": 0.7023809523809523,
+        "runnerup_gap": 0.4047619047619047,
+        "vote_entropy": 0.8783609387702276,
+        "n_unique": 2,
+        "p_correct_votes": 0.2976190476190476,
+        "correctness_lead": -0.4047619047619047,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.0097559882671827
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.08043034455237834
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03283900925872113
+      }
+    },
+    {
+      "qi": 29,
+      "question": "Can you swim to Miami from New York?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.6046511627906976,
+        "runnerup_gap": 0.20930232558139533,
+        "vote_entropy": 0.9681647320759545,
+        "n_unique": 2,
+        "p_correct_votes": 0.6046511627906976,
+        "correctness_lead": 0.20930232558139533,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": -0.005473066965244171
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05758659844341767
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0029003442889819204
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Was Hillary Clinton's deputy chief of staff in 2009 baptised?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.8390804597701149,
+        "runnerup_gap": 0.6781609195402298,
+        "vote_entropy": 0.6365048555378351,
+        "n_unique": 2,
+        "p_correct_votes": 0.8390804597701149,
+        "correctness_lead": 0.6781609195402298,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06959225538966317
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.025425687811206087
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 31,
+      "question": "Does Capricorn astrology symbol have all of the parts of a chimera?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 83,
+        "plurality_share": 0.5301204819277109,
+        "runnerup_gap": 0.060240963855421714,
+        "vote_entropy": 0.9973806632063371,
+        "n_unique": 2,
+        "p_correct_votes": 0.46987951807228917,
+        "correctness_lead": -0.060240963855421714,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": -0.05746720313506377
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.07097548188256732
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.09023173200207812
+      }
+    },
+    {
+      "qi": 32,
+      "question": "Will a Euro sink in water?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 83,
+        "plurality_share": 0.5662650602409639,
+        "runnerup_gap": 0.13253012048192775,
+        "vote_entropy": 0.9872927315785849,
+        "n_unique": 2,
+        "p_correct_votes": 0.43373493975903615,
+        "correctness_lead": -0.13253012048192775,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.06529942081303682
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 33,
+      "question": "Are cucumbers often found in desert?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.7954545454545454,
+        "vote_entropy": 0.47615884455807067,
+        "n_unique": 2,
+        "p_correct_votes": 0.8977272727272727,
+        "correctness_lead": 0.7954545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.13815331874362674
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.6546536707079773
+      }
+    },
+    {
+      "qi": 34,
+      "question": "Is a Halloween cruise in the Gulf of Mexico likely to be safe from storms?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6136363636363636,
+        "runnerup_gap": 0.2272727272727273,
+        "vote_entropy": 0.9624127354629923,
+        "n_unique": 2,
+        "p_correct_votes": 0.38636363636363635,
+        "correctness_lead": -0.2272727272727273,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.01332452002722251
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.03191798071750516
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.009813160292713953
+      }
+    },
+    {
+      "qi": 35,
+      "question": "Were veterans of the War in Vietnam (1945–46) given free education by the Soviet Union?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 77,
+        "plurality_share": 0.6493506493506493,
+        "runnerup_gap": 0.2987012987012987,
+        "vote_entropy": 0.9346466439786691,
+        "n_unique": 2,
+        "p_correct_votes": 0.6493506493506493,
+        "correctness_lead": 0.2987012987012987,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.27275339503761054
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.03283961967749586
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.05495842601026245
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Do carpenters understand geometry?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.9999999999999999
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 37,
+      "question": "Would a greyhound be able to outrun a greyhound bus?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 65,
+        "plurality_share": 0.6615384615384615,
+        "runnerup_gap": 0.32307692307692304,
+        "vote_entropy": 0.9233388889944429,
+        "n_unique": 2,
+        "p_correct_votes": 0.6615384615384615,
+        "correctness_lead": 0.32307692307692304,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": 0.08253454424025379
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.001575170996232896
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.014369397929126908
+      }
+    },
+    {
+      "qi": 38,
+      "question": "If you were on a diet, would you have to skip lunch at McDonald's?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 85,
+        "plurality_share": 0.6352941176470588,
+        "runnerup_gap": 0.27058823529411763,
+        "vote_entropy": 0.9465202215633437,
+        "n_unique": 2,
+        "p_correct_votes": 0.6352941176470588,
+        "correctness_lead": 0.27058823529411763,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.009178408886605073
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.09664280270752017
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06115102163765257
+      }
+    },
+    {
+      "qi": 39,
+      "question": "Would Republic of Korea Navy dominate Eritrea navy?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.5862068965517241,
+        "runnerup_gap": 0.17241379310344823,
+        "vote_entropy": 0.9784493292686189,
+        "n_unique": 2,
+        "p_correct_votes": 0.41379310344827586,
+        "correctness_lead": -0.17241379310344823,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.013059884162607364
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.3402560169541282
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.001538632565922933
+      }
+    }
+  ]
+}

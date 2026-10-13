@@ -1,0 +1,13 @@
+nohup: ignoring input
+probing 250 candidates (k=8) for 0.65 ≤ p̂ ≤ 1.01 ...
+selection: 40/74 probed passed 0.65 ≤ p̂ ≤ 1.01 (mean p̂ of kept = 0.98)
+benchmark=truthfulqa  câu=40  coupling grid=[0.0, 0.25, 0.5, 0.75, 1.0]  ~11000 debate calls (N=11, R=5)
+
+g=0.00 | indep=0.78  debate=0.75  lift=-0.03  collapse=-0.01
+g=0.25 | indep=0.75  debate=0.75  lift=+0.00  collapse=+0.07
+g=0.50 | indep=0.78  debate=0.75  lift=-0.03  collapse=+0.03
+g=0.75 | indep=0.80  debate=0.72  lift=-0.08  collapse=+0.04
+g=1.00 | indep=0.78  debate=0.75  lift=-0.03  collapse=+0.07
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6_phase_transition_llm_truthfulqa_N11_easy0.65.csv
+no sign flip in this grid — widen --grid or n-questions

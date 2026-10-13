@@ -1,0 +1,13 @@
+/home/alex/trucn/venv/bin/python -u /home/alex/trucn/manew/mas-mean-field/experiments/exp6_phase_transition_llm/run.py --benchmark aqua --config /home/alex/trucn/manew/mas-mean-field/src/config/scaleup_qwen_gpu1.yaml --n-questions 40 --n-agents 11 --grid 0 1 2 --min-p 0.6 --max-p 0.95 --probe-k 5 --candidates 250 --tag tier3_qwen_easy
+
+probing 250 candidates (k=5) for 0.6 ≤ p̂ ≤ 0.95 ...
+selection: 40/205 probed passed 0.6 ≤ p̂ ≤ 0.95 (mean p̂ of kept = 0.69)
+benchmark=aqua  questions=40  coupling grid=[0.0, 1.0, 2.0]  ~6600 debate calls (N=11, R=5)
+
+g=0.00 | p₁=0.46 indep=0.45 debate=0.47 | lift=+0.03 [+0.00,+0.07]  McN=1.000 | ρ=0.59 collapse=+0.01
+g=1.00 | p₁=0.47 indep=0.47 debate=0.47 | lift=+0.00 [+0.00,+0.00]  McN=1.000 | ρ=0.97 collapse=+0.32
+g=2.00 | p₁=0.45 indep=0.45 debate=0.42 | lift=-0.03 [-0.07,+0.00]  McN=1.000 | ρ=0.96 collapse=+0.31
+
+wrote /home/alex/trucn/manew/mas-mean-field/results/tables/exp6_phase_transition_llm_aqua_N11_tier3_qwen_easy.csv
+realized regime: p_single≈0.46 → HARD (p<½ → predict lift>0 as ρ↑)
+strongest herding g=1.0 (ρ=0.97): lift=+0.00 [+0.00,+0.00] → FLIP law consistent-but-n.s.

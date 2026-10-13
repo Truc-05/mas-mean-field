@@ -1,0 +1,1 @@
+{"meta": {"regime": "easy", "N": 11, "R": 2, "debate_rounds": 2, "model": "qwen2.5:7b", "coupling": 1.0, "actions": ["single", "indep_vote", "diversity", "shared_ev", "debate"], "shared_ev_cond": "shared_correct_strong"}, "questions": [{"qid": 0, "K": 4, "reps": {"single": [1.0, 1.0], "indep_vote": [1, 1], "diversity": [1, 1], "shared_ev": [1, 1], "debate": [1, 1]}}]}

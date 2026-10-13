@@ -1,0 +1,29 @@
+clues: reusing exp6c_clues_hard.json (have 40, need 40)
+============================================================================
+ACTION-ENRICHMENT (A1) — regime=hard  N=11  R=8  debate_rounds=3  model=llama3.1:8b
+A0=['single', 'indep_vote', 'diversity', 'shared_ev', 'debate']+stop   NEW=['a_copy', 'a_common', 'a_dissent']   coupling=1.0
+questions [global 20:40] of 40   tag=llama8b_s1   base_url=http://localhost:11444/v1
+emits per-q per-replicate A1 correctness; gate computed by action_enrich_analyze.py
+============================================================================
+[q20 K=4] single=0.50  indep_vote=0.62  diversity=1.00  shared_ev=1.00  debate=0.50  a_copy=0.38  a_common=1.00  a_dissent=0.00
+[q21 K=4] single=0.12  indep_vote=0.00  diversity=0.12  shared_ev=0.12  debate=0.00  a_copy=0.00  a_common=0.12  a_dissent=0.38
+[q22 K=4] single=0.01  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00  a_copy=0.00  a_common=0.00  a_dissent=0.00
+[q23 K=4] single=0.99  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00  a_copy=1.00  a_common=1.00  a_dissent=1.00
+[q24 K=4] single=0.93  indep_vote=1.00  diversity=1.00  shared_ev=0.88  debate=1.00  a_copy=1.00  a_common=1.00  a_dissent=0.75
+[q25 K=4] single=0.01  indep_vote=0.00  diversity=0.25  shared_ev=0.00  debate=0.00  a_copy=0.00  a_common=0.00  a_dissent=0.12
+[q26 K=4] single=0.06  indep_vote=0.00  diversity=0.12  shared_ev=0.00  debate=0.00  a_copy=0.00  a_common=0.00  a_dissent=0.00
+[q27 K=4] single=0.28  indep_vote=0.12  diversity=1.00  shared_ev=0.38  debate=0.00  a_copy=0.00  a_common=0.38  a_dissent=0.00
+[q28 K=4] single=0.52  indep_vote=0.62  diversity=1.00  shared_ev=0.88  debate=0.75  a_copy=0.88  a_common=1.00  a_dissent=0.38
+[q29 K=4] single=0.01  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00  a_copy=0.00  a_common=0.00  a_dissent=0.00
+[q30 K=4] single=0.94  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00  a_copy=1.00  a_common=1.00  a_dissent=1.00
+[q31 K=4] single=0.08  indep_vote=0.00  diversity=0.00  shared_ev=0.25  debate=0.00  a_copy=0.12  a_common=0.12  a_dissent=0.00
+[q32 K=4] single=0.65  indep_vote=1.00  diversity=0.62  shared_ev=0.88  debate=1.00  a_copy=1.00  a_common=1.00  a_dissent=0.38
+[q33 K=4] single=0.03  indep_vote=0.00  diversity=0.00  shared_ev=0.38  debate=0.00  a_copy=0.00  a_common=0.50  a_dissent=0.25
+[q34 K=4] single=0.15  indep_vote=0.00  diversity=0.00  shared_ev=1.00  debate=0.00  a_copy=0.00  a_common=1.00  a_dissent=0.12
+[q35 K=4] single=0.07  indep_vote=0.00  diversity=0.00  shared_ev=0.00  debate=0.00  a_copy=0.00  a_common=0.12  a_dissent=0.25
+[q36 K=4] single=0.08  indep_vote=0.00  diversity=0.12  shared_ev=0.75  debate=0.00  a_copy=0.12  a_common=0.88  a_dissent=0.12
+[q37 K=4] single=0.03  indep_vote=0.00  diversity=0.00  shared_ev=0.38  debate=0.00  a_copy=0.00  a_common=0.12  a_dissent=0.00
+[q38 K=4] single=0.67  indep_vote=1.00  diversity=0.12  shared_ev=1.00  debate=1.00  a_copy=1.00  a_common=1.00  a_dissent=0.25
+[q39 K=4] single=0.84  indep_vote=1.00  diversity=1.00  shared_ev=1.00  debate=1.00  a_copy=1.00  a_common=1.00  a_dissent=1.00
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/actionenrich_llama8b_s1_hard_N11.json  (20 questions)

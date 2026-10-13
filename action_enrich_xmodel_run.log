@@ -1,0 +1,136 @@
+[08-19 12:28:39] ======== ACTION-ENRICHMENT CROSS-MODEL run START (gemma, llama, mistral) ========
+[08-19 12:28:42] server :11443 up (CUDA=1)
+[08-19 12:28:45] server :11444 up (CUDA=0)
+[08-19 12:28:45] >>>> MODEL gemma9b  (s0->:11443 via debate_gemma_gpu1, s1->:11444 via debate_gemma_gpu0)
+[08-19 15:34:05]    << gemma9b s0 DONE rc=0
+[08-19 15:34:05]    << gemma9b s1 DONE rc=0
+[08-19 15:34:05]    >> analyze gemma9b
+==============================================================================
+ACTION-ENRICHMENT GATE — regime=hard  N=11  R=8  Q=40  model=gemma2:9b
+files=2  A0=['single', 'indep_vote', 'diversity', 'shared_ev', 'debate']+stop  NEW=['a_copy', 'a_common', 'a_dissent']
+==============================================================================
+
+PER-ACTION mean accuracy (fixed policy):
+   a_common     0.728  <-- NEW
+   shared_ev    0.706  <-- A0 best
+   diversity    0.553
+   indep_vote   0.531
+   single       0.520
+   debate       0.506
+   a_copy       0.506  <-- NEW
+   a_dissent    0.459  <-- NEW
+   stop         0.000
+
+FROZEN REPORT (all three):
+   A_bestfixed(A0) = 0.706  (shared_ev)
+   A_bestfixed(A1) = 0.728  (a_common)
+   Δ_fixed         = +0.022   CI[+0.000,+0.050]   (NEW operator is best-fixed → standalone win)
+   A_oracle(A0)    = 0.738     A_oracle(A1) = 0.757     Δ_oracle = +0.019
+   H^CV(A0)        = +0.009   [A_or_cf=0.716 − A_bf=0.706]  (K1-prior ≈ +0.003 hard)
+   H^CV_new(A1)    = -0.016   [A_or_cf=0.713 − A_bf=0.728]  CI[-0.056,+0.029]
+
+   >>> GATE (H^CV_hard,new = -0.016):  KILL CDCR — phenomenon real, no intervention leverage (retain K2/K2.5 chain)
+   >>> SECONDARY WIN: 'a_common' beats every A0 baseline by +0.022 → standalone algorithm contribution (validate cross-model next).
+
+PRE-REGISTERED mechanism-matching (targeted-action × mechanism):
+   copying-heavy q (n=1): a_copy gain=-1.000  a_common gain=+0.000  Δ(copy−common)=-1.000 CI[-1.000,-1.000]
+   common-heavy  q (n=39): a_common gain=-0.010  a_copy gain=-0.212  Δ(common−copy)=+0.202 CI[+0.096,+0.324]
+   prediction (both Δ>0) does NOT hold — interaction is the publishable claim, weigh above marginal accuracy.
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/actionenrich_gate_gemma9b.json
+[08-19 15:34:05]    done gemma9b -> results/tables/actionenrich_gate_gemma9b.json
+[08-19 15:34:05] >>>> MODEL llama8b  (s0->:11443 via debate_llama_gpu1, s1->:11444 via debate_llama_gpu0)
+[08-20 05:50:24]    << llama8b s0 DONE rc=0
+[08-20 05:50:24]    << llama8b s1 DONE rc=0
+[08-20 05:50:24]    >> analyze llama8b
+==============================================================================
+ACTION-ENRICHMENT GATE — regime=hard  N=11  R=8  Q=40  model=llama3.1:8b
+files=2  A0=['single', 'indep_vote', 'diversity', 'shared_ev', 'debate']+stop  NEW=['a_copy', 'a_common', 'a_dissent']
+==============================================================================
+
+PER-ACTION mean accuracy (fixed policy):
+   a_common     0.547  <-- NEW
+   shared_ev    0.531  <-- A0 best
+   diversity    0.419
+   a_dissent    0.322  <-- NEW
+   single       0.277
+   a_copy       0.259  <-- NEW
+   indep_vote   0.256
+   debate       0.247
+   stop         0.000
+
+FROZEN REPORT (all three):
+   A_bestfixed(A0) = 0.531  (shared_ev)
+   A_bestfixed(A1) = 0.547  (a_common)
+   Δ_fixed         = +0.016   CI[+0.000,+0.066]   (NEW operator is best-fixed → standalone win)
+   A_oracle(A0)    = 0.600     A_oracle(A1) = 0.642     Δ_oracle = +0.042
+   H^CV(A0)        = +0.045   [A_or_cf=0.576 − A_bf=0.531]  (K1-prior ≈ +0.003 hard)
+   H^CV_new(A1)    = +0.049   [A_or_cf=0.596 − A_bf=0.547]  CI[-0.011,+0.102]
+
+   >>> GATE (H^CV_hard,new = +0.049):  WEAK / CONDITIONAL — continue only if complementarity is interpretable
+   >>> SECONDARY WIN: 'a_common' beats every A0 baseline by +0.016 → standalone algorithm contribution (validate cross-model next).
+
+PRE-REGISTERED mechanism-matching (targeted-action × mechanism):
+   copying-heavy q (n=0): a_copy gain=+nan  a_common gain=+nan  Δ(copy−common)=+nan CI[+nan,+nan]
+   common-heavy  q (n=40): a_common gain=-0.053  a_copy gain=-0.341  Δ(common−copy)=+0.288 CI[+0.184,+0.397]
+   prediction (both Δ>0) does NOT hold — interaction is the publishable claim, weigh above marginal accuracy.
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/actionenrich_gate_llama8b.json
+[08-20 05:50:24]    done llama8b -> results/tables/actionenrich_gate_llama8b.json
+[08-20 05:50:24] >>>> MODEL mistral7b  (s0->:11443 via debate_mistral_gpu1, s1->:11444 via debate_mistral_gpu0)
+[08-20 15:45:16]    << mistral7b s0 DONE rc=0
+[08-20 15:48:13]    << mistral7b s1 DONE rc=0
+[08-20 15:48:13]    >> analyze mistral7b
+==============================================================================
+ACTION-ENRICHMENT GATE — regime=hard  N=11  R=8  Q=40  model=mistral:7b
+files=2  A0=['single', 'indep_vote', 'diversity', 'shared_ev', 'debate']+stop  NEW=['a_copy', 'a_common', 'a_dissent']
+==============================================================================
+
+PER-ACTION mean accuracy (fixed policy):
+   shared_ev    0.509  <-- A0 best
+   diversity    0.506
+   a_common     0.500  <-- NEW
+   indep_vote   0.487
+   a_dissent    0.466  <-- NEW
+   single       0.461
+   debate       0.428
+   a_copy       0.403  <-- NEW
+   stop         0.000
+
+FROZEN REPORT (all three):
+   A_bestfixed(A0) = 0.509  (shared_ev)
+   A_bestfixed(A1) = 0.509  (shared_ev)
+   Δ_fixed         = +0.000   CI[+0.000,+0.016]   
+   A_oracle(A0)    = 0.576     A_oracle(A1) = 0.589     Δ_oracle = +0.012
+   H^CV(A0)        = +0.042   [A_or_cf=0.551 − A_bf=0.509]  (K1-prior ≈ +0.003 hard)
+   H^CV_new(A1)    = +0.051   [A_or_cf=0.561 − A_bf=0.509]  CI[-0.001,+0.076]
+
+   >>> GATE (H^CV_hard,new = +0.051):  ACTIONABILITY RESTORED — fresh mechanism probes worthwhile → K3
+
+PRE-REGISTERED mechanism-matching (targeted-action × mechanism):
+   copying-heavy q (n=7): a_copy gain=-0.468  a_common gain=-0.021  Δ(copy−common)=-0.446 CI[-0.768,-0.143]
+   common-heavy  q (n=33): a_common gain=-0.088  a_copy gain=-0.111  Δ(common−copy)=+0.023 CI[-0.068,+0.110]
+   prediction (both Δ>0) does NOT hold — interaction is the publishable claim, weigh above marginal accuracy.
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/actionenrich_gate_mistral7b.json
+[08-20 15:48:14]    done mistral7b -> results/tables/actionenrich_gate_mistral7b.json
+[08-20 15:48:14] tore down :11443 (pid 1447185)
+[08-20 15:48:14] tore down :11444 (pid 1447426)
+[08-20 15:48:14] >> CROSS-MODEL SUMMARY (qwen + gemma + llama + mistral)
+==========================================================================================
+ACTION-ENRICHMENT CROSS-MODEL VALIDATION — standalone win `a_common` (HARD, N=11, R=8)
+paired a_common lift over each model's own best-fixed A0 baseline; fixed qwen clue pool
+==========================================================================================
+
+model           Q     bestA0     A0 a_common    lift               CI95 rank  Hcv_new
+qwen2.5:7b     40  shared_ev  0.362    0.400  +0.037 [-0.009,+0.087]     1   +0.035
+gemma2:9b      40  shared_ev  0.706    0.728  +0.022 [+0.000,+0.050]     1   -0.016
+llama3.1:8b    40  shared_ev  0.531    0.547  +0.016 [-0.037,+0.066]     1   +0.049
+mistral:7b     40  shared_ev  0.509    0.500  -0.009 [-0.037,+0.019]     3   +0.051
+------------------------------------------------------------------------------------------
+POOLED        160   (paired)                  +0.016 [-0.003,+0.037] 
+
+replication: a_common lift > 0 in 3/4 models (0/4 with CI excluding 0); a_common is top-ranked operator in 3/4.
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/actionenrich_xmodel_summary.json
+[08-20 15:48:14] ======== ACTION-ENRICHMENT CROSS-MODEL run COMPLETE — see action_enrich_xmodel_run.log tail ========

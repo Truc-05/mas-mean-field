@@ -1,0 +1,66 @@
+========================================================================
+EXP6C PREREGISTRATION — regime=easy  N=11  model=qwen2.5:7b
+H1: ρ(none) ≤ ρ(shared,weak) ≤ ρ(shared,strong);  ρ(shared) > ρ(indep)
+H2: ShareEffect = P_maj(shared) − P_maj(indep) at matched quality;
+    predict >0 for hard (p<½), <0 for easy (p>½).
+conditions: ['none', 'shared_correct_weak', 'shared_correct_strong', 'indep_correct_strong', 'shared_misleading_weak', 'shared_misleading_strong', 'indep_misleading_strong']
+primary ρ = within-question pairwise correctness corr; 2ndary Fleiss/pair-agree
+========================================================================
+selected 40 easy questions
+  clues easy q0: correct=11 mis={1:4,2:4,3:4}
+  clues easy q1: correct=11 mis={1:4,2:4,3:4}
+  clues easy q2: correct=11 mis={1:4,2:4,3:4}
+  clues easy q3: correct=11 mis={1:4,2:4,3:4}
+  clues easy q4: correct=11 mis={1:4,2:4,3:4}
+  clues easy q5: correct=11 mis={1:4,2:4,3:4}
+  clues easy q6: correct=11 mis={1:4,2:4,3:4}
+  clues easy q7: correct=11 mis={1:4,2:4,3:4}
+  clues easy q8: correct=11 mis={1:4,2:4,3:4}
+  clues easy q9: correct=11 mis={1:4,2:4,3:4}
+  clues easy q10: correct=11 mis={1:4,2:4,3:4}
+  clues easy q11: correct=11 mis={1:4,2:4,3:4}
+  clues easy q12: correct=11 mis={1:4,2:4,3:4}
+  clues easy q13: correct=11 mis={1:4,2:4,3:4}
+  clues easy q14: correct=11 mis={1:4,2:4,3:4}
+  clues easy q15: correct=11 mis={1:4,2:4,3:4}
+  clues easy q16: correct=11 mis={1:4,2:4,3:4}
+  clues easy q17: correct=11 mis={1:4,2:4,3:4}
+  clues easy q18: correct=11 mis={1:4,2:4,3:4}
+  clues easy q19: correct=11 mis={1:4,2:4,3:4}
+  clues easy q20: correct=11 mis={1:4,2:4,3:4}
+  clues easy q21: correct=11 mis={1:4,2:4,3:4}
+  clues easy q22: correct=11 mis={1:4,2:4,3:4}
+  clues easy q23: correct=11 mis={1:4,2:4,3:4}
+  clues easy q24: correct=11 mis={1:4,2:4,3:4}
+  clues easy q25: correct=11 mis={1:4,2:4,3:4}
+  clues easy q26: correct=11 mis={1:4,2:4,3:4}
+  clues easy q27: correct=11 mis={1:4,2:4,3:4}
+  clues easy q28: correct=11 mis={1:4,2:4,3:4}
+  clues easy q29: correct=11 mis={1:4,2:4,3:4}
+  clues easy q30: correct=11 mis={1:4,2:4,3:4}
+  clues easy q31: correct=11 mis={1:4,2:4,3:4}
+  clues easy q32: correct=11 mis={1:4,2:4,3:4}
+  clues easy q33: correct=11 mis={1:4,2:4,3:4}
+  clues easy q34: correct=11 mis={1:4,2:4,3:4}
+  clues easy q35: correct=11 mis={1:4,2:4,3:4}
+  clues easy q36: correct=11 mis={1:4,2:4,3:4}
+  clues easy q37: correct=11 mis={1:4,2:4,3:4}
+  clues easy q38: correct=11 mis={1:4,2:4,3:4}
+  clues easy q39: correct=11 mis={1:4,2:4,3:4}
+clues: wrote exp6c_clues_easy.json
+[none                      ] p₁=0.83 P_maj=0.88 ρ_err=-0.10 fleiss=0.75 agree=0.90
+[shared_correct_weak       ] p₁=0.87 P_maj=0.85 ρ_err=-0.10 fleiss=0.74 agree=0.92
+[shared_correct_strong     ] p₁=0.83 P_maj=0.82 ρ_err=-0.10 fleiss=0.83 agree=0.93
+[indep_correct_strong      ] p₁=0.86 P_maj=0.88 ρ_err=-0.10 fleiss=0.73 agree=0.91
+[shared_misleading_weak    ] p₁=0.72 P_maj=0.75 ρ_err=-0.10 fleiss=0.72 agree=0.81
+[shared_misleading_strong  ] p₁=0.68 P_maj=0.65 ρ_err=-0.10 fleiss=0.80 agree=0.85
+[indep_misleading_strong   ] p₁=0.72 P_maj=0.75 ρ_err=-0.10 fleiss=0.67 agree=0.80
+
+------------------------------------------------------------------------
+realized single-agent p (none) = 0.834  [p>½ → expect ShareEffect<0]
+[correct   ] ρ: none=-0.10 shared_w=-0.10 shared_s=-0.10 indep=-0.10  H1=no
+             ShareEffect(P_maj shared−indep)=-0.050 [-0.125,+0.000] 
+[misleading] ρ: none=-0.10 shared_w=-0.10 shared_s=-0.10 indep=-0.10  H1=no
+             ShareEffect(P_maj shared−indep)=-0.100 [-0.200,-0.025]*
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_shared_context_easy_N11.csv

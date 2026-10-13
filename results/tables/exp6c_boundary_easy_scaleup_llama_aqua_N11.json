@@ -1,0 +1,1135 @@
+{
+  "regime": "easy",
+  "N": 11,
+  "R": 8,
+  "model": "llama3.1:8b",
+  "model_tag": "scaleup_llama_aqua",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "The original price of an item is discounted 22%. A customer buys the item at this discounted price using a $20-off coupon. There is no tax on the item, and this was the only item the customer bought. If the customer paid $1.90 more than half the original price of the item, what was the original price of the item?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.36363636363636365,
+        "runnerup_gap": 0.10227272727272729,
+        "vote_entropy": 2.047152176959283,
+        "n_unique": 5,
+        "p_correct_votes": 0.045454545454545456,
+        "correctness_lead": -0.3181818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.4285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.7864973759070051
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06932165261328636
+      }
+    },
+    {
+      "qi": 1,
+      "question": "Find out which of the following values is the multiple of X, if it is divisible by 9 and 12?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 2,
+      "question": "In how many ways can the letters of the word \"PROBLEC\" be rearranged to make 7 letter words such that none of the letters repeat?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.875,
+        "runnerup_gap": 0.7613636363636364,
+        "vote_entropy": 0.5985015665647856,
+        "n_unique": 3,
+        "p_correct_votes": 0.11363636363636363,
+        "correctness_lead": -0.7613636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.01063932690583505
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.39197109257877677
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.09295421811021018
+      }
+    },
+    {
+      "qi": 3,
+      "question": "Let A and B be independent events with P (A) = 0.2 and P(B) = 0.8. Find P(A/B)?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5568181818181818,
+        "runnerup_gap": 0.3522727272727272,
+        "vote_entropy": 1.7234940594827755,
+        "n_unique": 5,
+        "p_correct_votes": 0.5568181818181818,
+        "correctness_lead": 0.3522727272727272,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.06662535337859496
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.1271284390560305
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.0559301724194236
+      }
+    },
+    {
+      "qi": 4,
+      "question": "A jeep travels a certain distance taking 6 hours in the forward journey. During the return journey, it increased its speed by 12km/hr and took 4 hours. What is the distance travelled by the jeep?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.42045454545454547,
+        "runnerup_gap": 0.04545454545454547,
+        "vote_entropy": 1.8459579777251713,
+        "n_unique": 5,
+        "p_correct_votes": 0.42045454545454547,
+        "correctness_lead": 0.04545454545454547,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": -0.0160892410971817
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.473787651707825
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.033057496703153
+      }
+    },
+    {
+      "qi": 5,
+      "question": "On a map, the length of the road from Town F to Town G is measured to be 20 inches. On this map, 1/4 inch represents an actual distance of 10 miles. What is the actual distance, in miles, from Town F to Town G along this road?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.32954545454545453,
+        "runnerup_gap": 0.0,
+        "vote_entropy": 1.727967578466705,
+        "n_unique": 5,
+        "p_correct_votes": 0.32954545454545453,
+        "correctness_lead": 0.0,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": 0.0032391810097432043
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.4211850136025941
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.06833128730224979
+      }
+    },
+    {
+      "qi": 6,
+      "question": "The monthly salary S of a shop assistant is the sum of a fixed salary of $500 plus 5% of all monthly sales. What should the monthly sales be so that her monthly salary reaches $1500?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4431818181818182,
+        "runnerup_gap": 0.1477272727272727,
+        "vote_entropy": 1.9550995819940717,
+        "n_unique": 5,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.3522727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.04712490516900838
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.5506403000536602
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.04606904061613299
+      }
+    },
+    {
+      "qi": 7,
+      "question": "An aeroplane flies along the four sides of a square at the speeds of 200, 400, 600 and 800km/hr. Find the average speed of the plane around the field?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4090909090909091,
+        "runnerup_gap": 0.011363636363636409,
+        "vote_entropy": 1.8013990260067578,
+        "n_unique": 5,
+        "p_correct_votes": 0.3977272727272727,
+        "correctness_lead": -0.011363636363636409,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": -0.06972004475445405
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 1.0000000000000002
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.11498847035081619
+      }
+    },
+    {
+      "qi": 8,
+      "question": "If 120 is reduced to 96, what is the reduction percent?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6931818181818182,
+        "runnerup_gap": 0.5681818181818182,
+        "vote_entropy": 1.462330796395934,
+        "n_unique": 5,
+        "p_correct_votes": 0.6931818181818182,
+        "correctness_lead": 0.5681818181818182,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.10105254702654616
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.18071502052997246
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01151731968868353
+      }
+    },
+    {
+      "qi": 9,
+      "question": "I know a 5 digit number having a property that with a 1 after it, it is three times as large as it would be with a 1 before it.\nWhat is that number?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6477272727272727,
+        "runnerup_gap": 0.4431818181818181,
+        "vote_entropy": 1.4974680241814375,
+        "n_unique": 5,
+        "p_correct_votes": 0.6477272727272727,
+        "correctness_lead": 0.4431818181818181,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.05318074742694999
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03559672017033999
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0552446364722555
+      }
+    },
+    {
+      "qi": 10,
+      "question": "There are 10 oranges in a basket. Find the no. of ways in which 2 oranges are chosen from the basket?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4318181818181818,
+        "runnerup_gap": 0.13636363636363635,
+        "vote_entropy": 1.7336208906727675,
+        "n_unique": 5,
+        "p_correct_votes": 0.23863636363636365,
+        "correctness_lead": -0.19318181818181818,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.036829757648170335
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 11,
+      "question": "Train A leaves a station every 16 minutes and Train B leaves every 17 minutes. If both trains just left the station simultaneously, how long until they do so again?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3409090909090909,
+        "runnerup_gap": 0.011363636363636354,
+        "vote_entropy": 2.09991978058514,
+        "n_unique": 5,
+        "p_correct_votes": 0.13636363636363635,
+        "correctness_lead": -0.20454545454545453,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.04511586600103906
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.7046557170035703
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.07763247191787224
+      }
+    },
+    {
+      "qi": 12,
+      "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years. What is definitely the difference between R and Q's age?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.375,
+        "vote_entropy": 1.413878344470245,
+        "n_unique": 5,
+        "p_correct_votes": 0.6363636363636364,
+        "correctness_lead": 0.375,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.015855656676762715
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.1570054776347107
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05811204476633151
+      }
+    },
+    {
+      "qi": 13,
+      "question": "In IPL season, Sachin current batting average is 51. In the finals, he scores 78 runs, then is batting average will be 54. Find out the total number of matches played by Sachin in this season.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.36363636363636365,
+        "runnerup_gap": 0.13636363636363638,
+        "vote_entropy": 2.1831253733445823,
+        "n_unique": 5,
+        "p_correct_votes": 0.36363636363636365,
+        "correctness_lead": 0.13636363636363638,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": -0.03903377341734383
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.30517642745040796
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.07607133370017043
+      }
+    },
+    {
+      "qi": 14,
+      "question": "The bus fare for two persons for travelling between Agra and Aligarh id four-thirds the train fare between the same places for one person. The total fare paid by 6 persons travelling by bus and 8 persons travelling by train between the two places is Rs.1512. Find the train fare between the two places for one person?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8522727272727273,
+        "runnerup_gap": 0.7727272727272727,
+        "vote_entropy": 0.8507069170036863,
+        "n_unique": 5,
+        "p_correct_votes": 0.8522727272727273,
+        "correctness_lead": 0.7727272727272727,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.014097439780440308
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02857142857142857
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08914680600528566
+      }
+    },
+    {
+      "qi": 15,
+      "question": "Suppose you want to arrange your English, Hindi, Mathematics, History, Geography and Science books on a shelf. In how many ways can you do it ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7954545454545454,
+        "runnerup_gap": 0.6704545454545454,
+        "vote_entropy": 1.006494726667736,
+        "n_unique": 4,
+        "p_correct_votes": 0.7954545454545454,
+        "correctness_lead": 0.6704545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.04946776009997116
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.006234625658880903
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.0037183154711606923
+      }
+    },
+    {
+      "qi": 16,
+      "question": "The greatest common factor of two positive integers is 11. The least common multiple of these two integers is 7700. If one of the integers is 350, what is the other?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6477272727272727,
+        "runnerup_gap": 0.375,
+        "vote_entropy": 1.2075530359202375,
+        "n_unique": 3,
+        "p_correct_votes": 0.2727272727272727,
+        "correctness_lead": -0.375,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.07734247969071194
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.5258433702309436
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.08238477095840767
+      }
+    },
+    {
+      "qi": 17,
+      "question": "M = abc is a three digit number and N = cba, if M > N and M - N + 396c = 990. Then how many values of M are more than 300.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5113636363636364,
+        "runnerup_gap": 0.09090909090909088,
+        "vote_entropy": 1.3839992167592294,
+        "n_unique": 5,
+        "p_correct_votes": 0.42045454545454547,
+        "correctness_lead": -0.09090909090909088,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": -0.05077487467545681
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.3222603320446332
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.027558071296364773
+      }
+    },
+    {
+      "qi": 18,
+      "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 extra, each. The number of those who attended the picnic was",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4090909090909091,
+        "runnerup_gap": 0.09090909090909094,
+        "vote_entropy": 1.8935618949645663,
+        "n_unique": 5,
+        "p_correct_votes": 0.125,
+        "correctness_lead": -0.2840909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.04928591468999249
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.17524913753928317
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.033631867251150915
+      }
+    },
+    {
+      "qi": 19,
+      "question": "A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephews. If each daughter receives four times as much as each nephew, and each son receives five as much as each nephew. How much does each daughter receive ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3068181818181818,
+        "runnerup_gap": 0.011363636363636354,
+        "vote_entropy": 2.1302565474446014,
+        "n_unique": 5,
+        "p_correct_votes": 0.125,
+        "correctness_lead": -0.18181818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.016428638229997496
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.3854257346089528
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.03459442727544473
+      }
+    },
+    {
+      "qi": 20,
+      "question": "In a bag of red and green sweets, the ratio of red sweets to green sweets is 3:4. If the bag contains 120 green sweets, how many red sweets are there?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3068181818181818,
+        "runnerup_gap": 0.011363636363636354,
+        "vote_entropy": 2.0169568749524087,
+        "n_unique": 5,
+        "p_correct_votes": 0.14772727272727273,
+        "correctness_lead": -0.1590909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.06535242169102086
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.7508008511223836
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.06141200971520156
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Mark told John \"If you give me half your money I will have Rs.75. John said, \"if you give me one third of your money, I will have Rs.75/-. How much money did John have ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.4545454545454546,
+        "vote_entropy": 1.5299154353775508,
+        "n_unique": 4,
+        "p_correct_votes": 0.625,
+        "correctness_lead": 0.4545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.032261154251760384
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.008062472076862797
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.162546544074331
+      }
+    },
+    {
+      "qi": 22,
+      "question": "A point on the edge of a fan blade that is rotating in a plane 10 centimeters from the center of the fan. What is the distance traveled, in centimeters, by this point after 30 seconds when the fan runs at the rate of 300 revolutions per minutes?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.32954545454545453,
+        "runnerup_gap": 0.05681818181818182,
+        "vote_entropy": 2.1700444913279253,
+        "n_unique": 5,
+        "p_correct_votes": 0.19318181818181818,
+        "correctness_lead": -0.13636363636363635,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.036194903788964485
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.26590373713474996
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": -0.0025089547541193207
+      }
+    },
+    {
+      "qi": 23,
+      "question": "A paper is in a square form whose one side is 20 cm. Two semi circles are drawn on its opposites as diameters. If these semi circles are cut down what is the area of the remaining paper?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7954545454545454,
+        "runnerup_gap": 0.6363636363636364,
+        "vote_entropy": 0.8872409357400916,
+        "n_unique": 3,
+        "p_correct_votes": 0.7954545454545454,
+        "correctness_lead": 0.6363636363636364,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.0471976478339052
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.07426076808759477
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0029003442889819204
+      }
+    },
+    {
+      "qi": 24,
+      "question": "8 man work for 6 days to complete a work. How many men are required to complete same work in 1/2 day.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.4883720930232558,
+        "runnerup_gap": 0.2558139534883721,
+        "vote_entropy": 1.8449950864681524,
+        "n_unique": 5,
+        "p_correct_votes": 0.4883720930232558,
+        "correctness_lead": 0.2558139534883721,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.0952479793967332
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.12467643120712213
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06625972665611664
+      }
+    },
+    {
+      "qi": 25,
+      "question": "64 boys and 40 girls form a group for social work. During their membership drive, the same number of boys and girls joined the group. How many members does the group have now, if the ratio of boys to girls is 4:3?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.4431818181818182,
+        "vote_entropy": 1.4781790232863332,
+        "n_unique": 4,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.5454545454545454,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.1727913189530308
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.5812204467299894
+      },
+      "indep_correct_strong": {
+        "A_q": 0.5,
+        "D_q": -0.08755947905668938
+      }
+    },
+    {
+      "qi": 26,
+      "question": "If a man rows at the rate of 4 kmph in still water and his rate against the current is 2 kmph, then the man's rate along the current is:",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.6818181818181818,
+        "vote_entropy": 1.078439714830463,
+        "n_unique": 4,
+        "p_correct_votes": 0.7840909090909091,
+        "correctness_lead": 0.6818181818181818,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.0712934056546212
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.21881981871692524
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.019443656087623964
+      }
+    },
+    {
+      "qi": 27,
+      "question": "An astronaut weighing 211 pounds on Earth would weigh 182 pounds on Venus. The weight of the astronaut on Venus would be approximately what percent of the astronaut’s weight on Earth?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7727272727272727,
+        "runnerup_gap": 0.6931818181818181,
+        "vote_entropy": 1.2109813894791528,
+        "n_unique": 5,
+        "p_correct_votes": 0.7727272727272727,
+        "correctness_lead": 0.6931818181818181,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.013966445114146337
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04928591468999249
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 28,
+      "question": "[(272 - 32) (124 + 176)] / (17 x 15 - 15) = ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.36363636363636365,
+        "runnerup_gap": 0.13636363636363638,
+        "vote_entropy": 2.1642136867735102,
+        "n_unique": 5,
+        "p_correct_votes": 0.19318181818181818,
+        "correctness_lead": -0.17045454545454547,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": -0.11069420267454913
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.35305793371075833
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.031151528159039633
+      }
+    },
+    {
+      "qi": 29,
+      "question": "The bus fare of one adult is Rs. 140 from Ranchi to Patna and bus fare of a child is half the fare of one adult between the same places. What is the total bus fare of 4 adults and 3 children between same places?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.46590909090909094,
+        "vote_entropy": 1.6594637932801781,
+        "n_unique": 5,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.5340909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.07423613869530467
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0963837287988935
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Find 25/12*5",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7727272727272727,
+        "runnerup_gap": 0.625,
+        "vote_entropy": 1.1007615669874766,
+        "n_unique": 5,
+        "p_correct_votes": 0.7727272727272727,
+        "correctness_lead": 0.625,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06849258176541803
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.10360389878760687
+      }
+    },
+    {
+      "qi": 31,
+      "question": "The value of log2 4 is:",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 32,
+      "question": "In an exam, a candidate secured 504 marks of the maximum mark of M. If the maximum mark M is converted into 800 marks, he would have secured 420 marks. What is the value of M?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8068181818181818,
+        "runnerup_gap": 0.7159090909090908,
+        "vote_entropy": 1.0431583744914743,
+        "n_unique": 5,
+        "p_correct_votes": 0.8068181818181818,
+        "correctness_lead": 0.7159090909090908,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03258198911736964
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.06552712164080449
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.12501291562489453
+      }
+    },
+    {
+      "qi": 33,
+      "question": "Roberts has a property worth of $1023.65. But in a record his property worth is written as greatest positive even integer less than or equal to his property worth and it is divisible by 100. Find the difference between actual property and recorded property worth?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3181818181818182,
+        "runnerup_gap": 0.04545454545454547,
+        "vote_entropy": 2.1521075786438915,
+        "n_unique": 5,
+        "p_correct_votes": 0.2727272727272727,
+        "correctness_lead": -0.04545454545454547,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.003343436050281603
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.04928591468999249
+      }
+    },
+    {
+      "qi": 34,
+      "question": "Christopher and Jonathan were having bets. They decide that a coin will be flipped twenty times and each time it turns heads, Christopher will give $2 to Jonathan and each time it turns out to be Tails, Jonathan will give 3$ to Christopher. After flipping for twenty times none of the both won or lost any amount.\nHow many times did the coin landed on Heads ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4659090909090909,
+        "runnerup_gap": 0.1477272727272727,
+        "vote_entropy": 1.7215156587508036,
+        "n_unique": 4,
+        "p_correct_votes": 0.4659090909090909,
+        "correctness_lead": 0.1477272727272727,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": -0.0038326054960989963
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.03029030314021664
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.007693162829614665
+      }
+    },
+    {
+      "qi": 35,
+      "question": "Jerry purchased a 1-year $5,000 bond that paid an annual interest rate of 12% compounded every six months. How much interest had this bond accrued at maturity?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7045454545454546,
+        "runnerup_gap": 0.5568181818181819,
+        "vote_entropy": 1.3965844585655829,
+        "n_unique": 5,
+        "p_correct_votes": 0.06818181818181818,
+        "correctness_lead": -0.6363636363636365,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.06666666666666668
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.922165508261285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.2233284580069139
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Fernando purchased a university meal plan that allows him to have a total of 3 lunches and 3 dinners per week. If the cafeteria is closed on weekends and Fernando always goes home for a dinner on Friday nights, how many options does he have to allocate his meals?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.75,
+        "vote_entropy": 0.8570529361274196,
+        "n_unique": 4,
+        "p_correct_votes": 0.8409090909090909,
+        "correctness_lead": 0.75,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.1448003520815226
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02170303633436818
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.003960762370599333
+      }
+    },
+    {
+      "qi": 37,
+      "question": "A number is as much greater than 36 as is less than 86. Find the Number.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.3068181818181818,
+        "runnerup_gap": 0.04545454545454547,
+        "vote_entropy": 2.1731602727388912,
+        "n_unique": 5,
+        "p_correct_votes": 0.23863636363636365,
+        "correctness_lead": -0.06818181818181818,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.009942806919847173
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.9999999999999998
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      }
+    },
+    {
+      "qi": 38,
+      "question": "A special cereal mixture contains rice, wheat and corn in the ratio of 2:3:5. If a bag of the mixture contains 3 pounds of rice, how much corn does it contain?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.75,
+        "runnerup_gap": 0.5681818181818181,
+        "vote_entropy": 1.1221032165938722,
+        "n_unique": 5,
+        "p_correct_votes": 0.75,
+        "correctness_lead": 0.5681818181818181,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.010345579212596658
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.060999403179185605
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.036397441339208414
+      }
+    },
+    {
+      "qi": 39,
+      "question": "You can purchase one soda and two energy bars for 150 cents, or two sodas and three energy bars for 300\ncents. If the costs of the items do not change, compute the cost in cents of six sodas and seven bars.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.4431818181818182,
+        "runnerup_gap": 0.23863636363636362,
+        "vote_entropy": 1.9939341859963124,
+        "n_unique": 5,
+        "p_correct_votes": 0.18181818181818182,
+        "correctness_lead": -0.26136363636363635,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": -0.04252369460176048
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.048462031721066064
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06934199710468682
+      }
+    }
+  ]
+}

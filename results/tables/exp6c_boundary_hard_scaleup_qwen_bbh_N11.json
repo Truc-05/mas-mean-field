@@ -1,0 +1,1135 @@
+{
+  "regime": "hard",
+  "N": 11,
+  "R": 8,
+  "model": "qwen2.5:7b",
+  "model_tag": "scaleup_qwen_bbh",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a limousine, and a convertible. The motorcyle is newer than the limousine. The convertible is newer than the motorcyle.\nOptions:\n(A) The motorcyle is the oldest\n(B) The limousine is the oldest\n(C) The convertible is the oldest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 1,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a blue book, an orange book, and a red book. The blue book is the rightmost. The orange book is the leftmost.\nOptions:\n(A) The blue book is the second from the left\n(B) The orange book is the second from the left\n(C) The red book is the second from the left",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 2,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a green book, a red book, and a blue book. The red book is the rightmost. The blue book is to the right of the green book.\nOptions:\n(A) The green book is the rightmost\n(B) The red book is the rightmost\n(C) The blue book is the rightmost",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 3,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eve, Rob, and Mel. Rob finished below Mel. Mel finished below Eve.\nOptions:\n(A) Eve finished first\n(B) Rob finished first\n(C) Mel finished first",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6704545454545454,
+        "runnerup_gap": 0.3409090909090909,
+        "vote_entropy": 0.9144612916935675,
+        "n_unique": 2,
+        "p_correct_votes": 0.32954545454545453,
+        "correctness_lead": -0.3409090909090909,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.009388028810767245
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 4,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a minivan, and a truck. The minivan is newer than the truck. The station wagon is newer than the minivan.\nOptions:\n(A) The station wagon is the newest\n(B) The minivan is the newest\n(C) The truck is the newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 5,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a gray book, a purple book, and a red book. The purple book is to the left of the red book. The gray book is to the left of the purple book.\nOptions:\n(A) The gray book is the leftmost\n(B) The purple book is the leftmost\n(C) The red book is the leftmost",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 6,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a falcon, and a hummingbird. The blue jay is to the right of the falcon. The hummingbird is to the left of the falcon.\nOptions:\n(A) The blue jay is the second from the left\n(B) The falcon is the second from the left\n(C) The hummingbird is the second from the left",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.08571428571428572
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.0
+      }
+    },
+    {
+      "qi": 7,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a minivan, a bus, and a sedan. The minivan is newer than the sedan. The minivan is older than the bus.\nOptions:\n(A) The minivan is the second-newest\n(B) The bus is the second-newest\n(C) The sedan is the second-newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.6704545454545455,
+        "vote_entropy": 0.7189752356026641,
+        "n_unique": 3,
+        "p_correct_votes": 0.8295454545454546,
+        "correctness_lead": 0.6704545454545455,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.11603088036465051
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04804723128672701
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.0028354575003479428
+      }
+    },
+    {
+      "qi": 8,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.\nOptions:\n(A) The loquats are the most expensive\n(B) The watermelons are the most expensive\n(C) The cantaloupes are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.46590909090909094,
+        "vote_entropy": 0.9135006528496689,
+        "n_unique": 3,
+        "p_correct_votes": 0.26136363636363635,
+        "correctness_lead": -0.46590909090909094,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.0520257910823297
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.08976855390687716
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.031186462913403688
+      }
+    },
+    {
+      "qi": 9,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: mangoes, watermelons, and kiwis. The watermelons are less expensive than the kiwis. The kiwis are the second-most expensive.\nOptions:\n(A) The mangoes are the most expensive\n(B) The watermelons are the most expensive\n(C) The kiwis are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.18558440484957256
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.009523809523809525
+      }
+    },
+    {
+      "qi": 10,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a motorcyle, and a truck. The motorcyle is newer than the convertible. The convertible is newer than the truck.\nOptions:\n(A) The convertible is the oldest\n(B) The motorcyle is the oldest\n(C) The truck is the oldest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6136363636363636,
+        "runnerup_gap": 0.2272727272727273,
+        "vote_entropy": 0.9624127354629923,
+        "n_unique": 2,
+        "p_correct_votes": 0.38636363636363635,
+        "correctness_lead": -0.2272727272727273,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.07388530744078954
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 11,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eli, Mya, and Eve. Eve finished below Eli. Eve finished above Mya.\nOptions:\n(A) Eli finished second\n(B) Mya finished second\n(C) Eve finished second",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9318181818181818,
+        "runnerup_gap": 0.8636363636363635,
+        "vote_entropy": 0.3591016256485496,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9318181818181818,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.18558440484957256
+      }
+    },
+    {
+      "qi": 12,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: peaches, pears, and mangoes. The mangoes are less expensive than the peaches. The mangoes are more expensive than the pears.\nOptions:\n(A) The peaches are the most expensive\n(B) The pears are the most expensive\n(C) The mangoes are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6022727272727273,
+        "runnerup_gap": 0.20454545454545459,
+        "vote_entropy": 0.9696055994904407,
+        "n_unique": 2,
+        "p_correct_votes": 0.6022727272727273,
+        "correctness_lead": 0.20454545454545459,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.03690699691786013
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.0013597010893590807
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.0012802814422242148
+      }
+    },
+    {
+      "qi": 13,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a hatchback, a convertible, and a tractor. The convertible is older than the tractor. The hatchback is the second-newest.\nOptions:\n(A) The hatchback is the oldest\n(B) The convertible is the oldest\n(C) The tractor is the oldest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6818181818181818,
+        "runnerup_gap": 0.3636363636363636,
+        "vote_entropy": 0.9023932827949788,
+        "n_unique": 2,
+        "p_correct_votes": 0.6818181818181818,
+        "correctness_lead": 0.3636363636363636,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.030175891770150284
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.08082214457510423
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.024375658991956824
+      }
+    },
+    {
+      "qi": 14,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a hummingbird, a blue jay, and a raven. The blue jay is to the right of the hummingbird. The raven is the second from the left.\nOptions:\n(A) The hummingbird is the rightmost\n(B) The blue jay is the rightmost\n(C) The raven is the rightmost",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.7500897310684451
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 15,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: watermelons, apples, and mangoes. The apples are less expensive than the mangoes. The mangoes are less expensive than the watermelons.\nOptions:\n(A) The watermelons are the second-most expensive\n(B) The apples are the second-most expensive\n(C) The mangoes are the second-most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9431818181818182,
+        "runnerup_gap": 0.8863636363636365,
+        "vote_entropy": 0.31468260413466576,
+        "n_unique": 2,
+        "p_correct_votes": 0.056818181818181816,
+        "correctness_lead": -0.8863636363636365,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.02857142857142857
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.11759546816668072
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.08843537414965985
+      }
+    },
+    {
+      "qi": 16,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.\nOptions:\n(A) The motorcyle is the second-newest\n(B) The bus is the second-newest\n(C) The tractor is the second-newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.013951980741105858
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.18277189942254096
+      }
+    },
+    {
+      "qi": 17,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a bus, a sedan, and a truck. The truck is older than the bus. The bus is older than the sedan.\nOptions:\n(A) The bus is the second-newest\n(B) The sedan is the second-newest\n(C) The truck is the second-newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9090909090909092,
+        "vote_entropy": 0.26676498780302604,
+        "n_unique": 2,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9090909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.06400624544071667
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05943120400352377
+      }
+    },
+    {
+      "qi": 18,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, mangoes, and apples. The mangoes are more expensive than the apples. The loquats are more expensive than the mangoes.\nOptions:\n(A) The loquats are the most expensive\n(B) The mangoes are the most expensive\n(C) The apples are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.7841719252834293
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.002379151784782395
+      }
+    },
+    {
+      "qi": 19,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a blue jay, a quail, and a falcon. The falcon is to the right of the blue jay. The blue jay is to the right of the quail.\nOptions:\n(A) The blue jay is the rightmost\n(B) The quail is the rightmost\n(C) The falcon is the rightmost",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.20773610797628295
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01601809847649701
+      }
+    },
+    {
+      "qi": 20,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, mangoes, and apples. The mangoes are more expensive than the apples. The loquats are more expensive than the mangoes.\nOptions:\n(A) The loquats are the second-most expensive\n(B) The mangoes are the second-most expensive\n(C) The apples are the second-most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.5294610095116349
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 21,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: an owl, a crow, and a cardinal. The crow is to the left of the owl. The owl is the second from the left.\nOptions:\n(A) The owl is the second from the left\n(B) The crow is the second from the left\n(C) The cardinal is the second from the left",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.533939444035328
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 22,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, mangoes, and plums. The plums are less expensive than the mangoes. The oranges are less expensive than the plums.\nOptions:\n(A) The oranges are the second-most expensive\n(B) The mangoes are the second-most expensive\n(C) The plums are the second-most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9659090909090909,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.23809523809523808
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.144343425994112
+      }
+    },
+    {
+      "qi": 23,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are three birds: a quail, an owl, and a hummingbird. The quail is to the left of the owl. The owl is to the left of the hummingbird.\nOptions:\n(A) The quail is the second from the left\n(B) The owl is the second from the left\n(C) The hummingbird is the second from the left",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9204545454545455,
+        "vote_entropy": 0.30364126618753207,
+        "n_unique": 3,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9204545454545455,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06666666666666668
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06875390679487929
+      }
+    },
+    {
+      "qi": 24,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: oranges, watermelons, and pears. The oranges are the second-most expensive. The pears are more expensive than the watermelons.\nOptions:\n(A) The oranges are the most expensive\n(B) The watermelons are the most expensive\n(C) The pears are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 25,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Ana, Mel, and Ada. Ada finished above Ana. Mel finished below Ana.\nOptions:\n(A) Ana finished first\n(B) Mel finished first\n(C) Ada finished first",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.7954545454545454,
+        "vote_entropy": 0.47615884455807067,
+        "n_unique": 2,
+        "p_correct_votes": 0.8977272727272727,
+        "correctness_lead": 0.7954545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.12024215282621098
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 26,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: an orange book, a blue book, and a yellow book. The orange book is to the left of the blue book. The yellow book is to the right of the blue book.\nOptions:\n(A) The orange book is the leftmost\n(B) The blue book is the leftmost\n(C) The yellow book is the leftmost",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.533939444035328
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0863439356053933
+      }
+    },
+    {
+      "qi": 27,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: watermelons, apples, and mangoes. The apples are less expensive than the mangoes. The mangoes are less expensive than the watermelons.\nOptions:\n(A) The watermelons are the cheapest\n(B) The apples are the cheapest\n(C) The mangoes are the cheapest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6022727272727273,
+        "runnerup_gap": 0.3522727272727273,
+        "vote_entropy": 1.3481475727542938,
+        "n_unique": 3,
+        "p_correct_votes": 0.25,
+        "correctness_lead": -0.3522727272727273,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.048368995457976315
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.051154203036893116
+      },
+      "indep_correct_strong": {
+        "A_q": 0.5,
+        "D_q": -0.042928154638182225
+      }
+    },
+    {
+      "qi": 28,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a motorcyle, a bus, and a tractor. The motorcyle is the oldest. The bus is newer than the tractor.\nOptions:\n(A) The motorcyle is the newest\n(B) The bus is the newest\n(C) The tractor is the newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.5681818181818181,
+        "vote_entropy": 0.7526269564427315,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.7840909090909091,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 29,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a gray book, an orange book, and a brown book. The orange book is the leftmost. The gray book is to the right of the brown book.\nOptions:\n(A) The gray book is the second from the left\n(B) The orange book is the second from the left\n(C) The brown book is the second from the left",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.8485387969232269
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.13831124977585568
+      }
+    },
+    {
+      "qi": 30,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: pears, plums, and kiwis. The pears are less expensive than the plums. The kiwis are less expensive than the pears.\nOptions:\n(A) The pears are the second-most expensive\n(B) The plums are the second-most expensive\n(C) The kiwis are the second-most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8863636363636364,
+        "runnerup_gap": 0.7727272727272727,
+        "vote_entropy": 0.5107878229540133,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.8863636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 31,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a convertible, a tractor, and a hatchback. The hatchback is older than the convertible. The tractor is the newest.\nOptions:\n(A) The convertible is the newest\n(B) The tractor is the newest\n(C) The hatchback is the newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 32,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a tractor, a convertible, and a minivan. The tractor is the second-newest. The minivan is newer than the convertible.\nOptions:\n(A) The tractor is the second-newest\n(B) The convertible is the second-newest\n(C) The minivan is the second-newest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 0.954434002924965,
+        "n_unique": 2,
+        "p_correct_votes": 0.625,
+        "correctness_lead": 0.25,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.07355286626778622
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.23224926364702153
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.05359510934689815
+      }
+    },
+    {
+      "qi": 33,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a blue book, an orange book, and a green book. The green book is the leftmost. The orange book is to the left of the blue book.\nOptions:\n(A) The blue book is the leftmost\n(B) The orange book is the leftmost\n(C) The green book is the leftmost",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 34,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: kiwis, loquats, and cantaloupes. The kiwis are less expensive than the loquats. The cantaloupes are less expensive than the kiwis.\nOptions:\n(A) The kiwis are the most expensive\n(B) The loquats are the most expensive\n(C) The cantaloupes are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 35,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: apples, pears, and plums. The pears are less expensive than the plums. The pears are more expensive than the apples.\nOptions:\n(A) The apples are the cheapest\n(B) The pears are the cheapest\n(C) The plums are the cheapest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.9545454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.05943120400352377
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.07229978115440047
+      }
+    },
+    {
+      "qi": 36,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a green book, a red book, and a blue book. The red book is the rightmost. The blue book is to the right of the green book.\nOptions:\n(A) The green book is the second from the left\n(B) The red book is the second from the left\n(C) The blue book is the second from the left",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.9318181818181819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.23809523809523808
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.3093073414159543
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 37,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: peaches, pears, and mangoes. The mangoes are less expensive than the pears. The peaches are the cheapest.\nOptions:\n(A) The peaches are the most expensive\n(B) The pears are the most expensive\n(C) The mangoes are the most expensive",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.8409090909090908,
+        "vote_entropy": 0.40057554263664014,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9204545454545454,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 38,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells three fruits: loquats, watermelons, and cantaloupes. The watermelons are the second-most expensive. The loquats are more expensive than the cantaloupes.\nOptions:\n(A) The loquats are the cheapest\n(B) The watermelons are the cheapest\n(C) The cantaloupes are the cheapest",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.6590909090909092,
+        "vote_entropy": 0.6587435307694673,
+        "n_unique": 2,
+        "p_correct_votes": 0.8295454545454546,
+        "correctness_lead": 0.6590909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.08018190430705788
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.0287358627958301
+      },
+      "indep_correct_strong": {
+        "A_q": 0.5,
+        "D_q": -0.007019530661492021
+      }
+    },
+    {
+      "qi": 39,
+      "question": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were three golfers: Eli, Mya, and Eve. Eli finished last. Mya finished second.\nOptions:\n(A) Eli finished first\n(B) Mya finished first\n(C) Eve finished first",
+      "n_options": 3,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    }
+  ]
+}

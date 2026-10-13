@@ -1,0 +1,60 @@
+{
+  "eps": 0.05,
+  "seed": 20261003,
+  "n_strata": 66,
+  "min_cells": 48,
+  "withheld": false,
+  "H1": {
+    "mean": -0.0091956728019308,
+    "ci": [
+      -0.018216893651729703,
+      -0.0007986320911859402
+    ],
+    "n_sign_matched": 12,
+    "n_testable": 28,
+    "sign_p": 0.8275357745587826,
+    "spec": "sign(dA)==sign(1/2-p); see PREREG \u00a73 specification note"
+  },
+  "H2": {
+    "easy": {
+      "n": 31,
+      "mean": -0.008867377252333481,
+      "lo90": -0.017228427715044653,
+      "hi90": -0.0014598900386720425,
+      "equivalent": true,
+      "reason": ""
+    },
+    "hard": {
+      "n": 35,
+      "mean": -0.009486448860145566,
+      "lo90": -0.021399885381372483,
+      "hi90": 0.002047610118571979,
+      "equivalent": true,
+      "reason": ""
+    },
+    "all": {
+      "n": 66,
+      "mean": -0.0091956728019308,
+      "lo90": -0.01675747188336762,
+      "hi90": -0.002044515222275627,
+      "equivalent": true,
+      "reason": ""
+    }
+  },
+  "H3": {
+    "n_pairs": 30,
+    "beta1": 0.0013236723283145309,
+    "lo": -0.0190306867186871,
+    "hi": 0.021018284628756694,
+    "excludes_zero": false
+  },
+  "H4": {
+    "n": 66,
+    "corr": -0.18343809636655475,
+    "lo": -0.4443457893832144,
+    "hi": 0.04531202424756878,
+    "mean_pred": 0.022386778282035225
+  },
+  "verdict": "R1",
+  "verdict_text": "regime-invariant negligibility \u2014 'dependence can increase substantially without materially changing accuracy'; cite Corollary 4.1, NOT Thm 4 pt 1"
+}

@@ -1,0 +1,12 @@
+probing 250 candidates (k=5) for 0.6 ≤ p̂ ≤ 0.95 ...
+selection: 21/250 probed passed 0.6 ≤ p̂ ≤ 0.95 (mean p̂ of kept = 0.71)
+benchmark=truthfulqa  câu=21  coupling grid=[0.0, 0.5, 1.0, 2.0]  ~4620 debate calls (N=11, R=5)
+
+g=0.00 | p₁=0.63 indep=0.67 debate=0.62 | lift=-0.05 [-0.14,+0.00]  McN=1.000 | ρ=0.70 collapse=-0.03
+g=0.50 | p₁=0.60 indep=0.57 debate=0.52 | lift=-0.05 [-0.14,+0.00]  McN=1.000 | ρ=0.87 collapse=+0.09
+g=1.00 | p₁=0.56 indep=0.57 debate=0.57 | lift=+0.00 [+0.00,+0.00]  McN=1.000 | ρ=0.98 collapse=+0.20
+g=2.00 | p₁=0.59 indep=0.57 debate=0.57 | lift=+0.00 [+0.00,+0.00]  McN=1.000 | ρ=1.00 collapse=+0.18
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6_phase_transition_llm_truthfulqa_N11_easy.csv
+realized regime: p_single≈0.63 → EASY (p>½ → predict lift<0 as ρ↑)
+strongest herding g=2.0 (ρ=1.00): lift=+0.00 [+0.00,+0.00] → FLIP law CONTRADICTS

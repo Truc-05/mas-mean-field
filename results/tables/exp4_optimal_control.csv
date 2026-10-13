@@ -1,0 +1,5 @@
+baseline,acc_mean,acc_std,t_truth_mean,t_truth_std,n_seeds
+no_control,1.0,0.0,46.2,11.0232078412371,10
+spectral_heuristic,0.7855,0.03320391543176798,200.0,0.0,10
+lqr,1.0,0.0,8.2,0.6324555320336759,10
+rl,0.9789999999999999,0.03008321791298263,nan,nan,5

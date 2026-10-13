@@ -1,0 +1,1135 @@
+{
+  "regime": "easy",
+  "N": 11,
+  "R": 8,
+  "model": "mistral:7b",
+  "model_tag": "scaleup_mistral_commonsenseqa",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "A revolving door is convenient for two direction travel, but it also serves as a security measure at a what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 1,
+      "question": "What do people aim to do at work?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 2,
+      "question": "Where would you find magazines along side many other printed works?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8863636363636364,
+        "runnerup_gap": 0.7727272727272727,
+        "vote_entropy": 0.5107878229540133,
+        "n_unique": 2,
+        "p_correct_votes": 0.8863636363636364,
+        "correctness_lead": 0.7727272727272727,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.048462031721066064
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 3,
+      "question": "Where are  you likely to find a hamburger?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8977272727272727,
+        "runnerup_gap": 0.7954545454545454,
+        "vote_entropy": 0.47615884455807067,
+        "n_unique": 2,
+        "p_correct_votes": 0.8977272727272727,
+        "correctness_lead": 0.7954545454545454,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.10753739455360813
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 4,
+      "question": "What island country is ferret popular?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.875,
+        "runnerup_gap": 0.7840909090909091,
+        "vote_entropy": 0.6805388500747132,
+        "n_unique": 4,
+        "p_correct_votes": 0.875,
+        "correctness_lead": 0.7840909090909091,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.030746867561255324
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.05943120400352377
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.11816218203680716
+      }
+    },
+    {
+      "qi": 5,
+      "question": "In what Spanish speaking North American country can you get a great cup of coffee?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8522727272727273,
+        "runnerup_gap": 0.7613636363636364,
+        "vote_entropy": 0.7461243202097076,
+        "n_unique": 3,
+        "p_correct_votes": 0.8522727272727273,
+        "correctness_lead": 0.7613636363636364,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.026909820696302697
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.24769076357173309
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.040445580341300705
+      }
+    },
+    {
+      "qi": 6,
+      "question": "What do animals do when an enemy is approaching?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 7,
+      "question": "Reading newspaper one of many ways to practice your what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 8,
+      "question": "If you want harmony, what is something you should try to do with the world?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      }
+    },
+    {
+      "qi": 9,
+      "question": "Where does a heifer's master live?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9431818181818182,
+        "vote_entropy": 0.24581537350428984,
+        "n_unique": 3,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9431818181818182,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.21821789023599245
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 10,
+      "question": "Janet was watching the film because she liked what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 11,
+      "question": "What are you waiting alongside with when you're in a reception area?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8181818181818182,
+        "runnerup_gap": 0.6363636363636365,
+        "vote_entropy": 0.6840384356390417,
+        "n_unique": 2,
+        "p_correct_votes": 0.8181818181818182,
+        "correctness_lead": 0.6363636363636365,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.0684077122642248
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.007125587843104088
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.07854150861501397
+      }
+    },
+    {
+      "qi": 12,
+      "question": "When drinking booze what can you do to stay busy?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.21821789023599245
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.2687439940895482
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.0
+      }
+    },
+    {
+      "qi": 13,
+      "question": "A fencing thrust with a sharp sword towards a person would result in what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 14,
+      "question": "Unlike a spider and his many sight seers, people only have what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7840909090909091,
+        "runnerup_gap": 0.6818181818181818,
+        "vote_entropy": 1.0501417035159963,
+        "n_unique": 4,
+        "p_correct_votes": 0.10227272727272728,
+        "correctness_lead": -0.6818181818181818,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.06682557634994056
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05971225086201259
+      }
+    },
+    {
+      "qi": 15,
+      "question": "What could go on top of wood?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 16,
+      "question": "The artist was sitting quietly pondering, then suddenly he began to paint when what struck him?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Where could you find a toilet that only friends can use?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.2840909090909091,
+        "runnerup_gap": 0.011363636363636409,
+        "vote_entropy": 1.9902874207412604,
+        "n_unique": 4,
+        "p_correct_votes": 0.2159090909090909,
+        "correctness_lead": -0.0681818181818182,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.0384167651200228
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.6065026307287903
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05149048184900479
+      }
+    },
+    {
+      "qi": 18,
+      "question": "When wildlife reproduce we often refer to what comes out as what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 19,
+      "question": "The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9659090909090909,
+        "vote_entropy": 0.17921833563297423,
+        "n_unique": 3,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9659090909090909,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 20,
+      "question": "Blue read material outside of his comfort zone because he wanted to gain what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 21,
+      "question": "After he got hired he hoped for success at his what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Committing perjury is a serious what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 23,
+      "question": "If you are prone to postpone work what will you have to do in order to finish on time?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.4285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 24,
+      "question": "James wanted to find an old underground map from the 50s.  Where might he look for one?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.48863636363636365,
+        "runnerup_gap": 0.0,
+        "vote_entropy": 1.1337637901784285,
+        "n_unique": 3,
+        "p_correct_votes": 0.48863636363636365,
+        "correctness_lead": 0.0,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": 0.06936601858856692
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523808
+      }
+    },
+    {
+      "qi": 25,
+      "question": "Sean was in a rush to get home, but the light turned yellow and he was forced to do what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8181818181818182,
+        "runnerup_gap": 0.6363636363636365,
+        "vote_entropy": 0.6840384356390417,
+        "n_unique": 2,
+        "p_correct_votes": 0.8181818181818182,
+        "correctness_lead": 0.6363636363636365,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.11699970875836728
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 26,
+      "question": "Where would a person be doing when having to wait their turn?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 27,
+      "question": "She was always helping at the senior center, it brought her what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9431818181818182,
+        "runnerup_gap": 0.8863636363636365,
+        "vote_entropy": 0.31468260413466576,
+        "n_unique": 2,
+        "p_correct_votes": 0.9431818181818182,
+        "correctness_lead": 0.8863636363636365,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.020620489427730284
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      }
+    },
+    {
+      "qi": 28,
+      "question": "The lock kept the steering wheel from moving, but the thief still took his chances and began to work on the what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.3487071507390681
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0759606271702886
+      }
+    },
+    {
+      "qi": 29,
+      "question": "Who is a police officer likely to work for?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 30,
+      "question": "If you have leftover cake, where would you put it?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 31,
+      "question": "A human wants to submerge himself in water, what should he use?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9090909090909091,
+        "runnerup_gap": 0.8295454545454545,
+        "vote_entropy": 0.4889119363032949,
+        "n_unique": 3,
+        "p_correct_votes": 0.9090909090909091,
+        "correctness_lead": 0.8295454545454545,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14022381753557542
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 32,
+      "question": "Where is a doormat likely to be in front of?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.4342624758817314
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 33,
+      "question": "Bob the lizard lives in a warm place with lots of water.  Where does he probably live?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 34,
+      "question": "August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5227272727272727,
+        "runnerup_gap": 0.05681818181818182,
+        "vote_entropy": 1.0759829576377062,
+        "n_unique": 3,
+        "p_correct_votes": 0.5227272727272727,
+        "correctness_lead": 0.05681818181818182,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.0118266125481147
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.1000758104864897
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.011918047526538396
+      }
+    },
+    {
+      "qi": 35,
+      "question": "He needed more information to fix it, so he consulted the what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.10227272727272724,
+        "vote_entropy": 1.172592879525153,
+        "n_unique": 3,
+        "p_correct_votes": 0.4318181818181818,
+        "correctness_lead": -0.10227272727272724,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.09304213840915086
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.3491538043121004
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.030907704880035324
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Where can you put a picture frame when it's not hung vertically?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9659090909090909,
+        "vote_entropy": 0.17921833563297423,
+        "n_unique": 3,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9659090909090909,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.09449495366961067
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 37,
+      "question": "What is the result of applying for  job?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9318181818181818,
+        "runnerup_gap": 0.875,
+        "vote_entropy": 0.40342133621548276,
+        "n_unique": 3,
+        "p_correct_votes": 0.9318181818181818,
+        "correctness_lead": 0.875,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.025425687811206098
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.2
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 38,
+      "question": "Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.6931818181818182,
+        "vote_entropy": 0.6911899664512009,
+        "n_unique": 3,
+        "p_correct_votes": 0.8409090909090909,
+        "correctness_lead": 0.6931818181818182,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.09742915754552844
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.15279012801532685
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.018498266122889843
+      }
+    },
+    {
+      "qi": 39,
+      "question": "If I was getting drunk, and people couldn't understand me, what might I be having?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    }
+  ]
+}

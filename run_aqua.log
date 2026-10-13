@@ -1,0 +1,114 @@
+nohup: ignoring input
+benchmark=aqua  câu hỏi=100  ~3100 API calls (single 1 + voting 5 + debate 5x5)
+
+[1/100] single=0 voting=1 debate=0  | A car is being driven, in a straight line and at a uniform s
+[2/100] single=1 voting=0 debate=0  | The original price of an item is discounted 22%. A customer 
+[3/100] single=1 voting=1 debate=1  | Find out which of the following values is the multiple of X,
+[4/100] single=0 voting=0 debate=0  | If the probability that Stock A will increase in value durin
+[5/100] single=1 voting=0 debate=0  | A trader sold an article at a profit of 20% for Rs.360. What
+[6/100] single=1 voting=0 debate=1  | 20 marbles were pulled out of a bag of only white marbles, p
+[7/100] single=0 voting=1 debate=0  | Find the total no. of distinct bike no.'s that can beformed 
+[8/100] single=0 voting=0 debate=0  | A train running at a speed of 100 miles/hour, takes 10 hours
+[9/100] single=0 voting=0 debate=0  | Of the 200 students in a school, at least 45% attended the p
+[10/100] single=0 voting=0 debate=0  | A sales person gets a 10% commission on each sale he makes. 
+[11/100] single=0 voting=0 debate=0  | A company produces 420 units of a particular computer compon
+[12/100] single=0 voting=0 debate=0  | At a certain factory, 10 percent of the staplers produced on
+[13/100] single=1 voting=1 debate=0  | Machine A puts out a yo-yo every 6 minutes. Machine B puts o
+[14/100] single=0 voting=0 debate=0  | Add: +45 and -30
+[15/100] single=1 voting=1 debate=1  | In how many ways can the letters of the word "PROBLEC" be re
+[16/100] single=1 voting=1 debate=1  | Let A and B be independent events with P (A) = 0.2 and P(B) 
+[17/100] single=0 voting=0 debate=0  | Consider there is an staircase elevator and you are coming d
+[18/100] single=0 voting=0 debate=0  | Last year, a Home Appliance Store sold an average(arithmetic
+[19/100] single=1 voting=1 debate=1  | An exam is given in a certain class. The average (arithmetic
+[20/100] single=1 voting=1 debate=0  | [5 + ? × 19 - 15 - 7]/[13 × 13 - 156] = 6
+[21/100] single=0 voting=0 debate=0  | A grocer makes a 25% profit on the selling price for each ba
+[22/100] single=1 voting=1 debate=0  | Alex and Jacob works at a toy shop that make toys. Alex take
+[23/100] single=0 voting=0 debate=0  | John likes to have lightly flavored tea every evening. In a 
+[24/100] single=1 voting=1 debate=1  | In a class 1/16 of the students study math, 1/10 of the stud
+[25/100] single=0 voting=0 debate=1  | On a normal day Bill usually averages about 15 mph when ridi
+[26/100] single=1 voting=0 debate=0  | A retailer sold an appliance for 40 percent above cost, whic
+[27/100] single=0 voting=0 debate=1  | At 6% per annum simple interest, Rahul borrowed Rs. 500. Wha
+[28/100] single=0 voting=0 debate=0  | A computer routine was developed to generate two numbers (x,
+[29/100] single=1 voting=1 debate=1  | A jeep travels a certain distance taking 6 hours in the forw
+[30/100] single=1 voting=1 debate=1  | When I was 2 years old, my brother was half my age. Now I am
+[31/100] single=0 voting=0 debate=0  | The original retail price of an appliance was 60 percent mor
+[32/100] single=0 voting=0 debate=1  | On a map, the length of the road from Town F to Town G is me
+[33/100] single=0 voting=0 debate=0  | When folded into two equal halves a rectangular sheet had a 
+[34/100] single=1 voting=0 debate=0  | Suppose you can travel from a place M to a place N by 3 buse
+[35/100] single=0 voting=1 debate=0  | A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, s
+[36/100] single=0 voting=0 debate=0  | A starts travel towards south 3km, then travel 5 km towards 
+[37/100] single=0 voting=0 debate=1  | While selling a watch, a shopkeeper gives a discount of 5%. 
+[38/100] single=0 voting=0 debate=0  | A student instead of finding the value of 7/8 of a number, f
+[39/100] single=1 voting=0 debate=0  | The monthly salary S of a shop assistant is the sum of a fix
+[40/100] single=1 voting=1 debate=1  | An aeroplane flies along the four sides of a square at the s
+[41/100] single=0 voting=0 debate=0  | Jack buys 18 sharpeners (white and brown) for rs. 100. If he
+[42/100] single=0 voting=0 debate=0  | Hoses A and B spout water at different constant rates, and h
+[43/100] single=1 voting=0 debate=1  | If 120 is reduced to 96, what is the reduction percent?
+[44/100] single=1 voting=1 debate=1  | I know a 5 digit number having a property that with a 1 afte
+[45/100] single=0 voting=0 debate=0  | At Daifu university, 24% of all students are members of both
+[46/100] single=1 voting=1 debate=1  | If the population of a city increases by 5 % annually, what 
+[47/100] single=0 voting=0 debate=0  | Two cars start at the same time from opposite ends of a high
+[48/100] single=0 voting=0 debate=0  | A shopkeeper employed a servant at a monthly salary of 1500.
+[49/100] single=0 voting=0 debate=0  | A man borrows Rs.360 If he pays it back in 12 monthly instal
+[50/100] single=1 voting=0 debate=0  | The price of a product is reduced by 30% . By what percentag
+[51/100] single=1 voting=0 debate=1  | I have a money pouch containing Rs. 700. There are equal num
+[52/100] single=0 voting=0 debate=0  | A man spends Rs. 3500 per month and saves 12 1/2% of his inc
+[53/100] single=0 voting=0 debate=0  | Five dozen toys are packed in a box and 98 boxes are kept in
+[54/100] single=1 voting=1 debate=1  | There are 10 oranges in a basket. Find the no. of ways in wh
+[55/100] single=0 voting=1 debate=1  | A company contracts to paint 3 houses. Mr.Brown can paint a 
+[56/100] single=0 voting=1 debate=0  | Train A leaves a station every 16 minutes and Train B leaves
+[57/100] single=0 voting=0 debate=0  | A hollow cube of size 5cm is taken, with the thickness of 1c
+[58/100] single=0 voting=0 debate=0  | In a chocolate store, all chocolates are either vanilla or c
+[59/100] single=1 voting=0 debate=0  | There is well of depth 30m and frog is at bottom of the well
+[60/100] single=0 voting=0 debate=0  | The sum of the 5 consecutive two digit odd numbers when divi
+[61/100] single=0 voting=1 debate=0  | In a class, 8% of total students are interested in Football.
+[62/100] single=1 voting=0 debate=1  | Q is as much younger than R as he is older than T. If the su
+[63/100] single=1 voting=0 debate=0  | Calculate the maximum distance you can travel with $8.50 on 
+[64/100] single=1 voting=0 debate=0  | In IPL season, Sachin current batting average is 51. In the 
+[65/100] single=0 voting=0 debate=0  | Amy is organizing her bookshelves and finds that she has 10 
+[66/100] single=0 voting=0 debate=0  | A rectangular piece of 150 sq m has a length which is 1m mor
+[67/100] single=1 voting=0 debate=0  | One gram of a certain health food contains 9 percent of the 
+[68/100] single=0 voting=0 debate=1  | Assistants are needed to prepare for preparation. Each helpe
+[69/100] single=0 voting=0 debate=0  | R, S, T, and U are points on a line, and U is the midpoint o
+[70/100] single=0 voting=0 debate=0  | Six pita breads contain the same amount of falafel as do two
+[71/100] single=0 voting=0 debate=0  | A shopkeeper in order to promote his new shop put a discount
+[72/100] single=1 voting=1 debate=0  | The bus fare for two persons for travelling between Agra and
+[73/100] single=1 voting=0 debate=0  | A rectangle has a length of 8 centimeters and a width of 3 c
+[74/100] single=1 voting=1 debate=1  | Suppose you want to arrange your English, Hindi, Mathematics
+[75/100] single=1 voting=0 debate=0  | A straight picket fence is composed of x pickets each of whi
+[76/100] single=0 voting=1 debate=0  | A ship went on a voyage. After it had traveled 180 miles a p
+[77/100] single=1 voting=1 debate=0  | In a large forest, 300 deer were caught, tagged, and returne
+[78/100] single=0 voting=1 debate=0  | In a railway station, there are two trains going. One in the
+[79/100] single=0 voting=0 debate=0  | The average (arithmetic mean) of the weight of 10 vehicles i
+[80/100] single=0 voting=0 debate=1  | Boomtown urban planners expect the city’s population to incr
+[81/100] single=0 voting=1 debate=0  | Arjun and Sajal are friends, each has some money. If Arun gi
+[82/100] single=0 voting=1 debate=0  | Julie’s yard is rectangular. One side of the yard is 100 fee
+[83/100] single=0 voting=0 debate=0  | The greatest common factor of two positive integers is 11. T
+[84/100] single=0 voting=0 debate=0  | A square piece of cloth is trimmed by 4 feet on one edge to 
+[85/100] single=0 voting=1 debate=1  | The length of the ribbon was originally 30 cm. It was reduce
+[86/100] single=0 voting=0 debate=0  | M = abc is a three digit number and N = cba, if M > N and M 
+[87/100] single=0 voting=0 debate=0  | there are more than 501 students in a school such that 20% o
+[88/100] single=1 voting=0 debate=0  | If Raj was one-third as old as Rahim 5 years back and Raj is
+[89/100] single=0 voting=0 debate=1  | A cow is tethered in the middle of a field with a 14 feet lo
+[90/100] single=0 voting=0 debate=0  | A book was sold for Rs 27.50 with a profit of 10%. If it wer
+[91/100] single=0 voting=1 debate=0  | In how many ways can a teacher in a kindergarten school arra
+[92/100] single=0 voting=0 debate=0  | The telephone bill of a certain establishment is party fixed
+[93/100] single=0 voting=0 debate=0  | Two balls A and B rotate along a circular track. Ball A make
+[94/100] single=0 voting=0 debate=0  | A bookshelf contains 45 books, 30 of which are hardcover and
+[95/100] single=0 voting=0 debate=0  | A newspaper costs $4 on Sunday and $1 the rest of the days o
+[96/100] single=0 voting=1 debate=0  | A number of friends decided to go on a picnic and planned to
+[97/100] single=0 voting=0 debate=1  | A wire in the shape of rectangle of length 27 cm and breadth
+[98/100] single=1 voting=1 debate=0  | A man divides Rs 8600 among 5 sons, 4 daughters and 2 nephew
+[99/100] single=0 voting=0 debate=1  | Silu and Meenu were walking on the road.
+Silu said, "I weigh
+[100/100] single=1 voting=0 debate=0  | Roy was suffering from severe headaches. He went to see his 
+
+=== aqua (n=100 câu, N=5, R=5) ===
+single   accuracy = 0.36 ± 0.4824 (95% CI [0.2643, 0.4557], n=100)
+voting   accuracy = 0.31 ± 0.4648 (95% CI [0.2178, 0.4022], n=100)
+debate   accuracy = 0.27 ± 0.4462 (95% CI [0.1815, 0.3585], n=100)
+
+[data quality] debate arm: mean flat-agent fraction = 0.00  | questions with >50% flat = 0/100
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp5_aqua.csv
+wrote /home/alex/venvs/trucn/mas-mean-field/data/processed/exp5_aqua_q*.npz  (debate states — dùng được cho ước lượng A,B,s)

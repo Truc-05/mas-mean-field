@@ -1,0 +1,12 @@
+/home/alex/trucn/venv/bin/python -u /home/alex/trucn/manew/mas-mean-field/experiments/exp6_phase_transition_llm/run.py --benchmark truthfulqa --config /home/alex/trucn/manew/mas-mean-field/src/config/scaleup_qwen_gpu1.yaml --n-questions 40 --n-agents 11 --grid 0 1 2 --min-p 0.0 --max-p 0.3 --probe-k 5 --candidates 400 --tag tier3_qwen_hard
+
+selection: reusing exp6_easy_truthfulqa_p0.0-0.3_k5_c400.json → 40 easy questions
+benchmark=truthfulqa  questions=40  coupling grid=[0.0, 1.0, 2.0]  ~6600 debate calls (N=11, R=5)
+
+g=0.00 | p₁=0.22 indep=0.20 debate=0.20 | lift=+0.00 [-0.07,+0.07]  McN=1.000 | ρ=0.64 collapse=+0.00
+g=1.00 | p₁=0.21 indep=0.20 debate=0.23 | lift=+0.03 [+0.00,+0.07]  McN=1.000 | ρ=0.97 collapse=+0.14
+g=2.00 | p₁=0.23 indep=0.23 debate=0.28 | lift=+0.05 [+0.00,+0.12]  McN=0.500 | ρ=0.93 collapse=+0.15
+
+wrote /home/alex/trucn/manew/mas-mean-field/results/tables/exp6_phase_transition_llm_truthfulqa_N11_tier3_qwen_hard.csv
+realized regime: p_single≈0.22 → HARD (p<½ → predict lift>0 as ρ↑)
+strongest herding g=1.0 (ρ=0.97): lift=+0.03 [+0.00,+0.07] → FLIP law consistent-but-n.s.

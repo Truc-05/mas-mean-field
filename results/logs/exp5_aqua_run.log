@@ -1,0 +1,4 @@
+benchmark=aqua  câu hỏi=20  ~620 API calls (single 1 + voting 5 + debate 5x5)
+
+[1/20] single=0 voting=1 debate=1  | A car is being driven, in a straight line and at a uniform s
+[2/20] single=0 voting=0 debate=1  | The original price of an item is discounted 22%. A customer 

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "regime": "hard",
+    "N": 11,
+    "R": 8,
+    "debate_rounds": 3,
+    "model": "qwen2.5:7b",
+    "coupling": 1.0,
+    "A0": [
+      "single",
+      "indep_vote",
+      "diversity",
+      "shared_ev",
+      "debate"
+    ],
+    "NEW": [
+      "a_copy",
+      "a_common",
+      "a_dissent",
+      "a_CI"
+    ],
+    "actions": [
+      "single",
+      "indep_vote",
+      "diversity",
+      "shared_ev",
+      "debate",
+      "a_copy",
+      "a_common",
+      "a_dissent",
+      "a_CI"
+    ],
+    "shared_ev_cond": "shared_correct_strong",
+    "indep_cond": "indep_correct_strong",
+    "q_start": 0,
+    "q_end": 20,
+    "design": "A_prime_damage_repair"
+  },
+  "Q": 20,
+  "n_S_copy": 1,
+  "n_S_common": 7,
+  "n_ctrl_noncopy": 19,
+  "means_S_copy": {
+    "A_indep": 0.25,
+    "A_copy": 0.125,
+    "A_CI": 0.125,
+    "A_common": 0.75,
+    "A_a_copy": 0.25
+  },
+  "delta_CI": 0.0,
+  "delta_CI_ci": [
+    0.0,
+    0.0
+  ],
+  "recovery_ratio": 0.0,
+  "recovery_ratio_ci": [
+    0.0,
+    0.0
+  ],
+  "slope_C_q": -4.36842105263158,
+  "slope_C_q_ci": [
+    -4.947368421052632,
+    -3.5294117647058822
+  ],
+  "slope_positive": false,
+  "interaction_DiD": -0.4107142857142857,
+  "did_copy": -0.625,
+  "did_common": -0.21428571428571427,
+  "guardrail_a_CI_vs_common_on_Scommon": {
+    "mean": -0.21428571428571427,
+    "ci": [
+      -0.42857142857142855,
+      -0.03571428571428571
+    ],
+    "ok": true
+  },
+  "guardrail_a_CI_vs_debate_on_noncopy": {
+    "mean": 0.10526315789473684,
+    "ci": [
+      0.0,
+      0.2631578947368421
+    ],
+    "ok": true
+  },
+  "gate": "KILL algorithm branch — ship C1–C4, no operator #5 (copying cell stays empty)",
+  "mechanism_matched": false,
+  "deployment_strength_RR_ge_100": false
+}

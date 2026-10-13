@@ -1,0 +1,104 @@
+{
+  "source": "results/tables/tier1_dY_decision_churn.json",
+  "n_boot": 5000,
+  "seed": 20261001,
+  "purpose": "sensitivity check only; frozen headline stays the macro aggregate in tier1_dY_decision_churn_aggregate.json",
+  "rows": [
+    {
+      "regime": "easy",
+      "tie_convention": "strict",
+      "n_strata": 31,
+      "n_q_total": 1051,
+      "n_q_range": [
+        15,
+        62
+      ],
+      "macro": {
+        "dC": 0.0043066590655924915,
+        "ci": [
+          0.0009217750675825699,
+          0.008573602770666627
+        ]
+      },
+      "weighted": {
+        "dC": 0.0034094513162067873,
+        "ci": [
+          0.0005441542288557215,
+          0.007058137733902327
+        ]
+      }
+    },
+    {
+      "regime": "hard",
+      "tie_convention": "strict",
+      "n_strata": 35,
+      "n_q_total": 1116,
+      "n_q_range": [
+        16,
+        55
+      ],
+      "macro": {
+        "dC": 0.014036652755928249,
+        "ci": [
+          0.002170377353277497,
+          0.024908118967414378
+        ]
+      },
+      "weighted": {
+        "dC": 0.01747311827956989,
+        "ci": [
+          0.005420424654531506,
+          0.028470993632089745
+        ]
+      }
+    },
+    {
+      "regime": "easy",
+      "tie_convention": "tiebreak",
+      "n_strata": 31,
+      "n_q_total": 1051,
+      "n_q_range": [
+        15,
+        62
+      ],
+      "macro": {
+        "dC": 0.00456736540597069,
+        "ci": [
+          0.0011100173247208863,
+          0.009104310576781821
+        ]
+      },
+      "weighted": {
+        "dC": 0.003647320012686331,
+        "ci": [
+          0.0006918659768394923,
+          0.007435136719471209
+        ]
+      }
+    },
+    {
+      "regime": "hard",
+      "tie_convention": "tiebreak",
+      "n_strata": 35,
+      "n_q_total": 1116,
+      "n_q_range": [
+        16,
+        55
+      ],
+      "macro": {
+        "dC": 0.011879739527162925,
+        "ci": [
+          0.0008561067411212549,
+          0.022110441971647396
+        ]
+      },
+      "weighted": {
+        "dC": 0.014336917562724018,
+        "ci": [
+          0.002547891489763859,
+          0.02510121603923002
+        ]
+      }
+    }
+  ]
+}

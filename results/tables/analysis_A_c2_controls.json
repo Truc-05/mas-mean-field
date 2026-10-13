@@ -1,0 +1,3985 @@
+{
+  "n": 398,
+  "rows": [
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9985396465129339,
+      "confidence_gap": 0.9972402374040019
+    },
+    {
+      "model": "easy",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.5909090909090908,
+      "vote_entropy": 0.44578503652077506,
+      "disagreement": 0.29338842975206614,
+      "confidence": 0.832048680665274,
+      "confidence_gap": 0.6641260376516338
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9852138152327252,
+      "confidence_gap": 0.9727889523105576
+    },
+    {
+      "model": "easy",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.13636363636363635,
+      "vote_entropy": 1.1594259736984018,
+      "disagreement": 0.6508264462809918,
+      "confidence": 0.8708644636264283,
+      "confidence_gap": 0.7438601976764714
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999937762931,
+      "confidence_gap": 0.9999999916748936
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999548554427548,
+      "confidence_gap": 0.9999238795589946
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9998630352921236,
+      "confidence_gap": 0.9997348076156457
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363638,
+      "vote_entropy": 0.21158546280684873,
+      "disagreement": 0.1198347107438017,
+      "confidence": 0.9576706292605706,
+      "confidence_gap": 0.9153413756121145
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9994854386008067,
+      "confidence_gap": 0.998976202861414
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9900724214025751,
+      "confidence_gap": 0.9801463307899441
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999704615664,
+      "confidence_gap": 0.9999999459351705
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9888718553933818,
+      "confidence_gap": 0.97789166376015
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7272727272727273,
+      "vote_entropy": 0.36528485619059714,
+      "disagreement": 0.2231404958677686,
+      "confidence": 0.8186459242419573,
+      "confidence_gap": 0.6375237342010495
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999073657156288,
+      "confidence_gap": 0.9998182192988823
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999784829644491,
+      "confidence_gap": 0.9999669841055419
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999852527603905,
+      "confidence_gap": 0.9999769661223348
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999432392764525,
+      "confidence_gap": 0.9999052884192036
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999988187746824,
+      "confidence_gap": 0.9999979647818009
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9987309691848159,
+      "confidence_gap": 0.9974619444508723
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999995588140911,
+      "confidence_gap": 0.9999991393536806
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6363636363636364,
+      "vote_entropy": 0.44000883912041056,
+      "disagreement": 0.2768595041322315,
+      "confidence": 0.8322101298186771,
+      "confidence_gap": 0.6644445795284484
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9990332056813511,
+      "confidence_gap": 0.9980664254461428
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9090909090909091,
+      "vote_entropy": 0.11853482826445934,
+      "disagreement": 0.07438016528925617,
+      "confidence": 0.9620457579454849,
+      "confidence_gap": 0.9242930410734085
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9845744698263075,
+      "confidence_gap": 0.969169776021666
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9227222629205684,
+      "confidence_gap": 0.8455030455543431
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8295454545454546,
+      "vote_entropy": 0.2866062219518044,
+      "disagreement": 0.15909090909090912,
+      "confidence": 0.9747520216979046,
+      "confidence_gap": 0.9508603338864292
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999996684046597,
+      "confidence_gap": 0.9999993740793041
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.42045454545454547,
+      "vote_entropy": 0.6138243468049854,
+      "disagreement": 0.4070247933884298,
+      "confidence": 0.9413716910856258,
+      "confidence_gap": 0.8860299206266782
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9354165244697217,
+      "confidence_gap": 0.8710160796051158
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.8930253151125647,
+      "confidence_gap": 0.7977651491435964
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9738728791673004,
+      "confidence_gap": 0.9480941538747134
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8863636363636365,
+      "vote_entropy": 0.17350595063819396,
+      "disagreement": 0.0991735537190083,
+      "confidence": 0.9892604031311698,
+      "confidence_gap": 0.9804366029857079
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.996150419821517,
+      "confidence_gap": 0.9923097643489612
+    },
+    {
+      "model": "easy",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.8409090909090909,
+      "vote_entropy": 0.20867051575748305,
+      "disagreement": 0.12809917355371903,
+      "confidence": 0.9912089417653562,
+      "confidence_gap": 0.9824391496431719
+    },
+    {
+      "model": "easy",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.6363636363636364,
+      "vote_entropy": 0.4525055966342552,
+      "disagreement": 0.2851239669421488,
+      "confidence": 0.8262411078549268,
+      "confidence_gap": 0.6691209514654808
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9823312400391002,
+      "confidence_gap": 0.9646624990627781
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9998123068233795,
+      "confidence_gap": 0.9997265530633008
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999831971765603,
+      "confidence_gap": 0.9999727691276916
+    },
+    {
+      "model": "easy",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.20454545454545453,
+      "vote_entropy": 0.9062562545654776,
+      "disagreement": 0.5475206611570249,
+      "confidence": 0.7295210246599602,
+      "confidence_gap": 0.5605530570203038
+    },
+    {
+      "model": "easy",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999991866004838,
+      "confidence_gap": 0.9999986064098503
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.8772982376942242,
+      "confidence_gap": 0.754853439246389
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363636,
+      "vote_entropy": 0.21158546280684873,
+      "disagreement": 0.1198347107438017,
+      "confidence": 0.9258348353140486,
+      "confidence_gap": 0.8533926124210521
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999985257578439,
+      "confidence_gap": 0.999997058297754
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7045454545454546,
+      "vote_entropy": 0.41945935382149363,
+      "disagreement": 0.2520661157024794,
+      "confidence": 0.5794202629082245,
+      "confidence_gap": 0.2622931412094747
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9966728031174414,
+      "confidence_gap": 0.9934796663608919
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9998663167809966,
+      "confidence_gap": 0.9997787473086489
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.980681254238116,
+      "confidence_gap": 0.9648675924919115
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9765117987969278,
+      "confidence_gap": 0.9532162572942846
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9889857946640539,
+      "confidence_gap": 0.9779742924451379
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9985760617120044,
+      "confidence_gap": 0.9972700312241711
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9963678719660626,
+      "confidence_gap": 0.992745716242186
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9570596247453578,
+      "confidence_gap": 0.9190248056500679
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.26136363636363635,
+      "vote_entropy": 0.6727012221906293,
+      "disagreement": 0.46074380165289264,
+      "confidence": 0.9055782825431026,
+      "confidence_gap": 0.813857953286674
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9090909090909092,
+      "vote_entropy": 0.1354264384695392,
+      "disagreement": 0.07851239669421489,
+      "confidence": 0.9216142016058552,
+      "confidence_gap": 0.8452582441000721
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999619474900991,
+      "confidence_gap": 0.9999367587438112
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9995561066906069,
+      "confidence_gap": 0.9991991956815259
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9988998846458688,
+      "confidence_gap": 0.9982021928636676
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999935750634,
+      "confidence_gap": 0.9999999914334179
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.20454545454545453,
+      "vote_entropy": 0.6635543617392955,
+      "disagreement": 0.47107438016528935,
+      "confidence": 0.9101881620274483,
+      "confidence_gap": 0.8209667257309776
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999888464628477,
+      "confidence_gap": 0.9999820238762271
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9256276352853792,
+      "confidence_gap": 0.8586937957526468
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9991070029671574,
+      "confidence_gap": 0.9982196953080235
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9963318402958357,
+      "confidence_gap": 0.9939444376851273
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.8181818181818181,
+      "vote_entropy": 0.22985841772105794,
+      "disagreement": 0.1446280991735537,
+      "confidence": 0.9356766195055572,
+      "confidence_gap": 0.8764026901223552
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9916775996468448,
+      "confidence_gap": 0.9845108979691304
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9672139553093567,
+      "confidence_gap": 0.9445490912336467
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999811622979,
+      "confidence_gap": 0.9999999747839377
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9584814980496856,
+      "confidence_gap": 0.9308715518180769
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9981343476489059,
+      "confidence_gap": 0.9970452700990404
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.995167921247783,
+      "confidence_gap": 0.9915057928929443
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.8008922508931318,
+      "confidence_gap": 0.6604362465197231
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999795359203874,
+      "confidence_gap": 0.9999591579845872
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9884927221086258,
+      "confidence_gap": 0.980435397488666
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9969935419279133,
+      "confidence_gap": 0.9948699832161119
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9614956672050886,
+      "confidence_gap": 0.9229931293742288
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.7727272727272727,
+      "vote_entropy": 0.24274049524269642,
+      "disagreement": 0.15702479338842976,
+      "confidence": 0.7382082846992679,
+      "confidence_gap": 0.4782715323226403
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999624691681287,
+      "confidence_gap": 0.9999497234085275
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999819174422739,
+      "confidence_gap": 0.9999715013471842
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.999876216920917,
+      "confidence_gap": 0.9998349557851559
+    },
+    {
+      "model": "easy_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9995141638087819,
+      "confidence_gap": 0.9992145454800463
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6363636363636365,
+      "vote_entropy": 0.5084567761221636,
+      "disagreement": 0.30371900826446285,
+      "confidence": 0.9614143461651398,
+      "confidence_gap": 0.9243610805355948
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.6477272727272727,
+      "vote_entropy": 0.4742049432806693,
+      "disagreement": 0.2892561983471075,
+      "confidence": 0.9336823178911646,
+      "confidence_gap": 0.8678618967503036
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.2727272727272727,
+      "vote_entropy": 0.7621880229110922,
+      "disagreement": 0.4896694214876033,
+      "confidence": 0.932277842485385,
+      "confidence_gap": 0.8655318828822233
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.2727272727272727,
+      "vote_entropy": 0.8666985899973549,
+      "disagreement": 0.5309917355371901,
+      "confidence": 0.8697189606485087,
+      "confidence_gap": 0.7501901051825168
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8977272727272728,
+      "vote_entropy": 0.18925929565092,
+      "disagreement": 0.10123966942148764,
+      "confidence": 0.9689877290128289,
+      "confidence_gap": 0.9477456813910135
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.7727272727272727,
+      "vote_entropy": 0.33980066246852725,
+      "disagreement": 0.19421487603305795,
+      "confidence": 0.9844392247811175,
+      "confidence_gap": 0.9689141474377327
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.5909090909090909,
+      "vote_entropy": 0.6510018755442153,
+      "disagreement": 0.3698347107438017,
+      "confidence": 0.9541551939216216,
+      "confidence_gap": 0.9142042014702656
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.7840909090909092,
+      "vote_entropy": 0.32771678870478155,
+      "disagreement": 0.19008264462809918,
+      "confidence": 0.9557340581459275,
+      "confidence_gap": 0.9176487475001938
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9926012050809376,
+      "confidence_gap": 0.9852779025364304
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6590909090909092,
+      "vote_entropy": 0.39214359686794975,
+      "disagreement": 0.2479338842975207,
+      "confidence": 0.9365402047133513,
+      "confidence_gap": 0.8732659595898646
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7386363636363636,
+      "vote_entropy": 0.41431070863892494,
+      "disagreement": 0.237603305785124,
+      "confidence": 0.9631830784645463,
+      "confidence_gap": 0.9264631348287065
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.48863636363636365,
+      "vote_entropy": 0.8372424444742375,
+      "disagreement": 0.4669421487603306,
+      "confidence": 0.919341247180991,
+      "confidence_gap": 0.8451378742130922
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.25,
+      "vote_entropy": 0.7117271290552684,
+      "disagreement": 0.4793388429752067,
+      "confidence": 0.9514166167590077,
+      "confidence_gap": 0.9094149005404482
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9854910178934387,
+      "confidence_gap": 0.9712990021494909
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9917484713817462,
+      "confidence_gap": 0.9835018043612551
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9943817365314193,
+      "confidence_gap": 0.9890316924886764
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8977272727272728,
+      "vote_entropy": 0.18925929565092,
+      "disagreement": 0.10123966942148764,
+      "confidence": 0.9784501336009278,
+      "confidence_gap": 0.9647399979263518
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9994530707927827,
+      "confidence_gap": 0.998907345785145
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.9631084803452254,
+      "confidence_gap": 0.9263712845429166
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5,
+      "vote_entropy": 0.6103699383626613,
+      "disagreement": 0.3760330578512397,
+      "confidence": 0.9646370474034431,
+      "confidence_gap": 0.9333489066300436
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.36363636363636365,
+      "vote_entropy": 0.7485966797631719,
+      "disagreement": 0.46074380165289264,
+      "confidence": 0.89499148124166,
+      "confidence_gap": 0.7959506194916681
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.75,
+      "vote_entropy": 0.366137941322952,
+      "disagreement": 0.21280991735537194,
+      "confidence": 0.9705969313542735,
+      "confidence_gap": 0.9458264535709598
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.36363636363636365,
+      "vote_entropy": 0.9212946882438515,
+      "disagreement": 0.53099173553719,
+      "confidence": 0.9406399208148728,
+      "confidence_gap": 0.8820145896821537
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.5681818181818181,
+      "vote_entropy": 0.5786705305340663,
+      "disagreement": 0.34710743801652894,
+      "confidence": 0.9547881771312046,
+      "confidence_gap": 0.9126902568700572
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9873568859960733,
+      "confidence_gap": 0.9827037200031699
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.2954545454545454,
+      "vote_entropy": 0.9107780792385316,
+      "disagreement": 0.5227272727272727,
+      "confidence": 0.8836561159601953,
+      "confidence_gap": 0.778993188740216
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9938941716865357,
+      "confidence_gap": 0.9880015459835949
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5227272727272727,
+      "vote_entropy": 0.6363983918789864,
+      "disagreement": 0.3801652892561984,
+      "confidence": 0.8870124925913818,
+      "confidence_gap": 0.7856198624313435
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9940296183781512,
+      "confidence_gap": 0.9920348962773284
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.7840909090909092,
+      "vote_entropy": 0.38041138069380853,
+      "disagreement": 0.21074380165289258,
+      "confidence": 0.910158127492391,
+      "confidence_gap": 0.8289220917984004
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9006423539896101,
+      "confidence_gap": 0.8221023321553562
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.09734692630088443,
+      "disagreement": 0.05785123966942149,
+      "confidence": 0.9821359131005566,
+      "confidence_gap": 0.9685404232316924
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.34090909090909094,
+      "vote_entropy": 1.0205184363495428,
+      "disagreement": 0.5826446280991736,
+      "confidence": 0.9375406763585978,
+      "confidence_gap": 0.8891036640646033
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.18181818181818182,
+      "vote_entropy": 0.9787473866688614,
+      "disagreement": 0.5909090909090909,
+      "confidence": 0.8896720158412015,
+      "confidence_gap": 0.7938231007914451
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8863636363636365,
+      "vote_entropy": 0.19039756084327383,
+      "disagreement": 0.10330578512396701,
+      "confidence": 0.9745103565548768,
+      "confidence_gap": 0.949040834755414
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.4431818181818182,
+      "vote_entropy": 0.5311582461457973,
+      "disagreement": 0.35743801652892565,
+      "confidence": 0.9551027475695799,
+      "confidence_gap": 0.9105410776320224
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.9948611336663602,
+      "confidence_gap": 0.9899093925297584
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9090909090909092,
+      "vote_entropy": 0.1354264384695392,
+      "disagreement": 0.07851239669421489,
+      "confidence": 0.9742489163061894,
+      "confidence_gap": 0.9504356138072121
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3977272727272727,
+      "vote_entropy": 0.832594495126138,
+      "disagreement": 0.487603305785124,
+      "confidence": 0.9035375016294815,
+      "confidence_gap": 0.8193327549718794
+    },
+    {
+      "model": "easy_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.15909090909090912,
+      "vote_entropy": 1.0215072103292178,
+      "disagreement": 0.609504132231405,
+      "confidence": 0.9082192846551385,
+      "confidence_gap": 0.8199736176224173
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.5051305352970287,
+      "confidence_gap": 0.022724826168942173
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.8267046014638837,
+      "confidence_gap": 0.7687609931265525
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363638,
+      "vote_entropy": 0.21158546280684873,
+      "disagreement": 0.1198347107438017,
+      "confidence": 0.7652584528615396,
+      "confidence_gap": 0.5817471252064017
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5681818181818181,
+      "vote_entropy": 0.6273656069797404,
+      "disagreement": 0.36983471074380164,
+      "confidence": 0.7114824069659553,
+      "confidence_gap": 0.47770963431821645
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999908632730126,
+      "confidence_gap": 0.9999823285147629
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7727272727272727,
+      "vote_entropy": 0.38281488306033506,
+      "disagreement": 0.21487603305785125,
+      "confidence": 0.9598019554131108,
+      "confidence_gap": 0.925016061134518
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.75,
+      "vote_entropy": 0.31999410521408167,
+      "disagreement": 0.19834710743801656,
+      "confidence": 0.8689561982299194,
+      "confidence_gap": 0.7913382361878643
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.3181818181818182,
+      "vote_entropy": 0.6095276020786764,
+      "disagreement": 0.42148760330578516,
+      "confidence": 0.9392893210987239,
+      "confidence_gap": 0.8857778506563505
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9862726403407511,
+      "confidence_gap": 0.9729975196287699
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9845235404928079,
+      "confidence_gap": 0.969145386731695
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9998565322462728,
+      "confidence_gap": 0.9997287961777946
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.8029811274305703,
+      "confidence_gap": 0.7336416229887794
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.7045454545454546,
+      "vote_entropy": 0.37926151934631136,
+      "disagreement": 0.23553719008264465,
+      "confidence": 0.706854053411408,
+      "confidence_gap": 0.5766323757129319
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5227272727272727,
+      "vote_entropy": 0.5137435951027349,
+      "disagreement": 0.33884297520661155,
+      "confidence": 0.6746632181583878,
+      "confidence_gap": 0.4764952021867447
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999743857695734,
+      "confidence_gap": 0.9999589974135555
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999125070143633,
+      "confidence_gap": 0.9998483627848133
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.980444595510708,
+      "confidence_gap": 0.9729317171772693
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9996678481923656,
+      "confidence_gap": 0.9993367886320144
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.6765397466669825,
+      "confidence_gap": 0.48971925627704815
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9090909090909092,
+      "vote_entropy": 0.15231804867461907,
+      "disagreement": 0.08264462809917361,
+      "confidence": 0.5576528025533325,
+      "confidence_gap": 0.11541190403062082
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.10227272727272728,
+      "vote_entropy": 1.0770013735409347,
+      "disagreement": 0.6363636363636365,
+      "confidence": 0.8045705937547813,
+      "confidence_gap": 0.6382862575085158
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9928372456828172,
+      "confidence_gap": 0.9897165940688843
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.5340909090909091,
+      "vote_entropy": 0.55073881751787,
+      "disagreement": 0.33884297520661155,
+      "confidence": 0.6887767732615964,
+      "confidence_gap": 0.38898111495560755
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9612691744980913,
+      "confidence_gap": 0.9268682525131585
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.05926741413222967,
+      "disagreement": 0.037190082644628086,
+      "confidence": 0.966748010888374,
+      "confidence_gap": 0.9340501867221627
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.43181818181818177,
+      "vote_entropy": 0.58222389424809,
+      "disagreement": 0.38016528925619836,
+      "confidence": 0.8839354173796639,
+      "confidence_gap": 0.7985076972046247
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999742903716,
+      "confidence_gap": 0.9999999657049861
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8068181818181819,
+      "vote_entropy": 0.3234204969462865,
+      "disagreement": 0.17768595041322321,
+      "confidence": 0.8762182334348281,
+      "confidence_gap": 0.802473204054051
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999981326115723,
+      "confidence_gap": 0.9999968307971832
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.48262833613912315,
+      "confidence_gap": 0.05774394566465212
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.5970676664280296,
+      "confidence_gap": 0.3762667246729281
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9973771739884931,
+      "confidence_gap": 0.9950960273828487
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.852750903632479,
+      "confidence_gap": 0.7073393138342408
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.7873940605513564,
+      "confidence_gap": 0.6235880245644629
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.18181818181818182,
+      "vote_entropy": 0.6722455061890257,
+      "disagreement": 0.4793388429752067,
+      "confidence": 0.5657480547084364,
+      "confidence_gap": 0.2202357799366473
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6022727272727273,
+      "vote_entropy": 0.5359323201689422,
+      "disagreement": 0.3243801652892562,
+      "confidence": 0.9121776594961146,
+      "confidence_gap": 0.8415266376529763
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999132964019384,
+      "confidence_gap": 0.9998843855091372
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9237210905326385,
+      "confidence_gap": 0.8478973863365642
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.4886363636363636,
+      "vote_entropy": 0.5536105379767715,
+      "disagreement": 0.359504132231405,
+      "confidence": 0.8323001641128049,
+      "confidence_gap": 0.7427694279873246
+    },
+    {
+      "model": "easy_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.11363636363636363,
+      "vote_entropy": 0.6848183054047504,
+      "disagreement": 0.4917355371900828,
+      "confidence": 0.7899351573841928,
+      "confidence_gap": 0.5930541989667354
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8068181818181819,
+      "vote_entropy": 0.3077941239153793,
+      "disagreement": 0.17561983471074383,
+      "confidence": 0.8875100849698686,
+      "confidence_gap": 0.792726424905644
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999977146839414,
+      "confidence_gap": 0.9999971433549264
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9998088684327786,
+      "confidence_gap": 0.9996221154175051
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999239297501288,
+      "confidence_gap": 0.9998478691359863
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.5051423169211096,
+      "confidence_gap": 0.010285775549015429
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.45454545454545453,
+      "vote_entropy": 0.5244960329031697,
+      "disagreement": 0.359504132231405,
+      "confidence": 0.8637730501939986,
+      "confidence_gap": 0.7328601325981867
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.26136363636363635,
+      "vote_entropy": 0.8595305777799582,
+      "disagreement": 0.5227272727272727,
+      "confidence": 0.7478284065562485,
+      "confidence_gap": 0.5456473778973581
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6704545454545454,
+      "vote_entropy": 0.44838068812413834,
+      "disagreement": 0.26652892561983477,
+      "confidence": 0.9750205393231378,
+      "confidence_gap": 0.9501304721176265
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.2727272727272727,
+      "vote_entropy": 0.8193111300095439,
+      "disagreement": 0.5144628099173554,
+      "confidence": 0.8102676563255511,
+      "confidence_gap": 0.6233724774457186
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.7954545454545454,
+      "vote_entropy": 0.36162698109676017,
+      "disagreement": 0.19834710743801656,
+      "confidence": 0.8524660074616535,
+      "confidence_gap": 0.7363519158053342
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.25,
+      "vote_entropy": 0.7676783085431768,
+      "disagreement": 0.49793388429752067,
+      "confidence": 0.8554245753878613,
+      "confidence_gap": 0.7145854242408555
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9997257304477669,
+      "confidence_gap": 0.9994704897249844
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3522727272727273,
+      "vote_entropy": 0.6761055476597881,
+      "disagreement": 0.43388429752066127,
+      "confidence": 0.7056355387772177,
+      "confidence_gap": 0.48298892399781324
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999989203326257,
+      "confidence_gap": 0.9999985249408521
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.6363636363636365,
+      "vote_entropy": 0.44722007792827123,
+      "disagreement": 0.2809917355371901,
+      "confidence": 0.9981167442563936,
+      "confidence_gap": 0.9962410899739993
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.986103813434859,
+      "confidence_gap": 0.9723154070066954
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6704545454545454,
+      "vote_entropy": 0.43739066828618717,
+      "disagreement": 0.2706611570247934,
+      "confidence": 0.796119726950069,
+      "confidence_gap": 0.6242401790212713
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7159090909090909,
+      "vote_entropy": 0.45365545798175244,
+      "disagreement": 0.26033057851239666,
+      "confidence": 0.8633154743638396,
+      "confidence_gap": 0.7463118058255847
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.7272727272727273,
+      "vote_entropy": 0.34118200717765657,
+      "disagreement": 0.21487603305785125,
+      "confidence": 0.5722915262705344,
+      "confidence_gap": 0.14458644772342083
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.1590909090909091,
+      "vote_entropy": 1.1767525339166267,
+      "disagreement": 0.6570247933884297,
+      "confidence": 0.9414241237920355,
+      "confidence_gap": 0.8850101526249929
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.996920524209741,
+      "confidence_gap": 0.9938547927192267
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.625,
+      "vote_entropy": 0.5026040840521049,
+      "disagreement": 0.3099173553719008,
+      "confidence": 0.9678872904388616,
+      "confidence_gap": 0.9357785582393598
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.9915918850903944,
+      "confidence_gap": 0.9842303889097572
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6477272727272727,
+      "vote_entropy": 0.4557621841331366,
+      "disagreement": 0.27892561983471076,
+      "confidence": 0.961751227992902,
+      "confidence_gap": 0.9251485552208192
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999860952031552,
+      "confidence_gap": 0.999982363967379
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999917553855,
+      "confidence_gap": 0.9999999896942317
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.21590909090909088,
+      "vote_entropy": 0.8683478469047339,
+      "disagreement": 0.5433884297520661,
+      "confidence": 0.894603564610536,
+      "confidence_gap": 0.813396305953157
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999989904864774,
+      "confidence_gap": 0.9999983005965352
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9943181736496897,
+      "confidence_gap": 0.9886363534477064
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.2272727272727273,
+      "vote_entropy": 0.7023267189792561,
+      "disagreement": 0.4710743801652893,
+      "confidence": 0.7631454302284936,
+      "confidence_gap": 0.5439433351934859
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.8615898134338269,
+      "confidence_gap": 0.7601694960288727
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.75,
+      "vote_entropy": 0.32720534402194235,
+      "disagreement": 0.2024793388429752,
+      "confidence": 0.9221081708192334,
+      "confidence_gap": 0.8463008219421775
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999996607867261,
+      "confidence_gap": 0.9999993600998017
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999002658004,
+      "confidence_gap": 0.999999817602684
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.4659090909090909,
+      "vote_entropy": 0.6516079300652713,
+      "disagreement": 0.40909090909090906,
+      "confidence": 0.9301341582186824,
+      "confidence_gap": 0.8602800588181667
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9965445161051938,
+      "confidence_gap": 0.9931475988307044
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9995820424085755,
+      "confidence_gap": 0.9991852094416034
+    },
+    {
+      "model": "easy_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8068181818181819,
+      "vote_entropy": 0.3246857341204592,
+      "disagreement": 0.17975206611570255,
+      "confidence": 0.9792793873718528,
+      "confidence_gap": 0.9598123461621759
+    },
+    {
+      "model": "hard",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.6136363636363635,
+      "vote_entropy": 0.46119674108398545,
+      "disagreement": 0.29338842975206614,
+      "confidence": 0.9019303574493527,
+      "confidence_gap": 0.8040102533188208
+    },
+    {
+      "model": "hard",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.6477272727272727,
+      "vote_entropy": 0.6473219341873322,
+      "disagreement": 0.35123966942148754,
+      "confidence": 0.9326331435799502,
+      "confidence_gap": 0.871466767880982
+    },
+    {
+      "model": "hard",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.5795454545454546,
+      "vote_entropy": 0.5193258900238613,
+      "disagreement": 0.32851239669421484,
+      "confidence": 0.7503585910410404,
+      "confidence_gap": 0.5144257151717386
+    },
+    {
+      "model": "hard",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.18181818181818182,
+      "vote_entropy": 0.7313975444945798,
+      "disagreement": 0.4979338842975207,
+      "confidence": 0.7539286809422658,
+      "confidence_gap": 0.5273440257403627
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999885516128524,
+      "confidence_gap": 0.9999771083242193
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9403169554977289,
+      "confidence_gap": 0.8828772193407204
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5909090909090909,
+      "vote_entropy": 0.4876701617535443,
+      "disagreement": 0.3140495867768595,
+      "confidence": 0.8316776057659245,
+      "confidence_gap": 0.667851263775567
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7613636363636364,
+      "vote_entropy": 0.3429586890346684,
+      "disagreement": 0.20454545454545453,
+      "confidence": 0.5388790532643828,
+      "confidence_gap": 0.10187822673968236
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363636,
+      "vote_entropy": 0.18748261379390815,
+      "disagreement": 0.11157024793388434,
+      "confidence": 0.699945245896841,
+      "confidence_gap": 0.4677385355843362
+    },
+    {
+      "model": "hard",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.8522727272727273,
+      "vote_entropy": 0.2654183199882295,
+      "disagreement": 0.14256198347107443,
+      "confidence": 0.9936995894489375,
+      "confidence_gap": 0.9879553995150284
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363638,
+      "vote_entropy": 0.21158546280684873,
+      "disagreement": 0.1198347107438017,
+      "confidence": 0.7016889207323163,
+      "confidence_gap": 0.4428090461636326
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7954545454545454,
+      "vote_entropy": 0.24383508087677214,
+      "disagreement": 0.15702479338842976,
+      "confidence": 0.9456132811018493,
+      "confidence_gap": 0.8912635488063152
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.999925064621746,
+      "confidence_gap": 0.9998736118930716
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.28409090909090906,
+      "vote_entropy": 0.9068610088119462,
+      "disagreement": 0.5392561983471075,
+      "confidence": 0.7461469550517629,
+      "confidence_gap": 0.5601360703750962
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.38636363636363635,
+      "vote_entropy": 0.579957833971285,
+      "disagreement": 0.39669421487603307,
+      "confidence": 0.8121154099575196,
+      "confidence_gap": 0.6607833090684937
+    },
+    {
+      "model": "hard",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.671046774472775,
+      "confidence_gap": 0.4305783797077182
+    },
+    {
+      "model": "hard",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.32954545454545453,
+      "vote_entropy": 0.701793661001185,
+      "disagreement": 0.4545454545454546,
+      "confidence": 0.8564465629800837,
+      "confidence_gap": 0.722873625920736
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9090909090909092,
+      "vote_entropy": 0.1354264384695392,
+      "disagreement": 0.07851239669421489,
+      "confidence": 0.9419596390555007,
+      "confidence_gap": 0.8968115228110779
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.8792502534390646,
+      "confidence_gap": 0.7585077769481694
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.4318181818181818,
+      "vote_entropy": 0.5893582440472971,
+      "disagreement": 0.40082644628099173,
+      "confidence": 0.7558034871222288,
+      "confidence_gap": 0.5117776876462432
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.2727272727272727,
+      "vote_entropy": 0.6269098909781368,
+      "disagreement": 0.4380165289256199,
+      "confidence": 0.8660668668062532,
+      "confidence_gap": 0.7321375739194389
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999516395495804,
+      "confidence_gap": 0.999909769815881
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999732474211382,
+      "confidence_gap": 0.999950642602804
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999942600038385,
+      "confidence_gap": 0.9999897150701642
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.8659515934581832,
+      "confidence_gap": 0.7319237042315327
+    },
+    {
+      "model": "hard",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.4772727272727273,
+      "vote_entropy": 0.5274109799525354,
+      "disagreement": 0.35123966942148765,
+      "confidence": 0.9255726181704451,
+      "confidence_gap": 0.8576796739474668
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9524324130948776,
+      "confidence_gap": 0.9049574317582298
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5681818181818181,
+      "vote_entropy": 0.5205522460410525,
+      "disagreement": 0.31818181818181823,
+      "confidence": 0.8904098697463383,
+      "confidence_gap": 0.7896691470420427
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.75,
+      "vote_entropy": 0.34409695422702224,
+      "disagreement": 0.20661157024793392,
+      "confidence": 0.9447998568532339,
+      "confidence_gap": 0.8986797236682216
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6704545454545454,
+      "vote_entropy": 0.43210514958020324,
+      "disagreement": 0.26652892561983466,
+      "confidence": 0.8446336157656121,
+      "confidence_gap": 0.7210766582219765
+    },
+    {
+      "model": "hard",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.25,
+      "vote_entropy": 0.655172495595479,
+      "disagreement": 0.4628099173553719,
+      "confidence": 0.8124149824153152,
+      "confidence_gap": 0.6248544709171331
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.20454545454545456,
+      "vote_entropy": 0.6590541503614734,
+      "disagreement": 0.4669421487603307,
+      "confidence": 0.7750917335102974,
+      "confidence_gap": 0.552904828187176
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9985654575145396,
+      "confidence_gap": 0.9971986600916323
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3522727272727273,
+      "vote_entropy": 0.6504688175661439,
+      "disagreement": 0.4400826446280992,
+      "confidence": 0.7899549216613395,
+      "confidence_gap": 0.6119302587511022
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999849680640374,
+      "confidence_gap": 0.9999757372257709
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.45454545454545453,
+      "vote_entropy": 0.5575993046717542,
+      "disagreement": 0.37603305785123964,
+      "confidence": 0.8557513217838538,
+      "confidence_gap": 0.7115094493713479
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3409090909090909,
+      "vote_entropy": 0.6196226104683961,
+      "disagreement": 0.4297520661157025,
+      "confidence": 0.8246216075582868,
+      "confidence_gap": 0.6492682284629054
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.22727272727272727,
+      "vote_entropy": 0.6548632172895652,
+      "disagreement": 0.46280991735537197,
+      "confidence": 0.7831646520857111,
+      "confidence_gap": 0.5668071063935378
+    },
+    {
+      "model": "hard",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.1590909090909091,
+      "vote_entropy": 0.8357294557529582,
+      "disagreement": 0.5335743801652894,
+      "confidence": 0.7250698786769599,
+      "confidence_gap": 0.571541161112666
+    },
+    {
+      "model": "hard",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.985554033562039,
+      "confidence_gap": 0.9711392568246162
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7840909090909092,
+      "vote_entropy": 0.3615000091149413,
+      "disagreement": 0.19834710743801665,
+      "confidence": 0.9615005878885972,
+      "confidence_gap": 0.9265822062792824
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7045454545454545,
+      "vote_entropy": 0.33287618273572017,
+      "disagreement": 0.2107438016528926,
+      "confidence": 0.9718763749142318,
+      "confidence_gap": 0.9494791548143127
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363636,
+      "vote_entropy": 0.18748261379390815,
+      "disagreement": 0.11157024793388434,
+      "confidence": 0.7962265191103155,
+      "confidence_gap": 0.5963829541439906
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9854973199330852,
+      "confidence_gap": 0.9755366151744007
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.23863636363636362,
+      "vote_entropy": 0.6832951731724168,
+      "disagreement": 0.4710743801652893,
+      "confidence": 0.9782657584075116,
+      "confidence_gap": 0.9572469020045762
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8863636363636365,
+      "vote_entropy": 0.1494031016252534,
+      "disagreement": 0.09090909090909094,
+      "confidence": 0.8562287019650657,
+      "confidence_gap": 0.7269503963931605
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.791392545131145,
+      "confidence_gap": 0.6377111762945207
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9915892951381315,
+      "confidence_gap": 0.9833630830591291
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.8181818181818182,
+      "vote_entropy": 0.27085287693907845,
+      "disagreement": 0.15702479338842978,
+      "confidence": 0.7394756313463662,
+      "confidence_gap": 0.5072258531731051
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.36363636363636365,
+      "vote_entropy": 0.6109314660186658,
+      "disagreement": 0.42148760330578516,
+      "confidence": 0.8438069352957039,
+      "confidence_gap": 0.6974825697720046
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.40909090909090906,
+      "vote_entropy": 0.5587699320077101,
+      "disagreement": 0.3801652892561984,
+      "confidence": 0.6227550761706089,
+      "confidence_gap": 0.38253964426203035
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5681818181818181,
+      "vote_entropy": 0.49107578749729053,
+      "disagreement": 0.3181818181818182,
+      "confidence": 0.8549213770312871,
+      "confidence_gap": 0.7304928041782788
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.8246162062187264,
+      "confidence_gap": 0.6555287895739681
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.19318181818181818,
+      "vote_entropy": 0.8308938549710061,
+      "disagreement": 0.5268595041322315,
+      "confidence": 0.7192824021058757,
+      "confidence_gap": 0.5201204543012112
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.5,
+      "vote_entropy": 0.7443716313052602,
+      "disagreement": 0.4214876033057851,
+      "confidence": 0.7507595774164542,
+      "confidence_gap": 0.547557735643234
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.3068181818181818,
+      "vote_entropy": 0.6594895533424325,
+      "disagreement": 0.4504132231404959,
+      "confidence": 0.774573817021685,
+      "confidence_gap": 0.6192167183285708
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.8968921390608577,
+      "confidence_gap": 0.8321862501571065
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.5,
+      "absdA": 0.5,
+      "margin": 0.4318181818181819,
+      "vote_entropy": 0.6853297500875896,
+      "disagreement": 0.4090909090909091,
+      "confidence": 0.8393789025566762,
+      "confidence_gap": 0.7194102169086009
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9672975580822061,
+      "confidence_gap": 0.9376045559743761
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9927211108696228,
+      "confidence_gap": 0.9872818003412942
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.8290146277600406,
+      "confidence_gap": 0.6979230016987359
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.38636363636363635,
+      "vote_entropy": 0.5629608650796183,
+      "disagreement": 0.3842975206611571,
+      "confidence": 0.8083913472753935,
+      "confidence_gap": 0.6176492851590807
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9923292896391009,
+      "confidence_gap": 0.9847850044934519
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999999651548648,
+      "confidence_gap": 0.9999999373019619
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9985101241939065,
+      "confidence_gap": 0.9974169510081634
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9222600040781865,
+      "confidence_gap": 0.8698229615472096
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6363636363636364,
+      "vote_entropy": 0.4758118209043577,
+      "disagreement": 0.29338842975206614,
+      "confidence": 0.8368464928559681,
+      "confidence_gap": 0.6788205441715426
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.32954545454545453,
+      "vote_entropy": 0.6844113721017245,
+      "disagreement": 0.4504132231404959,
+      "confidence": 0.8346839803817525,
+      "confidence_gap": 0.6994731285791769
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.988083085029839,
+      "confidence_gap": 0.97932801697086
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.11363636363636365,
+      "vote_entropy": 1.0679806377646461,
+      "disagreement": 0.6384297520661157,
+      "confidence": 0.8250502533210305,
+      "confidence_gap": 0.6732148971454244
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9294621373728049,
+      "confidence_gap": 0.8701130520395646
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.4318181818181818,
+      "vote_entropy": 0.7105064187461473,
+      "disagreement": 0.4297520661157025,
+      "confidence": 0.910849702114795,
+      "confidence_gap": 0.8329731495223534
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.4659090909090909,
+      "vote_entropy": 0.5815310491767839,
+      "disagreement": 0.38016528925619836,
+      "confidence": 0.9029385470196074,
+      "confidence_gap": 0.8075945787605976
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3181818181818182,
+      "vote_entropy": 0.6140278134564984,
+      "disagreement": 0.4256198347107438,
+      "confidence": 0.9376720127089251,
+      "confidence_gap": 0.8769892836408251
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.31818181818181823,
+      "vote_entropy": 0.6015310559426537,
+      "disagreement": 0.4173553719008265,
+      "confidence": 0.8272522907308637,
+      "confidence_gap": 0.6932354744247144
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9873399143814269,
+      "confidence_gap": 0.974711184481991
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9936271237130627,
+      "confidence_gap": 0.9878011518622873
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.09734692630088443,
+      "disagreement": 0.05785123966942149,
+      "confidence": 0.9172105316485829,
+      "confidence_gap": 0.8369544803252487
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999464076785372,
+      "confidence_gap": 0.9999145421067412
+    },
+    {
+      "model": "hard_gemma9b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999987667203772,
+      "confidence_gap": 0.9999975537353706
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.9739727260419375,
+      "confidence_gap": 0.9559434373109905
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.4204545454545454,
+      "vote_entropy": 0.7705711893294963,
+      "disagreement": 0.45454545454545453,
+      "confidence": 0.9359377453720075,
+      "confidence_gap": 0.8759703945433761
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.2954545454545454,
+      "vote_entropy": 0.6155077190983679,
+      "disagreement": 0.42975206611570255,
+      "confidence": 0.7314691990021694,
+      "confidence_gap": 0.46351720695807974
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.75,
+      "vote_entropy": 0.38458070047048476,
+      "disagreement": 0.2231404958677686,
+      "confidence": 0.9486035119836503,
+      "confidence_gap": 0.9000993231359271
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.45454545454545453,
+      "vote_entropy": 0.5628848233777383,
+      "disagreement": 0.38016528925619836,
+      "confidence": 0.9528092564755213,
+      "confidence_gap": 0.9063508559236008
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.43181818181818177,
+      "vote_entropy": 0.8791940472366121,
+      "disagreement": 0.49586776859504134,
+      "confidence": 0.8771133794910613,
+      "confidence_gap": 0.767389910307694
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5454545454545454,
+      "vote_entropy": 0.47826975167753216,
+      "disagreement": 0.3099173553719009,
+      "confidence": 0.8829381176965535,
+      "confidence_gap": 0.7699311185020262
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7272727272727273,
+      "vote_entropy": 0.38217646639567704,
+      "disagreement": 0.22727272727272732,
+      "confidence": 0.9565504971302679,
+      "confidence_gap": 0.9132715634847758
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.625,
+      "absdA": 0.625,
+      "margin": 0.4886363636363636,
+      "vote_entropy": 0.8441569070669559,
+      "disagreement": 0.47314049586776863,
+      "confidence": 0.891639245123287,
+      "confidence_gap": 0.7950596478108121
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.4431818181818182,
+      "vote_entropy": 0.7300437635277557,
+      "disagreement": 0.44008264462809915,
+      "confidence": 0.9364033321106138,
+      "confidence_gap": 0.8790543985822352
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.7954545454545455,
+      "vote_entropy": 0.33752413208381954,
+      "disagreement": 0.1900826446280992,
+      "confidence": 0.8850955772861528,
+      "confidence_gap": 0.7847080605883218
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8522727272727273,
+      "vote_entropy": 0.24852670978314967,
+      "disagreement": 0.13842975206611574,
+      "confidence": 0.9355458422598442,
+      "confidence_gap": 0.8762218931552419
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.23863636363636365,
+      "vote_entropy": 0.8591996861788125,
+      "disagreement": 0.5227272727272727,
+      "confidence": 0.9328428453506192,
+      "confidence_gap": 0.8703603869188241
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.23863636363636362,
+      "vote_entropy": 0.8514225742814645,
+      "disagreement": 0.5268595041322315,
+      "confidence": 0.9095951649159844,
+      "confidence_gap": 0.8297613249987501
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.5,
+      "absdA": 0.5,
+      "margin": 0.6136363636363636,
+      "vote_entropy": 0.48999195071158475,
+      "disagreement": 0.2995867768595042,
+      "confidence": 0.9436690658581883,
+      "confidence_gap": 0.8889714054166429
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.26136363636363635,
+      "vote_entropy": 0.907042862168227,
+      "disagreement": 0.5495867768595042,
+      "confidence": 0.6854360736867974,
+      "confidence_gap": 0.4453272059953592
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.3068181818181818,
+      "vote_entropy": 0.8999806616052313,
+      "disagreement": 0.5351239669421488,
+      "confidence": 0.8239440513070858,
+      "confidence_gap": 0.676311917920053
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.4659090909090909,
+      "vote_entropy": 0.589594072842412,
+      "disagreement": 0.38016528925619836,
+      "confidence": 0.9353731456780815,
+      "confidence_gap": 0.8743371885912307
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3181818181818182,
+      "vote_entropy": 0.6095276020786764,
+      "disagreement": 0.42148760330578516,
+      "confidence": 0.931049969455938,
+      "confidence_gap": 0.8636867710262932
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.17045454545454547,
+      "vote_entropy": 0.8784847816103301,
+      "disagreement": 0.5454545454545455,
+      "confidence": 0.9489675039503322,
+      "confidence_gap": 0.9044467582175852
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3181818181818182,
+      "vote_entropy": 0.7300981919344037,
+      "disagreement": 0.46074380165289264,
+      "confidence": 0.9050494404983058,
+      "confidence_gap": 0.8147776213794431
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.5795454545454545,
+      "vote_entropy": 0.672393244159303,
+      "disagreement": 0.38016528925619836,
+      "confidence": 0.9599379533875119,
+      "confidence_gap": 0.9216381537038618
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.9712850788933574,
+      "confidence_gap": 0.9428738388580427
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9901503774412406,
+      "confidence_gap": 0.9804293523174339
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7840909090909092,
+      "vote_entropy": 0.3777219665590018,
+      "disagreement": 0.20661157024793392,
+      "confidence": 0.975489725297288,
+      "confidence_gap": 0.9517180254177342
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9732570134958952,
+      "confidence_gap": 0.9529917188323098
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6477272727272727,
+      "vote_entropy": 0.5973167563331119,
+      "disagreement": 0.3347107438016529,
+      "confidence": 0.9366497047087726,
+      "confidence_gap": 0.8780523928982868
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.17045454545454547,
+      "vote_entropy": 1.0459516997916738,
+      "disagreement": 0.615702479338843,
+      "confidence": 0.9155326895044038,
+      "confidence_gap": 0.8473642887695858
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.30681818181818177,
+      "vote_entropy": 0.828936620032301,
+      "disagreement": 0.5082644628099173,
+      "confidence": 0.9626090100861061,
+      "confidence_gap": 0.9283907134172098
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.933469887234398,
+      "confidence_gap": 0.8699471941298389
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9090909090909092,
+      "vote_entropy": 0.15231804867461907,
+      "disagreement": 0.08264462809917361,
+      "confidence": 0.9408402859693616,
+      "confidence_gap": 0.8870670590346263
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.28409090909090906,
+      "vote_entropy": 0.9883512633963865,
+      "disagreement": 0.5723140495867769,
+      "confidence": 0.9541871072148116,
+      "confidence_gap": 0.9143266190746417
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5909090909090909,
+      "vote_entropy": 0.5950506960563069,
+      "disagreement": 0.35123966942148765,
+      "confidence": 0.9588934583091612,
+      "confidence_gap": 0.9191436102387703
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.25,
+      "absdA": 0.25,
+      "margin": 0.8636363636363636,
+      "vote_entropy": 0.19469385260176886,
+      "disagreement": 0.11570247933884298,
+      "confidence": 0.9868717265919129,
+      "confidence_gap": 0.9738513655516352
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.5454545454545454,
+      "vote_entropy": 0.5591928328978978,
+      "disagreement": 0.34917355371900827,
+      "confidence": 0.9084498143814056,
+      "confidence_gap": 0.8214078265550286
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7840909090909092,
+      "vote_entropy": 0.3205055498969208,
+      "disagreement": 0.18595041322314054,
+      "confidence": 0.9523244761845447,
+      "confidence_gap": 0.9046702912397067
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.30681818181818177,
+      "vote_entropy": 0.9262018329246994,
+      "disagreement": 0.5351239669421488,
+      "confidence": 0.9477750765067618,
+      "confidence_gap": 0.8990010201855725
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.5340909090909091,
+      "vote_entropy": 0.6478549921654033,
+      "disagreement": 0.3801652892561984,
+      "confidence": 0.9239889618807329,
+      "confidence_gap": 0.8542352047918395
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.47727272727272724,
+      "vote_entropy": 0.7283932063457893,
+      "disagreement": 0.43388429752066116,
+      "confidence": 0.8924759890169036,
+      "confidence_gap": 0.8001209984107711
+    },
+    {
+      "model": "hard_llama8b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7954545454545455,
+      "vote_entropy": 0.30172115029987245,
+      "disagreement": 0.17355371900826455,
+      "confidence": 0.9610564560142134,
+      "confidence_gap": 0.9276953763425669
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.8890107996038772,
+      "confidence_gap": 0.7969541679649201
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.20454545454545453,
+      "vote_entropy": 0.7208035935127923,
+      "disagreement": 0.487603305785124,
+      "confidence": 0.6652890950748996,
+      "confidence_gap": 0.42550898654899627
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.8181818181818182,
+      "vote_entropy": 0.2708528769390784,
+      "disagreement": 0.15702479338842978,
+      "confidence": 0.5316979301606006,
+      "confidence_gap": 0.0909090831333638
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.5204326658087315,
+      "confidence_gap": 0.22854920442701446
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9688470462490695,
+      "confidence_gap": 0.9377167505895372
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.7674101993239457,
+      "confidence_gap": 0.6309842798675339
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.39761731580569876,
+      "confidence_gap": 0.0
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.36363636363636365,
+      "vote_entropy": 0.5958602172288758,
+      "disagreement": 0.40909090909090906,
+      "confidence": 0.44482987425810766,
+      "confidence_gap": 0.1096416148988944
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6818181818181819,
+      "vote_entropy": 0.4173410315149661,
+      "disagreement": 0.25619834710743805,
+      "confidence": 0.5383516687211407,
+      "confidence_gap": 0.25243034491065464
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.75,
+      "vote_entropy": 0.3681998032399628,
+      "disagreement": 0.21487603305785127,
+      "confidence": 0.9141085481792898,
+      "confidence_gap": 0.8322592877483566
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.34090909090909094,
+      "vote_entropy": 0.6151223990905741,
+      "disagreement": 0.4256198347107438,
+      "confidence": 0.4053348434154749,
+      "confidence_gap": 0.05577660926667347
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.9190380093475587,
+      "confidence_gap": 0.8391724830781044
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.09734692630088443,
+      "disagreement": 0.05785123966942149,
+      "confidence": 0.5201926575355582,
+      "confidence_gap": 0.15550374735272976
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.5084104017502761,
+      "confidence_gap": 0.3214776797018082
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.38636363636363635,
+      "vote_entropy": 1.014923639337645,
+      "disagreement": 0.5537190082644627,
+      "confidence": 0.4881800779226364,
+      "confidence_gap": 0.1029149145704927
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.3977272727272727,
+      "vote_entropy": 0.7606148077055934,
+      "disagreement": 0.4566115702479339,
+      "confidence": 0.4872688632583175,
+      "confidence_gap": 0.18570929505202666
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7727272727272727,
+      "vote_entropy": 0.3301202910713081,
+      "disagreement": 0.19421487603305787,
+      "confidence": 0.7111322367163045,
+      "confidence_gap": 0.48948504608321297
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.1590909090909091,
+      "vote_entropy": 0.7346200166074578,
+      "disagreement": 0.5020661157024794,
+      "confidence": 0.382295441693417,
+      "confidence_gap": 0.04508425418274414
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.39980949530718785,
+      "confidence_gap": 0.022726240846613975
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.989053564268448,
+      "confidence_gap": 0.9820826696729194
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9501092430140465,
+      "confidence_gap": 0.9004353822027911
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.940422954848841,
+      "confidence_gap": 0.8852527690054431
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6363636363636364,
+      "vote_entropy": 0.44000883912041056,
+      "disagreement": 0.2768595041322315,
+      "confidence": 0.48309893749917565,
+      "confidence_gap": 0.10524174501903293
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9999864284407185,
+      "confidence_gap": 0.9999728795486593
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.9960924553185503,
+      "confidence_gap": 0.9923994898911677
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.23863636363636365,
+      "vote_entropy": 0.6706381755975233,
+      "disagreement": 0.46074380165289264,
+      "confidence": 0.8958827675504768,
+      "confidence_gap": 0.8093678608739441
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5,
+      "vote_entropy": 0.5693638829894976,
+      "disagreement": 0.36157024793388437,
+      "confidence": 0.82160078876791,
+      "confidence_gap": 0.6541894305010688
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.3522727272727273,
+      "vote_entropy": 0.736340969783234,
+      "disagreement": 0.4524793388429752,
+      "confidence": 0.7381201624170388,
+      "confidence_gap": 0.5261373112124212
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5568181818181818,
+      "vote_entropy": 0.5759362521648862,
+      "disagreement": 0.3471074380165289,
+      "confidence": 0.8955588439793769,
+      "confidence_gap": 0.8015356544995862
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3181818181818182,
+      "vote_entropy": 0.6238135435403043,
+      "disagreement": 0.43388429752066116,
+      "confidence": 0.6025084576912353,
+      "confidence_gap": 0.2889294794605941
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.822318191325457,
+      "confidence_gap": 0.756093183842987
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.27272727272727276,
+      "vote_entropy": 0.6196986521702761,
+      "disagreement": 0.43388429752066127,
+      "confidence": 0.7165741862474939,
+      "confidence_gap": 0.4844106365448737
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.8863636363636365,
+      "vote_entropy": 0.19039756084327383,
+      "disagreement": 0.10330578512396701,
+      "confidence": 0.8886126831422408,
+      "confidence_gap": 0.8080887070100535
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.6571502367093818,
+      "confidence_gap": 0.36996192944871065
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.8863636363636365,
+      "vote_entropy": 0.17350595063819396,
+      "disagreement": 0.0991735537190083,
+      "confidence": 0.5223306824575,
+      "confidence_gap": 0.04695541958760706
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7386363636363638,
+      "vote_entropy": 0.4297781418833708,
+      "disagreement": 0.23966942148760334,
+      "confidence": 0.8854180366810934,
+      "confidence_gap": 0.785949083222955
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.2727272727272727,
+      "vote_entropy": 0.6196986521702761,
+      "disagreement": 0.43388429752066127,
+      "confidence": 0.7457231244686647,
+      "confidence_gap": 0.51375915169302
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9772727272727273,
+      "vote_entropy": 0.03807951216865477,
+      "disagreement": 0.020661157024793403,
+      "confidence": 0.678035249652625,
+      "confidence_gap": 0.3609791959259716
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.999941626103682,
+      "confidence_gap": 0.9999196614552397
+    },
+    {
+      "model": "hard_mistral7b",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5909090909090909,
+      "vote_entropy": 0.5923612819215003,
+      "disagreement": 0.347107438016529,
+      "confidence": 0.8604441481237619,
+      "confidence_gap": 0.7268118280876155
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.13636363636363635,
+      "vote_entropy": 1.2353214312709444,
+      "disagreement": 0.6880165289256198,
+      "confidence": 0.7665211753172786,
+      "confidence_gap": 0.5887107227464824
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8409090909090909,
+      "vote_entropy": 0.2496649749755035,
+      "disagreement": 0.1404958677685951,
+      "confidence": 0.9760993149226695,
+      "confidence_gap": 0.9538098257410803
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.125,
+      "vote_entropy": 0.9016299185126102,
+      "disagreement": 0.5681818181818182,
+      "confidence": 0.8431620701160494,
+      "confidence_gap": 0.7064611212423575
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363638,
+      "vote_entropy": 0.24738844459079584,
+      "disagreement": 0.13636363636363633,
+      "confidence": 0.9955282033608902,
+      "confidence_gap": 0.9929398714138651
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.23863636363636365,
+      "vote_entropy": 0.9091275220565651,
+      "disagreement": 0.5454545454545454,
+      "confidence": 0.8390883226174435,
+      "confidence_gap": 0.6823634281349698
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.7159090909090909,
+      "vote_entropy": 0.4536554579817524,
+      "disagreement": 0.26033057851239666,
+      "confidence": 0.9611981254586865,
+      "confidence_gap": 0.9224135194086701
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363636,
+      "vote_entropy": 0.18748261379390815,
+      "disagreement": 0.11157024793388434,
+      "confidence": 0.9515117472757795,
+      "confidence_gap": 0.9031546446878034
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7727272727272727,
+      "vote_entropy": 0.3104122947496027,
+      "disagreement": 0.1818181818181819,
+      "confidence": 0.9444466294845748,
+      "confidence_gap": 0.8891412944348007
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5568181818181819,
+      "vote_entropy": 0.7507530359199075,
+      "disagreement": 0.42355371900826444,
+      "confidence": 0.8758634828852015,
+      "confidence_gap": 0.7607872418668492
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.1590909090909091,
+      "vote_entropy": 0.9798635855981691,
+      "disagreement": 0.5950413223140496,
+      "confidence": 0.8041024754015489,
+      "confidence_gap": 0.6364613654956839
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.5,
+      "absdA": 0.5,
+      "margin": 0.23863636363636362,
+      "vote_entropy": 0.8929400743374674,
+      "disagreement": 0.5495867768595042,
+      "confidence": 0.7917009768662703,
+      "confidence_gap": 0.6344237130324472
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.5,
+      "vote_entropy": 0.7129923662294411,
+      "disagreement": 0.4194214876033058,
+      "confidence": 0.9704260704398335,
+      "confidence_gap": 0.941548027611335
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.125,
+      "absdA": 0.125,
+      "margin": 0.1590909090909091,
+      "vote_entropy": 1.069020794992074,
+      "disagreement": 0.6136363636363636,
+      "confidence": 0.9232921028759966,
+      "confidence_gap": 0.8544020783105991
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.4431818181818182,
+      "vote_entropy": 0.7489979673581276,
+      "disagreement": 0.44628099173553715,
+      "confidence": 0.8775430248514035,
+      "confidence_gap": 0.7750095873660162
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.11363636363636363,
+      "vote_entropy": 0.9488899535507882,
+      "disagreement": 0.5867768595041323,
+      "confidence": 0.937428989043107,
+      "confidence_gap": 0.8751560573645758
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8409090909090909,
+      "vote_entropy": 0.20867051575748305,
+      "disagreement": 0.12809917355371903,
+      "confidence": 0.8690008378683893,
+      "confidence_gap": 0.7500096628510808
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.17045454545454547,
+      "vote_entropy": 1.1856255317226378,
+      "disagreement": 0.6508264462809917,
+      "confidence": 0.5314915490138858,
+      "confidence_gap": 0.23601407269057662
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5909090909090908,
+      "vote_entropy": 0.45107055522675904,
+      "disagreement": 0.2975206611570248,
+      "confidence": 0.9430170542986351,
+      "confidence_gap": 0.8861500129334067
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.7954545454545454,
+      "vote_entropy": 0.3206325218787397,
+      "disagreement": 0.1859504132231405,
+      "confidence": 0.9466766138115635,
+      "confidence_gap": 0.9006507239618042
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.34090909090909094,
+      "vote_entropy": 0.7154610458509854,
+      "disagreement": 0.4504132231404959,
+      "confidence": 0.8437290699761965,
+      "confidence_gap": 0.701791000787488
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7272727272727273,
+      "vote_entropy": 0.42392544981331215,
+      "disagreement": 0.24586776859504134,
+      "confidence": 0.6813471339806771,
+      "confidence_gap": 0.45698498544721666
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.375,
+      "vote_entropy": 0.8318091877979761,
+      "disagreement": 0.5,
+      "confidence": 0.9103807836868261,
+      "confidence_gap": 0.8247609672230845
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.125,
+      "vote_entropy": 1.0441750179346618,
+      "disagreement": 0.6219008264462811,
+      "confidence": 0.8283516337502668,
+      "confidence_gap": 0.6684967816985186
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.3977272727272727,
+      "vote_entropy": 0.858155183517902,
+      "disagreement": 0.5020661157024793,
+      "confidence": 0.9441760977623037,
+      "confidence_gap": 0.8902534346913893
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.26136363636363635,
+      "vote_entropy": 0.9964035382136447,
+      "disagreement": 0.5867768595041323,
+      "confidence": 0.73961323904469,
+      "confidence_gap": 0.49430513426143435
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.8636363636363638,
+      "vote_entropy": 0.21158546280684873,
+      "disagreement": 0.1198347107438017,
+      "confidence": 0.948465181251291,
+      "confidence_gap": 0.8993124373870074
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": -0.125,
+      "absdA": 0.125,
+      "margin": 0.21590909090909088,
+      "vote_entropy": 0.8893867106234438,
+      "disagreement": 0.5454545454545455,
+      "confidence": 0.7274670781479851,
+      "confidence_gap": 0.5082207098810585
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.25,
+      "absdA": 0.25,
+      "margin": 0.29545454545454547,
+      "vote_entropy": 0.6667768338521733,
+      "disagreement": 0.44214876033057854,
+      "confidence": 0.8288057705346491,
+      "confidence_gap": 0.6918967537712091
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 1.0,
+      "vote_entropy": 0.0,
+      "disagreement": 0.0,
+      "confidence": 0.9997644964046559,
+      "confidence_gap": 0.999547292630097
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.14772727272727273,
+      "vote_entropy": 0.8633906192507207,
+      "disagreement": 0.5433884297520662,
+      "confidence": 0.8220514103060241,
+      "confidence_gap": 0.6634525475185097
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.7840909090909092,
+      "vote_entropy": 0.3458736360840341,
+      "disagreement": 0.1962809917355372,
+      "confidence": 0.8344756867509702,
+      "confidence_gap": 0.6690153461620878
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.375,
+      "absdA": 0.375,
+      "margin": 0.6704545454545454,
+      "vote_entropy": 0.5322744450751051,
+      "disagreement": 0.3037190082644628,
+      "confidence": 0.9427673795596977,
+      "confidence_gap": 0.8921472562200953
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.6136363636363636,
+      "vote_entropy": 0.4742386056988587,
+      "disagreement": 0.2975206611570248,
+      "confidence": 0.9403035197613092,
+      "confidence_gap": 0.8833050173976631
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.20454545454545456,
+      "vote_entropy": 0.984567263627504,
+      "disagreement": 0.584710743801653,
+      "confidence": 0.834259837980172,
+      "confidence_gap": 0.6781542473922231
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.375,
+      "vote_entropy": 0.5884778739131042,
+      "disagreement": 0.4008264462809918,
+      "confidence": 0.9134313990001866,
+      "confidence_gap": 0.8354597484602192
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9545454545454546,
+      "vote_entropy": 0.07615902433730953,
+      "disagreement": 0.041322314049586806,
+      "confidence": 0.990680089946997,
+      "confidence_gap": 0.9820378035436614
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.5454545454545454,
+      "vote_entropy": 0.6579500005551231,
+      "disagreement": 0.3842975206611571,
+      "confidence": 0.9542321606318136,
+      "confidence_gap": 0.9152682287038513
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.9318181818181819,
+      "vote_entropy": 0.1142385365059643,
+      "disagreement": 0.06198347107438021,
+      "confidence": 0.9907937732750454,
+      "confidence_gap": 0.9816197677096967
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": 0.0,
+      "absdA": 0.0,
+      "margin": 0.14772727272727273,
+      "vote_entropy": 1.12791928367295,
+      "disagreement": 0.6466942148760331,
+      "confidence": 0.9706425483732284,
+      "confidence_gap": 0.9419650951960493
+    },
+    {
+      "model": "hard_qwen7b_aqua",
+      "dA": -0.375,
+      "absdA": 0.375,
+      "margin": 0.6818181818181819,
+      "vote_entropy": 0.4518787761247406,
+      "disagreement": 0.2706611570247934,
+      "confidence": 0.9995145309491135,
+      "confidence_gap": 0.999040194528239
+    }
+  ]
+}

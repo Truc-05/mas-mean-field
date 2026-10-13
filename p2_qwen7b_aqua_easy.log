@@ -1,0 +1,167 @@
+========================================================================
+EXP6C BOUNDARY — regime=easy N=11 R=8 model=qwen2.5:7b
+conditions=['none', 'shared_correct_strong', 'indep_correct_strong']  config=debate_qwen_gpu1.yaml  base_url=http://localhost:11443/v1
+persist: belief-cache jsonl + raw per-(cond,q,r) states + none-margin table
+========================================================================
+selected 38 easy questions [benchmark=aqua]
+  clues easy q0: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q1: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q2: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q3: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q4: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q5: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q6: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q7: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q8: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q9: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q10: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q11: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q12: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q13: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q14: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q15: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q16: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q17: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q18: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q19: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q20: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q21: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q22: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q23: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q24: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q25: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q26: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q27: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q28: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q29: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q30: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q31: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q32: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q33: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q34: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q35: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q36: correct=11 mis={1:4,2:4,3:4,4:4}
+  clues easy q37: correct=11 mis={1:4,2:4,3:4,4:4}
+clues: wrote exp6c_clues_easy_aqua.json
+  [none                   q00] plur=1.00 D=-0.058
+  [none                   q01] plur=1.00 D=+nan
+  [none                   q02] plur=1.00 D=+nan
+  [none                   q03] plur=1.00 D=+nan
+  [none                   q04] plur=1.00 D=+nan
+  [none                   q05] plur=0.88 D=+0.039
+  [none                   q06] plur=0.00 D=-0.048
+  [none                   q07] plur=1.00 D=+0.090
+  [none                   q08] plur=0.00 D=-0.065
+  [none                   q09] plur=0.00 D=-0.104
+  [none                   q10] plur=0.50 D=+0.003
+  [none                   q11] plur=1.00 D=+nan
+  [none                   q12] plur=1.00 D=+0.000
+  [none                   q13] plur=1.00 D=+nan
+  [none                   q14] plur=1.00 D=-0.043
+  [none                   q15] plur=1.00 D=-0.143
+  [none                   q16] plur=1.00 D=-0.047
+  [none                   q17] plur=0.00 D=+nan
+  [none                   q18] plur=1.00 D=+0.025
+  [none                   q19] plur=0.00 D=+nan
+  [none                   q20] plur=0.00 D=+nan
+  [none                   q21] plur=0.00 D=+nan
+  [none                   q22] plur=0.00 D=-0.143
+  [none                   q23] plur=0.00 D=+nan
+  [none                   q24] plur=1.00 D=+nan
+  [none                   q25] plur=1.00 D=+nan
+  [none                   q26] plur=0.25 D=-0.018
+  [none                   q27] plur=1.00 D=+nan
+  [none                   q28] plur=0.00 D=+nan
+  [none                   q29] plur=0.75 D=+0.012
+  [none                   q30] plur=1.00 D=+nan
+  [none                   q31] plur=0.00 D=+nan
+  [none                   q32] plur=1.00 D=+nan
+  [none                   q33] plur=1.00 D=+nan
+  [none                   q34] plur=0.00 D=-0.143
+  [none                   q35] plur=1.00 D=+nan
+  [none                   q36] plur=1.00 D=+nan
+  [none                   q37] plur=1.00 D=-0.104
+[none                  ] p1=0.62 P_maj=0.63 D=-0.044 fleiss=0.72 agree=0.79
+  [shared_correct_strong  q00] plur=1.00 D=+0.049
+  [shared_correct_strong  q01] plur=1.00 D=+nan
+  [shared_correct_strong  q02] plur=1.00 D=+0.238
+  [shared_correct_strong  q03] plur=1.00 D=+nan
+  [shared_correct_strong  q04] plur=1.00 D=+0.163
+  [shared_correct_strong  q05] plur=1.00 D=+0.311
+  [shared_correct_strong  q06] plur=0.25 D=+0.487
+  [shared_correct_strong  q07] plur=1.00 D=+0.192
+  [shared_correct_strong  q08] plur=0.50 D=+0.013
+  [shared_correct_strong  q09] plur=0.12 D=+0.192
+  [shared_correct_strong  q10] plur=0.50 D=+0.038
+  [shared_correct_strong  q11] plur=1.00 D=+nan
+  [shared_correct_strong  q12] plur=1.00 D=+0.101
+  [shared_correct_strong  q13] plur=1.00 D=+nan
+  [shared_correct_strong  q14] plur=0.50 D=+0.056
+  [shared_correct_strong  q15] plur=1.00 D=-0.079
+  [shared_correct_strong  q16] plur=1.00 D=+0.315
+  [shared_correct_strong  q17] plur=0.00 D=+nan
+  [shared_correct_strong  q18] plur=0.75 D=+0.049
+  [shared_correct_strong  q19] plur=0.00 D=+0.238
+  [shared_correct_strong  q20] plur=0.00 D=+nan
+  [shared_correct_strong  q21] plur=0.00 D=+nan
+  [shared_correct_strong  q22] plur=0.00 D=+0.119
+  [shared_correct_strong  q23] plur=0.00 D=+0.031
+  [shared_correct_strong  q24] plur=1.00 D=+0.003
+  [shared_correct_strong  q25] plur=1.00 D=+1.000
+  [shared_correct_strong  q26] plur=0.12 D=+0.520
+  [shared_correct_strong  q27] plur=1.00 D=+0.314
+  [shared_correct_strong  q28] plur=0.00 D=+0.005
+  [shared_correct_strong  q29] plur=0.88 D=+0.846
+  [shared_correct_strong  q30] plur=1.00 D=+0.281
+  [shared_correct_strong  q31] plur=0.00 D=+0.048
+  [shared_correct_strong  q32] plur=1.00 D=+nan
+  [shared_correct_strong  q33] plur=1.00 D=+nan
+  [shared_correct_strong  q34] plur=0.00 D=+1.000
+  [shared_correct_strong  q35] plur=1.00 D=+nan
+  [shared_correct_strong  q36] plur=1.00 D=+nan
+  [shared_correct_strong  q37] plur=1.00 D=+0.216
+[shared_correct_strong ] p1=0.62 P_maj=0.65 D=+0.250 fleiss=0.66 agree=0.73
+  [indep_correct_strong   q00] plur=1.00 D=+0.025
+  [indep_correct_strong   q01] plur=1.00 D=+nan
+  [indep_correct_strong   q02] plur=1.00 D=-0.067
+  [indep_correct_strong   q03] plur=1.00 D=+nan
+  [indep_correct_strong   q04] plur=1.00 D=+0.127
+  [indep_correct_strong   q05] plur=1.00 D=-0.035
+  [indep_correct_strong   q06] plur=0.00 D=-0.090
+  [indep_correct_strong   q07] plur=1.00 D=+0.096
+  [indep_correct_strong   q08] plur=0.62 D=-0.022
+  [indep_correct_strong   q09] plur=0.00 D=+0.049
+  [indep_correct_strong   q10] plur=0.12 D=+0.138
+  [indep_correct_strong   q11] plur=1.00 D=+nan
+  [indep_correct_strong   q12] plur=1.00 D=+0.062
+  [indep_correct_strong   q13] plur=1.00 D=+nan
+  [indep_correct_strong   q14] plur=0.75 D=+0.121
+  [indep_correct_strong   q15] plur=1.00 D=+0.022
+  [indep_correct_strong   q16] plur=1.00 D=-0.079
+  [indep_correct_strong   q17] plur=0.00 D=+nan
+  [indep_correct_strong   q18] plur=1.00 D=-0.059
+  [indep_correct_strong   q19] plur=0.00 D=+nan
+  [indep_correct_strong   q20] plur=0.00 D=-0.143
+  [indep_correct_strong   q21] plur=0.00 D=-0.218
+  [indep_correct_strong   q22] plur=0.00 D=+0.025
+  [indep_correct_strong   q23] plur=0.00 D=+0.046
+  [indep_correct_strong   q24] plur=1.00 D=-0.111
+  [indep_correct_strong   q25] plur=1.00 D=+nan
+  [indep_correct_strong   q26] plur=0.00 D=-0.081
+  [indep_correct_strong   q27] plur=1.00 D=+0.048
+  [indep_correct_strong   q28] plur=0.00 D=-0.049
+  [indep_correct_strong   q29] plur=1.00 D=-0.035
+  [indep_correct_strong   q30] plur=1.00 D=-0.067
+  [indep_correct_strong   q31] plur=0.00 D=-0.029
+  [indep_correct_strong   q32] plur=1.00 D=+nan
+  [indep_correct_strong   q33] plur=1.00 D=+nan
+  [indep_correct_strong   q34] plur=0.00 D=+nan
+  [indep_correct_strong   q35] plur=1.00 D=+nan
+  [indep_correct_strong   q36] plur=1.00 D=-0.143
+  [indep_correct_strong   q37] plur=1.00 D=-0.054
+[indep_correct_strong  ] p1=0.61 P_maj=0.64 D=-0.019 fleiss=0.66 agree=0.74
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_boundary_easy_qwen7b_aqua_N11.json
+wrote /home/alex/venvs/trucn/mas-mean-field/data/processed/exp6c_raw_easy_qwen7b_aqua_N11.json
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_boundary_easy_qwen7b_aqua_N11.csv
+belief-cache: 10032 records in exp6c_belief_cache_easy_qwen7b_aqua.jsonl

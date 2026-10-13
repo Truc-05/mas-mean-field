@@ -1,0 +1,560 @@
+{
+  "role": "C3 global directional test; signs only, null calibrated to the design",
+  "hypothesis": "H0: SHARED does not systematically increase dependence over INDEP",
+  "statistic": "S = #{strata with dD_hat > 0}",
+  "K": 66,
+  "S_obs": 63,
+  "null": {
+    "mean": 13.38,
+    "sd": 2.787758956581433,
+    "median": 13.0,
+    "q95": 18.0,
+    "max": 23,
+    "n_sim": 2000
+  },
+  "p_one_sided": 0.0004997501249375312,
+  "withheld": false,
+  "min_strata": 48,
+  "seed": 31337,
+  "R_simulated": 4,
+  "strata": [
+    {
+      "model": "deepseek",
+      "bench": "aqua",
+      "regime": "easy",
+      "n_q": 23,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 31,
+      "err_rate": 0.532258064516129,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 27,
+      "err_rate": 0.001,
+      "sign_positive": false
+    },
+    {
+      "model": "deepseek",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 29,
+      "err_rate": 0.8017241379310345,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 27,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 31,
+      "err_rate": 0.9435483870967742,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "mmlu",
+      "regime": "easy",
+      "n_q": 18,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 48,
+      "err_rate": 0.5,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 18,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 16,
+      "err_rate": 0.953125,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 23,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "deepseek",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 28,
+      "err_rate": 0.8928571428571429,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "aqua",
+      "regime": "easy",
+      "n_q": 15,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 51,
+      "err_rate": 0.999,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 44,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 29,
+      "err_rate": 0.9913793103448276,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 40,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 30,
+      "err_rate": 0.9916666666666667,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "mmlu",
+      "regime": "easy",
+      "n_q": 23,
+      "err_rate": 0.010869565217391353,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 51,
+      "err_rate": 0.999,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 54,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 24,
+      "err_rate": 0.999,
+      "sign_positive": true
+    },
+    {
+      "model": "gemma",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 62,
+      "err_rate": 0.001,
+      "sign_positive": false
+    },
+    {
+      "model": "llama",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 42,
+      "err_rate": 0.8630952380952381,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 34,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 25,
+      "err_rate": 0.94,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 28,
+      "err_rate": 0.9375,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 46,
+      "err_rate": 0.9347826086956522,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 38,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 19,
+      "err_rate": 0.9210526315789473,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 20,
+      "err_rate": 0.999,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 55,
+      "err_rate": 0.9681818181818181,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 37,
+      "err_rate": 0.006756756756756799,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 23,
+      "err_rate": 0.9891304347826086,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 49,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 20,
+      "err_rate": 0.9875,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "mmlu",
+      "regime": "easy",
+      "n_q": 16,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 36,
+      "err_rate": 0.9722222222222222,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 46,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 26,
+      "err_rate": 0.999,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 43,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "mistral",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 29,
+      "err_rate": 0.9913793103448276,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 47,
+      "err_rate": 0.8297872340425532,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 25,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 32,
+      "err_rate": 0.9609375,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 22,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 26,
+      "err_rate": 0.9038461538461539,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 35,
+      "err_rate": 0.9571428571428572,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 23,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 23,
+      "err_rate": 0.9456521739130435,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 32,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "phi4",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 21,
+      "err_rate": 0.9880952380952381,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "regime": "easy",
+      "n_q": 29,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "regime": "hard",
+      "n_q": 39,
+      "err_rate": 0.967948717948718,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "arc",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "arc",
+      "regime": "hard",
+      "n_q": 33,
+      "err_rate": 0.9924242424242424,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "commonsenseqa",
+      "regime": "easy",
+      "n_q": 41,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "commonsenseqa",
+      "regime": "hard",
+      "n_q": 26,
+      "err_rate": 0.9615384615384616,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "mmlu",
+      "regime": "easy",
+      "n_q": 32,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "mmlu",
+      "regime": "hard",
+      "n_q": 33,
+      "err_rate": 0.9696969696969697,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "regime": "easy",
+      "n_q": 43,
+      "err_rate": 0.001,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "regime": "hard",
+      "n_q": 34,
+      "err_rate": 0.9926470588235294,
+      "sign_positive": true
+    },
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "regime": "easy",
+      "n_q": 44,
+      "err_rate": 0.001,
+      "sign_positive": false
+    },
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "regime": "hard",
+      "n_q": 30,
+      "err_rate": 0.9916666666666667,
+      "sign_positive": true
+    }
+  ],
+  "skipped": [
+    "gemma/truthfulqa/hard: insufficient (n_q=14)",
+    "llama/aqua/easy: insufficient (n_q=4)",
+    "llama/mmlu/easy: insufficient (n_q=5)",
+    "mistral/aqua/easy: insufficient (n_q=10)",
+    "phi4/aqua/easy: insufficient (n_q=3)",
+    "phi4/mmlu/easy: insufficient (n_q=12)",
+    "qwen/bbh: excluded benchmark"
+  ],
+  "reporting_rule": "no per-stratum magnitudes, no bootstrap intervals, no k/n counts"
+}

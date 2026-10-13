@@ -1,0 +1,1135 @@
+{
+  "regime": "hard",
+  "N": 11,
+  "R": 8,
+  "model": "deepseek-r1:7b",
+  "model_tag": "scaleup_deepseek_commonsenseqa",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "James was looking for a good place to buy farmland.  Where might he look?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7045454545454546,
+        "runnerup_gap": 0.46590909090909094,
+        "vote_entropy": 1.0843352823102854,
+        "n_unique": 3,
+        "p_correct_votes": 0.7045454545454546,
+        "correctness_lead": 0.46590909090909094,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.03080454556734923
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 1,
+      "question": "What do people typically do while playing guitar?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.28409090909090906,
+        "vote_entropy": 1.018613877077991,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.6363636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.25499186749440833
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.027703094365754095
+      }
+    },
+    {
+      "qi": 2,
+      "question": "What would vinyl be an odd thing to replace?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 49,
+        "plurality_share": 0.5714285714285714,
+        "runnerup_gap": 0.2857142857142857,
+        "vote_entropy": 1.502086431852837,
+        "n_unique": 4,
+        "p_correct_votes": 0.2857142857142857,
+        "correctness_lead": -0.2857142857142857,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.06220816721131225
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": -0.03486088629175273
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.020136532784492577
+      }
+    },
+    {
+      "qi": 3,
+      "question": "What is a place that usually does not have an elevator and that sometimes has a telephone book?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 56,
+        "plurality_share": 0.7857142857142857,
+        "runnerup_gap": 0.5714285714285714,
+        "vote_entropy": 0.74959525725948,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.7857142857142857,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.03373181842533081
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.046748862762622835
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.05017909508238642
+      }
+    },
+    {
+      "qi": 4,
+      "question": "Who is likely to be excited about a crab?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 67,
+        "plurality_share": 0.6268656716417911,
+        "runnerup_gap": 0.3432835820895523,
+        "vote_entropy": 1.3319406156497713,
+        "n_unique": 4,
+        "p_correct_votes": 0.6268656716417911,
+        "correctness_lead": 0.3432835820895523,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06292847379437719
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0762770634336183
+      }
+    },
+    {
+      "qi": 5,
+      "question": "Where can a human find clothes that aren't pants?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 84,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 6,
+      "question": "Where would you go if you wanted to have fun with a few people?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 77,
+        "plurality_share": 0.8311688311688312,
+        "runnerup_gap": 0.7142857142857143,
+        "vote_entropy": 0.8053667353315141,
+        "n_unique": 3,
+        "p_correct_votes": 0.8311688311688312,
+        "correctness_lead": 0.7142857142857143,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.029296756981602837
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.4027956721809578
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 7,
+      "question": "If there is a place that is hot and arid, what could it be?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 75,
+        "plurality_share": 0.5466666666666666,
+        "runnerup_gap": 0.1333333333333333,
+        "vote_entropy": 1.1888906196492406,
+        "n_unique": 3,
+        "p_correct_votes": 0.5466666666666666,
+        "correctness_lead": 0.1333333333333333,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": -0.07604705198556044
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.44496956398433385
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.2637626158259733
+      }
+    },
+    {
+      "qi": 8,
+      "question": "What is likely to satisfy someone's curiosity?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 76,
+        "plurality_share": 0.7236842105263158,
+        "runnerup_gap": 0.5,
+        "vote_entropy": 1.0871835654531181,
+        "n_unique": 4,
+        "p_correct_votes": 0.2236842105263158,
+        "correctness_lead": -0.5,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.04508373738644496
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.14438361888078502
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.025795018585515996
+      }
+    },
+    {
+      "qi": 9,
+      "question": "Where would you find a single shower curtain being used?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 83,
+        "plurality_share": 0.5542168674698795,
+        "runnerup_gap": 0.1325301204819277,
+        "vote_entropy": 1.1508375569891365,
+        "n_unique": 4,
+        "p_correct_votes": 0.012048192771084338,
+        "correctness_lead": -0.5421686746987951,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.08983014018131598
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.21679407709928225
+      },
+      "indep_correct_strong": {
+        "A_q": 0.375,
+        "D_q": -0.038344382707515105
+      }
+    },
+    {
+      "qi": 10,
+      "question": "What would not be true about a basketball if it had a hole in it but it did not lose its general shape?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 66,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.34848484848484845,
+        "vote_entropy": 1.3179874221720969,
+        "n_unique": 5,
+        "p_correct_votes": 0.6363636363636364,
+        "correctness_lead": 0.34848484848484845,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.06531664318443371
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.014486793509450953
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.00712558784310409
+      }
+    },
+    {
+      "qi": 11,
+      "question": "What could committing murder prevent someone from doing?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 28,
+        "plurality_share": 0.6785714285714286,
+        "runnerup_gap": 0.4642857142857143,
+        "vote_entropy": 1.2010947341319422,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.6785714285714286,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.043116504007755845
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.09847610775791725
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.05325516565215828
+      }
+    },
+    {
+      "qi": 12,
+      "question": "The man had a fear of illness, so he never visited friends who were a what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 68,
+        "plurality_share": 0.9558823529411765,
+        "runnerup_gap": 0.9264705882352942,
+        "vote_entropy": 0.30137596114961074,
+        "n_unique": 3,
+        "p_correct_votes": 0.9558823529411765,
+        "correctness_lead": 0.9264705882352942,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.10371956771795839
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.018444341082867046
+      }
+    },
+    {
+      "qi": 13,
+      "question": "If you're remembering something, it's because of your what of it to begin with?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 85,
+        "plurality_share": 0.8352941176470589,
+        "runnerup_gap": 0.6941176470588235,
+        "vote_entropy": 0.7664309891555099,
+        "n_unique": 4,
+        "p_correct_votes": 0.1411764705882353,
+        "correctness_lead": -0.6941176470588235,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.07317844974867163
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.04928591468999249
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.024124915371948122
+      }
+    },
+    {
+      "qi": 14,
+      "question": "What do you want someone to do when you illustrate point?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9431818181818182,
+        "vote_entropy": 0.24581537350428984,
+        "n_unique": 3,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9545454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.21821789023599245
+      }
+    },
+    {
+      "qi": 15,
+      "question": "What would you be unable to do if you have too much greed?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 55,
+        "plurality_share": 0.38181818181818183,
+        "runnerup_gap": 0.18181818181818182,
+        "vote_entropy": 2.1521363241207587,
+        "n_unique": 5,
+        "p_correct_votes": 0.2,
+        "correctness_lead": -0.18181818181818182,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.057115905822829785
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.09557950952267642
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05927549122666566
+      }
+    },
+    {
+      "qi": 16,
+      "question": "I did not need a servant.  I was not a what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 59,
+        "plurality_share": 0.5254237288135594,
+        "runnerup_gap": 0.23728813559322037,
+        "vote_entropy": 1.584401033493541,
+        "n_unique": 4,
+        "p_correct_votes": 0.03389830508474576,
+        "correctness_lead": -0.4915254237288136,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.051499372531819965
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.13125798027427213
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.04182792984024149
+      }
+    },
+    {
+      "qi": 17,
+      "question": "James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.8620689655172413,
+        "runnerup_gap": 0.7586206896551724,
+        "vote_entropy": 0.6906950555920002,
+        "n_unique": 3,
+        "p_correct_votes": 0.034482758620689655,
+        "correctness_lead": -0.8275862068965517,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.04761904761904761
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": -0.011899980840263308
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.0382501058156255
+      }
+    },
+    {
+      "qi": 18,
+      "question": "Where could a person avoid the rain?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 83,
+        "plurality_share": 0.891566265060241,
+        "runnerup_gap": 0.7831325301204819,
+        "vote_entropy": 0.4951734787020682,
+        "n_unique": 2,
+        "p_correct_votes": 0.10843373493975904,
+        "correctness_lead": -0.7831325301204819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.08753891709182064
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.1808659209746406
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.006988050408394657
+      }
+    },
+    {
+      "qi": 19,
+      "question": "From where do aliens arrive?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 20,
+      "question": "The hikers stopped to have a drink, simply put they what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 83,
+        "plurality_share": 0.7349397590361446,
+        "runnerup_gap": 0.48192771084337355,
+        "vote_entropy": 0.9049955341217437,
+        "n_unique": 3,
+        "p_correct_votes": 0.25301204819277107,
+        "correctness_lead": -0.48192771084337355,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.00620697073812093
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.0361058343551044
+      },
+      "indep_correct_strong": {
+        "A_q": 0.125,
+        "D_q": -0.007147422000017995
+      }
+    },
+    {
+      "qi": 21,
+      "question": "What green area is a marmot likely to be found in?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 81,
+        "plurality_share": 0.5185185185185185,
+        "runnerup_gap": 0.13580246913580246,
+        "vote_entropy": 1.3514868253697967,
+        "n_unique": 3,
+        "p_correct_votes": 0.5185185185185185,
+        "correctness_lead": 0.13580246913580246,
+        "A_none": 0.625,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.625,
+        "D_q": -0.03616082882150922
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.18558440484957256
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Sam was a stranger.  Even so, Mark treated him like what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.6976744186046512,
+        "runnerup_gap": 0.4418604651162791,
+        "vote_entropy": 1.1091040704149453,
+        "n_unique": 4,
+        "p_correct_votes": 0.011627906976744186,
+        "correctness_lead": -0.686046511627907,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.1580923788424257
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.007358285795052495
+      }
+    },
+    {
+      "qi": 23,
+      "question": "James thought of criminal justice like a computer program.  It need to work right.   What ideas might James not like?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 65,
+        "plurality_share": 0.49230769230769234,
+        "runnerup_gap": 0.3230769230769231,
+        "vote_entropy": 1.9955319318481275,
+        "n_unique": 5,
+        "p_correct_votes": 0.49230769230769234,
+        "correctness_lead": 0.3230769230769231,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": 0.03917965248782209
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.016064935868483805
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.013059884162607364
+      }
+    },
+    {
+      "qi": 24,
+      "question": "What could you get an unsmooth pit from?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 71,
+        "plurality_share": 0.5070422535211268,
+        "runnerup_gap": 0.18309859154929575,
+        "vote_entropy": 1.6579990555131607,
+        "n_unique": 5,
+        "p_correct_votes": 0.04225352112676056,
+        "correctness_lead": -0.4647887323943662,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.03389118870823735
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.29845773273705306
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.15192280547589493
+      }
+    },
+    {
+      "qi": 25,
+      "question": "The man tried to reply to the woman, but he had difficulty keeping track of conversations that he didn't do what to?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 80,
+        "plurality_share": 0.8875,
+        "runnerup_gap": 0.8374999999999999,
+        "vote_entropy": 0.6795914325499137,
+        "n_unique": 4,
+        "p_correct_votes": 0.025,
+        "correctness_lead": -0.8624999999999999,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.006565073850527814
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.28974220510440796
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.09528207137564712
+      }
+    },
+    {
+      "qi": 26,
+      "question": "A supermarket is uncommon in what type of collection of shops?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 75,
+        "plurality_share": 0.4266666666666667,
+        "runnerup_gap": 0.14666666666666667,
+        "vote_entropy": 1.7260963420166069,
+        "n_unique": 4,
+        "p_correct_votes": 0.25333333333333335,
+        "correctness_lead": -0.17333333333333334,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.00815341324818229
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.013716176449537985
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.003966660280087769
+      }
+    },
+    {
+      "qi": 27,
+      "question": "Where can children play with animals?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.7674418604651163,
+        "runnerup_gap": 0.6744186046511629,
+        "vote_entropy": 1.1449724662544472,
+        "n_unique": 4,
+        "p_correct_votes": 0.08139534883720931,
+        "correctness_lead": -0.686046511627907,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.007169159636907205
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.01483140038565249
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.04226185205565024
+      }
+    },
+    {
+      "qi": 28,
+      "question": "What kind of tale might feature a talking weasel?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.9534883720930233,
+        "runnerup_gap": 0.9069767441860466,
+        "vote_entropy": 0.27138958750811115,
+        "n_unique": 2,
+        "p_correct_votes": 0.9534883720930233,
+        "correctness_lead": 0.9069767441860466,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.11843522069501765
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.2288311903008549
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 29,
+      "question": "If a person with mental illness stops treatment what will likely happen?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 85,
+        "plurality_share": 0.9176470588235294,
+        "runnerup_gap": 0.8352941176470587,
+        "vote_entropy": 0.41041614171818885,
+        "n_unique": 2,
+        "p_correct_votes": 0.9176470588235294,
+        "correctness_lead": 0.8352941176470587,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.031498317889870224
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.14774253664760262
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01151731968868353
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Where would stones not be arranged in a path?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 78,
+        "plurality_share": 0.46153846153846156,
+        "runnerup_gap": 0.20512820512820518,
+        "vote_entropy": 1.9384874058662431,
+        "n_unique": 5,
+        "p_correct_votes": 0.2564102564102564,
+        "correctness_lead": -0.20512820512820518,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.034985917850514574
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.11793782626484528
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.04425280296158867
+      }
+    },
+    {
+      "qi": 31,
+      "question": "A bald eagle is likely to be found on what kind of work?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.6818181818181819,
+        "vote_entropy": 0.6321302781219706,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.8409090909090909,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.3386554421456596
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.03680366755784716
+      }
+    },
+    {
+      "qi": 32,
+      "question": "After standing up I had to sit right back down, why would I feel like this?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 83,
+        "plurality_share": 0.8554216867469879,
+        "runnerup_gap": 0.7831325301204819,
+        "vote_entropy": 0.8070656905136795,
+        "n_unique": 4,
+        "p_correct_votes": 0.8554216867469879,
+        "correctness_lead": 0.7831325301204819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.023020043891810216
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.11843522069501765
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 33,
+      "question": "The dad wanted to protect his house, where did he put his gun?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 85,
+        "plurality_share": 0.6705882352941176,
+        "runnerup_gap": 0.34117647058823525,
+        "vote_entropy": 0.914324246431782,
+        "n_unique": 2,
+        "p_correct_votes": 0.32941176470588235,
+        "correctness_lead": -0.34117647058823525,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.07454591978869486
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.26456824139904356
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.06796953069775641
+      }
+    },
+    {
+      "qi": 34,
+      "question": "What animal has quills all over it?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.9195402298850575,
+        "runnerup_gap": 0.8390804597701149,
+        "vote_entropy": 0.40379715049939247,
+        "n_unique": 2,
+        "p_correct_votes": 0.08045977011494253,
+        "correctness_lead": -0.8390804597701149,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.07143519861811963
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.41087965625984335
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.03057932343237543
+      }
+    },
+    {
+      "qi": 35,
+      "question": "What might a very large table be?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.9655172413793104,
+        "runnerup_gap": 0.9310344827586208,
+        "vote_entropy": 0.21639693245126462,
+        "n_unique": 2,
+        "p_correct_votes": 0.034482758620689655,
+        "correctness_lead": -0.9310344827586208,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.04761904761904761
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.23192505471139985
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Immediately after peeing, a person's bladder is what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8181818181818182,
+        "runnerup_gap": 0.6590909090909092,
+        "vote_entropy": 0.8055956071298774,
+        "n_unique": 4,
+        "p_correct_votes": 0.8181818181818182,
+        "correctness_lead": 0.6590909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.04104462735853488
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.23809523809523805
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.007169159636907205
+      }
+    },
+    {
+      "qi": 37,
+      "question": "What do you go to see for live entertainment?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 79,
+        "plurality_share": 0.6835443037974683,
+        "runnerup_gap": 0.45569620253164556,
+        "vote_entropy": 1.171197715301253,
+        "n_unique": 3,
+        "p_correct_votes": 0.22784810126582278,
+        "correctness_lead": -0.45569620253164556,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.12447408137625367
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.544996043583903
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.04911956391898273
+      }
+    },
+    {
+      "qi": 38,
+      "question": "After recovering from the disease, what did the doctor call the patient?",
+      "n_options": 4,
+      "margin": {
+        "n_votes": 86,
+        "plurality_share": 0.5813953488372093,
+        "runnerup_gap": 0.18604651162790703,
+        "vote_entropy": 1.1103746838736355,
+        "n_unique": 3,
+        "p_correct_votes": 0.3953488372093023,
+        "correctness_lead": -0.18604651162790703,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.0539190770574216
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.3483384861124915
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.0025921020765272054
+      }
+    },
+    {
+      "qi": 39,
+      "question": "The painter started to edge the room with tape, he always took extra care to make the lines clean and crisp when working with an what?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.9425287356321839,
+        "runnerup_gap": 0.896551724137931,
+        "vote_entropy": 0.35881402023168396,
+        "n_unique": 3,
+        "p_correct_votes": 0.04597701149425287,
+        "correctness_lead": -0.896551724137931,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.020620489427730284
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.1926468694901224
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.0474476641915323
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+[08-18 23:38:43] ======== P2c N-scaling run START ========
+[08-18 23:38:43] server :11443 already up -- reuse
+[08-18 23:38:46] server :11444 up (CUDA=0)
+[08-18 23:38:46] >> qwen7b TruthfulQA easy N=5 START
+[08-18 23:38:46] >> qwen7b TruthfulQA hard N=5 START
+[08-18 23:38:47] << qwen7b TruthfulQA easy N=5 DONE rc=0
+[08-18 23:38:47] >> qwen7b TruthfulQA easy N=21 START
+[08-18 23:38:47] << qwen7b TruthfulQA hard N=5 DONE rc=0
+[08-18 23:38:47] >> qwen7b TruthfulQA hard N=21 START
+[08-19 01:27:27] << qwen7b TruthfulQA easy N=21 DONE rc=0
+[08-19 01:41:02] << qwen7b TruthfulQA hard N=21 DONE rc=0
+[08-19 01:41:02] >> p2_aggregate over ALL N (5,11,21) -> N-scaling view
+============================================================================================
+P2 CROSS-MODEL AGGREGATOR — C1 mechanism / C2 boundary / C3 ΔD (failures kept)
+============================================================================================
+
+▶ gemma9b  (model=gemma2:9b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.890  P_maj(copying)=0.891  gap=+0.000  sign_ok=True  [realized shared=0.959 indep=0.975]
+       hard  p=0.516  P_maj(copying)=0.528  gap=+0.012  sign_ok=True  [realized shared=0.700 indep=0.716]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.088 CI[-0.193,-0.019]  bins(low→high M)=[0.088  0.009  0.010]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.536 CI[+0.350,+0.728]  n=23
+
+▶ llama8b  (model=llama3.1:8b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.662  P_maj(copying)=0.697  gap=+0.034  sign_ok=True  [realized shared=0.872 indep=0.884]
+       hard  p=0.284  P_maj(copying)=0.259  gap=-0.024  sign_ok=True  [realized shared=0.525 indep=0.547]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.091 CI[-0.165,-0.019]  bins(low→high M)=[0.083  0.125  0.024]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.148 CI[+0.104,+0.194]  n=67
+
+▶ mistral7b  (model=mistral:7b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [FAIL]:
+       easy  p=0.738  P_maj(copying)=0.741  gap=+0.003  sign_ok=True  [realized shared=0.828 indep=0.841]
+       hard  p=0.473  P_maj(copying)=0.500  gap=+0.027  sign_ok=False  [realized shared=0.516 indep=0.487]
+  C2 |ΔA|~M pooled [FAIL]: slope=-0.052 CI[-0.129,+0.014]  bins(low→high M)=[0.046  0.023  0.019]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.249 CI[+0.145,+0.352]  n=41
+
+▶ qwen2.5:7b  (model=qwen2.5:7b, N=5, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.849  P_maj(copying)=0.859  gap=+0.010  sign_ok=True  [realized shared=0.859 indep=0.869]
+       hard  p=0.218  P_maj(copying)=0.209  gap=-0.009  sign_ok=True  [realized shared=0.378 indep=0.378]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.091 CI[-0.156,-0.039]  bins(low→high M)=[0.083  0.005  0.010]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.232 CI[+0.117,+0.361]  n=26
+
+▶ qwen2.5:7b  (model=qwen2.5:7b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.841  P_maj(copying)=0.863  gap=+0.021  sign_ok=True  [realized shared=0.850 indep=0.866]
+       hard  p=0.106  P_maj(copying)=0.062  gap=-0.043  sign_ok=True  [realized shared=0.300 indep=0.338]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.125 CI[-0.198,-0.056]  bins(low→high M)=[0.088  0.014  0.000]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.272 CI[+0.162,+0.393]  n=29
+
+▶ qwen2.5:7b  (model=qwen2.5:7b, N=21, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.846  P_maj(copying)=0.881  gap=+0.035  sign_ok=True  [realized shared=0.841 indep=0.856]
+       hard  p=0.202  P_maj(copying)=0.163  gap=-0.040  sign_ok=True  [realized shared=0.375 indep=0.375]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.104 CI[-0.193,-0.024]  bins(low→high M)=[0.069  0.032  0.000]  n=80
+  C3 ΔD paired pooled [PASS]: ΔD=+0.245 CI[+0.168,+0.331]  n=34
+
+▶ qwen7b_aqua  (model=qwen2.5:7b, N=11, regimes=['easy', 'hard'])
+  C1 theory-implied mechanism contrast (Thm4 pred; main empirical=ablation) [PASS]:
+       easy  p=0.619  P_maj(copying)=0.635  gap=+0.016  sign_ok=True  [realized shared=0.655 indep=0.645]
+       hard  p=0.251  P_maj(copying)=0.237  gap=-0.014  sign_ok=True  [realized shared=0.369 indep=0.331]
+  C2 |ΔA|~M pooled [PASS]: slope=-0.138 CI[-0.217,-0.058]  bins(low→high M)=[0.115  0.087  0.000]  n=78
+  C3 ΔD paired pooled [PASS]: ΔD=+0.159 CI[+0.101,+0.224]  n=53
+
+--------------------------------------------------------------------------------------------
+C2 N-scaling view (Theorem 5 prediction: slope ↓ as N ↑) — one row per run:
+   gemma9b                N=11  slope=-0.088 CI[-0.193,-0.019]
+   llama8b                N=11  slope=-0.091 CI[-0.165,-0.019]
+   mistral7b              N=11  slope=-0.052 CI[-0.129,+0.014]
+   qwen2.5:7b             N=5   slope=-0.091 CI[-0.156,-0.039]
+   qwen2.5:7b             N=11  slope=-0.125 CI[-0.198,-0.056]
+   qwen2.5:7b             N=21  slope=-0.104 CI[-0.193,-0.024]
+   qwen7b_aqua            N=11  slope=-0.138 CI[-0.217,-0.058]
+
+============================================================================================
+group                        C1     C2     C3     (generalization matrix)
+gemma9b|N11                  ✓      ✓      ✓   
+llama8b|N11                  ✓      ✓      ✓   
+mistral7b|N11                ✗      ✗      ✓   
+qwen2.5:7b|N5                ✓      ✓      ✓   
+qwen2.5:7b|N11               ✓      ✓      ✓   
+qwen2.5:7b|N21               ✓      ✓      ✓   
+qwen7b_aqua|N11              ✓      ✓      ✓   
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/p2_aggregate_nscaling.json
+[08-19 01:41:04] tore down :11443 (pid 1400597)
+[08-19 01:41:04] tore down :11444 (pid 1401021)
+[08-19 01:41:04] ======== P2c N-scaling run COMPLETE ========

@@ -1,0 +1,25 @@
+========================================================================
+EXP6C PREREGISTRATION — regime=easy  N=11  R=8  model=qwen2.5:7b
+H1: ΔD = D(shared) − D(indep) > 0 at matched quality/strength
+    D = replicate-level pooled pairwise ERROR correlation (primary)
+H2: ShareEffect = P_maj(shared) − P_maj(indep) at matched quality;
+    predict >0 for hard (p<½), <0 for easy (p>½).
+conditions: ['none', 'shared_correct_strong', 'indep_correct_strong', 'shared_misleading_strong', 'indep_misleading_strong']
+primary D = replicate-level pairwise error corr; 2ndary Fleiss/pair-agree
+========================================================================
+selected 10 easy questions
+clues: reusing exp6c_clues_easy.json (have 40, need 10)
+[none                      ] p₁=0.88 P_maj=0.89 D=+0.005 fleiss=0.48 agree=0.86
+[shared_correct_strong     ] p₁=0.90 P_maj=0.89 D=+0.287 fleiss=0.62 agree=0.92
+[indep_correct_strong      ] p₁=0.92 P_maj=0.90 D=+0.008 fleiss=0.57 agree=0.92
+[shared_misleading_strong  ] p₁=0.84 P_maj=0.85 D=+0.534 fleiss=0.66 agree=0.88
+[indep_misleading_strong   ] p₁=0.84 P_maj=0.93 D=-0.022 fleiss=0.26 agree=0.79
+
+------------------------------------------------------------------------
+realized single-agent p (none) = 0.876  [p>½ → expect ShareEffect<0]
+[correct   ] D: shared=+0.287 indep=+0.008  ΔD=+0.279 [+0.246,+0.312]*  H1=OK (n=2)
+             ShareEffect(P_maj shared−indep)=-0.013 [-0.075,+0.037] 
+[misleading] D: shared=+0.534 indep=-0.022  ΔD=+0.667 [+0.461,+0.873]*  H1=OK (n=5)
+             ShareEffect(P_maj shared−indep)=-0.075 [-0.225,+0.000] 
+
+wrote /home/alex/venvs/trucn/mas-mean-field/results/tables/exp6c_minival_easy_N11.csv

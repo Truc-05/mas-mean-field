@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "regime": "easy",
+    "N": 11,
+    "R": 8,
+    "debate_rounds": 3,
+    "model": "qwen2.5:7b",
+    "coupling": 1.0,
+    "actions": [
+      "single",
+      "indep_vote",
+      "diversity",
+      "shared_ev",
+      "debate"
+    ],
+    "shared_ev_cond": "shared_correct_strong"
+  },
+  "Q": 80,
+  "regimes": [
+    "easy",
+    "hard"
+  ],
+  "headroom": {
+    "A_best": 0.603125,
+    "best_action": "shared_ev",
+    "A_oracle": 0.6671875,
+    "A_oracle_nomech": 0.5423295454545455,
+    "H": 0.06406250000000002,
+    "H_M": 0.12485795454545456
+  },
+  "ci": {
+    "A_oracle": [
+      0.5703125,
+      0.7578125
+    ],
+    "A_best": [
+      0.50625,
+      0.7
+    ],
+    "H": [
+      0.026562499999999933,
+      0.10312500000000002
+    ],
+    "H_M": [
+      0.07243963068181813,
+      0.18124999999999997
+    ]
+  },
+  "crossfit_oracle": 0.6404829545454545,
+  "oracle_freq": {
+    "single": 0.3375,
+    "indep_vote": 0.15,
+    "diversity": 0.1,
+    "shared_ev": 0.1625,
+    "debate": 0.025,
+    "stop": 0.225
+  },
+  "complementarity": {
+    "matrix": {
+      "single": {
+        "single": 0.0,
+        "indep_vote": 0.0,
+        "diversity": 0.025,
+        "shared_ev": 0.025,
+        "debate": 0.0,
+        "stop": 0.5
+      },
+      "indep_vote": {
+        "single": 0.0375,
+        "indep_vote": 0.0,
+        "diversity": 0.0375,
+        "shared_ev": 0.0375,
+        "debate": 0.025,
+        "stop": 0.5375
+      },
+      "diversity": {
+        "single": 0.1125,
+        "indep_vote": 0.0875,
+        "diversity": 0.0,
+        "shared_ev": 0.0375,
+        "debate": 0.1125,
+        "stop": 0.5875
+      },
+      "shared_ev": {
+        "single": 0.15,
+        "indep_vote": 0.125,
+        "diversity": 0.075,
+        "shared_ev": 0.0,
+        "debate": 0.15,
+        "stop": 0.625
+      },
+      "debate": {
+        "single": 0.0125,
+        "indep_vote": 0.0,
+        "diversity": 0.0375,
+        "shared_ev": 0.0375,
+        "debate": 0.0,
+        "stop": 0.5125
+      },
+      "stop": {
+        "single": 0.0,
+        "indep_vote": 0.0,
+        "diversity": 0.0,
+        "shared_ev": 0.0,
+        "debate": 0.0,
+        "stop": 0.0
+      }
+    },
+    "solve_rate": {
+      "single": 0.5,
+      "indep_vote": 0.5375,
+      "diversity": 0.5875,
+      "shared_ev": 0.625,
+      "debate": 0.5125,
+      "stop": 0.0
+    },
+    "coverage": 0.6875,
+    "unique_rescue": {
+      "single": 0.0,
+      "indep_vote": 0.0,
+      "diversity": 0.025,
+      "shared_ev": 0.0625,
+      "debate": 0.0,
+      "stop": 0.0
+    }
+  },
+  "cost": {
+    "stop": 0,
+    "single": 1,
+    "indep_vote": 11,
+    "diversity": 11,
+    "shared_ev": 11,
+    "debate": 33
+  }
+}

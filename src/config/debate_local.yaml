@@ -1,0 +1,13 @@
+experiment: llm_debate
+n_agents: 5
+n_rounds: 5
+n_workers: 4
+backend: openai                   # OpenAI-compatible; here pointed at local Ollama
+base_url: http://localhost:11434/v1
+model: qwen2.5:7b                 # strong JSON/instruction adherence at 7B; alt: gemma2:9b, llama3.1:8b
+rpm: null                         # local server, no per-minute quota → no 429 throttling
+timeout: 300                      # local inference (esp. CPU) can be slow per call
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]

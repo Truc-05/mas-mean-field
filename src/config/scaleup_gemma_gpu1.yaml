@@ -1,0 +1,13 @@
+experiment: llm_debate
+n_agents: 11
+n_rounds: 5
+n_workers: 8
+backend: openai
+base_url: http://localhost:11434/v1   # GPU1 (CUDA=1, PCI_BUS_ID) np=8 — scale-up campaign
+model: gemma2:9b
+rpm: null
+timeout: 300
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]

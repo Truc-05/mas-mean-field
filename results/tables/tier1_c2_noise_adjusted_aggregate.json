@@ -1,0 +1,1041 @@
+{
+  "note": "slope_excess (noise-adjusted) supersedes slope_raw as the C2 estimand",
+  "regimes": {
+    "hard": {
+      "K": 35,
+      "raw_superseded": {
+        "K": 35,
+        "mean": -0.06265103874612499,
+        "ci": [
+          -0.11226270355912671,
+          -0.011919191288101264
+        ],
+        "sig": true
+      },
+      "excess_corrected": {
+        "K": 35,
+        "mean": 0.019230170598021436,
+        "ci": [
+          -0.027054382069525172,
+          0.07518223094968815
+        ],
+        "sig": false
+      },
+      "strata": [
+        {
+          "slope_raw": -0.09174208140967686,
+          "slope_raw_ci": [
+            -0.31633233204102085,
+            0.13383243147041518
+          ],
+          "slope_excess": -0.18401531343391075,
+          "slope_excess_ci": [
+            -0.4190015538436531,
+            0.07062876534412237
+          ],
+          "n_q": 31,
+          "model": "deepseek",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": -0.08996625367001657,
+          "slope_raw_ci": [
+            -0.3175207481395245,
+            0.1705510122310767
+          ],
+          "slope_excess": 0.05063170242403906,
+          "slope_excess_ci": [
+            -0.19192343901158876,
+            0.2916361940549805
+          ],
+          "n_q": 29,
+          "model": "deepseek",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.01415527064250739,
+          "slope_raw_ci": [
+            -0.3272207657477811,
+            0.3038270192550293
+          ],
+          "slope_excess": -0.05375798174466478,
+          "slope_excess_ci": [
+            -0.4056274450232157,
+            0.2555626096410862
+          ],
+          "n_q": 31,
+          "model": "deepseek",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.021006666848636953,
+          "slope_raw_ci": [
+            -0.18810118571594014,
+            0.10928095375458836
+          ],
+          "slope_excess": -0.03970290631861643,
+          "slope_excess_ci": [
+            -0.2226160314596227,
+            0.14359776002855604
+          ],
+          "n_q": 48,
+          "model": "deepseek",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": -0.03168465771504435,
+          "slope_raw_ci": [
+            -0.39835763276385827,
+            0.3293460400822073
+          ],
+          "slope_excess": 0.4457128162603052,
+          "slope_excess_ci": [
+            -0.03725231689349972,
+            0.9982330631619276
+          ],
+          "n_q": 16,
+          "model": "deepseek",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.07805668716210704,
+          "slope_raw_ci": [
+            -0.22623179978202837,
+            0.37575165900563456
+          ],
+          "slope_excess": -0.1463252321378565,
+          "slope_excess_ci": [
+            -0.5021225265775738,
+            0.220696241590586
+          ],
+          "n_q": 28,
+          "model": "deepseek",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": -0.11734835793281688,
+          "slope_raw_ci": [
+            -0.40892094895825853,
+            0.14651275984190118
+          ],
+          "slope_excess": -0.06004819897518199,
+          "slope_excess_ci": [
+            -0.26975224079777654,
+            0.12695338008893223
+          ],
+          "n_q": 51,
+          "model": "gemma",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": 0.20773787229934443,
+          "slope_raw_ci": [
+            0.025059522636209548,
+            0.44427357989389227
+          ],
+          "slope_excess": 0.07915452115068099,
+          "slope_excess_ci": [
+            -0.07631778800104372,
+            0.2595296348182227
+          ],
+          "n_q": 29,
+          "model": "gemma",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": 0.012007705809804576,
+          "slope_raw_ci": [
+            -0.2464598346949613,
+            0.2098845384301364
+          ],
+          "slope_excess": 0.06354720743903428,
+          "slope_excess_ci": [
+            -0.024302957648995014,
+            0.1643263053442355
+          ],
+          "n_q": 30,
+          "model": "gemma",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.10062944156391677,
+          "slope_raw_ci": [
+            -0.3818396748239843,
+            0.07567983558582733
+          ],
+          "slope_excess": 0.006353130660107343,
+          "slope_excess_ci": [
+            -0.2474768816174822,
+            0.20648859348912607
+          ],
+          "n_q": 51,
+          "model": "gemma",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": -0.13391251417978572,
+          "slope_raw_ci": [
+            -1.1719385516380898,
+            0.20903353742029404
+          ],
+          "slope_excess": -0.19275286131938868,
+          "slope_excess_ci": [
+            -0.9741239598303219,
+            0.0
+          ],
+          "n_q": 24,
+          "model": "gemma",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": -0.27155871598267484,
+          "slope_raw_ci": [
+            -0.5122559356855028,
+            -0.012314059663636127
+          ],
+          "slope_excess": -0.06575296729472815,
+          "slope_excess_ci": [
+            -0.2682370589882336,
+            0.09669807582797256
+          ],
+          "n_q": 42,
+          "model": "llama",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": -0.06473866436540202,
+          "slope_raw_ci": [
+            -0.27237337074460366,
+            0.14052169223897004
+          ],
+          "slope_excess": -0.03715468033562417,
+          "slope_excess_ci": [
+            -0.33747756842276855,
+            0.19900887882014595
+          ],
+          "n_q": 25,
+          "model": "llama",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": 0.08624954792043393,
+          "slope_raw_ci": [
+            -0.14195339789132472,
+            0.29232897960177506
+          ],
+          "slope_excess": 0.052619650391802254,
+          "slope_excess_ci": [
+            -0.1389215809605495,
+            0.2697415352807599
+          ],
+          "n_q": 28,
+          "model": "llama",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.04827176119641006,
+          "slope_raw_ci": [
+            -0.27240384618960367,
+            0.2345382423347587
+          ],
+          "slope_excess": 0.11911017811689933,
+          "slope_excess_ci": [
+            -0.08568375392489207,
+            0.37715889774882805
+          ],
+          "n_q": 46,
+          "model": "llama",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": -0.3381397550724735,
+          "slope_raw_ci": [
+            -0.5972655012721239,
+            -0.05404078524613652
+          ],
+          "slope_excess": -0.16225083374975888,
+          "slope_excess_ci": [
+            -0.37340429345866416,
+            0.0
+          ],
+          "n_q": 19,
+          "model": "llama",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.12776051038769837,
+          "slope_raw_ci": [
+            -0.05541469133036282,
+            0.32447492876852263
+          ],
+          "slope_excess": -0.00989694094552593,
+          "slope_excess_ci": [
+            -0.09779207157723695,
+            0.08186032013611606
+          ],
+          "n_q": 20,
+          "model": "llama",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": -0.2343709589553675,
+          "slope_raw_ci": [
+            -0.39792669437581224,
+            -0.09249657506154621
+          ],
+          "slope_excess": -0.11633806382030383,
+          "slope_excess_ci": [
+            -0.27886586216049836,
+            0.02022608702959054
+          ],
+          "n_q": 55,
+          "model": "mistral",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": 0.055679569477291364,
+          "slope_raw_ci": [
+            -0.28309418303427053,
+            0.22562094130896349
+          ],
+          "slope_excess": 0.034243930691635706,
+          "slope_excess_ci": [
+            -0.045092871472751025,
+            0.21335636715903097
+          ],
+          "n_q": 23,
+          "model": "mistral",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.021363465825075555,
+          "slope_raw_ci": [
+            -0.20393538635643213,
+            0.33450744615222505
+          ],
+          "slope_excess": 0.039813731764913624,
+          "slope_excess_ci": [
+            0.0,
+            0.17168305392081804
+          ],
+          "n_q": 20,
+          "model": "mistral",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.2657486915878676,
+          "slope_raw_ci": [
+            -0.45972395444164665,
+            -0.07040945066419045
+          ],
+          "slope_excess": -0.05435969509491339,
+          "slope_excess_ci": [
+            -0.21598304390587167,
+            0.13225270634612088
+          ],
+          "n_q": 36,
+          "model": "mistral",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": 0.36993076162215666,
+          "slope_raw_ci": [
+            -2.351756209802619,
+            1.2391195565706075
+          ],
+          "slope_excess": 0.6262226618309702,
+          "slope_excess_ci": [
+            -0.1546184738955821,
+            2.7056382078802983
+          ],
+          "n_q": 26,
+          "model": "mistral",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": -0.06369616008357887,
+          "slope_raw_ci": [
+            -0.21666753013555573,
+            0.12423751607617103
+          ],
+          "slope_excess": 0.12133149376848885,
+          "slope_excess_ci": [
+            0.025885736140932286,
+            0.28678244550054566
+          ],
+          "n_q": 29,
+          "model": "mistral",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": -0.39065932802384545,
+          "slope_raw_ci": [
+            -0.8070775068877618,
+            0.010209059505805296
+          ],
+          "slope_excess": -0.028036888968674352,
+          "slope_excess_ci": [
+            -0.5135945599788093,
+            0.36273922008782455
+          ],
+          "n_q": 47,
+          "model": "phi4",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": 0.0027050288946268227,
+          "slope_raw_ci": [
+            -0.16228826789250328,
+            0.16871226295824637
+          ],
+          "slope_excess": 0.06311734087462602,
+          "slope_excess_ci": [
+            -0.08604056486697709,
+            0.268353899053025
+          ],
+          "n_q": 32,
+          "model": "phi4",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": 0.008741556451155135,
+          "slope_raw_ci": [
+            -0.13039563644047397,
+            0.17719944146497127
+          ],
+          "slope_excess": 0.04974361885300185,
+          "slope_excess_ci": [
+            -0.12732137113521996,
+            0.20740671998132354
+          ],
+          "n_q": 26,
+          "model": "phi4",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.08238776262769064,
+          "slope_raw_ci": [
+            -0.27599182691353985,
+            0.1293296568159707
+          ],
+          "slope_excess": -0.11490218333816156,
+          "slope_excess_ci": [
+            -0.42816690697787635,
+            0.11709718221423401
+          ],
+          "n_q": 35,
+          "model": "phi4",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": -0.18623078731893394,
+          "slope_raw_ci": [
+            -0.4915237834405436,
+            0.08303312959887504
+          ],
+          "slope_excess": -0.11699479600858675,
+          "slope_excess_ci": [
+            -0.546178136709652,
+            0.14814111329905308
+          ],
+          "n_q": 23,
+          "model": "phi4",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": -0.17758811465932772,
+          "slope_raw_ci": [
+            -0.6211201176855758,
+            0.17050668619563425
+          ],
+          "slope_excess": 0.0416904522118199,
+          "slope_excess_ci": [
+            -0.09515869991433283,
+            0.3555636275196099
+          ],
+          "n_q": 21,
+          "model": "phi4",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": 0.13595758153269608,
+          "slope_raw_ci": [
+            -0.06462161022782001,
+            0.37514210266771575
+          ],
+          "slope_excess": 0.08148886992847389,
+          "slope_excess_ci": [
+            -0.08560536291318206,
+            0.28528033603603214
+          ],
+          "n_q": 39,
+          "model": "qwen",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": -0.05905813775118885,
+          "slope_raw_ci": [
+            -0.2420274333069722,
+            0.16046046920004928
+          ],
+          "slope_excess": 0.05624584547732269,
+          "slope_excess_ci": [
+            0.0,
+            0.19495120016658227
+          ],
+          "n_q": 33,
+          "model": "qwen",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.1864634912347965,
+          "slope_raw_ci": [
+            -0.4576813036338344,
+            0.03129498931668422
+          ],
+          "slope_excess": 0.07573396852847368,
+          "slope_excess_ci": [
+            -0.17197513687902244,
+            0.3342077933880735
+          ],
+          "n_q": 26,
+          "model": "qwen",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.21524726731240001,
+          "slope_raw_ci": [
+            -0.5059582306032567,
+            0.03359354134719299
+          ],
+          "slope_excess": -0.03426443718084069,
+          "slope_excess_ci": [
+            -0.2115301943598475,
+            0.11533177383188972
+          ],
+          "n_q": 33,
+          "model": "qwen",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": -0.012256514955882107,
+          "slope_raw_ci": [
+            -0.4332524558855754,
+            0.37573956021413707
+          ],
+          "slope_excess": 0.00736889242342024,
+          "slope_excess_ci": [
+            -0.3820948195905391,
+            0.29570920060897027
+          ],
+          "n_q": 34,
+          "model": "qwen",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": -0.059388356756372766,
+          "slope_raw_ci": [
+            -0.19375060099181107,
+            0.062491331369312675
+          ],
+          "slope_excess": 0.07547993880147182,
+          "slope_excess_ci": [
+            -0.06517240385731957,
+            0.2896972264164769
+          ],
+          "n_q": 30,
+          "model": "qwen",
+          "bench": "truthfulqa"
+        }
+      ]
+    },
+    "easy": {
+      "K": 31,
+      "raw_superseded": {
+        "K": 31,
+        "mean": -0.13711609404927302,
+        "ci": [
+          -0.2426452902312801,
+          -0.049772475953040726
+        ],
+        "sig": true
+      },
+      "excess_corrected": {
+        "K": 31,
+        "mean": -0.011134343899727608,
+        "ci": [
+          -0.079937142659065,
+          0.055994961915384604
+        ],
+        "sig": false
+      },
+      "strata": [
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 23,
+          "model": "deepseek",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 27,
+          "model": "deepseek",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.11459547274254217,
+          "slope_raw_ci": [
+            -0.4738528429340753,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 27,
+          "model": "deepseek",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 18,
+          "model": "deepseek",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 18,
+          "model": "deepseek",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 23,
+          "model": "deepseek",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": -0.8846436475842432,
+          "slope_raw_ci": [
+            -1.1852836234236228,
+            0.0
+          ],
+          "slope_excess": -0.41524035177187074,
+          "slope_excess_ci": [
+            -0.7955298217555913,
+            0.0
+          ],
+          "n_q": 15,
+          "model": "gemma",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 44,
+          "model": "gemma",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.1749116607773853,
+          "slope_raw_ci": [
+            -0.9358757943076472,
+            0.1106654707815179
+          ],
+          "slope_excess": -0.14252061248527687,
+          "slope_excess_ci": [
+            -0.6836208306413354,
+            0.0
+          ],
+          "n_q": 40,
+          "model": "gemma",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.9624767067592747,
+          "slope_raw_ci": [
+            -2.2301644675496637,
+            0.024617313533563844
+          ],
+          "slope_excess": -0.675193404483596,
+          "slope_excess_ci": [
+            -2.070875670939445,
+            0.12722399879045343
+          ],
+          "n_q": 23,
+          "model": "gemma",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 54,
+          "model": "gemma",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 62,
+          "model": "gemma",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 34,
+          "model": "llama",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.12904216441974023,
+          "slope_raw_ci": [
+            -0.6223686068962652,
+            0.0
+          ],
+          "slope_excess": -0.08602810961316014,
+          "slope_excess_ci": [
+            -0.4302234070715713,
+            0.0
+          ],
+          "n_q": 41,
+          "model": "llama",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 38,
+          "model": "llama",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": -0.19279578543718834,
+          "slope_raw_ci": [
+            -0.5076540499732494,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 41,
+          "model": "llama",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": -0.09204167825131405,
+          "slope_raw_ci": [
+            -0.31145354621723437,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 37,
+          "model": "mistral",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": -0.2146454862456412,
+          "slope_raw_ci": [
+            -0.5135008006499844,
+            0.0
+          ],
+          "slope_excess": 0.1430969908304274,
+          "slope_excess_ci": [
+            0.0,
+            0.3442146725728289
+          ],
+          "n_q": 49,
+          "model": "mistral",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 16,
+          "model": "mistral",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": 0.003077414971424019,
+          "slope_raw_ci": [
+            -0.13264427217915573,
+            0.02560522258712088
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 46,
+          "model": "mistral",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.0321598040716363,
+          "slope_raw_ci": [
+            0.0,
+            0.11923426172868072
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 43,
+          "model": "mistral",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 25,
+          "model": "phi4",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 22,
+          "model": "phi4",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.332621750863299,
+          "slope_raw_ci": [
+            -1.0052987289692275,
+            0.07303820356439711
+          ],
+          "slope_excess": -0.13500580725527914,
+          "slope_excess_ci": [
+            -0.6129672156299408,
+            0.09139678286623842
+          ],
+          "n_q": 23,
+          "model": "phi4",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 32,
+          "model": "phi4",
+          "bench": "truthfulqa"
+        },
+        {
+          "slope_raw": -0.4609203326295833,
+          "slope_raw_ci": [
+            -0.9610220159949648,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 29,
+          "model": "qwen",
+          "bench": "aqua"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 41,
+          "model": "qwen",
+          "bench": "arc"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.6190773553977049,
+          "slope_excess_ci": [
+            0.0,
+            0.763753523962948
+          ],
+          "n_q": 41,
+          "model": "qwen",
+          "bench": "commonsenseqa"
+        },
+        {
+          "slope_raw": -0.8312667560321717,
+          "slope_raw_ci": [
+            -1.4195546808011088,
+            -0.26213576197378824
+          ],
+          "slope_excess": 0.21626452189454878,
+          "slope_excess_ci": [
+            -0.6663983128530219,
+            0.8247420535244879
+          ],
+          "n_q": 32,
+          "model": "qwen",
+          "bench": "mmlu"
+        },
+        {
+          "slope_raw": 0.10412530717185804,
+          "slope_raw_ci": [
+            -0.11652717555532134,
+            0.44383533705688044
+          ],
+          "slope_excess": 0.13038475659494586,
+          "slope_excess_ci": [
+            0.0,
+            0.48077371721442785
+          ],
+          "n_q": 43,
+          "model": "qwen",
+          "bench": "strategyqa"
+        },
+        {
+          "slope_raw": 0.0,
+          "slope_raw_ci": [
+            0.0,
+            0.0
+          ],
+          "slope_excess": 0.0,
+          "slope_excess_ci": [
+            0.0,
+            0.0
+          ],
+          "n_q": 44,
+          "model": "qwen",
+          "bench": "truthfulqa"
+        }
+      ]
+    }
+  }
+}

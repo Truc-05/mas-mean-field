@@ -1,0 +1,491 @@
+{
+  "easy": {
+    "label": "regime=easy",
+    "Q": 40,
+    "A_bestfixed": 0.890625,
+    "best_action": "debate",
+    "A_oracle_plugin": 0.93125,
+    "A_oracle_cf": 0.915340909090909,
+    "denom_cf": 0.02471590909090904,
+    "routers": {
+      "ridge_full": {
+        "A_router": 0.865625,
+        "cost": 17.05,
+        "gain": -0.025000000000000022,
+        "gain_ci": [
+          -0.075,
+          0.0
+        ],
+        "captured": -1.0114942528735662,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 1,
+          "diversity": 6,
+          "shared_ev": 22,
+          "debate": 11,
+          "stop": 0
+        },
+        "collapse_frac": 0.55
+      },
+      "gboost_full": {
+        "A_router": 0.8900568181818181,
+        "cost": 20.95,
+        "gain": -0.0005681818181818565,
+        "gain_ci": [
+          -0.001704545454545453,
+          0.0
+        ],
+        "captured": -0.022988505747128036,
+        "pick_hist": {
+          "single": 2,
+          "indep_vote": 12,
+          "diversity": 3,
+          "shared_ev": 4,
+          "debate": 19,
+          "stop": 0
+        },
+        "collapse_frac": 0.475
+      },
+      "knn_full": {
+        "A_router": 0.86875,
+        "cost": 8.45,
+        "gain": -0.021874999999999978,
+        "gain_ci": [
+          -0.090625,
+          0.0375
+        ],
+        "captured": -0.8850574712643688,
+        "pick_hist": {
+          "single": 19,
+          "indep_vote": 8,
+          "diversity": 8,
+          "shared_ev": 1,
+          "debate": 4,
+          "stop": 0
+        },
+        "collapse_frac": 0.475
+      },
+      "ridge_difficulty_only": {
+        "A_router": 0.890625,
+        "cost": 17.05,
+        "gain": 0.0,
+        "gain_ci": [
+          0.0,
+          0.0
+        ],
+        "captured": 0.0,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 3,
+          "diversity": 26,
+          "shared_ev": 0,
+          "debate": 11,
+          "stop": 0
+        },
+        "collapse_frac": 0.65
+      },
+      "ridge_mechanism_only": {
+        "A_router": 0.871875,
+        "cost": 26.7,
+        "gain": -0.018750000000000044,
+        "gain_ci": [
+          -0.084375,
+          0.0375
+        ],
+        "captured": -0.7586206896551758,
+        "pick_hist": {
+          "single": 1,
+          "indep_vote": 0,
+          "diversity": 6,
+          "shared_ev": 4,
+          "debate": 29,
+          "stop": 0
+        },
+        "collapse_frac": 0.725
+      }
+    },
+    "pareto": [
+      {
+        "lam": 0.0,
+        "acc": 0.865625,
+        "cost": 17.05
+      },
+      {
+        "lam": 0.001,
+        "acc": 0.865625,
+        "cost": 12.65
+      },
+      {
+        "lam": 0.002,
+        "acc": 0.8613636363636363,
+        "cost": 11.85
+      },
+      {
+        "lam": 0.004,
+        "acc": 0.8488636363636364,
+        "cost": 8.75
+      },
+      {
+        "lam": 0.008,
+        "acc": 0.8431818181818181,
+        "cost": 3.0
+      },
+      {
+        "lam": 0.015,
+        "acc": 0.83125,
+        "cost": 2.25
+      },
+      {
+        "lam": 0.03,
+        "acc": 0.8460227272727273,
+        "cost": 1.0
+      },
+      {
+        "lam": 0.06,
+        "acc": 0.8460227272727273,
+        "cost": 1.0
+      },
+      {
+        "lam": 0.12,
+        "acc": 0.8460227272727273,
+        "cost": 1.0
+      },
+      {
+        "lam": 0.25,
+        "acc": 0.8460227272727273,
+        "cost": 1.0
+      },
+      {
+        "lam": 0.5,
+        "acc": 0.8110795454545455,
+        "cost": 0.95
+      }
+    ]
+  },
+  "hard": {
+    "label": "regime=hard",
+    "Q": 40,
+    "A_bestfixed": 0.3625,
+    "best_action": "shared_ev",
+    "A_oracle_plugin": 0.403125,
+    "A_oracle_cf": 0.365625,
+    "denom_cf": 0.003124999999999989,
+    "routers": {
+      "ridge_full": {
+        "A_router": 0.3625,
+        "cost": 11.0,
+        "gain": 0.0,
+        "gain_ci": [
+          0.0,
+          0.0
+        ],
+        "captured": 0.0,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 5,
+          "diversity": 13,
+          "shared_ev": 22,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.55
+      },
+      "gboost_full": {
+        "A_router": 0.3625,
+        "cost": 10.25,
+        "gain": 0.0,
+        "gain_ci": [
+          -0.04375,
+          0.05
+        ],
+        "captured": 0.0,
+        "pick_hist": {
+          "single": 3,
+          "indep_vote": 2,
+          "diversity": 17,
+          "shared_ev": 18,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.45
+      },
+      "knn_full": {
+        "A_router": 0.37471590909090907,
+        "cost": 8.75,
+        "gain": 0.012215909090909083,
+        "gain_ci": [
+          -0.034375,
+          0.06534090909090909
+        ],
+        "captured": 3.9090909090909203,
+        "pick_hist": {
+          "single": 9,
+          "indep_vote": 3,
+          "diversity": 8,
+          "shared_ev": 20,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.5
+      },
+      "ridge_difficulty_only": {
+        "A_router": 0.346875,
+        "cost": 11.0,
+        "gain": -0.015625,
+        "gain_ci": [
+          -0.046875,
+          0.0
+        ],
+        "captured": -5.000000000000018,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 0,
+          "diversity": 1,
+          "shared_ev": 39,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.975
+      },
+      "ridge_mechanism_only": {
+        "A_router": 0.353125,
+        "cost": 11.0,
+        "gain": -0.009374999999999967,
+        "gain_ci": [
+          -0.040625,
+          0.015625
+        ],
+        "captured": -3.0,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 0,
+          "diversity": 18,
+          "shared_ev": 22,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.55
+      }
+    },
+    "pareto": [
+      {
+        "lam": 0.0,
+        "acc": 0.3625,
+        "cost": 11.0
+      },
+      {
+        "lam": 0.001,
+        "acc": 0.3625,
+        "cost": 11.0
+      },
+      {
+        "lam": 0.002,
+        "acc": 0.3625,
+        "cost": 9.75
+      },
+      {
+        "lam": 0.004,
+        "acc": 0.36221590909090906,
+        "cost": 7.25
+      },
+      {
+        "lam": 0.008,
+        "acc": 0.36505681818181823,
+        "cost": 6.0
+      },
+      {
+        "lam": 0.015,
+        "acc": 0.353125,
+        "cost": 4.75
+      },
+      {
+        "lam": 0.03,
+        "acc": 0.340625,
+        "cost": 3.75
+      },
+      {
+        "lam": 0.06,
+        "acc": 0.25198863636363633,
+        "cost": 1.975
+      },
+      {
+        "lam": 0.12,
+        "acc": 0.17045454545454547,
+        "cost": 0.875
+      },
+      {
+        "lam": 0.25,
+        "acc": 0.03238636363636364,
+        "cost": 0.175
+      },
+      {
+        "lam": 0.5,
+        "acc": 0.010795454545454544,
+        "cost": 0.025
+      }
+    ]
+  },
+  "pooled": {
+    "label": "POOLED easy+hard",
+    "Q": 80,
+    "A_bestfixed": 0.603125,
+    "best_action": "shared_ev",
+    "A_oracle_plugin": 0.6671875,
+    "A_oracle_cf": 0.6404829545454545,
+    "denom_cf": 0.03735795454545443,
+    "routers": {
+      "ridge_full": {
+        "A_router": 0.5984375,
+        "cost": 11.275,
+        "gain": -0.004687500000000067,
+        "gain_ci": [
+          -0.028125,
+          0.0203125
+        ],
+        "captured": -0.12547528517110484,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 25,
+          "diversity": 26,
+          "shared_ev": 28,
+          "debate": 1,
+          "stop": 0
+        },
+        "collapse_frac": 0.35
+      },
+      "gboost_full": {
+        "A_router": 0.59375,
+        "cost": 12.25,
+        "gain": -0.009375000000000022,
+        "gain_ci": [
+          -0.028125,
+          0.009375
+        ],
+        "captured": -0.2509505703422067,
+        "pick_hist": {
+          "single": 12,
+          "indep_vote": 7,
+          "diversity": 22,
+          "shared_ev": 29,
+          "debate": 10,
+          "stop": 0
+        },
+        "collapse_frac": 0.3625
+      },
+      "knn_full": {
+        "A_router": 0.610653409090909,
+        "cost": 7.5,
+        "gain": 0.007528409090909016,
+        "gain_ci": [
+          -0.017755681818181816,
+          0.0375
+        ],
+        "captured": 0.20152091254752713,
+        "pick_hist": {
+          "single": 28,
+          "indep_vote": 13,
+          "diversity": 16,
+          "shared_ev": 23,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.35
+      },
+      "ridge_difficulty_only": {
+        "A_router": 0.59375,
+        "cost": 11.0,
+        "gain": -0.009375000000000022,
+        "gain_ci": [
+          -0.0265625,
+          0.0
+        ],
+        "captured": -0.2509505703422067,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 0,
+          "diversity": 41,
+          "shared_ev": 39,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.5125
+      },
+      "ridge_mechanism_only": {
+        "A_router": 0.6,
+        "cost": 11.0,
+        "gain": -0.0031250000000000444,
+        "gain_ci": [
+          -0.01875,
+          0.009375
+        ],
+        "captured": -0.08365019011406989,
+        "pick_hist": {
+          "single": 0,
+          "indep_vote": 39,
+          "diversity": 11,
+          "shared_ev": 30,
+          "debate": 0,
+          "stop": 0
+        },
+        "collapse_frac": 0.4875
+      }
+    },
+    "pareto": [
+      {
+        "lam": 0.0,
+        "acc": 0.5984375,
+        "cost": 11.275
+      },
+      {
+        "lam": 0.001,
+        "acc": 0.5984375,
+        "cost": 11.275
+      },
+      {
+        "lam": 0.002,
+        "acc": 0.6058238636363636,
+        "cost": 6.625
+      },
+      {
+        "lam": 0.004,
+        "acc": 0.5948863636363637,
+        "cost": 4.75
+      },
+      {
+        "lam": 0.008,
+        "acc": 0.5965909090909091,
+        "cost": 3.875
+      },
+      {
+        "lam": 0.015,
+        "acc": 0.5899147727272728,
+        "cost": 3.25
+      },
+      {
+        "lam": 0.03,
+        "acc": 0.5788352272727273,
+        "cost": 2.625
+      },
+      {
+        "lam": 0.06,
+        "acc": 0.5268465909090909,
+        "cost": 1.1
+      },
+      {
+        "lam": 0.12,
+        "acc": 0.5133522727272727,
+        "cost": 0.925
+      },
+      {
+        "lam": 0.25,
+        "acc": 0.48068181818181815,
+        "cost": 0.8
+      },
+      {
+        "lam": 0.5,
+        "acc": 0.43082386363636366,
+        "cost": 0.625
+      }
+    ]
+  }
+}

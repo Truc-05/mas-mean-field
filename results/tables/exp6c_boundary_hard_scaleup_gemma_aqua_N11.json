@@ -1,0 +1,1135 @@
+{
+  "regime": "hard",
+  "N": 11,
+  "R": 8,
+  "model": "gemma2:9b",
+  "model_tag": "scaleup_gemma_aqua",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "A car is being driven, in a straight line and at a uniform speed, towards the base of a vertical tower. The top of the tower is observed from the car and, in the process, it takes 10 minutes for the angle of elevation to change from 45° to 60°. After how much more time will this car reach the base of the tower?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 1,
+      "question": "If the probability that Stock A will increase in value during the next month is 0.56, and the probability that Stock B will increase in value during the next month is 0.74. What is the greatest value for the probability that neither of these two events will occur?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.26136363636363635,
+        "vote_entropy": 1.553657357497701,
+        "n_unique": 4,
+        "p_correct_votes": 0.2727272727272727,
+        "correctness_lead": -0.26136363636363635,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.05117166110851132
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.5746720313506379
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.02968938326565169
+      }
+    },
+    {
+      "qi": 2,
+      "question": "Find the total no. of distinct bike no.'s that can beformed using 2 letters followed by 2 no.'s. How many letters need to be distinct?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5227272727272727,
+        "runnerup_gap": 0.06818181818181818,
+        "vote_entropy": 1.1303296439314212,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.5227272727272727,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 3,
+      "question": "A train running at a speed of 100 miles/hour, takes 10 hours to reach its destination. After covering quarter of the distance, it starts raining and the train has to be slowed to speed of 75 miles/hour. What is the total journey duration?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5340909090909091,
+        "runnerup_gap": 0.06818181818181818,
+        "vote_entropy": 0.9966440252487702,
+        "n_unique": 2,
+        "p_correct_votes": 0.5340909090909091,
+        "correctness_lead": 0.06818181818181818,
+        "A_none": 0.5,
+        "dist_to_boundary": 0.0
+      },
+      "none": {
+        "A_q": 0.5,
+        "D_q": 0.07272210513494247
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.4285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.051368966842144585
+      }
+    },
+    {
+      "qi": 4,
+      "question": "Of the 200 students in a school, at least 45% attended the prom night and at least 35% took part in the debating session. What is the maximum number of students who could have neither attended the prom night nor the debating session?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6022727272727273,
+        "runnerup_gap": 0.3181818181818182,
+        "vote_entropy": 1.4176567454984599,
+        "n_unique": 5,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.5113636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.06122448979591836
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.020620489427730284
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.36149890577200233
+      }
+    },
+    {
+      "qi": 5,
+      "question": "A sales person gets a 10% commission on each sale he makes. How many sales of $250 each must he make in order to reach a salary of at least $1000?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.9545454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.43539226745293413
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.05486554178173932
+      }
+    },
+    {
+      "qi": 6,
+      "question": "A company produces 420 units of a particular computer component every month, at a production cost to the company of $110 per component, and sells all of the components by the end of each month. What is the minimum selling price per component that will guarantee that the yearly profit (revenue from sales minus production costs) will be at least $626,400 ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9204545454545455,
+        "vote_entropy": 0.30364126618753207,
+        "n_unique": 3,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9431818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.1022497489041336
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.08482556320763876
+      }
+    },
+    {
+      "qi": 7,
+      "question": "Machine A puts out a yo-yo every 6 minutes. Machine B puts out a yo-yo every 9 minutes. After how many minutes will they have produced 10 yo-yos?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.625,
+        "vote_entropy": 1.1702551894404265,
+        "n_unique": 5,
+        "p_correct_votes": 0.13636363636363635,
+        "correctness_lead": -0.625,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.1330315175065376
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.11843522069501765
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.0762770634336183
+      }
+    },
+    {
+      "qi": 8,
+      "question": "Consider there is an staircase elevator and you are coming down. If you walk 20 steps and stop, then you reach bottom in 10 minutes. If you walk 10 steps and stop, you reach to the ground in 20 minutes. What is the speed of the elevator?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6022727272727273,
+        "runnerup_gap": 0.21590909090909094,
+        "vote_entropy": 1.0440507016559213,
+        "n_unique": 3,
+        "p_correct_votes": 0.38636363636363635,
+        "correctness_lead": -0.21590909090909094,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": -0.03022356540073758
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.746031746031746
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.12501291562489453
+      }
+    },
+    {
+      "qi": 9,
+      "question": "[5 + ? × 19 - 15 - 7]/[13 × 13 - 156] = 6",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8636363636363636,
+        "runnerup_gap": 0.8068181818181819,
+        "vote_entropy": 0.7769114826079095,
+        "n_unique": 4,
+        "p_correct_votes": 0.056818181818181816,
+        "correctness_lead": -0.8068181818181819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.020620489427730284
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.0863439356053933
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.07019039574394709
+      }
+    },
+    {
+      "qi": 10,
+      "question": "A grocer makes a 25% profit on the selling price for each bag of flour it sells. If he sells each bag for $100 and makes $3,000 in profit, how many bags did he sell?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.7159090909090909,
+        "vote_entropy": 0.8704388771682251,
+        "n_unique": 4,
+        "p_correct_votes": 0.11363636363636363,
+        "correctness_lead": -0.7159090909090909,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.08311312112746538
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.9999999999999999
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.0
+      }
+    },
+    {
+      "qi": 11,
+      "question": "Alex and Jacob works at a toy shop that make toys. Alex takes 7 hours to make a toy, and Jacob takes 9 hours to make a toy. During a month, both of them makes 35 toys in total. If both of them have worked for almost similar number of hours how many toys have been prepared by Jacob?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9204545454545455,
+        "vote_entropy": 0.30364126618753207,
+        "n_unique": 3,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9431818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.922165508261285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.15586446152192757
+      }
+    },
+    {
+      "qi": 12,
+      "question": "John likes to have lightly flavored tea every evening. In a 50% strong milk tea, he replaces 15% of it with milk twice. Then, he replaces 10 percent of the resultant solution with more milk.\nWhat is the final concentration of tea John drinks?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7954545454545454,
+        "runnerup_gap": 0.6363636363636364,
+        "vote_entropy": 0.9241172141245977,
+        "n_unique": 4,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.7613636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.6902538483800488
+      },
+      "indep_correct_strong": {
+        "A_q": 0.75,
+        "D_q": -0.07454591978869486
+      }
+    },
+    {
+      "qi": 13,
+      "question": "A retailer sold an appliance for 40 percent above cost, which represented a gross profit of $20.00. For what price did the retailer sell the appliance?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8522727272727273,
+        "runnerup_gap": 0.7727272727272727,
+        "vote_entropy": 0.7955392695914892,
+        "n_unique": 4,
+        "p_correct_votes": 0.056818181818181816,
+        "correctness_lead": -0.7954545454545455,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.02857142857142857
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.5116605399365969
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.07083203658634857
+      }
+    },
+    {
+      "qi": 14,
+      "question": "A computer routine was developed to generate two numbers (x,y) the first being a random number between 0 and 100 inclusive, and the second being less than or equal to the square root of the first. Each of the following pair satisfies the routine except",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6590909090909091,
+        "runnerup_gap": 0.3636363636363636,
+        "vote_entropy": 1.1556905062369445,
+        "n_unique": 4,
+        "p_correct_votes": 0.29545454545454547,
+        "correctness_lead": -0.3636363636363636,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.1336022246954326
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.034246290882709016
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.003891304092862148
+      }
+    },
+    {
+      "qi": 15,
+      "question": "When I was 2 years old, my brother was half my age. Now I am 60 years old, how old is my brother?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 16,
+      "question": "When folded into two equal halves a rectangular sheet had a perimeter of 48cm for each part folded along one set of sides and the same is 66cm when folded along the other set of sides. Find the area of the sheet.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9886363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.8572014540197422
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.13852186854577564
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7727272727272727,
+        "runnerup_gap": 0.5681818181818181,
+        "vote_entropy": 0.879816581921562,
+        "n_unique": 3,
+        "p_correct_votes": 0.7727272727272727,
+        "correctness_lead": 0.5681818181818181,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.20299536128563597
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.06269170560895111
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.08506056255187665
+      }
+    },
+    {
+      "qi": 18,
+      "question": "A rectangular solid, 3 x 4 x 15, is inscribed in a sphere, so that all eight of its vertices are on the sphere. What is the diameter of the sphere?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9090909090909091,
+        "runnerup_gap": 0.8522727272727273,
+        "vote_entropy": 0.5575692542574586,
+        "n_unique": 4,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.8863636363636364,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.9999999999999999
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.9001039757134902
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.10283118751046355
+      }
+    },
+    {
+      "qi": 19,
+      "question": "A starts travel towards south 3km, then travel 5 km towards east, and again travels 3 km to north, and finally travels 2km towards west. In the end how far from is A from home?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.36363636363636365,
+        "runnerup_gap": 0.04545454545454547,
+        "vote_entropy": 1.7696322713420585,
+        "n_unique": 5,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.3522727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.012771989043078798
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": -0.031227816726737263
+      }
+    },
+    {
+      "qi": 20,
+      "question": "A student instead of finding the value of 7/8 of a number, found the value of 7/18 of the number. If his answer differed from the actual one by 770, find the that number.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8181818181818182,
+        "runnerup_gap": 0.7045454545454546,
+        "vote_entropy": 0.9429102430382051,
+        "n_unique": 5,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.8068181818181819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.6284719996068145
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.092390590124924
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Hoses A and B spout water at different constant rates, and hose A can fill a certain pool in 8 hours. Hose A filled the pool alone for the first 2 hours and the two hoses, working together, then finished filling the pool in another 3 hours. How many hours would it have taken hose B, working alone, to fill the entire pool?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 22,
+      "question": "At Daifu university, 24% of all students are members of both a chess club and a swim team. If 20% of members of the swim team are not members of the chess club, what percentage of all Daifu students are members of the swim team?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7386363636363636,
+        "runnerup_gap": 0.5,
+        "vote_entropy": 0.9629250990327121,
+        "n_unique": 4,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.7272727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.12860649905674262
+      }
+    },
+    {
+      "qi": 23,
+      "question": "Two cars start at the same time from opposite ends of a highway that is 50 miles long. One car is riding at 12 mph and the second car is riding at 13 mph. How long after they begin will they meet?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9204545454545455,
+        "vote_entropy": 0.30364126618753207,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9545454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.9056700366449932
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.11899843879776174
+      }
+    },
+    {
+      "qi": 24,
+      "question": "A man borrows Rs.360 If he pays it back in 12 monthly installments of Rs.31.50, what is his interest rate?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.5568181818181819,
+        "vote_entropy": 1.1838083983130812,
+        "n_unique": 4,
+        "p_correct_votes": 0.7272727272727273,
+        "correctness_lead": 0.5568181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.0
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 25,
+      "question": "The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9431818181818182,
+        "vote_entropy": 0.24581537350428984,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9659090909090909,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 26,
+      "question": "Five dozen toys are packed in a box and 98 boxes are kept in a tempo. How many tempos can lift 29400 toys in one round ?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.03409090909090909,
+        "correctness_lead": -0.9318181818181819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 27,
+      "question": "In a chocolate store, all chocolates are either vanilla or cocoa flavored only. 10% of the chocolates are cocoa flavored, 90% of the rest are squashed. What percentage of the chocolates are both vanilla flavored and not squashed?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6477272727272727,
+        "runnerup_gap": 0.48863636363636365,
+        "vote_entropy": 1.5800300255619157,
+        "n_unique": 5,
+        "p_correct_votes": 0.045454545454545456,
+        "correctness_lead": -0.6022727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714282
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.3093073414159543
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 28,
+      "question": "There is well of depth 30m and frog is at bottom of the well. He jumps 3m up one day and falls back 2m down the same day. How many days will it take for the frog to come out of the well?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.5681818181818182,
+        "vote_entropy": 1.1946251537644965,
+        "n_unique": 4,
+        "p_correct_votes": 0.1590909090909091,
+        "correctness_lead": -0.5681818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.0417553532337979
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.9999999999999994
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.09142424125028616
+      }
+    },
+    {
+      "qi": 29,
+      "question": "Calculate the maximum distance you can travel with $8.50 on a cab which charges $3.50 for the first quarter-mile and 10 cents for each additional quarter mile.",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5227272727272727,
+        "runnerup_gap": 0.11363636363636359,
+        "vote_entropy": 1.3889640046538219,
+        "n_unique": 5,
+        "p_correct_votes": 0.4090909090909091,
+        "correctness_lead": -0.11363636363636359,
+        "A_none": 0.375,
+        "dist_to_boundary": 0.125
+      },
+      "none": {
+        "A_q": 0.375,
+        "D_q": 0.002592102076527204
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.15319486982628877
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.07388640403079627
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Amy is organizing her bookshelves and finds that she has 10 different types of books. She then codes each book with either a single letter or a pair of two different letters. If each type of book is uniquely represented by either a single letter or pair of letters, what is the smallest number of letters Amy will need to create the codes for all 10 types of books? (Assume the order of letters in a pair does not matter.)",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9886363636363636,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 31,
+      "question": "A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.922165508261285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.2551257093504273
+      }
+    },
+    {
+      "qi": 32,
+      "question": "One gram of a certain health food contains 9 percent of the minimum daily requirement of vitamin E and 8 percent of the minimum daily requirement of vitamin A. If vitamins E and A are to be obtained from no other source, how many grams of the health food must be eaten daily to provide at least the minimum daily requirement of both vitamins?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6363636363636364,
+        "runnerup_gap": 0.3068181818181818,
+        "vote_entropy": 1.108883755045378,
+        "n_unique": 3,
+        "p_correct_votes": 0.32954545454545453,
+        "correctness_lead": -0.3068181818181818,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.04210365945848448
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.37862878925270804
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05259438658237707
+      }
+    },
+    {
+      "qi": 33,
+      "question": "R, S, T, and U are points on a line, and U is the midpoint of line segment ST. If the lengths of line segments RS, RT, and ST are 5, 17, and 22, respectively. What is the length of line segment RU?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9318181818181818,
+        "runnerup_gap": 0.8977272727272727,
+        "vote_entropy": 0.45858898362767986,
+        "n_unique": 4,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9204545454545454,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.2062114963758463
+      }
+    },
+    {
+      "qi": 34,
+      "question": "A straight picket fence is composed of x pickets each of which is 1/2 inch wide. If there are 6 inches of space between each pair of pickets, which of the following represents the length of fence in feet?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6818181818181818,
+        "runnerup_gap": 0.46590909090909083,
+        "vote_entropy": 1.2421127721379879,
+        "n_unique": 4,
+        "p_correct_votes": 0.6818181818181818,
+        "correctness_lead": 0.46590909090909083,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.04332603288330396
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04638568812409801
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.011341830001391771
+      }
+    },
+    {
+      "qi": 35,
+      "question": "In a large forest, 300 deer were caught, tagged, and returned during 2001. During 2002, 500 deer were caught at random, of which only 20 had tags from the previous year. If the percent of deer in the forest that had tags during the second year and were caught in the 500 deer sample is representative of the percent of the total deer population in the forest with tags, what is the total deer population in the forest (assuming no change in population between 2001 and 2002)?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.9886363636363636,
+        "correctness_lead": 0.9772727272727273,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 36,
+      "question": "In a railway station, there are two trains going. One in the harbor line and one in the main line, each having a frequency of 10 minutes. The main line service starts at 5 o'clock and the harbor line starts at 5.02 A.M. A man goes to the station every day to catch the first train that comes. What is the probability of the man catching the first train?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.875,
+        "vote_entropy": 0.47894596254845556,
+        "n_unique": 3,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -0.9204545454545454,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.4583121549880836
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.048462031721066064
+      }
+    },
+    {
+      "qi": 37,
+      "question": "Boomtown urban planners expect the city’s population to increase by 10% per year over the next two years. If that projection were to come true, the population two years from now would be exactly double the population of one year ago. Which of the following is closest to the percent population increase in Boomtown over the last year?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.7045454545454546,
+        "vote_entropy": 0.7262600383509772,
+        "n_unique": 3,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.8181818181818182,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 38,
+      "question": "Arjun and Sajal are friends, each has some money. If Arun gives $30 to Sajal, the Sajal will have twice the money left with Arjun. But, if Sajal gives $10 to Arjun, Arjun will have thrice as much as is left with Sajal. How much money does each have?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6931818181818182,
+        "runnerup_gap": 0.48863636363636365,
+        "vote_entropy": 1.3135949411680052,
+        "n_unique": 5,
+        "p_correct_votes": 0.20454545454545456,
+        "correctness_lead": -0.48863636363636365,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.016764036925257107
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.22078547005719237
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.05460371213068223
+      }
+    },
+    {
+      "qi": 39,
+      "question": "The length of the ribbon was originally 30 cm. It was reduced in the ratio 5 : 3. What is its length now?",
+      "n_options": 5,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    }
+  ]
+}

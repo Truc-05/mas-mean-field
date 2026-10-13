@@ -1,0 +1,13 @@
+experiment: llm_debate
+n_agents: 5
+n_rounds: 5
+n_workers: 4
+backend: openai
+base_url: http://localhost:11443/v1   # dedicated GPU1 (CUDA=1) num_parallel=4 server for P2
+model: llama3.1:8b
+rpm: null
+timeout: 300
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]

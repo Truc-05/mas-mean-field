@@ -1,0 +1,16 @@
+experiment: llm_debate
+n_agents: 5                        # overridden by --n-agents on the CLI
+n_rounds: 5
+n_workers: 4
+backend: openai                   # OpenAI-compatible; DEDICATED Ollama server for P2 multi-model.
+base_url: http://localhost:11502/v1   # start a num_parallel=4 server pinned to one GPU for mistral
+                                      # (mirror the K1 throughput fix; do NOT reuse :11435/:11436).
+model: mistral:7b
+rpm: null
+timeout: 300
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]
+# P2 note: run exp6c + exp6c_boundary with a MODEL TAG so outputs/cache do not collide with qwen
+# (belief cache + analysis/raw are currently regime-only — see README §7 P2 prerequisite).

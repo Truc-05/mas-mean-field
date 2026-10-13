@@ -1,0 +1,1135 @@
+{
+  "regime": "hard",
+  "N": 11,
+  "R": 8,
+  "model": "llama3.1:8b",
+  "model_tag": "scaleup_llama_strategyqa",
+  "conditions": [
+    "none",
+    "shared_correct_strong",
+    "indep_correct_strong"
+  ],
+  "n_questions": 40,
+  "per_q": [
+    {
+      "qi": 0,
+      "question": "Is the cuisine of Hawaii suitable for a vegan?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.02202819623684821
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.004368474776053633
+      }
+    },
+    {
+      "qi": 1,
+      "question": "Did the Royal Air Force fight in the Boxer Rebellion?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 2,
+      "question": "Would someone in Mumbai refer to Solanum melongena as an eggplant?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6818181818181818,
+        "runnerup_gap": 0.3636363636363636,
+        "vote_entropy": 0.9023932827949788,
+        "n_unique": 2,
+        "p_correct_votes": 0.3181818181818182,
+        "correctness_lead": -0.3636363636363636,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.01571611558513679
+      },
+      "shared_correct_strong": {
+        "A_q": 0.5,
+        "D_q": 0.6104972308626585
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.07041547932233182
+      }
+    },
+    {
+      "qi": 3,
+      "question": "If someone is a vegan, would they eat honey?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 4,
+      "question": "Is electricity necessary to balance an account in Microsoft Excel?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 5,
+      "question": "Is a pound sterling valuable?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.5227272727272727,
+        "vote_entropy": 0.7927652363756528,
+        "n_unique": 2,
+        "p_correct_votes": 0.23863636363636365,
+        "correctness_lead": -0.5227272727272727,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.03799541246077268
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.2955565770974627
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.020920336115879342
+      }
+    },
+    {
+      "qi": 6,
+      "question": "Would the host of The Colbert Report be likely to vote for Trump?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 7,
+      "question": "Could Casio's first invention be worn around the ankle?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.6590909090909092,
+        "vote_entropy": 0.6587435307694673,
+        "n_unique": 2,
+        "p_correct_votes": 0.8295454545454546,
+        "correctness_lead": 0.6590909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.0357873131334089
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 8,
+      "question": "Did Richard III know his grandson?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.5227272727272727,
+        "vote_entropy": 0.7927652363756528,
+        "n_unique": 2,
+        "p_correct_votes": 0.7613636363636364,
+        "correctness_lead": 0.5227272727272727,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.0344543126143699
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.4879500364742666
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714282
+      }
+    },
+    {
+      "qi": 9,
+      "question": "Would a Fakir be surprised if they saw a comma in their religious book?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9090909090909091,
+        "runnerup_gap": 0.8181818181818181,
+        "vote_entropy": 0.4394969869215134,
+        "n_unique": 2,
+        "p_correct_votes": 0.09090909090909091,
+        "correctness_lead": -0.8181818181818181,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.1726878712107866
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.3142857142857142
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.33333333333333337
+      }
+    },
+    {
+      "qi": 10,
+      "question": "Can Kit & Kaboodle hypothetically help someone past the Underworld gates?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6704545454545454,
+        "runnerup_gap": 0.3409090909090909,
+        "vote_entropy": 0.9144612916935675,
+        "n_unique": 2,
+        "p_correct_votes": 0.6704545454545454,
+        "correctness_lead": 0.3409090909090909,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.031195801388002917
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.04761904761904761
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.16487527803078733
+      }
+    },
+    {
+      "qi": 11,
+      "question": "Was Walt Disney able to email his illustrations to people living far away?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 12,
+      "question": "Is Alan Alda old enough to have fought in the Vietnam War?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 0.954434002924965,
+        "n_unique": 2,
+        "p_correct_votes": 0.375,
+        "correctness_lead": -0.25,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": -0.03029202905108082
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.22597618463019115
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.09049492184111112
+      }
+    },
+    {
+      "qi": 13,
+      "question": "Does acupuncture cause pain in many people?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.4545454545454546,
+        "vote_entropy": 0.8453509366224364,
+        "n_unique": 2,
+        "p_correct_votes": 0.2727272727272727,
+        "correctness_lead": -0.4545454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.05622384181021068
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.6694487956381867
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.1099168520205249
+      }
+    },
+    {
+      "qi": 14,
+      "question": "Is Europa linked to Viennese waltzes?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 0.12273399799635973
+      },
+      "indep_correct_strong": {
+        "A_q": 0.25,
+        "D_q": 0.02189823316185701
+      }
+    },
+    {
+      "qi": 15,
+      "question": "Would a Dolce & Gabbana suit wearer be shunned by their Amish cousins?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8409090909090909,
+        "runnerup_gap": 0.6818181818181819,
+        "vote_entropy": 0.6321302781219706,
+        "n_unique": 2,
+        "p_correct_votes": 0.1590909090909091,
+        "correctness_lead": -0.6818181818181819,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": 0.03283961967749586
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.31428571428571433
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.02367916888773173
+      }
+    },
+    {
+      "qi": 16,
+      "question": "Will twenty pea pods contents cover entire chess board?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.022727272727272728,
+        "correctness_lead": -0.9545454545454546,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 0.125,
+        "D_q": 1.0000000000000002
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.12024215282621098
+      }
+    },
+    {
+      "qi": 17,
+      "question": "Did Disney's second film rip off a prophet story?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7272727272727273,
+        "runnerup_gap": 0.4545454545454546,
+        "vote_entropy": 0.8453509366224364,
+        "n_unique": 2,
+        "p_correct_votes": 0.7272727272727273,
+        "correctness_lead": 0.4545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.02677790693595923
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.020620489427730284
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.02857142857142857
+      }
+    },
+    {
+      "qi": 18,
+      "question": "Is the Gujarati script the same category of script as Kanji?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 19,
+      "question": "Would a broadcast from Spirit make the news in 2020?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6022727272727273,
+        "runnerup_gap": 0.20454545454545459,
+        "vote_entropy": 0.9696055994904407,
+        "n_unique": 2,
+        "p_correct_votes": 0.3977272727272727,
+        "correctness_lead": -0.20454545454545459,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": -0.02837876300015772
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.13950890169034252
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.013365115269988107
+      }
+    },
+    {
+      "qi": 20,
+      "question": "Was Saudi Aramco started due to an assassination?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.5681818181818182,
+        "runnerup_gap": 0.1363636363636364,
+        "vote_entropy": 0.9865446300055644,
+        "n_unique": 2,
+        "p_correct_votes": 0.4318181818181818,
+        "correctness_lead": -0.1363636363636364,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.0542125036277318
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.2759934689754743
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": -0.07331834802119624
+      }
+    },
+    {
+      "qi": 21,
+      "question": "Is the Flying Spaghetti Monster part of an ancient pantheon?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9659090909090909,
+        "runnerup_gap": 0.9318181818181819,
+        "vote_entropy": 0.21450983370697768,
+        "n_unique": 2,
+        "p_correct_votes": 0.9659090909090909,
+        "correctness_lead": 0.9318181818181819,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 22,
+      "question": "Was story of Jesus inspired by Egyptian myth?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 0.954434002924965,
+        "n_unique": 2,
+        "p_correct_votes": 0.375,
+        "correctness_lead": -0.25,
+        "A_none": 0.25,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.25,
+        "D_q": 0.015471794673125356
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.04902397754276123
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.01945652046431074
+      }
+    },
+    {
+      "qi": 23,
+      "question": "Would a honey badger fit inside an oven?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.1726878712107866
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.01483140038565249
+      }
+    },
+    {
+      "qi": 24,
+      "question": "Is The Joy of Painting TV show still producing new episodes?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 1.0,
+        "correctness_lead": 1.0,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 25,
+      "question": "Would Topa Inca Yupanqui have encountered the western honey bee?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6136363636363636,
+        "runnerup_gap": 0.2272727272727273,
+        "vote_entropy": 0.9624127354629923,
+        "n_unique": 2,
+        "p_correct_votes": 0.6136363636363636,
+        "correctness_lead": 0.2272727272727273,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": 0.053789975661468946
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.034534632929202294
+      }
+    },
+    {
+      "qi": 26,
+      "question": "Would the tunnels at CERN fit onto the High Speed 1 rails?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7386363636363636,
+        "runnerup_gap": 0.4772727272727273,
+        "vote_entropy": 0.828797154590015,
+        "n_unique": 2,
+        "p_correct_votes": 0.26136363636363635,
+        "correctness_lead": -0.4772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": -0.0036841419566180497
+      },
+      "shared_correct_strong": {
+        "A_q": 0.375,
+        "D_q": 0.3475397522930048
+      },
+      "indep_correct_strong": {
+        "A_q": 0.625,
+        "D_q": -0.07595166155632734
+      }
+    },
+    {
+      "qi": 27,
+      "question": "Are Big Ben's bells currently rung on their normal schedule at the Palace of Westminster?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 0.954434002924965,
+        "n_unique": 2,
+        "p_correct_votes": 0.625,
+        "correctness_lead": 0.25,
+        "A_none": 0.75,
+        "dist_to_boundary": 0.25
+      },
+      "none": {
+        "A_q": 0.75,
+        "D_q": -0.015923220593341683
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0762770634336183
+      }
+    },
+    {
+      "qi": 28,
+      "question": "Can a lifeboat rescue people in the Hooke Sea?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7159090909090909,
+        "runnerup_gap": 0.4318181818181818,
+        "vote_entropy": 0.8609652558547649,
+        "n_unique": 2,
+        "p_correct_votes": 0.2840909090909091,
+        "correctness_lead": -0.4318181818181818,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.030408546718288264
+      },
+      "shared_correct_strong": {
+        "A_q": 0.75,
+        "D_q": 0.03642740964205833
+      },
+      "indep_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.030424135883205305
+      }
+    },
+    {
+      "qi": 29,
+      "question": "Is the Liberty Bell still in its original location?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.6704545454545454,
+        "runnerup_gap": 0.3409090909090909,
+        "vote_entropy": 0.9144612916935675,
+        "n_unique": 2,
+        "p_correct_votes": 0.6704545454545454,
+        "correctness_lead": 0.3409090909090909,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": 0.020009335424006774
+      },
+      "shared_correct_strong": {
+        "A_q": 0.625,
+        "D_q": 0.05599002171343403
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0350625969976567
+      }
+    },
+    {
+      "qi": 30,
+      "question": "Does the cuisine of Hawaii embrace foods considered gross in the continental US?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9204545454545454,
+        "runnerup_gap": 0.8409090909090908,
+        "vote_entropy": 0.40057554263664014,
+        "n_unique": 2,
+        "p_correct_votes": 0.9204545454545454,
+        "correctness_lead": 0.8409090909090908,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.05682405255677024
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    },
+    {
+      "qi": 31,
+      "question": "Is the voice of the Genie from Disney's Aladdin still alive?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9545454545454546,
+        "runnerup_gap": 0.9090909090909092,
+        "vote_entropy": 0.26676498780302604,
+        "n_unique": 2,
+        "p_correct_votes": 0.9545454545454546,
+        "correctness_lead": 0.9090909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.1973920344916961
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 32,
+      "question": "Was Lord Voldemort taught by Professor Dumbledore?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 1.0,
+        "runnerup_gap": 1.0,
+        "vote_entropy": -0.0,
+        "n_unique": 1,
+        "p_correct_votes": 0.0,
+        "correctness_lead": -1.0,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714285
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.0762770634336183
+      }
+    },
+    {
+      "qi": 33,
+      "question": "Could Christopher Walken enlist in the United States Marine Corps?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 87,
+        "plurality_share": 0.7011494252873564,
+        "runnerup_gap": 0.40229885057471265,
+        "vote_entropy": 0.8798813089176425,
+        "n_unique": 2,
+        "p_correct_votes": 0.2988505747126437,
+        "correctness_lead": -0.40229885057471265,
+        "A_none": 0.125,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.125,
+        "D_q": 0.03550460923895746
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.11843522069501765
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": 0.05727331021580535
+      }
+    },
+    {
+      "qi": 34,
+      "question": "Was Christina Aguilera born in the forgotten borough?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9886363636363636,
+        "runnerup_gap": 0.9772727272727273,
+        "vote_entropy": 0.08970338978684994,
+        "n_unique": 2,
+        "p_correct_votes": 0.011363636363636364,
+        "correctness_lead": -0.9772727272727273,
+        "A_none": 0.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 0.0,
+        "D_q": null
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.14285714285714288
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": -0.18558440484957256
+      }
+    },
+    {
+      "qi": 35,
+      "question": "Did Zorro carve his name into items regularly?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.625,
+        "runnerup_gap": 0.25,
+        "vote_entropy": 0.954434002924965,
+        "n_unique": 2,
+        "p_correct_votes": 0.625,
+        "correctness_lead": 0.25,
+        "A_none": 0.875,
+        "dist_to_boundary": 0.375
+      },
+      "none": {
+        "A_q": 0.875,
+        "D_q": -0.018155652456568867
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.0762770634336183
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.05758659844341765
+      }
+    },
+    {
+      "qi": 36,
+      "question": "Would 2020 Toyota Supra lag behind at a Nascar rally?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.7613636363636364,
+        "runnerup_gap": 0.5227272727272727,
+        "vote_entropy": 0.7927652363756528,
+        "n_unique": 2,
+        "p_correct_votes": 0.7613636363636364,
+        "correctness_lead": 0.5227272727272727,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.07265944868311035
+      },
+      "shared_correct_strong": {
+        "A_q": 0.875,
+        "D_q": 0.19113646474760979
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.07517009889890054
+      }
+    },
+    {
+      "qi": 37,
+      "question": "Is Brooklyn known for its bread products?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8295454545454546,
+        "runnerup_gap": 0.6590909090909092,
+        "vote_entropy": 0.6587435307694673,
+        "n_unique": 2,
+        "p_correct_votes": 0.8295454545454546,
+        "correctness_lead": 0.6590909090909092,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.12113499333276953
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      }
+    },
+    {
+      "qi": 38,
+      "question": "Was only woman to serve as U.S. Speaker of the House alive during the attack on Pearl Harbor?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.8068181818181818,
+        "runnerup_gap": 0.6136363636363635,
+        "vote_entropy": 0.7080803256135678,
+        "n_unique": 2,
+        "p_correct_votes": 0.8068181818181818,
+        "correctness_lead": 0.6136363636363635,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": 0.018325518558219178
+      },
+      "shared_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.02141236606304155
+      },
+      "indep_correct_strong": {
+        "A_q": 0.0,
+        "D_q": 0.012263809658420825
+      }
+    },
+    {
+      "qi": 39,
+      "question": "Did Christina Aguilera turn her chair around for Kelly Clarkson on The Voice?",
+      "n_options": 2,
+      "margin": {
+        "n_votes": 88,
+        "plurality_share": 0.9772727272727273,
+        "runnerup_gap": 0.9545454545454546,
+        "vote_entropy": 0.15649106290570153,
+        "n_unique": 2,
+        "p_correct_votes": 0.9772727272727273,
+        "correctness_lead": 0.9545454545454546,
+        "A_none": 1.0,
+        "dist_to_boundary": 0.5
+      },
+      "none": {
+        "A_q": 1.0,
+        "D_q": -0.14285714285714285
+      },
+      "shared_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      },
+      "indep_correct_strong": {
+        "A_q": 1.0,
+        "D_q": null
+      }
+    }
+  ]
+}

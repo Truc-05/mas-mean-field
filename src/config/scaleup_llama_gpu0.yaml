@@ -1,0 +1,13 @@
+experiment: llm_debate
+n_agents: 11
+n_rounds: 5
+n_workers: 8
+backend: openai
+base_url: http://localhost:11435/v1   # GPU0 (RTX 5090, Vulkan0 default) np=8 — Tier-3 split
+model: llama3.1:8b
+rpm: null
+timeout: 300
+temperature: 1.0
+eta: 1.0
+seed: 0
+answer_space: ["A", "B", "C", "D"]
