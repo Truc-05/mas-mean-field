@@ -34,7 +34,7 @@ quality fixed, vary only the causal mechanism, and compare collectives whose *me
 `D` is equalized (`D₁ ≈ D₂`) but whose *mechanism* differs.
 
 <p align="center">
-  <img src="figures/mechanism_vs_dependence_overview.png" alt="Matched-dependence causal instrument: shared evidence vs. copying" width="880">
+  <img src="results/overview.png" alt="Matched-dependence causal instrument: shared evidence vs. copying" width="880">
 </p>
 
 <p align="center"><em>
