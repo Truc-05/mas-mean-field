@@ -1,4 +1,4 @@
-# Mechanism-Aware Collective Reasoning in LLM Multi-Agent Systems
+# Dependence Is Not Enough in Multi-Agent LLM Reasoning
 
 > **Same dependence ≠ same mechanism ≠ same consequence ≠ same repairability.**
 
