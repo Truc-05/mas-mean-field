@@ -129,8 +129,12 @@ ls experiments/
 python -m experiments.exp3_phase_transition.run --help
 ```
 
-Figures backing the paper are regenerated from `results/tables/` via the scripts in
-[`scripts/figures`](scripts/figures).
+
+## License
+
+Released under the [MIT License](LICENSE). Replace the copyright-holder line in `LICENSE` with the
+author name(s) before publishing.
+
 
 ## Status
 
