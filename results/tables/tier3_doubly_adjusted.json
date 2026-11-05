@@ -1,0 +1,257 @@
+{
+  "role": "raw/shared-only/copy-only/both sensitivity re-run of the pre-specified caliper/NN/nested estimators, 2026-10-13 post-hoc, offline only",
+  "note": "the 'both' reading equals shared_only + copy_only - raw to numerical precision for every estimator (verified, not assumed), since each estimator is linear in the per-row dY values and both corrections are additive shifts to dY",
+  "pairs": [
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "c_within_base": 0.04553571428571428,
+      "caliper_gap_raw": 0.10599320023148148,
+      "caliper_gap_shared_only": 0.14400679976851852,
+      "caliper_gap_copy_only": 0.06045748594576722,
+      "caliper_gap_doubly_adj": 0.09847108548280425,
+      "caliper_ci_doubly_adj": [
+        0.045833301039599886,
+        0.16152298538773155
+      ],
+      "nn_att_raw": 0.029296875,
+      "nn_att_shared_only": 0.20535714285714288,
+      "nn_att_copy_only": -0.01623883928571425,
+      "nn_att_doubly_adj": 0.15982142857142861,
+      "nn_ci_doubly_adj": [
+        0.09549386160714286,
+        0.22818080357142861
+      ],
+      "mech_coef_raw": 0.1133657232877372,
+      "mech_coef_shared_only": 0.16945902396398374,
+      "mech_coef_copy_only": 0.06783000900202292,
+      "mech_coef_doubly_adj": 0.12392330967826949
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "c_within_base": 0.01875,
+      "caliper_gap_raw": 0.07583000000000001,
+      "caliper_gap_shared_only": 0.0984080952380952,
+      "caliper_gap_copy_only": 0.05708,
+      "caliper_gap_doubly_adj": 0.07965809523809525,
+      "caliper_ci_doubly_adj": [
+        0.03206619047619047,
+        0.13565809523809524
+      ],
+      "nn_att_raw": 0.03125,
+      "nn_att_shared_only": 0.11383928571428573,
+      "nn_att_copy_only": 0.012499999999999987,
+      "nn_att_doubly_adj": 0.09508928571428571,
+      "nn_ci_doubly_adj": [
+        0.04151785714285715,
+        0.14964076450892858
+      ],
+      "mech_coef_raw": 0.10069617577785593,
+      "mech_coef_shared_only": 0.17659913943801492,
+      "mech_coef_copy_only": 0.0819461757778555,
+      "mech_coef_doubly_adj": 0.15784913943801496
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "c_within_base": 0.15,
+      "caliper_gap_raw": 0.15148671651836207,
+      "caliper_gap_shared_only": 0.2118433630865819,
+      "caliper_gap_copy_only": 0.0014867165183620943,
+      "caliper_gap_doubly_adj": 0.06184336308658191,
+      "caliper_ci_doubly_adj": [
+        -0.00031155948481897933,
+        0.12635043716078972
+      ],
+      "nn_att_raw": 0.0490506329113924,
+      "nn_att_shared_only": 0.2902350813743219,
+      "nn_att_copy_only": -0.10094936708860762,
+      "nn_att_doubly_adj": 0.1402350813743219,
+      "nn_ci_doubly_adj": [
+        0.07196824141048823,
+        0.20997683092224226
+      ],
+      "mech_coef_raw": 0.17765120031072312,
+      "mech_coef_shared_only": 0.33038793613371603,
+      "mech_coef_copy_only": 0.02765120031072332,
+      "mech_coef_doubly_adj": 0.18038793613371606
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "c_within_base": 0.08214285714285714,
+      "caliper_gap_raw": 0.20556247036510195,
+      "caliper_gap_shared_only": 0.23146107808936753,
+      "caliper_gap_copy_only": 0.12341961322224478,
+      "caliper_gap_doubly_adj": 0.1493182209465104,
+      "caliper_ci_doubly_adj": [
+        0.08266003241846168,
+        0.2165298808853495
+      ],
+      "nn_att_raw": 0.12828947368421054,
+      "nn_att_shared_only": 0.2662124060150376,
+      "nn_att_copy_only": 0.04614661654135338,
+      "nn_att_doubly_adj": 0.18406954887218044,
+      "nn_ci_doubly_adj": [
+        0.11968691259398494,
+        0.24903959116541352
+      ],
+      "mech_coef_raw": 0.21521906716663097,
+      "mech_coef_shared_only": 0.26288723704826855,
+      "mech_coef_copy_only": 0.133076210023774,
+      "mech_coef_doubly_adj": 0.18074437990541156
+    },
+    {
+      "model": "llama",
+      "bench": "strategyqa",
+      "c_within_base": 0.075,
+      "caliper_gap_raw": 0.08062034337544542,
+      "caliper_gap_shared_only": 0.11745106205747603,
+      "caliper_gap_copy_only": 0.005620343375445426,
+      "caliper_gap_doubly_adj": 0.04245106205747606,
+      "caliper_ci_doubly_adj": [
+        -0.005521137026239054,
+        0.09702525568050352
+      ],
+      "nn_att_raw": -0.019736842105263157,
+      "nn_att_shared_only": 0.15671992481203006,
+      "nn_att_copy_only": -0.09473684210526313,
+      "nn_att_doubly_adj": 0.0817199248120301,
+      "nn_ci_doubly_adj": [
+        0.033667175751879705,
+        0.13646910244360902
+      ],
+      "mech_coef_raw": 0.10326270984693069,
+      "mech_coef_shared_only": 0.16439543027044784,
+      "mech_coef_copy_only": 0.028262709846930547,
+      "mech_coef_doubly_adj": 0.08939543027044787
+    },
+    {
+      "model": "llama",
+      "bench": "aqua",
+      "c_within_base": 0.41830357142857144,
+      "caliper_gap_raw": 0.29081375173673935,
+      "caliper_gap_shared_only": 0.40469289440257766,
+      "caliper_gap_copy_only": -0.12748981969183207,
+      "caliper_gap_doubly_adj": -0.013610677025993842,
+      "caliper_ci_doubly_adj": [
+        -0.08984144773090656,
+        0.05938339036771003
+      ],
+      "nn_att_raw": 0.10608552631578948,
+      "nn_att_shared_only": 0.40401785714285715,
+      "nn_att_copy_only": -0.312218045112782,
+      "nn_att_doubly_adj": -0.014285714285714285,
+      "nn_ci_doubly_adj": [
+        -0.08677749060150378,
+        0.06067023026315788
+      ],
+      "mech_coef_raw": 0.2490874186321196,
+      "mech_coef_shared_only": 0.47825373685836675,
+      "mech_coef_copy_only": -0.16921615279645166,
+      "mech_coef_doubly_adj": 0.059950165429795824
+    },
+    {
+      "model": "gemma",
+      "bench": "truthfulqa",
+      "c_within_base": 0.011607142857142858,
+      "caliper_gap_raw": 0.06383861236802411,
+      "caliper_gap_shared_only": 0.07285606550312436,
+      "caliper_gap_copy_only": 0.052231469510881263,
+      "caliper_gap_doubly_adj": 0.06124892264598146,
+      "caliper_ci_doubly_adj": [
+        0.02030408317173024,
+        0.11142129928894638
+      ],
+      "nn_att_raw": 0.04411764705882353,
+      "nn_att_shared_only": 0.09033613445378152,
+      "nn_att_copy_only": 0.03251050420168068,
+      "nn_att_doubly_adj": 0.07872899159663867,
+      "nn_ci_doubly_adj": [
+        0.03181022408963587,
+        0.13616071428571425
+      ],
+      "mech_coef_raw": 0.06280399870955727,
+      "mech_coef_shared_only": 0.07020623060490036,
+      "mech_coef_copy_only": 0.05119685585241439,
+      "mech_coef_doubly_adj": 0.05859908774775751
+    },
+    {
+      "model": "gemma",
+      "bench": "strategyqa",
+      "c_within_base": 0.0125,
+      "caliper_gap_raw": 0.017072655589974662,
+      "caliper_gap_shared_only": 0.04082099609767869,
+      "caliper_gap_copy_only": 0.004572655589974653,
+      "caliper_gap_doubly_adj": 0.028320996097678713,
+      "caliper_ci_doubly_adj": [
+        -0.0014668906143138756,
+        0.06679984511405236
+      ],
+      "nn_att_raw": -0.013888888888888888,
+      "nn_att_shared_only": 0.04332010582010582,
+      "nn_att_copy_only": -0.026388888888888875,
+      "nn_att_doubly_adj": 0.030820105820105817,
+      "nn_ci_doubly_adj": [
+        -0.004728835978835975,
+        0.0736483134920635
+      ],
+      "mech_coef_raw": 0.011512436749403726,
+      "mech_coef_shared_only": 0.06517811134248108,
+      "mech_coef_copy_only": -0.0009875632505962659,
+      "mech_coef_doubly_adj": 0.05267811134248112
+    },
+    {
+      "model": "gemma",
+      "bench": "aqua",
+      "c_within_base": 0.12053571428571427,
+      "caliper_gap_raw": 0.07510416666666667,
+      "caliper_gap_shared_only": 0.14799107142857137,
+      "caliper_gap_copy_only": -0.04543154761904763,
+      "caliper_gap_doubly_adj": 0.027455357142857153,
+      "caliper_ci_doubly_adj": [
+        -0.030388764880952372,
+        0.08752976190476192
+      ],
+      "nn_att_raw": 0.017708333333333333,
+      "nn_att_shared_only": 0.1977678571428571,
+      "nn_att_copy_only": -0.10282738095238093,
+      "nn_att_doubly_adj": 0.07723214285714282,
+      "nn_ci_doubly_adj": [
+        0.016369047619047613,
+        0.1418266369047618
+      ],
+      "mech_coef_raw": -0.008606236835779386,
+      "mech_coef_shared_only": 0.19456216956633232,
+      "mech_coef_copy_only": -0.12914195112149365,
+      "mech_coef_doubly_adj": 0.07402645528061816
+    }
+  ],
+  "macro": {
+    "caliper_raw": 0.11848021298353285,
+    "caliper_shared_only": 0.16328126951911015,
+    "caliper_copy_only": 0.014660768539088412,
+    "caliper_doubly_adj": 0.059461825074665714,
+    "caliper_ci": [
+      0.031518696191360863,
+      0.08900053323196222
+    ],
+    "nn_att_raw": 0.041352528589933026,
+    "nn_att_shared_only": 0.19642286614804663,
+    "nn_att_copy_only": -0.062466915854511425,
+    "nn_att_doubly_adj": 0.0926034217036022,
+    "nn_ci": [
+      0.0543873336777856,
+      0.13060756336734117
+    ],
+    "mech_coef_raw": 0.11388805484946435,
+    "mech_coef_shared_only": 0.2124365572473902,
+    "mech_coef_copy_only": 0.0100686104050199,
+    "mech_coef_doubly_adj": 0.10861711280294584,
+    "mech_ci": [
+      0.07719058369699829,
+      0.14246033280709353
+    ]
+  }
+}

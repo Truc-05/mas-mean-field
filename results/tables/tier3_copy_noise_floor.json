@@ -1,0 +1,60 @@
+{
+  "role": "copy-side noise floor candidate, offline recompute from stored raw tensors, 2026-10-13 post-hoc analysis (not part of the frozen Tier-3 pipeline)",
+  "note": "C_within_base is the 'none'/baseline condition's own within-arm churn across its R=8 replicates, pooled easy+hard -- the same role C_within_shared plays for the shared arm, computed identically via plur()+pairwise disagreement.",
+  "pairs": [
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "n_q": 80,
+      "mean_C_within_base": 0.04553571428571428
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "n_q": 80,
+      "mean_C_within_base": 0.01875
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "n_q": 80,
+      "mean_C_within_base": 0.15
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "n_q": 80,
+      "mean_C_within_base": 0.08214285714285714
+    },
+    {
+      "model": "llama",
+      "bench": "strategyqa",
+      "n_q": 80,
+      "mean_C_within_base": 0.075
+    },
+    {
+      "model": "llama",
+      "bench": "aqua",
+      "n_q": 80,
+      "mean_C_within_base": 0.41830357142857144
+    },
+    {
+      "model": "gemma",
+      "bench": "truthfulqa",
+      "n_q": 80,
+      "mean_C_within_base": 0.011607142857142858
+    },
+    {
+      "model": "gemma",
+      "bench": "strategyqa",
+      "n_q": 80,
+      "mean_C_within_base": 0.0125
+    },
+    {
+      "model": "gemma",
+      "bench": "aqua",
+      "n_q": 80,
+      "mean_C_within_base": 0.12053571428571427
+    }
+  ]
+}

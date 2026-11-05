@@ -1,0 +1,13 @@
+{
+  "role": "conditional-null robustness check for C3 (does not replace the frozen test)",
+  "K": 66,
+  "S_obs": 63,
+  "obs_fraction": 0.9545454545454546,
+  "conditional_null": {
+    "mean_k_effective": 28.2065,
+    "mean_fraction": 0.4746519827654116,
+    "sd_fraction": 0.0969051890795672,
+    "n_sim": 2000,
+    "p_one_sided": 0.0004997501249375312
+  }
+}

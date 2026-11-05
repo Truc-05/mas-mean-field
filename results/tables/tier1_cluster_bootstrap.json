@@ -1,0 +1,46 @@
+{
+  "role": "cluster bootstrap robustness check (by model, by benchmark) for excess churn dC, 2026-10-13 post-hoc, offline from already-stored per-cell dC point estimates",
+  "caveat": "K=6 clusters either way; cluster-bootstrap percentile intervals are known to be approximate/conservative with so few clusters -- reported as a sensitivity check, not a replacement for the primary per-stratum bootstrap",
+  "results": {
+    "hard": {
+      "model": {
+        "point": 0.014036652755928249,
+        "K": 6,
+        "ci": [
+          -0.004107572590613596,
+          0.02939733001709367
+        ],
+        "excludes_zero": false
+      },
+      "benchmark": {
+        "point": 0.014036652755928249,
+        "K": 6,
+        "ci": [
+          0.0060950298047281175,
+          0.022593137592045426
+        ],
+        "excludes_zero": true
+      }
+    },
+    "easy": {
+      "model": {
+        "point": 0.0043066590655924915,
+        "K": 6,
+        "ci": [
+          0.0006187935289586557,
+          0.007736492385838184
+        ],
+        "excludes_zero": true
+      },
+      "benchmark": {
+        "point": 0.0043066590655924915,
+        "K": 6,
+        "ci": [
+          0.00038412060970032853,
+          0.009976888750028093
+        ],
+        "excludes_zero": true
+      }
+    }
+  }
+}

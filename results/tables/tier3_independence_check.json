@@ -1,0 +1,192 @@
+{
+  "role": "independence-null check for the break/rescue 'cancellation' pattern, 2026-10-13 post-hoc",
+  "note": "p_break_indep/p_rescue_indep are what two arms with NO real correctness correlation would produce at the same marginal accuracies (A_ref*(1-A_arm), (1-A_ref)*A_arm); comparison to p_*_obs tests whether the observed pattern exceeds this chance baseline",
+  "pairs": [
+    {
+      "model": "qwen",
+      "bench": "truthfulqa",
+      "shared": {
+        "A_ref": 0.7453125,
+        "A_arm": 0.7328125000000001,
+        "p_break_obs": 0.03125,
+        "p_break_indep": 0.19913818359374993,
+        "p_rescue_obs": 0.01875,
+        "p_rescue_indep": 0.18663818359374998
+      },
+      "copy": {
+        "A_ref": 0.359375,
+        "A_arm": 0.4140625,
+        "p_break_obs": 0.0,
+        "p_break_indep": 0.2105712890625,
+        "p_rescue_obs": 0.0546875,
+        "p_rescue_indep": 0.2652587890625
+      }
+    },
+    {
+      "model": "qwen",
+      "bench": "strategyqa",
+      "shared": {
+        "A_ref": 0.78125,
+        "A_arm": 0.765625,
+        "p_break_obs": 0.0515625,
+        "p_break_indep": 0.18310546875,
+        "p_rescue_obs": 0.0359375,
+        "p_rescue_indep": 0.16748046875
+      },
+      "copy": {
+        "A_ref": 0.40625,
+        "A_arm": 0.40625,
+        "p_break_obs": 0.0546875,
+        "p_break_indep": 0.2412109375,
+        "p_rescue_obs": 0.0546875,
+        "p_rescue_indep": 0.2412109375
+      }
+    },
+    {
+      "model": "qwen",
+      "bench": "aqua",
+      "shared": {
+        "A_ref": 0.5953125,
+        "A_arm": 0.58125,
+        "p_break_obs": 0.084375,
+        "p_break_indep": 0.24928710937499998,
+        "p_rescue_obs": 0.0703125,
+        "p_rescue_indep": 0.235224609375
+      },
+      "copy": {
+        "A_ref": 0.35443037974683544,
+        "A_arm": 0.31645569620253167,
+        "p_break_obs": 0.05063291139240506,
+        "p_break_indep": 0.24226886716872295,
+        "p_rescue_obs": 0.012658227848101266,
+        "p_rescue_indep": 0.20429418362441917
+      }
+    },
+    {
+      "model": "llama",
+      "bench": "truthfulqa",
+      "shared": {
+        "A_ref": 0.8453125,
+        "A_arm": 0.8265625,
+        "p_break_obs": 0.0453125,
+        "p_break_indep": 0.14660888671875003,
+        "p_rescue_obs": 0.0265625,
+        "p_rescue_indep": 0.12785888671874998
+      },
+      "copy": {
+        "A_ref": 0.47368421052631576,
+        "A_arm": 0.48026315789473684,
+        "p_break_obs": 0.06578947368421052,
+        "p_break_indep": 0.246191135734072,
+        "p_rescue_obs": 0.07236842105263158,
+        "p_rescue_indep": 0.2527700831024931
+      }
+    },
+    {
+      "model": "llama",
+      "bench": "strategyqa",
+      "shared": {
+        "A_ref": 0.86875,
+        "A_arm": 0.828125,
+        "p_break_obs": 0.0546875,
+        "p_break_indep": 0.14931640625,
+        "p_rescue_obs": 0.0140625,
+        "p_rescue_indep": 0.10869140624999998
+      },
+      "copy": {
+        "A_ref": 0.4868421052631579,
+        "A_arm": 0.4473684210526316,
+        "p_break_obs": 0.08552631578947369,
+        "p_break_indep": 0.26904432132963985,
+        "p_rescue_obs": 0.046052631578947366,
+        "p_rescue_indep": 0.22957063711911355
+      }
+    },
+    {
+      "model": "llama",
+      "bench": "aqua",
+      "shared": {
+        "A_ref": 0.6484375,
+        "A_arm": 0.609375,
+        "p_break_obs": 0.121875,
+        "p_break_indep": 0.2532958984375,
+        "p_rescue_obs": 0.0828125,
+        "p_rescue_indep": 0.2142333984375
+      },
+      "copy": {
+        "A_ref": 0.3026315789473684,
+        "A_arm": 0.3092105263157895,
+        "p_break_obs": 0.08552631578947369,
+        "p_break_indep": 0.20905470914127422,
+        "p_rescue_obs": 0.09210526315789473,
+        "p_rescue_indep": 0.21563365650969532
+      }
+    },
+    {
+      "model": "gemma",
+      "bench": "truthfulqa",
+      "shared": {
+        "A_ref": 0.8484375,
+        "A_arm": 0.8468749999999999,
+        "p_break_obs": 0.00625,
+        "p_break_indep": 0.12991699218750005,
+        "p_rescue_obs": 0.0046875,
+        "p_rescue_indep": 0.12835449218750003
+      },
+      "copy": {
+        "A_ref": 0.3333333333333333,
+        "A_arm": 0.3333333333333333,
+        "p_break_obs": 0.0196078431372549,
+        "p_break_indep": 0.22222222222222224,
+        "p_rescue_obs": 0.0196078431372549,
+        "p_rescue_indep": 0.22222222222222224
+      }
+    },
+    {
+      "model": "gemma",
+      "bench": "strategyqa",
+      "shared": {
+        "A_ref": 0.80625,
+        "A_arm": 0.7984375,
+        "p_break_obs": 0.025,
+        "p_break_indep": 0.162509765625,
+        "p_rescue_obs": 0.0171875,
+        "p_rescue_indep": 0.154697265625
+      },
+      "copy": {
+        "A_ref": 0.24074074074074073,
+        "A_arm": 0.25,
+        "p_break_obs": 0.018518518518518517,
+        "p_break_indep": 0.18055555555555555,
+        "p_rescue_obs": 0.027777777777777776,
+        "p_rescue_indep": 0.18981481481481483
+      }
+    },
+    {
+      "model": "gemma",
+      "bench": "aqua",
+      "shared": {
+        "A_ref": 0.4421875,
+        "A_arm": 0.45937500000000003,
+        "p_break_obs": 0.071875,
+        "p_break_indep": 0.23905761718749996,
+        "p_rescue_obs": 0.0890625,
+        "p_rescue_indep": 0.25624511718750004
+      },
+      "copy": {
+        "A_ref": 0.36666666666666664,
+        "A_arm": 0.3833333333333333,
+        "p_break_obs": 0.016666666666666666,
+        "p_break_indep": 0.2261111111111111,
+        "p_rescue_obs": 0.03333333333333333,
+        "p_rescue_indep": 0.24277777777777776
+      }
+    }
+  ],
+  "macro": {
+    "gap_break_obs": -0.01058132833577744,
+    "gap_break_indep": 0.03722153563334421,
+    "gap_rescue_obs": 0.005989277542882327,
+    "gap_rescue_indep": 0.053792141512003996
+  }
+}
