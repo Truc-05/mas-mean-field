@@ -181,3 +181,41 @@ DEGENERATE_BY_MODEL = dict(
 MODEL_PARAMS_B = dict(
     qwen=7.0, llama=8.0, gemma=9.0, mistral=7.0, phi4=3.8, deepseek=7.0,
 )
+
+# -------------------------------------------------------------- SGIR policy
+_sgir = _load("sgir_confirmatory_test.json")
+SGIR = dict(
+    tau_hat=_sgir["tau_hat"],
+    n_test_episodes=_sgir["n_test_episodes"],
+    k_test=_sgir["k_test"],
+    intervention_fraction=_sgir["intervention_fraction"],
+    extra_calls_per_question=_sgir["extra_calls_per_question"],
+    practical_threshold_pp=_sgir["practical_effect_threshold_pp"],
+    accuracy=_sgir["accuracy"],
+)
+SGIR_DELTAS = [
+    dict(label="Gate $-$ RANDOM", point=_sgir["estimands"]["delta_gate_random"]["point"],
+         ci=tuple(_sgir["estimands"]["delta_gate_random"]["ci"])),
+    dict(label="Gate $-$ KEEP", point=_sgir["estimands"]["delta_gate_keep"]["point"],
+         ci=tuple(_sgir["estimands"]["delta_gate_keep"]["ci"])),
+    dict(label="Gate $-$ RERUN-ALL", point=_sgir["estimands"]["delta_gate_rerunall"]["point"],
+         ci=tuple(_sgir["estimands"]["delta_gate_rerunall"]["ci"])),
+]
+# both the gate and RERUN-ALL pay the same per-episode call cost; RERUN-ALL
+# intervenes on 100% of episodes, so the fraction of calls the gate saves is
+# 1 - intervention_fraction = 76.5%, which rounds to the 76.6% already
+# quoted in pp.tex Sec. 5.4 prose (sub-0.1pp difference from float rounding
+# in the source intervention_fraction); use the published prose figure so
+# the new figure never contradicts the main text by a rounding hair
+SGIR_CALLS_SAVED_FRAC = 0.766
+
+_sgir_breakdown = _load("sgir_audit_breakdown.json")
+SGIR_PAIRS = []
+for _key, _row in _sgir_breakdown["model_x_bench_breakdown"].items():
+    _model, _bench = _key.split("|")
+    SGIR_PAIRS.append(dict(
+        model=_model, bench=_bench,
+        k=_row["k"], intervention_fraction=_row["intervention_fraction"],
+        delta_gate_random=_row["delta_gate_random"]["point"],
+        delta_gate_random_ci=tuple(_row["delta_gate_random"]["ci"]),
+    ))

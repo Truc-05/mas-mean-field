@@ -1,0 +1,263 @@
+{
+  "pairing_audit_note": "see stdout; delta CIs are paired-bootstrap, reproduced exactly from the frozen BOOT_SEED, and are narrower than naive independent-CI combination would give",
+  "model_x_bench_breakdown": {
+    "gemma|aqua": {
+      "n_episodes": 320,
+      "n_eligible": 318,
+      "k": 101,
+      "intervention_fraction": 0.31761006289308175,
+      "acc_keep": 0.46875,
+      "acc_gate": 0.4625,
+      "acc_rerunall": 0.440625,
+      "delta_gate_random": {
+        "point": 0.00390828125,
+        "ci": [
+          -0.02812500000000001,
+          0.03437499999999999
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 101,
+        "p_break": 0.1188118811881188,
+        "p_rescue": 0.09900990099009901,
+        "p_churn_same": 0.44554455445544555,
+        "p_churn_diff": 0.16831683168316833,
+        "p_stay_correct": 0.16831683168316833,
+        "partition_sum": 1.0,
+        "delta_acc": -0.019801980198019792,
+        "delta_acc_check": -0.019801980198019764,
+        "dY": 0.38613861386138615
+      }
+    },
+    "gemma|strategyqa": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 6,
+      "intervention_fraction": 0.01875,
+      "acc_keep": 0.7875,
+      "acc_gate": 0.775,
+      "acc_rerunall": 0.778125,
+      "delta_gate_random": {
+        "point": -0.01225625,
+        "ci": [
+          -0.034375000000000044,
+          0.0
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 6,
+        "p_break": 0.6666666666666666,
+        "p_rescue": 0.0,
+        "p_churn_same": 0.3333333333333333,
+        "p_churn_diff": 0.0,
+        "p_stay_correct": 0.0,
+        "partition_sum": 1.0,
+        "delta_acc": -0.6666666666666666,
+        "delta_acc_check": -0.6666666666666666,
+        "dY": 0.6666666666666666
+      }
+    },
+    "gemma|truthfulqa": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 18,
+      "intervention_fraction": 0.05625,
+      "acc_keep": 0.85625,
+      "acc_gate": 0.85625,
+      "acc_rerunall": 0.85,
+      "delta_gate_random": {
+        "point": 0.00041734374999999996,
+        "ci": [
+          0.0,
+          0.0031250000000000444
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 18,
+        "p_break": 0.0,
+        "p_rescue": 0.0,
+        "p_churn_same": 0.8333333333333334,
+        "p_churn_diff": 0.0,
+        "p_stay_correct": 0.16666666666666666,
+        "partition_sum": 1.0,
+        "delta_acc": 0.0,
+        "delta_acc_check": 0.0,
+        "dY": 0.0
+      }
+    },
+    "llama|aqua": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 185,
+      "intervention_fraction": 0.578125,
+      "acc_keep": 0.63125,
+      "acc_gate": 0.68125,
+      "acc_rerunall": 0.65,
+      "delta_gate_random": {
+        "point": 0.0396509375,
+        "ci": [
+          0.0031250000000000444,
+          0.07500000000000007
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 185,
+        "p_break": 0.08648648648648649,
+        "p_rescue": 0.17297297297297298,
+        "p_churn_same": 0.21621621621621623,
+        "p_churn_diff": 0.1945945945945946,
+        "p_stay_correct": 0.32972972972972975,
+        "partition_sum": 1.0,
+        "delta_acc": 0.08648648648648649,
+        "delta_acc_check": 0.08648648648648644,
+        "dY": 0.4540540540540541
+      }
+    },
+    "llama|strategyqa": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 62,
+      "intervention_fraction": 0.19375,
+      "acc_keep": 0.846875,
+      "acc_gate": 0.865625,
+      "acc_rerunall": 0.875,
+      "delta_gate_random": {
+        "point": 0.01306796875,
+        "ci": [
+          -0.006250000000000089,
+          0.03749999999999998
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 62,
+        "p_break": 0.06451612903225806,
+        "p_rescue": 0.16129032258064516,
+        "p_churn_same": 0.3064516129032258,
+        "p_churn_diff": 0.0,
+        "p_stay_correct": 0.46774193548387094,
+        "partition_sum": 1.0,
+        "delta_acc": 0.0967741935483871,
+        "delta_acc_check": 0.09677419354838712,
+        "dY": 0.22580645161290322
+      }
+    },
+    "llama|truthfulqa": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 76,
+      "intervention_fraction": 0.2375,
+      "acc_keep": 0.846875,
+      "acc_gate": 0.86875,
+      "acc_rerunall": 0.8625,
+      "delta_gate_random": {
+        "point": 0.017978749999999998,
+        "ci": [
+          -0.012500000000000067,
+          0.05312499999999998
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 76,
+        "p_break": 0.09210526315789473,
+        "p_rescue": 0.18421052631578946,
+        "p_churn_same": 0.25,
+        "p_churn_diff": 0.09210526315789473,
+        "p_stay_correct": 0.3815789473684211,
+        "partition_sum": 1.0,
+        "delta_acc": 0.09210526315789473,
+        "delta_acc_check": 0.09210526315789475,
+        "dY": 0.3684210526315789
+      }
+    },
+    "qwen|aqua": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 131,
+      "intervention_fraction": 0.409375,
+      "acc_keep": 0.628125,
+      "acc_gate": 0.671875,
+      "acc_rerunall": 0.646875,
+      "delta_gate_random": {
+        "point": 0.035659843749999996,
+        "ci": [
+          0.0031249999999999334,
+          0.07187499999999997
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 131,
+        "p_break": 0.07633587786259542,
+        "p_rescue": 0.183206106870229,
+        "p_churn_same": 0.26717557251908397,
+        "p_churn_diff": 0.20610687022900764,
+        "p_stay_correct": 0.26717557251908397,
+        "partition_sum": 1.0,
+        "delta_acc": 0.10687022900763359,
+        "delta_acc_check": 0.10687022900763354,
+        "dY": 0.46564885496183206
+      }
+    },
+    "qwen|strategyqa": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 44,
+      "intervention_fraction": 0.1375,
+      "acc_keep": 0.759375,
+      "acc_gate": 0.753125,
+      "acc_rerunall": 0.740625,
+      "delta_gate_random": {
+        "point": -0.0036200000000000004,
+        "ci": [
+          -0.034375000000000044,
+          0.028125000000000067
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 44,
+        "p_break": 0.22727272727272727,
+        "p_rescue": 0.18181818181818182,
+        "p_churn_same": 0.3409090909090909,
+        "p_churn_diff": 0.0,
+        "p_stay_correct": 0.25,
+        "partition_sum": 1.0,
+        "delta_acc": -0.04545454545454544,
+        "delta_acc_check": -0.04545454545454547,
+        "dY": 0.4090909090909091
+      }
+    },
+    "qwen|truthfulqa": {
+      "n_episodes": 320,
+      "n_eligible": 320,
+      "k": 52,
+      "intervention_fraction": 0.1625,
+      "acc_keep": 0.7375,
+      "acc_gate": 0.75625,
+      "acc_rerunall": 0.7625,
+      "delta_gate_random": {
+        "point": 0.014507656249999999,
+        "ci": [
+          -0.0031250000000000444,
+          0.03749999999999998
+        ]
+      },
+      "break_rescue_decomposition": {
+        "n": 52,
+        "p_break": 0.07692307692307693,
+        "p_rescue": 0.19230769230769232,
+        "p_churn_same": 0.3076923076923077,
+        "p_churn_diff": 0.09615384615384616,
+        "p_stay_correct": 0.3269230769230769,
+        "partition_sum": 1.0,
+        "delta_acc": 0.11538461538461539,
+        "delta_acc_check": 0.11538461538461542,
+        "dY": 0.36538461538461536
+      }
+    }
+  },
+  "cost_accounting": {
+    "per_intervened_episode_calls": 11,
+    "intervention_fraction_test": 0.23453787352328007,
+    "amortized_extra_calls_per_deployed_episode": 2.5799166087560805,
+    "rerunall_calls_per_deployed_episode": 11
+  }
+}
