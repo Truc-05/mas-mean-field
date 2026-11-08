@@ -1,4 +1,4 @@
-# Mechanism-Aware Collective Reasoning in LLM Multi-Agent Systems
+# Dependence Is Not Enough in Multi-Agent LLM Reasoning
 
 > **Same dependence ≠ same mechanism ≠ same consequence ≠ same repairability.**
 
@@ -34,7 +34,7 @@ quality fixed, vary only the causal mechanism, and compare collectives whose *me
 `D` is equalized (`D₁ ≈ D₂`) but whose *mechanism* differs.
 
 <p align="center">
-  <img src="figures/mechanism_vs_dependence_overview.png" alt="Matched-dependence causal instrument: shared evidence vs. copying" width="880">
+  <img src="results/overview.png" alt="Matched-dependence causal instrument: shared evidence vs. copying" width="880">
 </p>
 
 <p align="center"><em>
@@ -129,8 +129,12 @@ ls experiments/
 python -m experiments.exp3_phase_transition.run --help
 ```
 
-Figures backing the paper are regenerated from `results/tables/` via the scripts in
-[`scripts/figures`](scripts/figures).
+
+## License
+
+Released under the [MIT License](LICENSE). Replace the copyright-holder line in `LICENSE` with the
+author name(s) before publishing.
+
 
 ## Status
 
